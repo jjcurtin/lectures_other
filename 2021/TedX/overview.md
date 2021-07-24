@@ -17,9 +17,10 @@ Digital Disruptions in Mental Health Services:  Opportunities and Obstacles for 
 ## Key points
 
 1. The current system
-* Mental health outcomes are poor
-* Access is limited
-* Large health disparities exist
+  + Mental health outcomes are poor
+  * Access is limited
+  * Large health disparities exist
+
 
 2. Digital Therapeutics
 * Intervention and support apps delivered on smartphones
