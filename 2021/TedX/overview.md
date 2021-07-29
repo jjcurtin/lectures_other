@@ -1,21 +1,21 @@
 # Titles
+**Digital Disruptive Change: Promise, Progress, and Pitfalls for Mental Healthcare**
 
-Digital Disruptive Change .....
+**Digital Disruptions in Mental Healthcare: Promise, Progress, and Pitfalls**
 
-Digital Disruptions in Mental Health Services:  Opportunities and Obstacles in the 21st Century
+**Digital Disruptions: Promise, Progress, and Pitfalls for Mental Healthcare**
 
-Digital Disruptions in Mental Health Services:  Opportunities and Obstacles for 21st Century Mental Health Care
+…Opportunities and Obstacles in the 21st Century
 
-Digital Disruptions in Mental Health Services:  New Opportunities and Obstacles for Mental Healthcare
+….Opportunities and Obstacles for 21st Century Mental Health Care
 
 ...Problems, Promise, Potential, Pitfalls, Prescriptions....
-
-1984 meets the 21st Century: The Promise, Pitfalls and Prescriptions of Digital Therapeutics for Mental Illness 
 
 1984 meets the 21st Century: Promise, Pitfalls and Prescriptions for Digital Mental Healthcare
 
 # Brief Abstract
 
+Treatment options for 
 ## Key Points
 
 1. The Current Mental Healthcare System
