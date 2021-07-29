@@ -1,5 +1,0 @@
-# Bio
-
-John Curtin, PhD, is a Professor of Psychology at the University of Wisconsin-Madison.  His previous training was completed at the Johns Hopkins University, Florida State University, and Brown University.  He is the Director of Clinical Training for the doctoral program in Clinical Psychology at UW-Madison and the Director of the Addiction Research Center.  
-
-His program of research focuses on the use of personal sensing and machine learning techniques for psychiatric diagnosis and risk prediction, precision medicine, and “just-in-time” interventions for substance use and other psychiatric disorders.  He has been continuously funded for this research by the National Institute of Alcohol Abuse and Alcoholism, the National Institute of Drug Abuse, and the National Institute of Mental Health since 2001.  His scholarship has been recognized with awards from the American Psychological Association, the Association for Psychological Science and UW-Madison.  Professor Curtin also contributes regularly to UW-Madison's teaching mission, offering courses on substance use disorders, statistics, and applied machine learning.
