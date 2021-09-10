@@ -1,0 +1,4 @@
+# office temporary files
+~$*.ppt*
+~$*.doc*
+~$*.xls*
