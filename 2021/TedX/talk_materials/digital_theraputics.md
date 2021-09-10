@@ -4,106 +4,100 @@
 
 
 ## The Current Mental Healthcare System
-* Mental health treatments and services havent evolved
-* Mental health outcomes are modest at best
-* Access is limited
-* Cost is high
-* Large disparities in access and outcomes by race, ethnicity, and class.  
 
+We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
-We have a mental healthcare crisis in the U.S and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
+---
 
-In 2019, the National Survey on Drug Use and Health estimated that 52 million adults ages 18 years or older suffered from some form of mental illness.  This represents almost 21% of the U.S. adult population[^fn_nsduh]. 
+<!--consider three pie charts against total adult population of 258.3 million in 2020. -->
 
-19 million adults had a major depressive disorder. More than 20 million adults had some form of substance use disorder. 
+In 2019, the National Survey on Drug Use and Health estimated that 52 million adults suffered from some form of mental illness.  This represents almost **21%** of the U.S. adult population[^fn_nsduh]. 
+
+19 million adults had a major depressive episode in that year. More than 20 million adults had some form of substance use disorder. 
 
 ---
 
 ![overdoses](overdoses.png)
 
-In 2019 alone, the National Institute of Drug Abuse reported that  more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].  
+In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].  
 
 ---
 
-Almost 90% of those who die by suicide have an underlying mental illness[^fn_suicide] and suicide is the 10th leading cause of death in the U.S[^fn_death].
+Suicide is the 10th leading cause of death in the U.S[^fn_death] and almost 90% of those who die by suicide have an underlying mental illness[^fn_suicide].
 
-<!--Add more stats about cost of mental illness-->
+In 2010, the National Institute on Drug Abuse estimated the economic cost of drug abuse by itself in the United States at more than $740 billion a year and this cost was growing by more than 20 billion dollars each year due to the opioid crisis[^fn_sud_cost].
 
+Expanding our perspective globally, in that same year mental and substance use disorders constituted 10.4% of the global burden of disease and were the leading cause of years lived with disability among all disease groups[^fn_global_burden].
 
-We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to us.  
+We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to you.  
 
 ---
 
-However, what may surprise you and candidly I think should upset you is that most people with mental illness do not receive treatment.  
+However, what may surprise you, and candidly I think should concern you, is that most people with mental illness in the United States do not receive treatment.  
 
-One of out every three people with a major depressive disorder in the past year did not receive any treatment in that year.
+One of out every three people with a major depressive episode in the past year did not receive any treatment in that year.
 
 And much worse, nine out of every ten people with a substance use disorder in the past year did not receive any treatment.
 
 Overall, well over half of individuals with any mental illness do not receive the care they need.
 
-Furthermore, the surgeon general’s report on mental health has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].
+Furthermore, the surgeon general’s report on mental health has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].  
 
-rural statement - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
+Similar mental healthcare disparities exist for people living in rural areas[^fn_rural].  
 
-Given the costs of ......
-
-___
-
-There are many reasons that the capacity of our mental healthcare system isn’t sufficient to meet our needs.
-
-Access
-Availability
-Affordability
-Acceptability
-
-Access is one of the biggest.  Consider the 52 million people diagnosed with mental illness in any year and compare that to the approximately 100 thousand licensed psychologists (or 500 K licensed therapists if you consider therapists from other disciplines like counseling and social work and related areas).
+<!--Need a strong concluding sentence or two before the transition to why-->
 
 ---
-Also consider that these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  These factors create a serious access problem
 
+There are at least four key issues that severely limit the capacity of our mental healthcare system.  These are:
 
+* Access,
+* Availability,
+* Affordability, and 
+* Acceptability
 
+---
 
+**Access** is one of the biggest challenges.  Consider the 52 million people diagnosed with a mental illness in any single year and compare that to the only approximately 100 thousand licensed psychologists or 500 thousand licensed therapists if you include therapists from other disciplines.  There is a clear imbalance between the need for care and the number of trained mental healthcare providers.
+
+---
 
 ![psychologist heatmap](psychologist_heatmap.png)
 
+But even more importantly, these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
+
+In fact, more than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural_2]
+
+In contrast, 80% of rural counties do not have even a single psychiatrist; 61% lack a psychologist; and 91% lacked a psychiatric NP[^fn_rural]. 
+
+These factors create a serious access problem.
+
+---
+![waitlist](waitlist_2.jpg)
 
 
-More than 60% of rural Americans live in mental health professional shortage areas.  More than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural]
+For those of us who have geographic access to mental healthcare providers, **availability** poses the next issue.  Given the imbalance between the number of mental healthcare providers and the need for services, there are often long waits until care is available.  In metropolitan Madison, WI, where I live, it is simply not possible to schedule at all with many well-regarded psychologists, and others have wait lists that can delay a first visit for months.  
 
- It is estimated that as many as 65% of non-metropolitan counties do not have psychiatrists [6], 47% no psychologists, and 81% no psychiatric NPs, and over 60% of rural Americans live in designated mental health provider shortage areas [13]. Specialty mental health services are scarce in rural areas, which is likely to contribute to these disparities in care [14].
 ---
 
 ![calendar](calendar.png)
 
----
-
-Then consider that even when therapists are available, the cost is often prohibitive, both because of limitations in insurance coverage for mental health services and for the many people from vulnerable groups that do not have insurance
-
-Then consider the perceptions of stigma associated with seeking out help for mental illness and the perceived challenge of talking about the most intimate and personal details of your life with someone else.
-
-
-All of these issues combine to make the practical capacity of our mental health system too low to meet the need.
-
-
-COVID further highlighted the fragility of this system
-Greater need
-Less access
-Less availability b/c of strain
-increased problems with affordability due to insurance loss
-Less acceptable b/c of contact risk
-
-Many of these capacity issues are baked into the cake
+Furthermore, models for traditional individual or group psychotherapy still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs  aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 ---
 
+When mental healthcare is nearby and available, **affordability** emerges as a serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have insurance.
+
+There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else also poses a barrier to seeking support.
+
+All of these issues combine to make the practical capacity of our mental health system too low to meet the high need. 
+
+And the COVID pandemic has further highlighted the fragility of this system.  Over the last almost two years now, COVID has increased the need for services targeting substance use disorders and other mental illness.  At that the same time COVID has reduced access and availability to these services, increased problems of affordability because of the impact of job loss on health insurance[^fn_insurance], and made face-to-face mental health services less acceptable to some because of the risks of contracting COVID.     
+
+These are serious issues.  However, to my eye, the biggest issue is that many of these issues are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address these issues within our current system without radically changing this system.    
 
 
-
-
-
-## Recent, rapid advances in two technological innovations promise disruptive change
+## Disruptive Innovation in Mental Healthcare
 * ATM example of disruptive change
 * Fundamental shift in how we treat and support people with mental illness
 * Increase access
@@ -112,29 +106,20 @@ Many of these capacity issues are baked into the cake
 
 <!-- Slide: Bank teller vs. ATM.  and maybe vs. Venmo?? vs. Bitcoin??-->
 
+However, I believe we are poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
 
-However, I think we are poised for a paradigm shift in the treatments that we provide and the methods by which they are provided.
-
-Specifically, I believe that AI, machine learning and related technologies are on the verge of producing a disruptive change in how we identify and treat psychiatric disorders.  
-
-There are a number of related efforts in this area but I want to highlight two efforts that are far enough along to generate some excitement.
-
-Talk about each briefly
-
+I use the term disruptive innovation intentionally to signal the magnitude and nature of this potentially transformative change.  
+ 
+Consider how a technological innovation, Wikipedia, replaced its predecessor, Encyclopedia Britannica, and radically changed our access to reference work.  
+ 
+Better still, consider the disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability issues associated with getting to this bank within bankers hours; And planning for weekend spending, when I wouldn't have any access to the bank and my cash at all.  Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation
 
 
-I want to propose that a key feature of these new approaches is that they SCALE very well to increase capacity to provide interventions.  And with adequate SCALE, their effectiveness can be modest and they will still provide substantial aggregate benefit to reduce suffering from a population  health perspective.
+Digital therapeutics, and in particular, digital therapeutics delivered on smartphones and made smarter by personal sensing, is poised to radically change, and 
 
-Can address: 
-cost [b/c they are inexpensive to implement and may reduce need of expensive time from therapists]
+Will do this by targeting access, availability, affordability, and acceptablity of mental health services.
 
-stigma (private, self directed)
 
-Aid early diagnosis (efficient/massive diagnosis)
-
-Improve effectiveness (could improve interventions by adapting to the person and moment in time)
-
-I also want to emphasize that I am not talking about replacing human therapists.    These are primarily new tools that clinicians can use to supplement or augment the mental health services that they are providing.
 
 
 
@@ -210,7 +195,10 @@ https://www.nami.org/nami/media/nami-media/infographics/generalmhfacts.pdf
 Geographic Variation in the Supply of Selected Behavioral Health Providers - https://www.ajpmonline.org/article/S0749-3797(18)30005-9/fulltext
 
 
-A call to action to address rural mental health disparities - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/#r6
+
+Other rural cites
+https://www.ruralhealthinfo.org/topics/mental-health
+
 
 # Citations
 
@@ -224,4 +212,12 @@ A call to action to address rural mental health disparities - https://www.ncbi.n
 
 [^fn_surgeongeneral]: Mental Health: A Report of the Surgeon General. Rockville, Md: US Dept of Health and Human Services, Substance Abuse and Mental Health Services Administration, Center for Mental Health Services; 1999.
 
-[^fn_rural]: https://www.ruralhealthinfo.org/topics/mental-health
+[^fn_rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
+
+[^fn_rural_2]: https://www.ruralhealthinfo.org/topics/mental-health
+
+[^fn_sud_cost]:  https://archives.drugabuse.gov/trends-statistics/costs-substance-abuse
+
+[^fn_global_burden]: Whiteford HA, Degenhardt L, Rehm J, Baxter AJ, Ferrari AJ, Erskine HE, Charlson FJ, Norman RE, Flaxman AD, Johns N et al (2013) Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. Lancet 382: 1575–1586.
+
+[^fn_insurance]: https://www.epi.org/publication/health-insurance-and-the-covid-19-shock/
