@@ -88,13 +88,13 @@ Furthermore, models for traditional individual or group psychotherapy still ofte
 
 When mental healthcare is nearby and available, **affordability** emerges as a serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have insurance.
 
-There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else also poses a barrier to seeking support.
+There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the costs and/or benefits of particular treatments also limit their acceptability. 
 
-All of these issues combine to make the practical capacity of our mental health system too low to meet the high need. 
+All of these issues, access, availability, affordability, and acceptability, combine to make the practical capacity of our mental health system too low to meet our high need. 
 
-And the COVID pandemic has further highlighted the fragility of this system.  Over the last almost two years now, COVID has increased the need for services targeting substance use disorders and other mental illness.  At that the same time COVID has reduced access and availability to these services, increased problems of affordability because of the impact of job loss on health insurance[^fn_insurance], and made face-to-face mental health services less acceptable to some because of the risks of contracting COVID.     
+And I would be tone deaf if I didn't acknowledge how the COVID pandemic has further highlighted the fragility of this system.  Over the last almost two years now, COVID has increased the need for services targeting substance use disorders and other mental illness.  At that the same time COVID has reduced access and availability to these services, increased problems of affordability because of the impact of job loss on health insurance[^fn_insurance], and made face-to-face mental health services less acceptable to some because of the risks of contracting COVID.     
 
-These are serious issues.  However, to my eye, the biggest issue is that many of these issues are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address these issues within our current system without radically changing this system.    
+These are serious issues.  However, to my eye, our biggest problem is that many of these capacity limitations are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address them to improve capacity within our current system without radically changing this system itself.    
 
 
 ## Disruptive Innovation in Mental Healthcare
@@ -106,23 +106,22 @@ These are serious issues.  However, to my eye, the biggest issue is that many of
 
 <!-- Slide: Bank teller vs. ATM.  and maybe vs. Venmo?? vs. Bitcoin??-->
 
-However, I believe we are poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
+Conveniently, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
 
-I use the term disruptive innovation intentionally to signal the magnitude and nature of this potentially transformative change.  
+I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
-Consider how a technological innovation, Wikipedia, replaced its predecessor, Encyclopedia Britannica, and radically changed our access to reference work.  
+As a classic example, consider how a technological innovation, Wikipedia, replaced its predecessor, Encyclopedia Britannica, and radically changed our access to reference work.  
  
-Better still, consider the disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability issues associated with getting to this bank within bankers hours; And planning for weekend spending, when I wouldn't have any access to the bank and my cash at all.  Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation
+Better still, consider another disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability limitations associated with getting to the bank within bankers hours; And planning for weekend spending, when I wouldn't have any access to the bank or my cash at all.  Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation to how we handle banking.
 
-
-Digital therapeutics, and in particular, digital therapeutics delivered on smartphones and made smarter by personal sensing, is poised to radically change, and 
+I believe that digital therapeutics, and in particular, digital therapeutics delivered on smartphones and made smarter still by personal sensing technologies, are positioned to disruptive and improve mental health services.
 
 Will do this by targeting access, availability, affordability, and acceptablity of mental health services.
 
 
 
 
-
+ 
 ## Digital Therapeutics
 * Intervention and support apps delivered on smartphones
 * Available 24/7 without geographic constraints
