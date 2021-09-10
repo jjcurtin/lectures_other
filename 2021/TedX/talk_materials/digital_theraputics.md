@@ -2,6 +2,15 @@
 
 # Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
 
+
+## The Current Mental Healthcare System
+* Mental health treatments and services havent evolved
+* Mental health outcomes are modest at best
+* Access is limited
+* Cost is high
+* Large disparities in access and outcomes by race, ethnicity, and class.  
+
+
 We have a mental healthcare crisis in the U.S and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
 In 2019, the National Survey on Drug Use and Health estimated that 52 million adults ages 18 years or older suffered from some form of mental illness.  This represents almost 21% of the U.S. adult population[^fn_nsduh]. 
@@ -31,13 +40,23 @@ One of out every three people with a major depressive disorder in the past year 
 
 And much worse, nine out of every ten people with a substance use disorder in the past year did not receive any treatment.
 
+Overall, well over half of individuals with any mental illness do not receive the care they need.
+
 Furthermore, the surgeon general’s report on mental health has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].
+
+rural statement
+
 
 Given the costs of ......
 
 ___
 
 There are many reasons that the capacity of our mental healthcare system isn’t sufficient to meet our needs.
+
+Access
+Availability
+Affordability
+Acceptability
 
 Access is one of the biggest.  Consider the 52 million people diagnosed with mental illness in any year and compare that to the approximately 100 thousand licensed psychologists (or 500 K licensed therapists if you consider therapists from other disciplines like counseling and social work and related areas).
 
@@ -67,7 +86,32 @@ Then consider the perceptions of stigma associated with seeking out help for men
 
 All of these issues combine to make the practical capacity of our mental health system too low to meet the need.
 
+
+COVID further highlighted the fragility of this system
+Greater need
+Less access
+Less availability b/c of strain
+increased problems with affordability due to insurance loss
+Less acceptable b/c of contact risk
+
+Many of these capacity issues are baked into the cake
+
 ---
+
+
+
+
+
+
+## Recent, rapid advances in two technological innovations promise disruptive change
+* ATM example of disruptive change
+* Fundamental shift in how we treat and support people with mental illness
+* Increase access
+* Decrease disparites
+* Improve outcomes
+
+<!-- Slide: Bank teller vs. ATM.  and maybe vs. Venmo?? vs. Bitcoin??-->
+
 
 However, I think we are poised for a paradigm shift in the treatments that we provide and the methods by which they are provided.
 
@@ -92,6 +136,63 @@ Improve effectiveness (could improve interventions by adapting to the person and
 
 I also want to emphasize that I am not talking about replacing human therapists.    These are primarily new tools that clinicians can use to supplement or augment the mental health services that they are providing.
 
+
+
+## Digital Therapeutics
+* Intervention and support apps delivered on smartphones
+* Available 24/7 without geographic constraints
+* Highly scalable and cost efficient
+* Examples of DTs
+	* CBT4CBT
+	* A-CHESS
+	* reSET & reSET-O
+* Examples of interventions, tools and services
+* Preliminary evidence of efficacy
+
+<!--Org Question: Where does smartphone come in?  As part of evolution of digital theraputics?  Need to have smartphone to increase access.  Need smartphone to be used by everyone to decrease access-->
+
+<!-- Org Question: Where does clinician dashboard come in?  Just a service until digital theraputics meet personal sensing?-->
+
+## Personal Sensing
+* What is it
+* Example from grant
+* What can it do
+	 * Predict
+	 * Recommend treatments for people, for moment in time?
+	 * Encourage adaptive changes to lifestyle
+* Preliminary evidence-
+
+![smartphone](smartphone.png)
+
+<!--Slide:  My location data?-->
+
+![text messages](text_messages.png)
+
+<!--Slide: Text message with mom vs. drug using friend.  "I'm really stressed and I am want to use....   Can you help me?"-->
+
+## Synergies between Digital Therapeutics and Personal Sensing
+
+<!-- Org Question: Not sure how to organize these ideas yet but this section will highlight that: 1) Digital theraputics on smartphones make personal sensing feasible, given access to sensors, software and computing power, 2) Personal sensing makes digital theraputics smarter, allowing for its supports (treatments, tools & services) to be tailored to person, place, and time, 3) Personal sensing can also encourage greater engagement with both digital theraputics and traditional mental healhcare services, and  4) Digital theraputics can provide conduit for risk and symptom sensing back to health care providers to allow for efficiet resource allocation based on momentary need.  May need to focus or curtail these ideas-->
+
+## Obstacles and Recommendations
+* How paid for?  Answer dictates other issues
+	* Privacy
+		* [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica)  
+		* [Israeli Pegasus Spyware](https://en.wikipedia.org/wiki/Pegasus_(spyware))
+		* Who has access to the data and who benefits?  How are commercial apps supported?
+	* Evidence based vs. the wild west
+	* Gamification or other techniques to encourage constant use vs. optimal  use
+* Burden
+	* Active vs. passive personal sensing
+* Disparities reified by Artificial Intelligence Algorithms (e.g., Weapons of Math Destruction)  <!-- Slide: Book cover image?-->
+* Shelf life <!-- Slide: Expired or rotting food on shelf or in frige?  ;-)-->
+* Integration into clinical care.  
+ 	* Replace vs. supplement clinical care
+	* Feedback.  
+	* Encourage treatment retention.
+
+
+<!-- Org Question: Won't do all of these.  Need to prioritize for interest and importance.-->
 
 # Other Useful Sources
 https://www.hopkinsmedicine.org/health/wellness-and-prevention/mental-health-disorder-statistics
