@@ -44,8 +44,7 @@ Overall, well over half of individuals with any mental illness do not receive th
 
 Furthermore, the surgeon general’s report on mental health has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].
 
-rural statement
-
+rural statement - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
 
 Given the costs of ......
 
@@ -73,6 +72,7 @@ Also consider that these therapists are not distributed evenly across the countr
 
 More than 60% of rural Americans live in mental health professional shortage areas.  More than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural]
 
+ It is estimated that as many as 65% of non-metropolitan counties do not have psychiatrists [6], 47% no psychologists, and 81% no psychiatric NPs, and over 60% of rural Americans live in designated mental health provider shortage areas [13]. Specialty mental health services are scarce in rural areas, which is likely to contribute to these disparities in care [14].
 ---
 
 ![calendar](calendar.png)
@@ -162,11 +162,19 @@ I also want to emphasize that I am not talking about replacing human therapists.
 	 * Encourage adaptive changes to lifestyle
 * Preliminary evidence-
 
+---
+
 ![smartphone](smartphone.png)
+
+---
 
 <!--Slide:  My location data?-->
 
+---
+
 ![text messages](text_messages.png)
+
+---
 
 <!--Slide: Text message with mom vs. drug using friend.  "I'm really stressed and I am want to use....   Can you help me?"-->
 
@@ -199,6 +207,10 @@ https://www.hopkinsmedicine.org/health/wellness-and-prevention/mental-health-dis
 
 https://www.nami.org/nami/media/nami-media/infographics/generalmhfacts.pdf
 
+Geographic Variation in the Supply of Selected Behavioral Health Providers - https://www.ajpmonline.org/article/S0749-3797(18)30005-9/fulltext
+
+
+A call to action to address rural mental health disparities - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/#r6
 
 # Citations
 
