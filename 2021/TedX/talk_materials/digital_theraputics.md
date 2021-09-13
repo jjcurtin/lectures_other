@@ -66,17 +66,15 @@ There are at least four key issues that severely limit the capacity of our menta
 
 But even more importantly, these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
-In fact, more than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural_2]
-
-In contrast, 80% of rural counties do not have even a single psychiatrist; 61% lack a psychologist; and 91% lacked a psychiatric NP[^fn_rural]. 
+Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^fn_rural].   In fact, more than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural_2] 
 
 These factors create a serious access problem.
 
 ---
 ![waitlist](waitlist_2.jpg)
+<!--may update image to gray and red cartoon characters-->
 
-
-For those of us who have geographic access to mental healthcare providers, **availability** poses the next issue.  Given the imbalance between the number of mental healthcare providers and the need for services, there are often long waits until care is available.  In metropolitan Madison, WI, where I live, it is simply not possible to schedule at all with many well-regarded psychologists, and others have wait lists that can delay a first visit for months.  
+For those of us who have geographic access to mental healthcare providers, **availability** poses the next issue.  Given the imbalance between the number of mental healthcare providers and the need for services, there are often long waits until care is available.  For example, in metropolitan Madison, WI, where I live, it is simply not possible to schedule at all with many well-regarded psychologists, and others have wait lists that can delay a first visit for months.  
 
 ---
 
@@ -106,7 +104,7 @@ These are serious issues.  However, to my eye, our biggest problem is that many 
 
 <!-- Slide: Bank teller vs. ATM.  and maybe vs. Venmo?? vs. Bitcoin??-->
 
-Conveniently, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
+Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
@@ -114,9 +112,13 @@ As a classic example, consider how a technological innovation, Wikipedia, replac
  
 Better still, consider another disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability limitations associated with getting to the bank within bankers hours; And planning for weekend spending, when I wouldn't have any access to the bank or my cash at all.  Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation to how we handle banking.
 
-I believe that digital therapeutics, and in particular, digital therapeutics delivered on smartphones and made smarter still by personal sensing technologies, are positioned to disruptive and improve mental health services.
+I believe that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  And I am not alone in this prediction.  The World Health Organization has also concluded that the use of digital health tools to support health "has the potential to transform the face of health service delivery across the globe"[^fn_who].
 
-Will do this by targeting access, availability, affordability, and acceptablity of mental health services.
+It will do this by targeting and addressing the issues in access, availability, affordability, and acceptability of mental health services that I've just highlighted for you.
+
+However, I want to emphasize that I do not believe or hope that digital therapeutics will replace human clinicians.  We still have bank tellers after the introduction of the ATM.  The mix of services and tasks performed by these tellers has just shifted to what they do best.  As we increasingly adopt the use of digital therapeutics, I expect to see the same optimization of our use of mental healthcare providers for what they are uniquely positioned to do well.  Digital therapeutics will just extend their reach and impact.
+
+I also want to be clear that these benefits are still only aspirational today.  
 
 
 
@@ -220,3 +222,5 @@ https://www.ruralhealthinfo.org/topics/mental-health
 [^fn_global_burden]: Whiteford HA, Degenhardt L, Rehm J, Baxter AJ, Ferrari AJ, Erskine HE, Charlson FJ, Norman RE, Flaxman AD, Johns N et al (2013) Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. Lancet 382: 1575–1586.
 
 [^fn_insurance]: https://www.epi.org/publication/health-insurance-and-the-covid-19-shock/
+
+[^fn_who]: https://www.who.int/goe/publications/goe_mhealth_web.pdf
