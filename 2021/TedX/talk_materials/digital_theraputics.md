@@ -17,13 +17,14 @@ In 2019, the National Survey on Drug Use and Health estimated that 52 million ad
 
 ---
 
-![overdoses](overdoses.png)
+![overdoses](overdoses.png) <!--edit figure title-->
 
 In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].  
 
+<!--ADD 30.9% increase between 2019 and 2020; https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm-->
 ---
 
-Suicide is the 10th leading cause of death in the U.S[^fn_death] and almost 90% of those who die by suicide have an underlying mental illness[^fn_suicide].
+Suicide is the 10th leading cause of death in the U.S.[^fn_death] and almost 90% of those who die by suicide have an underlying mental illness[^fn_suicide].
 
 In 2010, the National Institute on Drug Abuse estimated the economic cost of drug abuse by itself in the United States at more than $740 billion a year and this cost was growing by more than 20 billion dollars each year due to the opioid crisis[^fn_sud_cost].
 
@@ -41,7 +42,7 @@ And much worse, nine out of every ten people with a substance use disorder in th
 
 Overall, well over half of individuals with any mental illness do not receive the care they need.
 
-Furthermore, the surgeon general’s report on mental health has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].  
+Furthermore, the surgeon general has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^fn_surgeongeneral].  
 
 Similar mental healthcare disparities exist for people living in rural areas[^fn_rural].  
 
@@ -62,17 +63,18 @@ There are at least four key issues that severely limit the capacity of our menta
 
 ---
 
-![psychologist heatmap](psychologist_heatmap.png)
+![psychologist heatmap](psychologist_heatmap.png) <!--edit figure title-->
 
 But even more importantly, these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
-Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^fn_rural].   In fact, more than 90% of all psychologists and psychiatrists, and 80% of MSWs, work exclusively in metropolitan areas[^fn_rural_2] 
+Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^fn_rural].   In fact, more than 90% of all psychologists and psychiatrists and 80% of MSWs work exclusively in metropolitan areas[^fn_rural_2]. 
 
 These factors create a serious access problem.
 
 ---
 ![waitlist](waitlist_2.jpg)
 <!--may update image to gray and red cartoon characters-->
+<!--need to buy copyright or remake image-->
 
 For those of us who have geographic access to mental healthcare providers, **availability** poses the next issue.  Given the imbalance between the number of mental healthcare providers and the need for services, there are often long waits until care is available.  For example, in metropolitan Madison, WI, where I live, it is simply not possible to schedule at all with many well-regarded psychologists, and others have wait lists that can delay a first visit for months.  
 
@@ -80,11 +82,11 @@ For those of us who have geographic access to mental healthcare providers, **ava
 
 ![calendar](calendar.png)
 
-Furthermore, models for traditional individual or group psychotherapy still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs  aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+Furthermore, models for traditional individual or group psychotherapy still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 ---
 
-When mental healthcare is nearby and available, **affordability** emerges as a serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have insurance.
+When mental healthcare is nearby and available, **affordability** emerges as a serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have any insurance at all.
 
 There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the costs and/or benefits of particular treatments also limit their acceptability. 
 
@@ -96,13 +98,8 @@ These are serious issues.  However, to my eye, our biggest problem is that many 
 
 
 ## Disruptive Innovation in Mental Healthcare
-* ATM example of disruptive change
-* Fundamental shift in how we treat and support people with mental illness
-* Increase access
-* Decrease disparites
-* Improve outcomes
 
-<!-- Slide: Bank teller vs. ATM.  and maybe vs. Venmo?? vs. Bitcoin??-->
+<!-- Consider Slide: Bank teller vs. ATM and encyclopedia vs. wikipedia-->
 
 Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are provided.
 
@@ -110,21 +107,24 @@ I use the term **disruptive innovation** intentionally to signal the magnitude a
  
 As a classic example, consider how a technological innovation, Wikipedia, replaced its predecessor, Encyclopedia Britannica, and radically changed our access to reference work.  
  
-Better still, consider another disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability limitations associated with getting to the bank within bankers hours; And planning for weekend spending, when I wouldn't have any access to the bank or my cash at all.  Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation to how we handle banking.
+Better still, consider another disruptive innovation, the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability limitations associated with getting to the bank within bankers' hours; And planning for weekend spending, when I wouldn't have any access to the bank or my cash at all.  
 
-I believe that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  And I am not alone in this prediction.  The World Health Organization has also concluded that the use of digital health tools to support health "has the potential to transform the face of health service delivery across the globe"[^fn_who].
+Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation to how we handle banking.
 
-It will do this by targeting and addressing the issues in access, availability, affordability, and acceptability of mental health services that I've just highlighted for you.
+I believe that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  And I am not alone in this prediction.  The World Health Organization has also concluded that the use of digital health tools "has the potential to transform the face of health service delivery across the globe"[^fn_who].
+
+They will do this by targeting and addressing the issues in access, availability, affordability, and acceptability of mental health services that I've just highlighted for you.
 
 However, I want to emphasize that I do not believe or hope that digital therapeutics will replace human clinicians.  We still have bank tellers after the introduction of the ATM.  The mix of services and tasks performed by these tellers has just shifted to what they do best.  As we increasingly adopt the use of digital therapeutics, I expect to see the same optimization of our use of mental healthcare providers for what they are uniquely positioned to do well.  Digital therapeutics will just extend their reach and impact.
 
-I also want to be clear that these benefits are still only aspirational today.  
+I also want to be clear that these benefits are still only aspirational today.  We are in early days for digital therapeutics at this point.  
 
-
+Now that I have made salient some of the problems with our current system for mental healthcare services, I want to use the rest of our time to first glimpse the promise and progress in the use of smart digital therapeutics.  But I also want to dig in a bit to the potential pitfalls that we need to navigate successfully to realize their promise and to not further compromise to mental health outcomes in the U.S. and globally.
 
 
  
 ## Digital Therapeutics
+
 * Intervention and support apps delivered on smartphones
 * Available 24/7 without geographic constraints
 * Highly scalable and cost efficient
@@ -135,7 +135,93 @@ I also want to be clear that these benefits are still only aspirational today.
 * Examples of interventions, tools and services
 * Preliminary evidence of efficacy
 
+
+
+So what are digital therapeutics?  
+
+Digital therapeutics deliver evidence-based interventions through software programs to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  In our case, we will focus on mental health outcomes, although digital therapeutics are emerging across the healthcare system[^fn_dta].  
+
+---
+
+![barn](barn.png)
+
+![80s chess team](chess_team.png)
+
+The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies[^fn_chess_center].  
+
+In the 1980s, Dave and his center released a computer-based system to help adolescents deal with health and personal issues[^fn_barn].  And soon afterwards, they developed and deployed the Comprehensive Health Enhancement Support System or CHESS, a suite of related but separate programs targeting specific chronic illnesses including cancer, asthma, and aging-related illnesses including dementia.  A flagship program in this suite focused on recovery support for patients with substance use disorders. 
+
+---
+
+![chess laptop](chess_laptop.jpg)
+
+The CHESS suite of digital therapeutics continued to evolve with changes in technology, with the software moving from desktop to laptop computers, and eventually to the Internet.  
+
+<!--need to figure out how to set up importance of this pivot from computers to smartphones-->
+However, both the development and the potential impact of these digital therapeutics remained limited to the degree that access to them through computers itself was limited by the cost of these computers and .....
+
+
+This changed with the advent of the smartphone.  With the development of smartphones, most of us now carry around very powerful computers in our pockets.  
+
+
+The share of Americans that own a smartphone is now 85%, up from just 35% in Pew Research Center’s first survey of smartphone ownership conducted in 2011[^fn_pew].
+
+```
+<!--Simple table? 
+White	            85%
+Black	            83%
+Hispanic	        85%
+
+Urban	            89%
+Suburban	        84%
+Rural	            80%
+
+Less than $30,000	76%
+$30,000-$49,999	    83%
+$50,000-$74,999	    85%
+$75,000+	        96%
+```
+
+This positions digital therapeutics to be accessible and available 24/7
+
+
+
+Explosion of development
+
+VA is leader - VA slide
+
+FDA - reSET in 2017
+FDA relaxes regulation to encourage development during COVID
+
+
+
+
+<!--FDA and evidence for reSET; https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-mobile-medical-application-substance-use-disorder-->
+
+
+
+<!--make slide to display the many VA digital theraputic apps; https://mobile.va.gov/appstore/all-->
+
+
 <!--Org Question: Where does smartphone come in?  As part of evolution of digital theraputics?  Need to have smartphone to increase access.  Need smartphone to be used by everyone to decrease access-->
+
+
+These interventions may extend therapeutic contact beyond traditional in-person services and can be delivered in a cost-effective manner.7
+Ben-Zeev D, Razzano LA, Pashka NJ, Levin CE. Cost of mHealth versus clinic-based care for serious mental illness: same effects, half the price tag. Psychiatr Serv. 2021;72(4):448-451.
+
+Dr. David H. Gustafson and colleagues developed an interactive program to interview severely depressed people to predict the risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. That was the first hint for the researchers that computers could provide support to people in crisis.
+
+
+
+The Veterans Health Administration is America’s largest integrated health care system, providing care at 1,293 health care facilities, including 171 medical centers and 1,112 outpatient sites of care of varying complexity (VHA outpatient clinics), serving 9 million enrolled Veterans each year.
+
+
+
+reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization from FDA to improve disease outcomes, is a 90-day PDT for Substance Use Disorder (SUD) intended to provide cognitive behavioral therapy (CBT), as an adjunct to a contingency management system, for patients 18 years of age and older who are currently enrolled in outpatient treatment under the supervision of a clinician.
+
+
+
+<!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->
 
 <!-- Org Question: Where does clinician dashboard come in?  Just a service until digital theraputics meet personal sensing?-->
 
@@ -195,7 +281,8 @@ https://www.nami.org/nami/media/nami-media/infographics/generalmhfacts.pdf
 
 Geographic Variation in the Supply of Selected Behavioral Health Providers - https://www.ajpmonline.org/article/S0749-3797(18)30005-9/fulltext
 
-
+Ellie
+https://www.theguardian.com/sustainable-business/2015/sep/17/ellie-machine-that-can-detect-depression
 
 Other rural cites
 https://www.ruralhealthinfo.org/topics/mental-health
@@ -224,3 +311,13 @@ https://www.ruralhealthinfo.org/topics/mental-health
 [^fn_insurance]: https://www.epi.org/publication/health-insurance-and-the-covid-19-shock/
 
 [^fn_who]: https://www.who.int/goe/publications/goe_mhealth_web.pdf
+
+[^fn_dta]: https://dtxalliance.org/wp-content/uploads/2021/01/DTA_DTx-Definition-and-Core-Principles.pdf
+
+[^fn_barn]: https://pubmed.ncbi.nlm.nih.gov/6443961/
+[^fn_chess_app]: https://pubmed.ncbi.nlm.nih.gov/1482860/
+
+[^fn_chess_center]: https://center.chess.wisc.edu/home
+
+
+[^fn_pew]:  https://www.pewresearch.org/internet/fact-sheet/mobile/
