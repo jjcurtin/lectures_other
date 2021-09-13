@@ -3,7 +3,7 @@
 # Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
 
 
-## The Current Mental Healthcare System
+## Our Mental Healthcare Crisis
 
 We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
@@ -17,7 +17,8 @@ In 2019, the National Survey on Drug Use and Health estimated that 52 million ad
 
 ---
 
-![overdoses](overdoses.png) <!--edit figure title-->
+/overdoses.png  
+<!--edit figure title-->
 
 In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].  
 
@@ -63,7 +64,9 @@ There are at least four key issues that severely limit the capacity of our menta
 
 ---
 
-![psychologist heatmap](psychologist_heatmap.png) <!--edit figure title-->
+
+/psychologist_heatmap.png
+<!--edit figure title-->
 
 But even more importantly, these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
@@ -72,7 +75,8 @@ Also, this rural access issue is not limited to only psychologists. 61% of rural
 These factors create a serious access problem.
 
 ---
-![waitlist](waitlist_2.jpg)
+
+/waitlist_2.jpg
 <!--may update image to gray and red cartoon characters-->
 <!--need to buy copyright or remake image-->
 
@@ -80,13 +84,13 @@ For those of us who have geographic access to mental healthcare providers, **ava
 
 ---
 
-![calendar](calendar.png)
+/calendar.png
 
 Furthermore, models for traditional individual or group psychotherapy still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 ---
 
-When mental healthcare is nearby and available, **affordability** emerges as a serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have any insurance at all.
+When mental healthcare is nearby and available, **affordability** emerges as yet another serious issue for many people.  The cost for mental health services is often prohibitive, both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have any insurance at all.
 
 There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the costs and/or benefits of particular treatments also limit their acceptability. 
 
@@ -143,9 +147,9 @@ Digital therapeutics deliver evidence-based interventions through software progr
 
 ---
 
-![barn](barn.png)
-
-![80s chess team](chess_team.png)
+/barn.png
+/chess_team.png
+<!--merge pictures into one image-->
 
 The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies[^fn_chess_center].  
 
@@ -153,7 +157,7 @@ In the 1980s, Dave and his center released a computer-based system to help adole
 
 ---
 
-![chess laptop](chess_laptop.jpg)
+/chess_laptop.jpg
 
 The CHESS suite of digital therapeutics continued to evolve with changes in technology, with the software moving from desktop to laptop computers, and eventually to the Internet.  
 
@@ -225,7 +229,7 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 <!-- Org Question: Where does clinician dashboard come in?  Just a service until digital theraputics meet personal sensing?-->
 
-## Personal Sensing
+## Smarter Digital Therapeutics with Personal Sensing
 * What is it
 * Example from grant
 * What can it do
@@ -236,7 +240,7 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 ---
 
-![smartphone](smartphone.png)
+/smartphone.png
 
 ---
 
@@ -244,7 +248,8 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 ---
 
-![text messages](text_messages.png)
+
+/text_messages.png
 
 ---
 
@@ -254,7 +259,7 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 <!-- Org Question: Not sure how to organize these ideas yet but this section will highlight that: 1) Digital theraputics on smartphones make personal sensing feasible, given access to sensors, software and computing power, 2) Personal sensing makes digital theraputics smarter, allowing for its supports (treatments, tools & services) to be tailored to person, place, and time, 3) Personal sensing can also encourage greater engagement with both digital theraputics and traditional mental healhcare services, and  4) Digital theraputics can provide conduit for risk and symptom sensing back to health care providers to allow for efficiet resource allocation based on momentary need.  May need to focus or curtail these ideas-->
 
-## Obstacles and Recommendations
+## Pitfalls and Prescriptions
 * How paid for?  Answer dictates other issues
 	* Privacy
 		* [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica)  
@@ -274,18 +279,7 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 <!-- Org Question: Won't do all of these.  Need to prioritize for interest and importance.-->
 
-# Other Useful Sources
-https://www.hopkinsmedicine.org/health/wellness-and-prevention/mental-health-disorder-statistics
 
-https://www.nami.org/nami/media/nami-media/infographics/generalmhfacts.pdf
-
-Geographic Variation in the Supply of Selected Behavioral Health Providers - https://www.ajpmonline.org/article/S0749-3797(18)30005-9/fulltext
-
-Ellie
-https://www.theguardian.com/sustainable-business/2015/sep/17/ellie-machine-that-can-detect-depression
-
-Other rural cites
-https://www.ruralhealthinfo.org/topics/mental-health
 
 
 # Citations
