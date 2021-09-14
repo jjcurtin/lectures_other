@@ -18,11 +18,14 @@ In 2019, the National Survey on Drug Use and Health estimated that 52 million ad
 ---
 
 /overdoses.png  
-<!--edit figure title-->
+<!--Remake figure based on data table-->
+<!--Second figure for 2020?-->
+The Centers for Disease Control have documented steadily increasing numbers of deaths from opioid and other drug overdoses over the past two decades.  These were already sobering numbers with over 70,000 deaths in 2019 and almost 841,00 deaths over the full time period[^fn_overdose].  However, we have just witnessed a staggering 34% increase over 2019, with more than 95,000 deaths from drug overdose in the past 12 months[^fn_overdose_2020].  Let's pause to consider that loss of life.
 
-In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].  
 
-<!--ADD 30.9% increase between 2019 and 2020; https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm-->
+<!--In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^fn_overdose].-->
+
+<!--ADD 95,230 deaths in the last 12 month period reported by the CDC. A 34.8% increase; https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm-->
 ---
 
 Suicide is the 10th leading cause of death in the U.S.[^fn_death] and almost 90% of those who die by suicide have an underlying mental illness[^fn_suicide].
@@ -286,7 +289,9 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 [^fn_nsduh]: https://www.samhsa.gov/data/sites/default/files/reports/rpt29393/2019NSDUHFFRPDFWHTML/2019NSDUHFFR090120.htm
 
-[^fn_overdose]: https://www.drugabuse.gov/drug-topics/trends-statistics/overdose-death-rates
+[^fn_overdose]: https://www.cdc.gov/nchs/data/databriefs/db394-tables-508.pdf#page=1
+
+[^fn_overdose_2020]: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
 
 [^fn_suicide]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC534107/
 
