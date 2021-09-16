@@ -42,5 +42,28 @@ A subset of digital health, DTx delivers therapeutic interventions directly to p
 
 
 
-Interest in DTx
-**27. Erbes CR, Stinson R, Kuhn E, et al. Access, utilization, and interest in mHealth applications among Veterans receiving outpatient care for PTSD. Mil Med 2014;179:1218-22. 10.7205/MILMED-D-14-00014 [PubMed] [CrossRef] [Google Scholar]**
+**Interest in DTx**
+27. Erbes CR, Stinson R, Kuhn E, et al. Access, utilization, and interest in mHealth applications among Veterans receiving outpatient care for PTSD. Mil Med 2014;179:1218-22. 10.7205/MILMED-D-14-00014 [PubMed] [CrossRef] [Google Scholar]
+
+
+**Early Gustafson work on prediction and DTx**
+Greist and I developed a computer based interview that included a subjective Bayesian model to predict and (because it was designed by experts) explain whether and why the model believed a patient complaining of suicide thoughts would actually try to kill themselves.  It was quite successful and made Time Magazine at the time but never caught hold.I think it was one of the first predictions active analytics but we did not call it that.
+Gustafson, D.H., Greist, J.H., Stauss, F.F., Erdman, H., & Laughren, T.  (1977). A probabilistic system for identifying suicide attemptors. Computers and Biomedical Research, 10(2), 83-89.
+
+The in the 80s the Kellogg foundation gave our team a grant to develop and test a computer based system (BARN) to help teenagers cope with alcohol, drugs, sex, and other teen age problems.   It had everything in it that CHESS has now except discussion groups cause there was no such thing as that at that time.  I am told that about 2100 middle and high schools eventually put it in their libraries.
+
+ Gustafson, D.H., Bosworth, K., Chewning, B., & Hawkins, R.P. (1987). Computer-based health promotion: Combining technological advances with problem-solving techniques to effect successful health behavior changes. Annual Review of Public Health, 8(1), 387-415.
+
+Later we got other grants that added discussion groups to to BARN and focused on Breast Cancer and HIV. WE called that CHESS.
+
+
+
+DTx systems to highlight
+
+Healthy Minds program?   1/4 million users.  Free
+
+Support for the development and evaluation of CBT4CBT has been provided by a series of grants from the National Institute on Drug Abuse and the National Institute on Alcohol Abuse and Alcoholism.
+
+public and industry partnerships
+	Connections
+	reSET and reSET-O
