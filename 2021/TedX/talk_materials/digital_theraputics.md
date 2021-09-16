@@ -5,7 +5,7 @@
 
 ## Our Mental Healthcare Crisis
 
-We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
+Let me start with some sobering statements.  We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
 ---
 
@@ -40,6 +40,8 @@ Moving beyond overdoses, suicide is the 10th leading cause of death in the U.S.[
 
 In economic terms, the National Institute on Drug Abuse estimated the cost of drug abuse by itself in the United States at more than $740 billion in 2010 and this cost was growing by more than 20 billion dollars each year due to the opioid crisis[^sud_cost].
 
+---
+
 Expanding our perspective globally, in that same year mental and substance use disorders constituted 10.4% of the global burden of disease and were the leading cause of years lived with disability among all disease groups[^global_burden].
 
 We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to you.  
@@ -58,6 +60,8 @@ One of out every three people with a major depressive episode in the past year d
 And much worse, nine out of every ten people with a substance use disorder in the past year did not receive any treatment.
 
 Overall, well over half of individuals with any mental illness do not receive the care they need.
+
+---
 
 Furthermore, the surgeon general has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^surgeongeneral].  
 
@@ -151,20 +155,9 @@ Now that I have made salient some of the problems with our current system for me
 
 ## Digital Therapeutics
 
-* Intervention and support apps delivered on smartphones
-
-* Examples of DTs
-	* CBT4CBT
-	* A-CHESS
-	* reSET & reSET-O
-* Examples of interventions, tools and services
-* Preliminary evidence of efficacy
-
-
-
 So what are digital therapeutics?  
 
-Digital therapeutics deliver evidence-based interventions through software programs to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  In our case, we will focus on mental health outcomes, although digital therapeutics are emerging across the healthcare system[^dta].  
+Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  In our case, we will focus on mental health outcomes, although digital therapeutics are emerging across the healthcare system[^dta].  
 
 [^dta]: https://dtxalliance.org/wp-content/uploads/2021/01/DTA_DTx-Definition-and-Core-Principles.pdf
 
@@ -181,7 +174,6 @@ In the 1980s, Dave and his center released a computer-based system to help adole
 [^chess_center]: https://center.chess.wisc.edu/home
 [^barn]: https://pubmed.ncbi.nlm.nih.gov/6443961/
 [^chess_app]: https://pubmed.ncbi.nlm.nih.gov/1482860/
-
 
 ---
 
@@ -217,7 +209,7 @@ $75,000+	        96%
 
 This changed with the advent and proliferation of the smartphone.  The Pew Research Center has documented a steady and rapid rise in smartphone ownership over the last 10 years[^pew].  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
 
-Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it at least possible, given proper development and a strong commitment, for digital therapeutics on smartphones to reach those groups that experience the greatest mental health disparities.
+Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it at least possible, given proper development and a strong commitment, to develop digital therapeutics on smartphones that reach those groups that experience the greatest mental health disparities.
 
 Not surprisingly given these advances in computing technology, we have now seen an explosion in research, development, and implementation of digital therapeutics for substance use disorders and other mental illness.  
 
@@ -232,7 +224,7 @@ The Veterans Health Administration has been at the forefront of this implementat
 
 The VA is the United States' largest integrated health care system, serving 9 million Veterans each year[^va] and its 2024 strategic objectives include a focus on the delivery of mental health services through digital therapeutics and related technologies[^va_plan].  
 
-As part of this effort, it has developed and distributed a suite of 15 digital therapeutics that provide evidence-based treatments and self-management strategies for post-traumatic stress disorder, substance use disorders and other mental illness.  These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone[^va_dtx].  
+As part of this effort, it has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for post-traumatic stress disorder, substance use disorders, and other mental illness.  These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone[^va_dtx].  
 
 [^va]: https://www.va.gov/health/
 [^va_plan]: https://www.va.gov/oei/docs/va2018-2024strategicplan.pdf
@@ -244,27 +236,27 @@ There has also been substantial development outside of the VA on digital therape
 
 The CHESS digital therapeutic developed by Dave Gustafson that I highlighted earlier remains available and has been used by at least 60 treatment centers nationwide. 
 
-A team of researchers and clinicians at Yale University led by Kathleen Carroll have developed CBT4CBT, a digital therapeutic that  teaches cognitive and behavioral skills that can help people gain control over their use of alcohol or other drugs. 
+A team of researchers and clinicians at Yale University led by Kathleen Carroll developed CBT4CBT, a digital therapeutic that teaches cognitive and behavioral skills that can help people gain control over their use of alcohol or other drugs. 
 
 <!-- “CBT4CBT can extend the clinician’s reach and improve outcomes by replacing or supplementing clinician-delivered therapy. CBT4CBT is a user, friendly, engaging, broadly accessible, cost-effective means of providing access to empirically validated cognitive behavioral therapy.” -->
 
-As yet another example, Lisa Marsch and the Dartmouth Center for Technology and Behavioral Health have developed the Therapeutic Education System or TES.  TES focuses on cognitive behavioral skills training such as effective strategies for refusing drugs and managing thoughts about drug use.  It also includes tools for self-management and planning.
+And as yet another example, Lisa Marsch and the Dartmouth Center for Technology and Behavioral Health developed the Therapeutic Education System or TES.  TES focuses on cognitive behavioral skills training such as effective strategies for refusing drugs and managing thoughts about drug use.  It also includes tools for self-management and planning.
 
 ---
 
 <!-- Develop image of a few of these apps with their icons for tools & services-->
 
-More generally, there are a handful of key features and supports provided today by many digital therapeutics in the mental health domain.
+More generally, there are a handful of key features and supports provided by many digital therapeutics today in the mental health domain.
 
 These include:
 
 * Specific interventions like cognitive behavioral therapy that target specific mental illnesses
-* Interventions designed to increase well-being generally like guided meditation and guide stress reduction and relaxation modules
-* Curated access to relevant psycho-educational materials
+* Interventions designed to increase well-being generally like guided meditation and guided stress reduction and relaxation modules
+* Curated access to mental health relevant psycho-educational materials
 * Peer support in the form of discussion forums and peer-to-peer messaging.  Digital therapeutics targeting substance use disorders can also locate self-help groups like AA and NA meetings.
 * Healthcare planning tools such as medication managers, appointment scheduling, and appointment reminders are often included.  
-* Self-assessment and symptom tracking is generally included
-* Clinician dashboards are emerging that can allow both bi-direction communication with healthcare providers and patient symptom tracking by clinicians
+* Self-assessment and symptom tracking tools are generally included
+* Clinician dashboards are also emerging that can allow both bi-direction communication with healthcare providers and patient symptom tracking by clinicians
 
 ---
 
@@ -272,108 +264,167 @@ These include:
 /ellie.jpg
 /woebot.png
 
-On the more leading edge, there has been recent rapid developments in the use of virtual relational agents that using natural language processing to communicate more naturally while providing support for mental illnesses.
+On the more leading or even bleeding edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
 
 For example, Ellie is a virtual interviewer developed by the Institute for Creative Technologies (ICT) at the University of Southern California.  "She" has been designed to gather information that can be used by human clinicians for diagnosis and treatment decisions.
 
-Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
+And Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
 
 ---
 
-* Available 24/7 without geographic constraints
-* Highly scalable and cost efficient
+By their very nature, digital therapeutics on smartphones can meaningfully address issues of access and availability as smartphone ownership continued to increase overall and in under-served groups.  These digital therapeutics can be accessible and available anywhere, 24/7.  
+
+<!--Could use some cites here-->
+Digital therapeutics are highly scalable and in many instances can provide interventions at substantially reduced costs compared to traditional mental healthcare[^costs]. This **could** address affordability issues for patients but the devil is in the details of who provides the digital therapeutics to patients and how are they paid for.  This will be important to track in the coming years as their use becomes more and more mainstream.
+
+[^costs]: https://pubmed.ncbi.nlm.nih.gov/33557599/
 
 ---
 
-**Evidence of Acceptability?**
-Self-management apps were found to be popular (i.e., high number of downloads) and appear to be well received by patients. https://pubmed.ncbi.nlm.nih.gov/30431306/
+/ptsd_coach_app.png
 
+The available evidence for the acceptability of digital therapeutics by patients is very encouraging.  
 
-153,834 downloads of PTSD Coach between March 2011 and February 2014
+For example, there were over 150,000 downloads of the VAs PTSD coach[^ptsd_coach] in the first three years after its release in 2011 and over 60% of its users engaged with it on multiple occasions[^ptsd_coach_use].  And this was in the early days of smartphones. Its use has only increased since then[^ptsd_coach_use_now].
 
-Over 60% of users engaged with PTSD Coach on multiple occasions (mean=6.3 sessions)[^ptsd_coach]. 
+A recent review of the suite of VA digital therapeutics concluded there is strong evidence of their feasibility and acceptability among veterans[^dt_acceptability].  
 
-[^ptsd_coach_use]: https://pubmed.ncbi.nlm.nih.gov/26543913/
 [^ptsd_coach]: https://myvaapps.com/ptsd/
-
-<!--here is a cite for v1.0 of coach:  Hoffman, J. E., Wald, L. J., Kuhn, E., Greene, C., Ruzek, J. I., & Weingardt, K. (2011). PTSD Coach (Version 1.0). [Mobile applicationsoftware]. Retrieved fromhttp://itunes.apple.com-->
-
-
-
-
-*more disclosure*
-
-Dr. David H. Gustafson and colleagues developed an interactive program to interview severely depressed people to predict the risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. 
-https://pubmed.ncbi.nlm.nih.gov/4585280/
-
-
-"As predicted, compared to those who believed they were interacting with a human operator, participants who believed they were interacting with a computer reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose."
-https://www.sciencedirect.com/science/article/abs/pii/S0747563214002647
-
-
-Woebot bond
-https://www.jmir.org/2021/3/e24850
-
-**Evidence  of effectiveness**
-
-Promising.  This is where we need more work still.
-
-[^reset_rct]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4079279/pdf/nihms-605235.pdf
-
-[^reseto_trial]: https://pubmed.ncbi.nlm.nih.gov/25090043/
-
-from DTx alliance
-Pivotal study demonstrated significant improvements in abstinence and treatment retention. Among patients whose primary addiction was not opioids, adding reSET® to outpatient therapy more than doubled abstinence rates (40% vs. 18%). Among all patients, adding reSET® to outpatient therapy improved rates of retention (76% vs. 63%). 
-
-The treatment retention rate during the 12-week intervention was 82.4% in the reSET-O + Treatment-as Usual (TAU) group, compared to 68.4% in the TAU group alone. 
-
-
-[^achess]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4016167/
-
-CBT4CBT
-https://cbt4cbt.com/evidence/
-
-
-PTSD coach
-PTSD Coach use resulted in significantly greater improvements in sympotoms of PTSD and depression as well as overall psychosocial functioning relative to a waitlist condition.  https://pubmed.ncbi.nlm.nih.gov/28221061/
-
-
-
-
+[^ptsd_coach_use]: https://pubmed.ncbi.nlm.nih.gov/26543913/
+[^ptsd_coach_use_now]: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
+[^dt_acceptability]: https://pubmed.ncbi.nlm.nih.gov/30431306/
+<!--here is a cite for v1.0 of coach:  Hoffman, J. E., Wald, L. J., Kuhn, E., Greene, C., Ruzek, J. I., & Weingardt, K. (2011). PTSD Coach (Version 1.0). [Mobile applicationsoftware]. Retrieved fromhttp://itunes.apple.com    But its available from the link above so likely not needed-->
 
 ---
 
+Beyond their overall acceptability, there is emerging evidence that digital therapeutics might begin to address limitations resulting from stigma or related barriers to disclose or engage with mental health services.
 
-These interventions may extend therapeutic contact beyond traditional in-person services and can be delivered in a cost-effective manner.7
-Ben-Zeev D, Razzano LA, Pashka NJ, Levin CE. Cost of mHealth versus clinic-based care for serious mental illness: same effects, half the price tag. Psychiatr Serv. 2021;72(4):448-451.
+In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person[^computer_talk]. 
 
-Dr. David H. Gustafson and colleagues developed an interactive program to interview severely depressed people to predict the risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. That was the first hint for the researchers that computers could provide support to people in crisis.
+[^computer_talk]: https://pubmed.ncbi.nlm.nih.gov/4585280/
 
+---
 
+/ellie.jpg
 
+More recently, researchers had participants interact with Ellie, the virtual interviewer I described earlier, in the context of health-screening interviews.  The participants were led to believe that Ellie was controlled by either a human or automation and when the believed they were interacting with a computer, they reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose[^ellie_disclose]. 
 
+[^ellie_disclose]: https://www.sciencedirect.com/science/article/abs/pii/S0747563214002647
 
+---
 
+/woebot.png
 
+In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory[^woebot_bond].  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they *fairly often* or *very often* felt  
 
+* Woebot likes me.
+* Woebot and I respect each other.
+* Woebot appreciates me.
+* Woebot cares about me even when I do things that they do not approve of.
+
+[^woebot_bond]: https://www.jmir.org/2021/3/e24850
+
+---
+
+<!--Need a concluding sentence or two about this that also transitions to effectiveness-->
+
+---
+
+Of course, it would be meaningless if digital therapeutics were accessible, available, affordable and acceptability if there were not effective tools to help people with substance use disorders and other mental illness.
+
+The gold standard for evidence of treatment effectiveness is the randomized controlled trial or RCTs where patients are randomly assigned to receive the treatment in question vs. a control condition that does not include that treatment.
+
+These RCTs are now being conducted for many digital therapeutics.
+
+---
+
+The VA's PTSD Coach use resulted in significantly greater improvements in symptoms of PTSD and depression as well as overall psychosocial functioning relative to a waitlist control condition[^ptsd_rct]
+
+[^ptsd_rct]: https://pubmed.ncbi.nlm.nih.gov/28221061/
+
+---
+
+To evaluate Dave Gustafson's CHESS digital therapeutic, patients receiving residential care for alcohol use disorder were randomized to treatment as usual or that same treatment + CHESS.   Twelve months later, patients using CHESS had less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher[^chess_rct].
+
+[^chess_rct]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4016167/
+
+An RCT for the therapeutic education system documented comparable benefits when added to 12 weeks of outpatient treatment for substance use disorders.  Patients using TES had 60% higher odds of abstinence at end of treatment[^tes_rct].  They were also dropped out of outpatient treatment at lower rates than did patients not using TES.    .   
+
+[^tes_rct]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4079279/pdf/nihms-605235.pdf
+
+<!--Could review similar evidence for CBT4CBT but not for TedX--  https://cbt4cbt.com/evidence/> -->
+
+---
+
+<!--Need a concluding sentence or two about effectiveness-->
+
+---
+ 
 ## Smarter Digital Therapeutics with Personal Sensing
 * What is it
 * Example from grant
+	* GPS
+	* Cellular communications
+	* Context
+
 * What can it do
 	 * Predict
 	 * Recommend treatments for people, for moment in time?
 	 * Encourage adaptive changes to lifestyle
-* Preliminary evidence-
 
-<!-- Org Question: Where does clinician dashboard come in?  Just a service until digital theraputics meet personal sensing?-->
+<!-- Org Question: Not sure how to organize these ideas yet but this section will highlight that: 1) Digital theraputics on smartphones make personal sensing feasible, given access to sensors, software and computing power, 2) Personal sensing makes digital theraputics smarter, allowing for its supports (treatments, tools & services) to be tailored to person, place, and time, 3) Personal sensing can also encourage greater engagement with both digital theraputics and traditional mental healhcare services, and  4) Digital theraputics can provide conduit for risk and symptom sensing back to health care providers to allow for efficiet resource allocation based on momentary need.  May need to focus or curtail these ideas-->
+
+---
+
+The potential of digital therapeutics arises from the rich and diverse set of tools and services they provide and they easy access to these tools and services 24/7.
+
+But this is also their challenge.  As the patient you have to tackle questions like:
+
+* When should I use them
+* For how long
+* Which of these tools and services are right for me,
+* And which are right for me **now**, at this moment in time
+
+This is why the next wave of digital therapeutics must get smarter to realize their full potential.  And they will do this through the use of artificial intelligence powered personal sensing.
+
+<!-- Not sure about the need to invoke AI.   The hook is to smarter digital therapuetics but maybe too obscure and unnecessary -->
+
+---
+
+"Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms"[^sensing].
+
+The more technical term for this methodology is **digital phenotyping** but I prefer my colleague David Mohrs's use of **personal sensing** because it is more easily understood by patients and it conveys the intimacy of the information that is gathered.  
+
+[^sensing]: https://pubmed.ncbi.nlm.nih.gov/28375728/
 
 ---
 
 /smartphone.png
 
+Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that these smartphones collect about us.
+
+Smartphones log our personal communications by phone calls and text messages. Facebook posts, Instagram photos, tweets, and other social media activities are often created or accessed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.
+
+Personal sensing involves capturing all these raw data streams, deriving predictive features from these data, and submitting them to machine learning algorithms to ...<!-- what clear, crisp, and exciting?-->
+
 ---
 
-<!--Slide:  My location data?-->
+Let me make these technical details more clear and highlight the potential impact when personal sensing is situated within a digital therapuetic by describing my laboratories efforts....
+
+We are one of a handful of research groups that have been funded by the national institutes of health to provide the foundation for personal sensing for substance use disorders.
+
+We have two active grants, focused on individuals in recover from alcohol use disorder and opioid use disorder, respectively.  The goals of 
+
+
+
+---
+
+
+/gps_1.png
+
+---
+
+/gps_2.png
 
 ---
 
@@ -381,12 +432,22 @@ Dr. David H. Gustafson and colleagues developed an interactive program to interv
 /text_messages.png
 
 ---
+ 
+Context matters
+
+longitudinal context
+
+Context for people and places
 
 <!--Slide: Text message with mom vs. drug using friend.  "I'm really stressed and I am want to use....   Can you help me?"-->
 
-## Synergies between Digital Therapeutics and Personal Sensing
 
-<!-- Org Question: Not sure how to organize these ideas yet but this section will highlight that: 1) Digital theraputics on smartphones make personal sensing feasible, given access to sensors, software and computing power, 2) Personal sensing makes digital theraputics smarter, allowing for its supports (treatments, tools & services) to be tailored to person, place, and time, 3) Personal sensing can also encourage greater engagement with both digital theraputics and traditional mental healhcare services, and  4) Digital theraputics can provide conduit for risk and symptom sensing back to health care providers to allow for efficiet resource allocation based on momentary need.  May need to focus or curtail these ideas-->
+---
+
+The pursuit of precision medicine — “delivering the right treatments, at the right time, to the right person”
+
+<!--Kaiser, J. 2015. Obama gives East Room rollout to Precision Medicine Initiative.  cience Magazine. Available at: https://doi.org/10.1126/science. -->
+<!--Precision Medicine Initiative Working Group. 2015. The Precision Medicine Initiative Cohort Program – Building a Research Foundation for 21st Century Medicine. Available at: https://acd.od.nih.gov/documents/reports/DRAFT-PMI-WG-Report-9-11-2015-508.pdf-->
 
 ## Pitfalls and Prescriptions
 * How paid for?  Answer dictates other issues
@@ -430,10 +491,6 @@ reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization
 
 
 <!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->
-
-
-# Citations
-
 
 
 
