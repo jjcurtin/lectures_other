@@ -24,12 +24,12 @@ Other rural cites
 https://www.ruralhealthinfo.org/topics/mental-health
 
 
-**drug overdose**
+# drug overdose
 https://www.cdc.gov/drugoverdose/deaths/index.html
 https://www.drugabuse.gov/drug-topics/trends-statistics/overdose-death-rates
 https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
 
-**Smartphones globally**
+# Smartphones globally
 https://www.pewresearch.org/global/2019/02/05/smartphone-ownership-is-growing-rapidly-around-the-world-but-not-always-equally/
 
 
@@ -42,11 +42,11 @@ A subset of digital health, DTx delivers therapeutic interventions directly to p
 
 
 
-**Interest in DTx**
+# Interest in DTx
 27. Erbes CR, Stinson R, Kuhn E, et al. Access, utilization, and interest in mHealth applications among Veterans receiving outpatient care for PTSD. Mil Med 2014;179:1218-22. 10.7205/MILMED-D-14-00014 [PubMed] [CrossRef] [Google Scholar]
 
 
-**Early Gustafson work on prediction and DTx**
+# Early Gustafson work on prediction and DTx
 Greist and I developed a computer based interview that included a subjective Bayesian model to predict and (because it was designed by experts) explain whether and why the model believed a patient complaining of suicide thoughts would actually try to kill themselves.  It was quite successful and made Time Magazine at the time but never caught hold.I think it was one of the first predictions active analytics but we did not call it that.
 Gustafson, D.H., Greist, J.H., Stauss, F.F., Erdman, H., & Laughren, T.  (1977). A probabilistic system for identifying suicide attemptors. Computers and Biomedical Research, 10(2), 83-89.
 
@@ -67,3 +67,26 @@ Support for the development and evaluation of CBT4CBT has been provided by a ser
 public and industry partnerships
 	Connections
 	reSET and reSET-O
+
+# Pitfalls and regulatory info/FDA
+FDA - reSET in 2017
+FDA relaxes regulation to encourage development during COVID
+
+
+<!--FDA and evidence for reSET; https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-mobile-medical-application-substance-use-disorder-->
+
+reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization from FDA to improve disease outcomes, is a 90-day PDT for Substance Use Disorder (SUD) intended to provide cognitive behavioral therapy (CBT), as an adjunct to a contingency management system, for patients 18 years of age and older who are currently enrolled in outpatient treatment under the supervision of a clinician.
+
+
+
+<!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->FDA - reSET in 2017
+FDA relaxes regulation to encourage development during COVID
+
+
+<!--FDA and evidence for reSET; https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-mobile-medical-application-substance-use-disorder-->
+
+reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization from FDA to improve disease outcomes, is a 90-day PDT for Substance Use Disorder (SUD) intended to provide cognitive behavioral therapy (CBT), as an adjunct to a contingency management system, for patients 18 years of age and older who are currently enrolled in outpatient treatment under the supervision of a clinician.
+
+
+
+<!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->

@@ -359,29 +359,15 @@ An RCT for the therapeutic education system documented comparable benefits when 
 ---
  
 ## Smarter Digital Therapeutics with Personal Sensing
-* What is it
-* Example from grant
-	* GPS
-	* Cellular communications
-	* Context
 
-* What can it do
-	 * Predict
-	 * Recommend treatments for people, for moment in time?
-	 * Encourage adaptive changes to lifestyle
+The potential of digital therapeutics arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
 
-<!-- Org Question: Not sure how to organize these ideas yet but this section will highlight that: 1) Digital theraputics on smartphones make personal sensing feasible, given access to sensors, software and computing power, 2) Personal sensing makes digital theraputics smarter, allowing for its supports (treatments, tools & services) to be tailored to person, place, and time, 3) Personal sensing can also encourage greater engagement with both digital theraputics and traditional mental healhcare services, and  4) Digital theraputics can provide conduit for risk and symptom sensing back to health care providers to allow for efficiet resource allocation based on momentary need.  May need to focus or curtail these ideas-->
+But this is also their challenge.  As the patient you now have to tackle difficult questions like:
 
----
-
-The potential of digital therapeutics arises from the rich and diverse set of tools and services they provide and they easy access to these tools and services 24/7.
-
-But this is also their challenge.  As the patient you have to tackle questions like:
-
-* When should I use them
-* For how long
-* Which of these tools and services are right for me,
-* And which are right for me **now**, at this moment in time
+* When should I use them?
+* For how long?
+* Which of these various supports are right for me?
+* And which are right for me **now**, at this moment in time?
 
 This is why the next wave of digital therapeutics must get smarter to realize their full potential.  And they will do this through the use of artificial intelligence powered personal sensing.
 
@@ -391,88 +377,117 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 "Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms"[^sensing].
 
-The more technical term for this methodology is **digital phenotyping** but I prefer my colleague David Mohrs's use of **personal sensing** because it is more easily understood by patients and it conveys the intimacy of the information that is gathered.  
-
-[^sensing]: https://pubmed.ncbi.nlm.nih.gov/28375728/
-
 ---
 
 /smartphone.png
 
-Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that these smartphones collect about us.
+Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that  smartphones collect about us.
 
-Smartphones log our personal communications by phone calls and text messages. Facebook posts, Instagram photos, tweets, and other social media activities are often created or accessed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.
+Smartphones log our personal communications by phone calls and text messages. Facebook posts, Instagram photos, tweets, and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
-Personal sensing involves capturing all these raw data streams, deriving predictive features from these data, and submitting them to machine learning algorithms to ...<!-- what clear, crisp, and exciting?-->
+Personal sensing involves capturing all these raw data streams, deriving predictive features from these data, and submitting them to machine learning algorithms to characterize our recent experiences and behaviors, predict how we feel right now, and even predict how we may feel or behave in the future.  
 
 ---
 
-My research team is one of a handful that have been funded by the National Institutes of Health to develop the foundation for personal sensing for substance use disorders.
+My research team is one of a handful who have been funded by the National Institutes of Health to develop the foundation for personal sensing within digital therapeutics to help patients with substance use disorders.
 
-We have two active grants from the NIH that focus on individuals in recovery from alcohol use disorder and opioid use disorder, respectively.
+We have two active grants from the NIH that focus on patients in recovery from alcohol use disorder and opioid use disorder, respectively.
 
 We started this research when Dave Gustafson approached my team with a simple question. He asked...  
 
 > "Could you predict not only who might be at greatest risk for relapse
 > but critically, precisely WHEN that relapse might occur."
 
-If possible, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
+If done well, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
 
-<!-- Add sentence about just in time intervention by providing risk to patient or their providers-->
-
-In this research, we have developed techniques to sense many different raw data streams but let me highlight two particularly promising ones to help you develop an intuition for how this works.  
+Not least among these is the possibility to deliver interventions "just-in-time", in other words, both at the moments of greatest need and when these interventions are predicted to be most effective.  
 
 ---
 
 /gps_1.png
 
-Personal sensing of people's moment by moment location using smartphone location services offers a potentially clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  It is also completely passive, operating in the background with the location data collected simply by carrying your phone.
+Let me highlight two particularly exciting data streams we are studying to help you develop an intuition for how this works.  
 
-This is a wide view of my own movement patterns over a two month period when we were developing this personal sensing method for the first grant.  You can see the paths that I traveled, colored by how I was traveling, with car travel in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  Although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
+First, personal sensing of people's moment by moment location using smartphone location services offers a potentially clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  
 
-You can immediately see that I am runner, with long runs leaving from downtown Madison and regularly trail runs in county and state parts to west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
+Behind me is a wide view of my own movement patterns over a two-month period when we were first developing this personal sensing method.  You can see the paths that I traveled, colored by how I was traveling, with travel by car in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
+
+You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
 
 ---
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, you can immediately see dense clusters of places visited near my home and where I work at the UW.  You can see that I drive my children clockwise around the lake each morning to their elementary school.  You could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
+Zooming in to the Madison isthmus, you can immediately see dense clusters of red dots indicating places visited near my home and where I work at the University of Wisconsin.  You can see that I drive my children clockwise around the lake each morning to their elementary school.  And you could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
 
-You can see my daily run commute to and from my office.  You can observe the long days, and short days, at the office.   If you probed the red dots indicating the places I visit, you would find the restaurant, bars, and cafes I visit, the homes of my friends, and the stores where I shop.  These are already very rich data.
+You can see my daily running commute to and from my office.  From this, you can observe the long days, and short days, at the office.   
 
-<!--Need better examples here-->
+If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  These are already very rich data.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
+
+<!--Can still tune these examples above-->
 
 ---
 
 /text_messages.png
 <!--Will edit for copyright and to more clearly convey stressor of having phone stolen-->
 
-We also collect communications meta data and text message content.  I wont show you my texts messages, highlighting the highly personal, even intimate, nature of these communications.  
+We also collect smartphone communications logs and text message content.  And no, I don't plan to show you my actual text messages!
 
-But imagine what you could learn about me if you knew the patterns of my communications.  Who I was calling, when I made those calls, and even the content of what I sent and received by text message.  You might see the late sleepless nights, particularly if you also logged all the use of my smartphone.  You might see my messages sharing joys or stressors, like when my expensive phone was stolen.  Natural language processing could be used to extract the meaning of my words and use their meaning to make inferences about my recent experiences, emotional state, even psychiatric symptoms. 
-
----
-
-The raw geolocation and communications data that we sense directly from the smartphone are powerful signals for prediction.  But we can make them more powerful still by anchoring them within an intra-personal context.  
-
-I've already given you example of how the longitudinal context may be important. Personal sensing draws some of its power from repeated measurements over days, weeks, months, even years.  
-
+But imagine what you could learn about me if you knew the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  You might see the late sleepless nights, particularly if you also logged all the use of my smartphone.  You might see my messages sharing joys or stressors, like when my expensive phone was stolen.  Natural language processing could be used to extract the meaning of my words and use this to make inferences about my recent experiences, emotional state, and even psychiatric symptoms. 
 
 ---
 
-<!--Slide: Text message with mom vs. drug using friend.  "I'm really stressed and I am want to use....   Can you help me?   Yes, I am home right now.  Come over as soon as you can"-->
+These raw location and communications data that we sense directly from the smartphone are powerful signals for prediction right out of the box.  But we can make them more powerful still by anchoring them within a longitudinal context. 
 
-Context for people and places
+Personal sensing draws some of its power from repeated measurements of the same person over days, weeks, months, and even years.  It is the change in our patterns that are often most meaningful.  We stop going to work briefly for a vacation or we stop for a longer period when we lose our job. 
 
+Or we start or re-start late night calls and text messages after a period of successful recovery when we had established more healthy behaviors and lifestyle. 
+
+<!--consider better examples-->
+
+---
+
+<!--Slide: Text message with "Mom" vs. "Joe Party-Party".  "I'm really stressed and I am want to use....   Can you help me?   Yes, I am home right now.  Come over as soon as you can"-->
+
+We can engineer even more sensitive predictive features from these data by wrapping them in an intra-personal subjective context.  In other words, what do these people and places mean to us?
+
+For example, this very same text message thread behind me may indicate quite different risk for relapse when sent to your mother, who supports your recovery, vs. a friend who still regularly engages in drug use themselves <!-- or "...who wants you back at their parties" if that seems more acceptable info to gather without unpacking-->.  
+
+We have demonstrated that we can gather this context quickly and with little burden to the patient by pushing out a few key questions to their smartphone about their frequent contacts and places over the first couple of months of their use of the digital therapeutic. It turns out that we are all creatures of habit, and we only have a small number of people we talk to regularly and places we visit.  
+
+For people, we can ask if they support the patient's recovery. For places, we can assess its subjective risk to their recovery, and their typical activities at that location.   For both people and places, we can ask if their associated experiences are generally pleasant or unpleasant.  
+
+---
+
+<!-- Maybe a map with clear indications of my house, my office, and a few key public bars and health care facilities??  -->
+
+We can further flesh out the context for places using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
 
 
 
 ---
 
-The pursuit of precision medicine — “delivering the right treatments, at the right time, to the right person”
+Our preliminary analyses have already demonstrated that we can use predictive features derived from contextualized personal sensing to determine the probability of a future lapse within the next 24 hours with high accuracy.  We are now working actively to increase the temporal precision of these predictions from the day to the exact hour when the lapse starts and from tomorrow to next week.
 
-<!--Kaiser, J. 2015. Obama gives East Room rollout to Precision Medicine Initiative.  cience Magazine. Available at: https://doi.org/10.1126/science. -->
-<!--Precision Medicine Initiative Working Group. 2015. The Precision Medicine Initiative Cohort Program – Building a Research Foundation for 21st Century Medicine. Available at: https://acd.od.nih.gov/documents/reports/DRAFT-PMI-WG-Report-9-11-2015-508.pdf-->
+If patients knew their future risk, they could plan accordingly.  They could increase their use of their digital therapeutic or step up their traditional clinical care when their risk of relapse was high or increasing.  
+
+Patients could also opt in to share their risk with their healthcare providers though their digital therapuetic's clinician dashboard.  This would allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
+
+---
+
+Once we can predict relapse risk using personal sensing, we can also begin to ask and even more important question.
+
+What interventions or other supports are optimal for a specific patient at a specific moment in time to reduce their risk.  
+
+For example, if recent poor sleep is contributing to their risk, interventions to improve sleep hygiene or reduce stress could be delivered.  
+
+If they have slipped back into interactions with unhealthy peers, they could be encouraged to re-engage with peer support groups within the digital therapeutic or provided with information about upcoming local AA or NA meetings.  
+
+During moments of peak craving, they could be distracted by engaging video games until their craving subsides as it usually does.  Immediate contact with designated supportive family or sponsors could also recommended and facilitated.
+
+With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”[^pmh]
+
+[^pmh]: Precision Medicine Initiative Working Group. 2015. The Precision Medicine Initiative Cohort Program – Building a Research Foundation for 21st Century Medicine. Available at: https://acd.od.nih.gov/documents/reports/DRAFT-PMI-WG-Report-9-11-2015-508.pdf
 
 
 ## Pitfalls and Prescriptions
@@ -492,31 +507,13 @@ The pursuit of precision medicine — “delivering the right treatments, at the
 	* Feedback.   
 	* Encourage treatment retention.
 
+I am here today to say that these goals are possible, if not today, in the coming years as we continue to develop these two technologies.
+
+However, there is no guarantee we will acheive this .... 
 
 
 
 
-FDA - reSET in 2017
-FDA relaxes regulation to encourage development during COVID
-
-
-<!--FDA and evidence for reSET; https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-mobile-medical-application-substance-use-disorder-->
-
-reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization from FDA to improve disease outcomes, is a 90-day PDT for Substance Use Disorder (SUD) intended to provide cognitive behavioral therapy (CBT), as an adjunct to a contingency management system, for patients 18 years of age and older who are currently enrolled in outpatient treatment under the supervision of a clinician.
-
-
-
-<!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->FDA - reSET in 2017
-FDA relaxes regulation to encourage development during COVID
-
-
-<!--FDA and evidence for reSET; https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-mobile-medical-application-substance-use-disorder-->
-
-reSET, the first Prescription Digital Therapeutic (PDT) to receive authorization from FDA to improve disease outcomes, is a 90-day PDT for Substance Use Disorder (SUD) intended to provide cognitive behavioral therapy (CBT), as an adjunct to a contingency management system, for patients 18 years of age and older who are currently enrolled in outpatient treatment under the supervision of a clinician.
-
-
-
-<!--FDA, DTx and COVID; https://www.fda.gov/regulatory-information/search-fda-guidance-documents/enforcement-policy-digital-health-devices-treating-psychiatric-disorders-during-coronavirus-disease-->
 
 
 
