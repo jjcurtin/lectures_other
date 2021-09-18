@@ -407,21 +407,28 @@ Personal sensing involves capturing all these raw data streams, deriving predict
 
 ---
 
-Let me make these technical details more clear and highlight the potential impact when personal sensing is situated within a digital therapuetic by describing my laboratories efforts....
+My research team is one of a handful that have been funded by the National Institutes of Health to develop the foundation for personal sensing for substance use disorders.
 
-We are one of a handful of research groups that have been funded by the national institutes of health to provide the foundation for personal sensing for substance use disorders.
+We have two active grants from the NIH that focus on individuals in recovery from alcohol use disorder and opioid use disorder, respectively.
 
-We have two active grants, focused on individuals in recover from alcohol use disorder and opioid use disorder, respectively.  The goals of 
+We started this research when Dave Gustafson approached my team with a simple question. He asked...  
 
+> "Could you predict not only who might be at greatest risk for relapse
+> but critically, precisely WHEN that relapse might occur."
 
+If possible, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
+
+<!-- Add sentence about just in time intervention by providing risk to patient or their providers-->
+
+In this research, we have developed techniques to sense many different raw data streams but let me highlight two particularly promising ones to help you develop an intuition for how this works.  
 
 ---
 
 /gps_1.png
 
-Personal sensing of people's moment by moment location using smartphone location services offers a potentially clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  It is also completely passive, operating in the background with the data collected simply by carrying your phone.
+Personal sensing of people's moment by moment location using smartphone location services offers a potentially clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  It is also completely passive, operating in the background with the location data collected simply by carrying your phone.
 
-This is a wide view of my own movement patterns over a two month period when we were developing this personal sensing method.  You can see the paths that I traveled, colored by how I was traveling with car travel in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  Although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
+This is a wide view of my own movement patterns over a two month period when we were developing this personal sensing method for the first grant.  You can see the paths that I traveled, colored by how I was traveling, with car travel in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  Although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
 
 You can immediately see that I am runner, with long runs leaving from downtown Madison and regularly trail runs in county and state parts to west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
 
@@ -431,7 +438,9 @@ You can immediately see that I am runner, with long runs leaving from downtown M
 
 Zooming in to the Madison isthmus, you can immediately see dense clusters of places visited near my home and where I work at the UW.  You can see that I drive my children clockwise around the lake each morning to their elementary school.  You could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
 
-You can see my daily run commute to and from my office.  You can observe the long days, and short days, at the office.   If you probed the red dots indicating the places I visit, you would find the restaurant, bars, and cafes I visit, the homes of my friends, and the stores where I shop.  These are already very rich data
+You can see my daily run commute to and from my office.  You can observe the long days, and short days, at the office.   If you probed the red dots indicating the places I visit, you would find the restaurant, bars, and cafes I visit, the homes of my friends, and the stores where I shop.  These are already very rich data.
+
+<!--Need better examples here-->
 
 ---
 
@@ -440,11 +449,11 @@ You can see my daily run commute to and from my office.  You can observe the lon
 
 We also collect communications meta data and text message content.  I wont show you my texts messages, highlighting the highly personal, even intimate, nature of these communications.  
 
-But imagine what you could learn about me if you knew the patterns of my communications.  Who I was calling, when I made those calls, and even the content of what I sent and received by text message.  You might see the late sleepless nights, particularly if you also logged all the use of my smartphone.  You might see my messages sharing joys or stressors, like when my expensive phone was stolen.  We can use natural language processing to extract the meaning of your words and use their meaning to make inferences about your recent experiences, your emotional state, even psychiatric symptoms. 
+But imagine what you could learn about me if you knew the patterns of my communications.  Who I was calling, when I made those calls, and even the content of what I sent and received by text message.  You might see the late sleepless nights, particularly if you also logged all the use of my smartphone.  You might see my messages sharing joys or stressors, like when my expensive phone was stolen.  Natural language processing could be used to extract the meaning of my words and use their meaning to make inferences about my recent experiences, emotional state, even psychiatric symptoms. 
 
 ---
 
-Passive monitoring of geolocation and communications are powerful signals for prediction.  But we can make them more powerful still by anchoring them within an intra-personal context.  
+The raw geolocation and communications data that we sense directly from the smartphone are powerful signals for prediction.  But we can make them more powerful still by anchoring them within an intra-personal context.  
 
 I've already given you example of how the longitudinal context may be important. Personal sensing draws some of its power from repeated measurements over days, weeks, months, even years.  
 
