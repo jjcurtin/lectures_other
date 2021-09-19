@@ -463,8 +463,6 @@ For people, we can ask if they support the patient's recovery. For places, we ca
 
 We can further flesh out the context for places using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
 
-
-
 ---
 
 Our preliminary analyses have already demonstrated that we can use predictive features derived from contextualized personal sensing to determine the probability of a future lapse within the next 24 hours with high accuracy.  We are now working actively to increase the temporal precision of these predictions from the day to the exact hour when the lapse starts and from tomorrow to next week.
@@ -510,6 +508,29 @@ With digital therapeutics and personal sensing, we can start to imagine what pre
 I am here today to say that these goals are possible, if not today, in the coming years as we continue to develop these two technologies.
 
 However, there is no guarantee we will acheive this .... 
+
+
+Pitfalls
+Wild West how regulated
+
+How developed and distrubeted
+Developed by academics.  Distributed by private digital health companies. but see va
+Business model not clear. Who pays?  How does patient get it
+
+---
+
+Digital therapeutics are highly scaleable and can be provided to anyone with a smartphone.   This can address key issues with access and availability that are serious problems for traditional mental healthcare with human clinicians.  Their scale can also control mental healthcare costs.  These are big advantages but they come with risks as well. As digital therapeutics scale there may economic presses to limit access to or even replace human clinicians.  We must resist this impulse that could compromise outcomes in favor of lower costs.
+
+Due to their scale, digital therapeutics may further homogenize mental healthcare by providing the same interventions to all patients.  
+
+
+Clinicians
+One size fits all
+
+Personal sensing
+Good for one size
+Shelf life
+Must be developed with comminuted of  color
 
 
 
