@@ -258,13 +258,15 @@ These include:
 
 ---
 
-<!--Merge into a single image after getting copyright permission-->
 /ellie.jpg
-/woebot.png
 
 On the more leading or even bleeding edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
 
 For example, Ellie is a virtual interviewer developed by the Institute for Creative Technologies (ICT) at the University of Southern California.  "She" has been designed to gather information that can be used by human clinicians for diagnosis and treatment decisions.
+
+---
+
+/woebot.png
 
 And Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
 
@@ -278,8 +280,6 @@ Digital therapeutics are highly scalable and in many instances can provide inter
 [^costs]: https://pubmed.ncbi.nlm.nih.gov/33557599/
 
 ---
-
-/ptsd_coach_app.png
 
 The available evidence for the acceptability of digital therapeutics by patients is very encouraging.  
 
@@ -489,51 +489,56 @@ With digital therapeutics and personal sensing, we can start to imagine what pre
 
 
 ## Pitfalls and Prescriptions
-* How paid for?  Answer dictates other issues
-	* Privacy
-		* [Cambridge Analytica](https://en.wikipedia.org/wiki/Cambridge_Analytica)  
-		* [Israeli Pegasus Spyware](https://en.wikipedia.org/wiki/Pegasus_(spyware))
-		* Who has access to the data and who benefits?  How are commercial apps supported?
-	* Evidence based vs. the wild west
-	* Gamification or other techniques to encourage constant use vs. optimal  use
-* Burden
-	* Active vs. passive personal sensing
-* Disparities reified by Artificial Intelligence Algorithms (e.g., Weapons of Math Destruction)  <!-- Slide: Book cover image?-->
-* Shelf life <!-- Slide: Expired or rotting food on shelf or in frige?  ;-)-->
-* Integration into clinical care.  
- 	* Replace vs. supplement clinical care
-	* Feedback.   
-	* Encourage treatment retention.
 
-These goals are possible, if not today, in the coming years as we continue to develop smart digital therapeutics. However, there are no guarantees and numerous pitfalls we must avoid. 
+These goals are possible, if not today, in the coming years as we continue to develop smart digital therapeutics. However, there are no guarantees and numerous pitfalls exist that we must avoid. 
 
-Currently, the world of digital therapeutics and digital health is a bit like the Wild West.  There are over 350k digital health apps available for download in app stores on our smartphones. 
+To my eye, the greatest obstacles emerge from tensions among three related issues:
 
-Privacy and effectiveness.  
-
-Need better regulations and more importantly patient awareness 
-
-FDA now recognizes this 
-
- 350,000 digital health apps are currently available to consumers—many of which are geared toward wellness, but there’s been a rise in digital therapeutics (DTx) apps.
-Pitfalls
-Wild West how regulated
-
-How developed and distrubeted
-Developed by academics.  Distributed by private digital health companies. but see va
-Business model not clear. Who pays?  How does patient get it
+ 1. How we regulate digital therapeutics to assure their safety and effectiveness, 
+ 2. How we distribute them to patients
+ 3. And who pays for them
 
 ---
 
-Digital therapeutics are highly scaleable and can be provided to anyone with a smartphone.   This scale can address key issues with access and availability that are serious problems for traditional mental healthcare with human clinicians.  Their scale can also control mental healthcare costs.  
+<!-- Wild west image -->
+Currently, the world of digital health more broadly is a bit like the Wild West.  There are over 350k digital health apps available for download in app stores on our smartphones. Many of these apps have little or no evidence of their effectiveness.  And privacy risks become paramount as more and more apps incorportate personal sensing of our sensitive data.
+
+Fortunately, the FDA has begun to recognize the need for regulation and to clarify its planned approach[^fda_digitalhealth].  The FDA does not plan to regulate the broad category of digital health apps that are intended to maintain or encourage a healthy
+lifestyle.  However, they do plan to provide regulatory oversight for the narrower class of digital therapeutics that are used to diagnose, treat or manage disease including mental illness.  In fact, in 2018 the FDA cleared the first digital therapeutic for substance use disorders based in part on evidence of its effectiveness.  
+
+This is an important first step but FDA oversight is not sufficient because patients always be aware of their guidance or the subtle distinctions between a digital health app and a digital therapeutic.
+
+[^fda_digitalhealth]:https://www.fda.gov/medical-devices/digital-health-center-excellence
+
+---
+
+Mental healthcare providers may serve as an important and trustworthy conduit of safe and effective digital therapeutics to their patients. However, if digital therapeutics are only available through healthcare providers we may miss the opportunity to address mental health disparities among vulnerable groups who are uninsured or don't otherwise have access to healthcare.
+
+---
+
+The VA offers an interesting model where they provide their own digital therapeutics directly through the VA website, but free to everyone.  This allows them to recommend and broadly distribute digital therapeutics that are safe and effective.  
+
+However, as smart digital therapeutics become more expensive to develop, evaluate, and maintain, it is not clear who will pay these expenses if they are freely distributed.  
+
+Some of the most promising digital therapeutics for substance use disorders have resulted from academic/commercial partnerships but these therapeutics are not free.  
+
+---
+
+We also need to tackle issues that arise from scale.  Digital therapeutics are highly scalable given that many of their supports are not dependent on human clinicians but software.  This scale can address key issues with access and availability that are serious problems for traditional mental healthcare with human clinicians.  Their scale can also control mental healthcare costs.  
 
 Unfortunately, scale comes with risks as well. As digital therapeutics scale, there may economic pressures to limit access to or even replace human clinicians.  We must resist this impulse that could compromise outcomes in favor of lower costs.
 
 The scale of digital therapeutics may also further homogenize mental healthcare by providing the same interventions to all patients.  To be clear, this is already a problem for traditional mental healthcare interventions which have primarily been developed and evaluated with white patients.  However, to the degree that there is recognition of this problem and some diversity across human clinicians, their interventions are tailored at times to be culturally appropriate for communities of color and other minority groups.  We have an opportunity to intentionally recruit clinicians of color to re-imagine these new and modified interventions that are delivered by digital therapeutics so that they are acceptable for everyone. 
 
-The use of personal sensing in smart digital therapeutics may help us tailor the support they provide. Personal sensing AI algorithms can recommend and deliver the optimal supports based on characteristics of the patient, their environment, and their recent experiences.  However, these algorithms must be trained on diverse samples of patients - black and brown patients, patients from rural communities. If we fail to do this, the algorithms’ recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing health disparities. 
+---
+
+The use of personal sensing in smart digital therapeutics may help us tailor the support they provide. Personal sensing AI algorithms can recommend and deliver the optimal supports based on characteristics of the patient, their environment, and their recent experiences.  However, these algorithms must be trained on diverse samples of patients - black and brown patients, patients from rural communities. If we fail to do this, the algorithms' recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing health disparities. 
 
 <!-- consider issue of shelf life and need for ongoing evaluation -->
+
+But if we succeed, smart digital therapeutics will become important tools to reduce our mental health crisis broadly while also addressing intolerable disparities in health outcomes.    Thank you for your time.  
+
+
 
 
 
