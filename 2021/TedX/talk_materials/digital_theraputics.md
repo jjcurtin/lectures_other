@@ -505,11 +505,17 @@ With digital therapeutics and personal sensing, we can start to imagine what pre
 	* Feedback.   
 	* Encourage treatment retention.
 
-I am here today to say that these goals are possible, if not today, in the coming years as we continue to develop these two technologies.
+These goals are possible, if not today, in the coming years as we continue to develop smart digital therapeutics. However, there are no guarantees and numerous pitfalls we must avoid. 
 
-However, there is no guarantee we will acheive this .... 
+Currently, the world of digital therapeutics and digital health is a bit like the Wild West.  There are over 350k digital health apps available for download in app stores on our smartphones. 
 
+Privacy and effectiveness.  
 
+Need better regulations and more importantly patient awareness 
+
+FDA now recognizes this 
+
+ 350,000 digital health apps are currently available to consumers—many of which are geared toward wellness, but there’s been a rise in digital therapeutics (DTx) apps.
 Pitfalls
 Wild West how regulated
 
@@ -519,20 +525,15 @@ Business model not clear. Who pays?  How does patient get it
 
 ---
 
-Digital therapeutics are highly scaleable and can be provided to anyone with a smartphone.   This can address key issues with access and availability that are serious problems for traditional mental healthcare with human clinicians.  Their scale can also control mental healthcare costs.  These are big advantages but they come with risks as well. As digital therapeutics scale there may economic presses to limit access to or even replace human clinicians.  We must resist this impulse that could compromise outcomes in favor of lower costs.
+Digital therapeutics are highly scaleable and can be provided to anyone with a smartphone.   This scale can address key issues with access and availability that are serious problems for traditional mental healthcare with human clinicians.  Their scale can also control mental healthcare costs.  
 
-Due to their scale, digital therapeutics may further homogenize mental healthcare by providing the same interventions to all patients.  
+Unfortunately, scale comes with risks as well. As digital therapeutics scale, there may economic pressures to limit access to or even replace human clinicians.  We must resist this impulse that could compromise outcomes in favor of lower costs.
 
+The scale of digital therapeutics may also further homogenize mental healthcare by providing the same interventions to all patients.  To be clear, this is already a problem for traditional mental healthcare interventions which have primarily been developed and evaluated with white patients.  However, to the degree that there is recognition of this problem and some diversity across human clinicians, their interventions are tailored at times to be culturally appropriate for communities of color and other minority groups.  We have an opportunity to intentionally recruit clinicians of color to re-imagine these new and modified interventions that are delivered by digital therapeutics so that they are acceptable for everyone. 
 
-Clinicians
-One size fits all
+The use of personal sensing in smart digital therapeutics may help us tailor the support they provide. Personal sensing AI algorithms can recommend and deliver the optimal supports based on characteristics of the patient, their environment, and their recent experiences.  However, these algorithms must be trained on diverse samples of patients - black and brown patients, patients from rural communities. If we fail to do this, the algorithms’ recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing health disparities. 
 
-Personal sensing
-Good for one size
-Shelf life
-Must be developed with comminuted of  color
-
-
+<!-- consider issue of shelf life and need for ongoing evaluation -->
 
 
 
