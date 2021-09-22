@@ -5,63 +5,34 @@
 
 ## Our Mental Healthcare Crisis
 
+<!--consider image with more stats from long form of talk-->
 Let me start with some sobering statements.  We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
----
-
-<!--consider three pie charts against total adult population of 258.3 million in 2020. -->
-
-In 2019, the National Survey on Drug Use and Health estimated that 52 million adults suffered from some form of mental illness.  This represents almost **21%** of the U.S. adult population[^nsduh]. 
-
-19 million adults had a major depressive episode in that year. More than 20 million adults had some form of substance use disorder. 
-
-And the costs of these mental illnesses are steep.
+More than one out of every five adults in the United states suffer from some form of mental illness including substance use disorders[^nsduh]. 
 
 [^nsduh]: https://www.samhsa.gov/data/sites/default/files/reports/rpt29393/2019NSDUHFFRPDFWHTML/2019NSDUHFFR090120.htm
 
 ---
+<!--consider image with more overdose stats and other info?-->
 
-/overdoses.png  
-<!--Remake figure based on data table-->
-<!--Second figure for 2020?-->
-The Centers for Disease Control have documented steadily increasing numbers of deaths from opioid and other drug overdoses over the past two decades.  These were already sobering numbers with over 70,000 deaths in 2019 and almost 841,00 deaths between 1999 and 2019[^overdose].  However, we have just witnessed a staggering additional 34% increase over 2019, with more than 95,000 deaths from drug overdose in the past 12 months[^overdose_2020].  Let's pause to consider the immense personal impacts of this loss of life.
+And the costs of these mental illnesses are steep.
 
-<!--In 2019 alone, the National Institute of Drug Abuse reported that more than 70,000 people had died from opioid or other drug overdoses and this number has been increasing every year for the past two decades[^overdose].-->
+For example, suicide is the 10th leading cause of death in the U.S.[^death] and almost 90% of those who die by suicide have an underlying mental illness[^suicide].
 
-<!--ADD 95,230 deaths in the last 12 month period reported by the CDC. A 34.8% increase; Or 93K in the 2020 calendar year.  https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm-->
+As a result of our opioid and other drug addiction crisis, almost 100,000 people have died from drug overdoses in the past 12 months alone[^overdose_2020]
 
-[^overdose]: https://www.cdc.gov/nchs/data/databriefs/db394-tables-508.pdf#page=1
-
-[^overdose_2020]: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
-
----
-
-Moving beyond overdoses, suicide is the 10th leading cause of death in the U.S.[^death] and almost 90% of those who die by suicide have an underlying mental illness[^suicide].
-
-In economic terms, the National Institute on Drug Abuse estimated the cost of drug abuse by itself in the United States at more than $740 billion in 2010 and this cost was growing by more than 20 billion dollars each year due to the opioid crisis[^sud_cost].
-
----
-
-Expanding our perspective globally, in that same year mental and substance use disorders constituted 10.4% of the global burden of disease and were the leading cause of years lived with disability among all disease groups[^global_burden].
+Expanding our perspective globally, in that same year mental and substance use disorders recently constituted 10.4% of the global burden of disease and were the leading cause of years lived with disability among all disease groups[^global_burden].
 
 We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to you.  
 
 [^suicide]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC534107/
 [^death]: https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm
-[^sud_cost]:  https://archives.drugabuse.gov/trends-statistics/costs-substance-abuse
+[^overdose_2020]: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
 [^global_burden]: Whiteford HA, Degenhardt L, Rehm J, Baxter AJ, Ferrari AJ, Erskine HE, Charlson FJ, Norman RE, Flaxman AD, Johns N et al (2013) Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. Lancet 382: 1575–1586.
 
 ---
 
-However, what may surprise you, and candidly I think should concern you, is that most people with mental illness in the United States do not receive treatment[^nsduh].  
-
-One of out every three people with a major depressive episode in the past year did not receive any treatment in that year.
-
-And much worse, nine out of every ten people with a substance use disorder in the past year did not receive any treatment.
-
-Overall, well over half of individuals with any mental illness do not receive the care they need.
-
----
+However, what may surprise you, and candidly I think should concern you, is that well over half of individuals in the U.S. with active mental illness did not receive any treatment in the past year [^nsduh].  
 
 Furthermore, the surgeon general has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^surgeongeneral].  
 
@@ -83,21 +54,14 @@ There are at least four key issues that severely limit the capacity of our menta
 
 ---
 
-**Access** is one of the biggest challenges.  Consider the 52 million people diagnosed with a mental illness in any single year and compare that to the only approximately 100 thousand licensed psychologists or 500 thousand licensed therapists across disciplines.  There is a clear imbalance between the need for care and the number of trained mental healthcare providers.
-
----
-
-
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-But even more importantly, these therapists are not distributed evenly across the country and their distribution does not reflect the distribution of need.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
+**Access** is one of the biggest challenges.  Our mental healthcare providers are not distributed evenly across the country.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
-Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties also do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   In fact, more than 90% of all psychologists and psychiatrists and 80% of MSWs work exclusively in metropolitan areas[^rural_2]. 
+Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties also do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   
 
-These factors create a serious access problem.
-
-[^rural_2]: https://www.ruralhealthinfo.org/topics/mental-health
+[^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
 
 ---
 
@@ -120,10 +84,8 @@ When mental healthcare is nearby and available, **affordability** emerges as yet
 There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the costs and/or benefits of particular treatments also limit their acceptability. 
 
 All of these issues, access, availability, affordability, and acceptability, combine to make the practical capacity of our mental health system too low to meet our high need. 
-
-And I would be tone deaf if I didn't acknowledge how the COVID pandemic has further highlighted the fragility of this system.  Over the last almost two years now, COVID has increased the need for services targeting substance use disorders and other mental illness.  At that the same time COVID has reduced access and availability to these services, increased problems of affordability because of the impact of job loss on health insurance[^insurance], and made face-to-face mental health services less acceptable to some because of the risks of contracting COVID.     
-
-These are serious issues.  However, to my eye, our biggest problem is that many of these capacity limitations are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address them to improve capacity within our current system without radically changing this system itself.    
+  
+However, to my eye, our biggest problem is that many of these capacity limitations are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address them to improve capacity within our current system without radically changing this system itself.    
 
 [^insurance]: https://www.epi.org/publication/health-insurance-and-the-covid-19-shock/
 
@@ -131,7 +93,7 @@ These are serious issues.  However, to my eye, our biggest problem is that many 
 
 <!-- Consider image: Bank teller vs. ATM-->
 
-Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are delivered.
+These are serious issues.  Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are delivered.
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
