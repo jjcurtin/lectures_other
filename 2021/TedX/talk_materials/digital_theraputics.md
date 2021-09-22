@@ -21,7 +21,7 @@ For example, suicide is the 10th leading cause of death in the U.S.[^death] and 
 
 As a result of our opioid and other drug addiction crisis, almost 100,000 people have died from drug overdoses in the past 12 months alone[^overdose_2020]
 
-Expanding our perspective globally, in that same year mental and substance use disorders recently constituted 10.4% of the global burden of disease and were the leading cause of years lived with disability among all disease groups[^global_burden].
+Expanding our perspective globally, in any typical year, mental illness constitute more than 10 of the global burden of disease and are the leading cause of years lived with disability among all disease groups[^global_burden].
 
 We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to you.  
 
@@ -59,7 +59,7 @@ There are at least four key issues that severely limit the capacity of our menta
 
 **Access** is one of the biggest challenges.  Our mental healthcare providers are not distributed evenly across the country.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
-Also, this rural access issue is not limited to only psychologists. 61% of rural counties lack a psychologist but 80% of rural counties also do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   
+And this rural access issue is not limited to only psychologists. 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   
 
 [^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
 
