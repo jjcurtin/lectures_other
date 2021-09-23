@@ -1,68 +1,75 @@
 
 
-# Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
+# Smart Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
 
 
-## Our Mental Healthcare Crisis
+## Our Mental Healthcare
 
-<!--consider image with more stats from long form of talk-->
-Let me start with some sobering statements.  We have a mental healthcare crisis in the U.S. and our mental healthcare system is deeply flawed.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
+Let me start with some sobering statements.  We have a mental healthcare crisis in the United States.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
-More than one out of every five adults in the United states suffer from some form of mental illness including substance use disorders[^nsduh]. 
+More than one in five adults in the U.S. suffer from some form of mental illness including substance use disorders[^nsduh]. 
 
 [^nsduh]: https://www.samhsa.gov/data/sites/default/files/reports/rpt29393/2019NSDUHFFRPDFWHTML/2019NSDUHFFR090120.htm
 
 ---
-<!--consider image with more overdose stats and other info?-->
 
-And the costs of these mental illnesses are steep.
+And the costs of these mental illnesses are clear and steep.
 
 For example, suicide is the 10th leading cause of death in the U.S.[^death] and almost 90% of those who die by suicide have an underlying mental illness[^suicide].
 
-As a result of our opioid and other drug addiction crisis, almost 100,000 people have died from drug overdoses in the past 12 months alone[^overdose_2020]
+Almost 100,000 people have died from opioid, methamphetamine, and other drug overdoses in the past 12 months alone[^overdose_2020]
 
-Expanding our perspective globally, in any typical year, mental illness constitute more than 10 of the global burden of disease and are the leading cause of years lived with disability among all disease groups[^global_burden].
+And beyond this tragic loss of life, mental illnesses are also the leading cause of disease burden in the U.S.[^burden]
 
-We all likely know someone who is struggling with a substance use disorder or other serious, often debilitating, mental illness.  We are all touched in some way by this mental health crisis.  Unfortunately, although these numbers are tragic, they may not be that surprising to you.  
+We all likely know someone who is struggling with a substance use disorder or other serious mental illness.  We have all been touched in some way by this mental health crisis.  For this reason, although these numbers are heartbreaking, they may not be that surprising to you.  
 
 [^suicide]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC534107/
 [^death]: https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm
 [^overdose_2020]: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
-[^global_burden]: Whiteford HA, Degenhardt L, Rehm J, Baxter AJ, Ferrari AJ, Erskine HE, Charlson FJ, Norman RE, Flaxman AD, Johns N et al (2013) Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. Lancet 382: 1575–1586.
+[^burden]: https://www.healthsystemtracker.org/chart-collection/know-burden-disease-u-s/#item-mental-health-musculoskeletal-disorders-leading-causes-years-lost-disability-u-s
 
 ---
 
-However, what may surprise you, and candidly I think should concern you, is that well over half of individuals in the U.S. with active mental illness did not receive any treatment in the past year [^nsduh].  
+However, what may surprise you is that well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in the past year[^nsduh].  More than half!  
 
-Furthermore, the surgeon general has noted that the mental health care needs of our minority racial/ethnic groups remain largely unmet.  For example, African American & Hispanic Americans receive mental health services at about half the rate of whites[^surgeongeneral].  
+And for those with a substance use disorder, 9 out of 10 did not receive any treatment at all[^nsduh].
 
-Similar mental healthcare disparities exist for people living in rural areas[^rural].  
+These mental healthcare statistics are even worse for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites[^surgeongeneral].  
 
-<!--Need a strong concluding sentence or two before the transition to why-->
+And similar mental healthcare disparities exist for people living in rural areas[^rural] and for those with lower incomes[^income].
 
 [^surgeongeneral]: Mental Health: A Report of the Surgeon General. Rockville, Md: US Dept of Health and Human Services, Substance Abuse and Mental Health Services Administration, Center for Mental Health Services; 1999.
 [^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
+[^income]: https://pubmed.ncbi.nlm.nih.gov/23280880
 
 ---
 
-There are at least four key issues that severely limit the capacity of our mental healthcare system.  These are:
+This is the story of my Dad.  I watched my dad struggle with his use of alcohol for my entire life. He is almost 80 years old now and he has never received any treatment.  My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance, his access to mental healthcare was limited by its high cost.  
 
-* Access,
-* Availability,
-* Affordability, and 
-* Acceptability
+Even if he had had access to treatment, it likely wouldn’t have been acceptable to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
+
+And had he received treatment, that treatment may not have been available to him at his moments of greatest need….that 
+
+<!--need availability hook-->
+
+---
+
+Access , acceptability, and availability - these are the factors that limit the capacity of our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
 
 ---
 
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-**Access** is one of the biggest challenges.  Our mental healthcare providers are not distributed evenly across the country.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
+My dad’s access to services was limited by their cost. But Access is also limited because our mental healthcare providers are not distributed evenly across the country.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
 
 And this rural access issue is not limited to only psychologists. 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   
 
 [^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
 
+---
+
+Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the effectiveness of particular treatments also limit their acceptability. 
 ---
 
 /waitlist_2.jpg
@@ -79,15 +86,9 @@ Furthermore, models for traditional individual or group psychotherapy still ofte
 
 ---
 
-When mental healthcare is nearby and available, **affordability** emerges as yet another serious issue for many people.  The cost for mental health services is often prohibitive both because of limitations in health insurance coverage for these services and for the many people from vulnerable groups that still do not have any insurance at all.
-
-There are also issues of **acceptability**.  Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the costs and/or benefits of particular treatments also limit their acceptability. 
-
-All of these issues, access, availability, affordability, and acceptability, combine to make the practical capacity of our mental health system too low to meet our high need. 
+All of these issues, access, acceptability, and availability, combine to make the practical capacity and reach of our mental healthcare system too low to meet our high need. 
   
 However, to my eye, our biggest problem is that many of these capacity limitations are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address them to improve capacity within our current system without radically changing this system itself.    
-
-[^insurance]: https://www.epi.org/publication/health-insurance-and-the-covid-19-shock/
 
 ## Disruptive Innovation in Mental Healthcare
 
@@ -97,29 +98,15 @@ These are serious issues.  Fortunately, I believe we are now poised to experienc
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
-As a classic example of disruptive innovation, consider the ATM.  I am old enough to remember having to go to the bank on payday to have a bank teller deposit my paycheck and provide me with cash to use for my weekly purchases.  And I remember the access and availability limitations associated with getting to the bank within bankers' hours; And planning for weekend spending, when I wouldn't have any access to the bank or my cash at all.  
+As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, we have 24/7 access to cash through ATMs that can be found almost everywhere.
 
-Now I have 24/7 access to cash through ATMs that can be found almost everywhere.  And, of course, Venmo and similar digital payment technologies may soon provide further disruptive innovation to how we handle banking.
-
-I believe that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  And I am not alone in this prediction.  The World Health Organization has also concluded that the use of digital health tools "has the potential to transform the face of health service delivery across the globe"[^who].
-
-They will do this by targeting and addressing the issues in access, availability, affordability, and acceptability of mental health services that I've just highlighted for you.
-
-[^who]: https://www.who.int/goe/publications/goe_mhealth_web.pdf
-
----
-
-However, I want to emphasize that I do not believe or hope that digital therapeutics will replace human clinicians.  We still have bank tellers after the introduction of the ATM.  The mix of services and tasks performed by these tellers has just shifted to what they do best.  As we increasingly adopt the use of digital therapeutics, I expect to see the same optimization of our use of mental healthcare providers for what they are uniquely positioned to do well.  Digital therapeutics will just extend their reach and impact and by extension the overall capacity of our mental healthcare system.
-
-I also want to be clear that these benefits are still only aspirational today.  We are in early days for digital therapeutics at this point.  
-
-Now that I have made salient some of the problems with our current system for mental healthcare services, I want to use the rest of our time to first glimpse the promise and our progress in the use of smart digital therapeutics.  But I also want to dig in a bit to the potential pitfalls that we need to navigate successfully to realize their promise and to not further compromise to mental health outcomes in the U.S. and globally as we expand their use.
+In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  They will make these services more accessible, highly available, and for some, even more acceptable.  
 
 ## Digital Therapeutics
 
 So what are digital therapeutics?  
 
-Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  In our case, we will focus on mental health outcomes, although digital therapeutics are emerging across the healthcare system[^dta].  
+Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes[^dta].  
 
 [^dta]: https://dtxalliance.org/wp-content/uploads/2021/01/DTA_DTx-Definition-and-Core-Principles.pdf
 
