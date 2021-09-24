@@ -7,48 +7,35 @@
 
 Let me start with some sobering statements.  We have a mental healthcare crisis in the United States.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
 
-More than one in five adults in the U.S. suffer from some form of mental illness including substance use disorders[^nsduh]. 
-
-[^nsduh]: https://www.samhsa.gov/data/sites/default/files/reports/rpt29393/2019NSDUHFFRPDFWHTML/2019NSDUHFFR090120.htm
-
 ---
 
-And the costs of these mental illnesses are clear and steep.
+I know this crisis well.  I watched my dad struggle with his use of alcohol for my entire life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
 
-For example, suicide is the 10th leading cause of death in the U.S.[^death] and almost 90% of those who die by suicide have an underlying mental illness[^suicide].
-
-Almost 100,000 people have died from opioid, methamphetamine, and other drug overdoses in the past 12 months alone[^overdose_2020]
-
-And beyond this tragic loss of life, mental illnesses are also the leading cause of disease burden in the U.S.[^burden]
-
-We have all been touched in some way by this crisis in someway -  we may have struggled ourselves, or a family member, or a friend...  For this reason, although these numbers are heartbreaking, they may not be that surprising to you.  
-
-[^suicide]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC534107/
-[^death]: https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm
-[^overdose_2020]: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
-[^burden]: https://www.healthsystemtracker.org/chart-collection/know-burden-disease-u-s/#item-mental-health-musculoskeletal-disorders-leading-causes-years-lost-disability-u-s
-
----
-
-However, what may surprise you is that well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in the past year[^nsduh].  More than half!  
-
-And for those suffering with a substance use disorder, 9 out of 10 people did not receive any treatment at all[^nsduh].
-
-These mental healthcare statistics are even worse for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites[^surgeongeneral].  
-
-And similar mental healthcare disparities exist for people living in rural areas[^rural] and for those with lower incomes[^income].
-
-[^surgeongeneral]: Mental Health: A Report of the Surgeon General. Rockville, Md: US Dept of Health and Human Services, Substance Abuse and Mental Health Services Administration, Center for Mental Health Services; 1999.
-[^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
-[^income]: https://pubmed.ncbi.nlm.nih.gov/23280880
-
----
-
-This is the story of my Dad.  I watched my dad struggle with his use of alcohol for my entire life. He is almost 80 years old now and he has never received any treatment.  My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
+My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
 
 Even if he had had access to treatment, it likely wouldn’t have been acceptable to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
-And had he received treatment, that treatment may not have been available to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's accident.
+And had he received treatment, that treatment may not have been available to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's car accident.
+
+---
+
+We all know this story because its the story of our family members, our friends, for some of us, ourselves.
+
+More than one in five adults in the U.S. suffer from some form of mental illness including substance use disorders. 
+
+Almost 100,000 people have died from opioid, methamphetamine, and other drug overdoses in the past 12 months alone.
+
+And mental illnesses are the leading cause of disease burden in the U.S.
+
+---
+
+Despite these tragic statistics, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in the past year].  More than half!  
+
+And for those suffering with a substance use disorder, 9 out of 10 people did not receive any treatment at all.
+
+These mental healthcare statistics are even worse for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
+
+And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
 ---
 
@@ -59,9 +46,7 @@ Access , acceptability, and availability - these are the factors that limit the 
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-My dad’s access to services was limited by their cost. But  consider the access to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].
-
-[^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
+My dad’s access to services was limited by their cost. But  consider the access to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.
 
 ---
 
@@ -100,20 +85,16 @@ In a similar fashion, digital therapeutics, and in particular, digital therapeut
 
 So what are digital therapeutics?  
 
-Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes[^dta].  
+Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  
 
-[^dta]: https://dtxalliance.org/wp-content/uploads/2021/01/DTA_DTx-Definition-and-Core-Principles.pdf
 
 ---
 
 /barn.png
 
-The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies[^chess_center].  
+The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies.  
 
-In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health and personal issues[^barn].  
-
-[^chess_center]: https://center.chess.wisc.edu/home
-[^barn]: https://pubmed.ncbi.nlm.nih.gov/6443961/
+In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health and personal issues.  
 
 Their system and other digital therapeutics slowly evolved  over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
 
@@ -148,7 +129,7 @@ Equally important, smartphone ownership is already relatively high and increasin
 
 Not surprisingly given these advances in computing technology, we have now seen an explosion in research, development, and implementation of digital therapeutics for substance use disorders and other mental illness.  
 
-[^pew]:  https://www.pewresearch.org/internet/fact-sheet/mobile/
+
 
 ---
 
@@ -159,9 +140,7 @@ Our nation's largest integrated health care system, the Veterans Health Administ
 
 The VA has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for mental illness.  
 
-These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone[^va_dtx].  
-
-[^va_dtx]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6087876/
+These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone.  
 
 ---
 
@@ -205,44 +184,32 @@ By their very nature, digital therapeutics on smartphones can meaningfully addre
 
 The available evidence for the acceptability of digital therapeutics by patients is very encouraging.  
 
-For example, there were over 150,000 downloads of the VAs PTSD coach[^ptsd_coach] in the first three years after its release in 2011 and over 60% of its users engaged with it on multiple occasions[^ptsd_coach_use].  And this was in the early days of smartphones. Its use has only increased since then[^ptsd_coach_use_now].
+For example, there were over 150,000 downloads of the VAs PTSD coach in the first three years after its release in 2011 and over 60% of its users engaged with it on multiple occasions.  And this was in the early days of smartphones. Its use has only increased since then.
 
-A recent review of the suite of VA digital therapeutics concluded there is strong evidence of their feasibility and acceptability among veterans[^dt_acceptability].  
-
-[^ptsd_coach]: https://myvaapps.com/ptsd/
-[^ptsd_coach_use]: https://pubmed.ncbi.nlm.nih.gov/26543913/
-[^ptsd_coach_use_now]: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
-[^dt_acceptability]: https://pubmed.ncbi.nlm.nih.gov/30431306/
-<!--here is a cite for v1.0 of coach:  Hoffman, J. E., Wald, L. J., Kuhn, E., Greene, C., Ruzek, J. I., & Weingardt, K. (2011). PTSD Coach (Version 1.0). [Mobile applicationsoftware]. Retrieved fromhttp://itunes.apple.com    But its available from the link above so likely not needed-->
+A recent review of the suite of VA digital therapeutics concluded there is strong evidence of their feasibility and acceptability among veterans.  
 
 ---
 
 Beyond their overall acceptability, there is emerging evidence that digital therapeutics might begin to address limitations resulting from stigma or related barriers to disclose or engage with mental health services.
 
-In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person[^computer_talk]. 
-
-[^computer_talk]: https://pubmed.ncbi.nlm.nih.gov/4585280/
+In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. 
 
 ---
 
 /ellie.jpg
 
-More recently, researchers had participants interact with Ellie, the virtual interviewer I described earlier, in the context of health-screening interviews.  The participants were led to believe that Ellie was controlled by either a human or automation and when the believed they were interacting with a computer, they reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose[^ellie_disclose]. 
-
-[^ellie_disclose]: https://www.sciencedirect.com/science/article/abs/pii/S0747563214002647
+More recently, researchers had participants interact with Ellie, the virtual interviewer I described earlier, in the context of health-screening interviews.  The participants were led to believe that Ellie was controlled by either a human or automation and when the believed they were interacting with a computer, they reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose. 
 
 ---
 
 /woebot.png
 
-In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory[^woebot_bond].  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they *fairly often* or *very often* felt  
+In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they *fairly often* or *very often* felt  
 
 * Woebot likes me.
 * Woebot and I respect each other.
 * Woebot appreciates me.
 * Woebot cares about me even when I do things that they do not approve of.
-
-[^woebot_bond]: https://www.jmir.org/2021/3/e24850
 
 ---
 
@@ -258,19 +225,15 @@ These RCTs are now being conducted for many digital therapeutics.
 
 ---
 
-The VA's PTSD Coach use resulted in significantly greater improvements in symptoms of PTSD and depression as well as overall psychosocial functioning relative to a waitlist control condition[^ptsd_rct]
-
-[^ptsd_rct]: https://pubmed.ncbi.nlm.nih.gov/28221061/
+The VA's PTSD Coach use resulted in significantly greater improvements in symptoms of PTSD and depression as well as overall psychosocial functioning relative to a waitlist control condition]
 
 ---
 
-To evaluate Dave Gustafson's CHESS digital therapeutic, patients receiving residential care for alcohol use disorder were randomized to treatment as usual or that same treatment + CHESS.   Twelve months later, patients using CHESS had less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher[^chess_rct].
+To evaluate Dave Gustafson's CHESS digital therapeutic, patients receiving residential care for alcohol use disorder were randomized to treatment as usual or that same treatment + CHESS.   Twelve months later, patients using CHESS had less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher.
 
-[^chess_rct]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4016167/
 
-An RCT for the therapeutic education system documented comparable benefits when added to 12 weeks of outpatient treatment for substance use disorders.  Patients using TES had 60% higher odds of abstinence at end of treatment[^tes_rct].  They were also dropped out of outpatient treatment at lower rates than did patients not using TES.    .   
+An RCT for the therapeutic education system documented comparable benefits when added to 12 weeks of outpatient treatment for substance use disorders.  Patients using TES had 60% higher odds of abstinence at end of treatment.  They were also dropped out of outpatient treatment at lower rates than did patients not using TES.    .   
 
-[^tes_rct]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4079279/pdf/nihms-605235.pdf
 
 <!--Could review similar evidence for CBT4CBT but not for TedX--  https://cbt4cbt.com/evidence/> -->
 
@@ -297,7 +260,7 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 ---
 
-"Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms"[^sensing].
+"Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms".
 
 ---
 
@@ -405,9 +368,7 @@ If they have slipped back into interactions with unhealthy peers, they could be 
 
 During moments of peak craving, they could be distracted by engaging video games until their craving subsides as it usually does.  Immediate contact with designated supportive family or sponsors could also recommended and facilitated.
 
-With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”[^pmh]
-
-[^pmh]: Precision Medicine Initiative Working Group. 2015. The Precision Medicine Initiative Cohort Program – Building a Research Foundation for 21st Century Medicine. Available at: https://acd.od.nih.gov/documents/reports/DRAFT-PMI-WG-Report-9-11-2015-508.pdf
+With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
 
 ## Pitfalls and Prescriptions
@@ -423,14 +384,13 @@ To my eye, the greatest obstacles emerge from tensions among three related issue
 ---
 
 <!-- Wild west image -->
-Currently, the world of digital health more broadly is a bit like the Wild West.  There are over 350k digital health apps available for download in app stores on our smartphones. Many of these apps have little or no evidence of their effectiveness.  And privacy risks become paramount as more and more apps incorportate personal sensing of our sensitive data.
+Currently, the world of digital health more broadly is a bit like the Wild West.  There are over 350k digital health apps available for download in app stores on our smartphones. Many of these apps have little or no evidence of their effectiveness.  And privacy risks become paramount as more and more apps incorporate personal sensing of our sensitive data.
 
-Fortunately, the FDA has begun to recognize the need for regulation and to clarify its planned approach[^fda_digitalhealth].  The FDA does not plan to regulate the broad category of digital health apps that are intended to maintain or encourage a healthy
+Fortunately, the FDA has begun to recognize the need for regulation and to clarify its planned approach.  The FDA does not plan to regulate the broad category of digital health apps that are intended to maintain or encourage a healthy
 lifestyle.  However, they do plan to provide regulatory oversight for the narrower class of digital therapeutics that are used to diagnose, treat or manage disease including mental illness.  In fact, in 2018 the FDA cleared the first digital therapeutic for substance use disorders based in part on evidence of its effectiveness.  
 
 This is an important first step but FDA oversight is not sufficient because patients always be aware of their guidance or the subtle distinctions between a digital health app and a digital therapeutic.
 
-[^fda_digitalhealth]:https://www.fda.gov/medical-devices/digital-health-center-excellence
 
 ---
 
@@ -458,7 +418,9 @@ The use of personal sensing in smart digital therapeutics may help us tailor the
 
 <!-- consider issue of shelf life and need for ongoing evaluation -->
 
-But if we succeed, smart digital therapeutics will become important tools to reduce our mental health crisis broadly while also addressing intolerable disparities in health outcomes.    Thank you for your time.  
+But if we succeed, smart digital therapeutics will become important tools to reduce our mental health crisis broadly while also addressing intolerable disparities in health outcomes.   
+
+<!--Need more powerful end!-->
 
 
 
