@@ -21,7 +21,7 @@ Almost 100,000 people have died from opioid, methamphetamine, and other drug ove
 
 And beyond this tragic loss of life, mental illnesses are also the leading cause of disease burden in the U.S.[^burden]
 
-We all likely know someone who is struggling with a substance use disorder or other serious mental illness.  We have all been touched in some way by this mental health crisis.  For this reason, although these numbers are heartbreaking, they may not be that surprising to you.  
+We have all been touched in some way by this crisis in someway -  we may have struggled ourselves, or a family member, or a friend...  For this reason, although these numbers are heartbreaking, they may not be that surprising to you.  
 
 [^suicide]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC534107/
 [^death]: https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm
@@ -32,7 +32,7 @@ We all likely know someone who is struggling with a substance use disorder or ot
 
 However, what may surprise you is that well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in the past year[^nsduh].  More than half!  
 
-And for those with a substance use disorder, 9 out of 10 did not receive any treatment at all[^nsduh].
+And for those suffering with a substance use disorder, 9 out of 10 people did not receive any treatment at all[^nsduh].
 
 These mental healthcare statistics are even worse for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites[^surgeongeneral].  
 
@@ -44,13 +44,11 @@ And similar mental healthcare disparities exist for people living in rural areas
 
 ---
 
-This is the story of my Dad.  I watched my dad struggle with his use of alcohol for my entire life. He is almost 80 years old now and he has never received any treatment.  My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance, his access to mental healthcare was limited by its high cost.  
+This is the story of my Dad.  I watched my dad struggle with his use of alcohol for my entire life. He is almost 80 years old now and he has never received any treatment.  My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
 
 Even if he had had access to treatment, it likely wouldn’t have been acceptable to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
-And had he received treatment, that treatment may not have been available to him at his moments of greatest need….that 
-
-<!--need availability hook-->
+And had he received treatment, that treatment may not have been available to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's accident.
 
 ---
 
@@ -61,40 +59,36 @@ Access , acceptability, and availability - these are the factors that limit the 
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-My dad’s access to services was limited by their cost. But Access is also limited because our mental healthcare providers are not distributed evenly across the country.  For example, if you live in the southern or middle regions of our country, your access to psychologists is very limited.  
-
-And this rural access issue is not limited to only psychologists. 80% of rural counties do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].   
+My dad’s access to services was limited by their cost. But  consider the access to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP[^rural].
 
 [^rural]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7681156/
 
 ---
 
-Mental illness is still highly stigmatized in our society and this prevents many people from seeking necessary care.  For some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. And in some instances, skepticism about the effectiveness of particular treatments also limit their acceptability. 
+/stigma.jpg
+
+Seeking out mental health treatment is unacceptable to many  of us because mental illness is still highly stigmatized in our society.  And for some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. 
+
 ---
 
 /waitlist_2.jpg
 <!--may update image to gray and red cartoon characters-->
 <!--need to buy copyright or remake image-->
 
-For those of us who have geographic access to mental healthcare providers, **availability** poses the next issue.  Given the imbalance between the number of mental healthcare providers and the need for services, there are often long waits until care is available.  For example, in metropolitan Madison, WI, where I live, it is simply not possible to schedule at all with many well-regarded psychologists, and others have wait lists that can delay a first visit for months.  
+Mental healthcare services are often not available when we need them most.  For example, in metropolitan Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
 
 ---
 
 /calendar.png
 
-Furthermore, models for traditional individual or group psychotherapy still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+Furthermore, models for traditional mental healthcare still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
----
-
-All of these issues, access, acceptability, and availability, combine to make the practical capacity and reach of our mental healthcare system too low to meet our high need. 
-  
-However, to my eye, our biggest problem is that many of these capacity limitations are "baked into the cake" of how we provide mental healthcare services.  It would be very hard to meaningfully address them to improve capacity within our current system without radically changing this system itself.    
 
 ## Disruptive Innovation in Mental Healthcare
 
 <!-- Consider image: Bank teller vs. ATM-->
 
-These are serious issues.  Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are delivered.
+Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are delivered.
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
@@ -116,19 +110,12 @@ Digital therapeutics use software programs to deliver evidence-based interventio
 
 The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies[^chess_center].  
 
-In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health and personal issues[^barn].  And soon afterwards, they developed and deployed the Comprehensive Health Enhancement Support System or CHESS, a suite of separate but related programs targeting specific chronic illnesses including breast cancer, HIV, and asthma[^chess_app].  A flagship program in this suite of digital therapeutics focused on recovery support for patients with substance use disorders. 
+In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health and personal issues[^barn].  
 
 [^chess_center]: https://center.chess.wisc.edu/home
 [^barn]: https://pubmed.ncbi.nlm.nih.gov/6443961/
-[^chess_app]: https://pubmed.ncbi.nlm.nih.gov/1482860/
 
----
-
-<!--Consider image that highlights laptop and internet, maybe with SUD focus?-->
-
-CHESS and other digital therapeutics slowly evolved with changes in technology across the 90s and the aughts.  The software moved from the desktop to laptop computers, and eventually to the Internet.  
-
-However, both the development and the potential impact of these digital therapeutics remained limited because computers were expensive, and many people didn't have access to them or to broadband Internet connections.
+Their system and other digital therapeutics slowly evolved  over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
 
 ---
 
@@ -136,6 +123,7 @@ However, both the development and the potential impact of these digital therapeu
 <!--Show only smartphone data from this plot; https://www.pewresearch.org/internet/fact-sheet/mobile/-->
 
 /smartphone_ownership.png
+
 
 ```
 <!--Smartphone Ownership by Key Demographics 
@@ -154,9 +142,9 @@ $50,000-$74,999	    85%
 $75,000+	        96%
 ```
 
-This changed with the advent and proliferation of the smartphone.  The Pew Research Center has documented a steady and rapid rise in smartphone ownership over the last 10 years[^pew].  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
+This changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
 
-Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it at least possible, given proper development and a strong commitment, to develop digital therapeutics on smartphones that reach those groups that experience the greatest mental health disparities.
+Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it possible to develop digital therapeutics on smartphones that reach those groups that experience the greatest mental health disparities.
 
 Not surprisingly given these advances in computing technology, we have now seen an explosion in research, development, and implementation of digital therapeutics for substance use disorders and other mental illness.  
 
@@ -167,14 +155,12 @@ Not surprisingly given these advances in computing technology, we have now seen 
 /va-dtx.png
 <!-- Draft image;  Need to consider which apps to highlight. Consider apps featured in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6087876/#!po=78.1250; apps are here: https://mobile.va.gov/appstore/all -->
 
-The Veterans Health Administration has been at the forefront of this implementation effort.  
+Our nation's largest integrated health care system, the Veterans Health Administration, has been at the forefront of this implementation effort.  
 
-The VA is the United States' largest integrated health care system, serving 9 million Veterans each year[^va] and its 2024 strategic objectives include a focus on the delivery of mental health services through digital therapeutics and related technologies[^va_plan].  
+The VA has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for mental illness.  
 
-As part of this effort, it has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for post-traumatic stress disorder, substance use disorders, and other mental illness.  These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone[^va_dtx].  
+These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone[^va_dtx].  
 
-[^va]: https://www.va.gov/health/
-[^va_plan]: https://www.va.gov/oei/docs/va2018-2024strategicplan.pdf
 [^va_dtx]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6087876/
 
 ---
@@ -207,28 +193,15 @@ These include:
 
 ---
 
-/ellie.jpg
-
-On the more leading or even bleeding edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
-
-For example, Ellie is a virtual interviewer developed by the Institute for Creative Technologies (ICT) at the University of Southern California.  "She" has been designed to gather information that can be used by human clinicians for diagnosis and treatment decisions.
-
----
-
 /woebot.png
 
-And Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
+On the more leading edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
+
+For example, Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
 
 ---
 
 By their very nature, digital therapeutics on smartphones can meaningfully address issues of access and availability as smartphone ownership continued to increase overall and in under-served groups.  These digital therapeutics can be accessible and available anywhere, 24/7.  
-
-<!--Could use some cites here-->
-Digital therapeutics are highly scalable and in many instances can provide interventions at substantially reduced costs compared to traditional mental healthcare[^costs]. This **could** address affordability issues for patients but the devil is in the details of who provides the digital therapeutics to patients and how are they paid for.  This will be important to track in the coming years as their use becomes more and more mainstream.
-
-[^costs]: https://pubmed.ncbi.nlm.nih.gov/33557599/
-
----
 
 The available evidence for the acceptability of digital therapeutics by patients is very encouraging.  
 
@@ -277,7 +250,7 @@ In another study, over 36,000 adult users who received digital CBT from Woebot r
 
 ---
 
-Of course, it would be meaningless if digital therapeutics were accessible, available, affordable and acceptability if there were not effective tools to help people with substance use disorders and other mental illness.
+Of course, it would be meaningless if digital therapeutics were accessible, available, and acceptable if there were not effective tools to help people with substance use disorders and other mental illness.
 
 The gold standard for evidence of treatment effectiveness is the randomized controlled trial or RCTs where patients are randomly assigned to receive the treatment in question vs. a control condition that does not include that treatment.
 
