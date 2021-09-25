@@ -11,7 +11,7 @@ Let me start with some sobering statements.  We have a mental healthcare crisis 
 
 I know this crisis well.  I watched my dad struggle with his use of alcohol for my entire life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
 
-My dad selflessly stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
+My dad heroically stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
 
 Even if he had had access to treatment, it likely wouldn’t have been acceptable to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
@@ -29,30 +29,36 @@ And mental illnesses are the leading cause of disease burden in the U.S.
 
 ---
 
-Despite these tragic statistics, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in the past year].  More than half!  
+<!--need to be clear about 2019 or any given year and highlight not covid specific-->
+Despite these tragic statistics, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in 2019.  More than half!  
 
-And for those suffering with a substance use disorder, 9 out of 10 people did not receive any treatment at all.
+And for those suffering with a substance use disorder in that same year, 9 out of 10 people did not receive any treatment at all.  
 
-These mental healthcare statistics are even worse for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
+And the COVID pandemic has only made these treatment statistics worse.
+
+---
+
+These mental healthcare statistics are even more concerning for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
 ---
 
-Access , acceptability, and availability - these are the factors that limit the capacity of our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
+**Access** , **acceptability**, and **availability** - these are the factors that limit the capacity of our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
 
 ---
 
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-My dad’s access to services was limited by their cost. But  consider the access to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.
+My dad’s access to services was limited by their cost. But consider the **access** to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.
 
 ---
 
 /stigma.jpg
+<!--consider this figure and buy-->
 
-Seeking out mental health treatment is unacceptable to many  of us because mental illness is still highly stigmatized in our society.  And for some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. 
+Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized.  And for some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. 
 
 ---
 
@@ -60,13 +66,13 @@ Seeking out mental health treatment is unacceptable to many  of us because menta
 <!--may update image to gray and red cartoon characters-->
 <!--need to buy copyright or remake image-->
 
-Mental healthcare services are often not available when we need them most.  For example, in metropolitan Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
+Mental healthcare services are often not **available** when we need them most.  For example, in metropolitan Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
 
 ---
 
 /calendar.png
 
-Furthermore, models for traditional mental healthcare still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse appointment schedules.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+Furthermore, models for traditional mental healthcare still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse, pre-schedules appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 
 ## Disruptive Innovation in Mental Healthcare
@@ -77,7 +83,7 @@ Fortunately, I believe we are now poised to experience disruptive innovation in 
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
-As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, we have 24/7 access to cash through ATMs that can be found almost everywhere.
+As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, ATMs can be found almost everywhere and they provide us with 24/7 access to our cash money. 
 
 In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  They will make these services more accessible, highly available, and for some, even more acceptable.  
 
@@ -86,7 +92,6 @@ In a similar fashion, digital therapeutics, and in particular, digital therapeut
 So what are digital therapeutics?  
 
 Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  
-
 
 ---
 
@@ -123,13 +128,11 @@ $50,000-$74,999	    85%
 $75,000+	        96%
 ```
 
-This changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
+This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
 
 Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it possible to develop digital therapeutics on smartphones that reach those groups that experience the greatest mental health disparities.
 
-Not surprisingly given these advances in computing technology, we have now seen an explosion in research, development, and implementation of digital therapeutics for substance use disorders and other mental illness.  
-
-
+Not surprisingly given these advances in smartphone technology, we have now seen an explosion in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
 
 ---
 
@@ -158,7 +161,7 @@ And as yet another example, Lisa Marsch and the Dartmouth Center for Technology 
 
 <!-- Develop image of a few of these apps with their icons for tools & services-->
 
-More generally, there are a handful of key features and supports provided by many digital therapeutics today in the mental health domain.
+More generally, there are a handful of key interventions, tools, and services provided by many digital therapeutics today in the mental health domain.
 
 These include:
 
@@ -176,21 +179,35 @@ These include:
 
 On the more leading edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
 
-For example, Woebot is a chatbot designed by Stanford-trained researchers and psychologists that uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support with cognitive distortions, thought reframing, emotional awareness needs for people struggling with depression and anxiety.  
+For example, Woebot is a chatbot designed by Stanford-trained researchers and psychologists.  Woebot uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support.  
 
 ---
 
-By their very nature, digital therapeutics on smartphones can meaningfully address issues of access and availability as smartphone ownership continued to increase overall and in under-served groups.  These digital therapeutics can be accessible and available anywhere, 24/7.  
+<!-- juxtapose atm image with dtx-->
 
-The available evidence for the acceptability of digital therapeutics by patients is very encouraging.  
-
-For example, there were over 150,000 downloads of the VAs PTSD coach in the first three years after its release in 2011 and over 60% of its users engaged with it on multiple occasions.  And this was in the early days of smartphones. Its use has only increased since then.
-
-A recent review of the suite of VA digital therapeutics concluded there is strong evidence of their feasibility and acceptability among veterans.  
+By their very nature, digital therapeutics on smartphones can meaningfully address issues of access and availability as smartphone ownership continues to increase overall and in vulnerable groups.  These digital therapeutics can be accessible and available, anywhere, 24/7.  
 
 ---
 
-Beyond their overall acceptability, there is emerging evidence that digital therapeutics might begin to address limitations resulting from stigma or related barriers to disclose or engage with mental health services.
+Equally important, the emerging evidence for their acceptability by patients is very encouraging.  
+
+For example, the VAs PTSD coach, a single app in their suite of 20, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
+
+---
+
+/woebot.png
+
+Beyond just interest, when chatbots or other virtual agents are included, patients may form real connections.  
+
+---
+
+In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they often felt  
+
+* Woebot likes me.
+* Woebot and I respect each other.
+* Woebot appreciates me.
+* Woebot cares about me even when I do things that they do not approve of.
+
 
 In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. 
 
@@ -199,17 +216,6 @@ In his early work, Dave Gustafson and colleagues developed an interactive progra
 /ellie.jpg
 
 More recently, researchers had participants interact with Ellie, the virtual interviewer I described earlier, in the context of health-screening interviews.  The participants were led to believe that Ellie was controlled by either a human or automation and when the believed they were interacting with a computer, they reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose. 
-
----
-
-/woebot.png
-
-In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they *fairly often* or *very often* felt  
-
-* Woebot likes me.
-* Woebot and I respect each other.
-* Woebot appreciates me.
-* Woebot cares about me even when I do things that they do not approve of.
 
 ---
 
