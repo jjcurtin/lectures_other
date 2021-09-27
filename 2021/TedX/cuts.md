@@ -20,3 +20,8 @@ Aid early diagnosis (efficient/massive diagnosis)
 Improve effectiveness (could improve interventions by adapting to the person and moment in time)
 
 I also want to emphasize that I am not talking about replacing human therapists.    These are primarily new tools that clinicians can use to supplement or augment the mental health services that they are providing.
+
+
+<!--Let me start with some sobering statements.  We have a mental healthcare crisis in the United States.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.-->
+
+<!--We all know this story because its the story of our family members, our friends, for some of us, ourselves.-->

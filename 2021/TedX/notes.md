@@ -8,7 +8,14 @@ waitlist images found with search on "long lines"
 Encyclopedia Britannica
 https://www.shutterstock.com/search/encyclopedia+britannica
 
+Alone in a crowd
+https://www.istockphoto.com/photo/alone-in-a-crowd-gm157282180-581875
 
+Lonely guy
+https://www.istockphoto.com/photo/upset-male-outcast-feel-lonely-sitting-alone-in-cafe-gm1054920620-281859103
+
+Lonely woman
+https://www.istockphoto.com/photo/upset-mixed-race-woman-suffering-from-bullying-sitting-alone-in-cafe-gm1152767837-312863303
 
 # Other Useful Sources
 https://www.hopkinsmedicine.org/health/wellness-and-prevention/mental-health-disorder-statistics

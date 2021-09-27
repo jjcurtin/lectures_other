@@ -5,46 +5,45 @@
 
 ## Our Mental Healthcare
 
-Let me start with some sobering statements.  We have a mental healthcare crisis in the United States.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.
+My dad is a good man. But he has struggled with his use of alcohol for his entire adult life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
+
+After my mom experienced a seriously debilitating traumatic brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
+
+Even if he had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
+
+And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
+
+My dad suffered and he suffered without support from our mental healthcare system.
 
 ---
 
-I know this crisis well.  I watched my dad struggle with his use of alcohol for my entire life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
+We have a mental health crisis in the U.S., and it’s a crisis of high need.  
 
-My dad heroically stayed home for 25 years rather than work so that he could care for my mom after she experienced a seriously debilitating traumatic brain injury from a car accident.  Without health insurance through a job, his access to mental healthcare was limited by its high cost.  
-
-Even if he had had access to treatment, it likely wouldn’t have been acceptable to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
-
-And had he received treatment, that treatment may not have been available to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's car accident.
-
----
-
-We all know this story because its the story of our family members, our friends, for some of us, ourselves.
-
-More than one in five adults in the U.S. suffer from some form of mental illness including substance use disorders. 
+More than one in five adults suffer from some form of mental illness including substance use disorders. 
 
 Almost 100,000 people have died from opioid, methamphetamine, and other drug overdoses in the past 12 months alone.
 
-And mental illnesses are the leading cause of disease burden in the U.S.
+And mental illnesses are the leading cause of years of healthy life lost in the U.S.
 
 ---
 
-<!--need to be clear about 2019 or any given year and highlight not covid specific-->
-Despite these tragic statistics, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment in 2019.  More than half!  
+But we don’t only have a crisis of high need, we have a crisis of **unmet** high need because our delivery of mental healthcare services is deeply flawed.
+
+In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment.  **More** **than** **half**!  
 
 And for those suffering with a substance use disorder in that same year, 9 out of 10 people did not receive any treatment at all.  
 
-And the COVID pandemic has only made these treatment statistics worse.
+And the COVID pandemic has only made these statistics worse.
 
 ---
 
-These mental healthcare statistics are even more concerning for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
+Our failure to treat is even more troubling for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
 ---
 
-**Access** , **acceptability**, and **availability** - these are the factors that limit the capacity of our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
+**Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
 
 ---
 
@@ -52,6 +51,8 @@ And similar mental healthcare disparities exist for people living in rural areas
 <!--edit figure title-->
 
 My dad’s access to services was limited by their cost. But consider the **access** to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.
+
+<!--more than 90% of all psychologists and psychiatrists and 80% of MSWs work exclusively in metropolitan areas-->
 
 ---
 
@@ -72,10 +73,9 @@ Mental healthcare services are often not **available** when we need them most.  
 
 /calendar.png
 
-Furthermore, models for traditional mental healthcare still often revolve around weekly, monthly, or even less frequent appointments.  But, of course, our mental health needs aren't limited this these sparse, pre-schedules appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+Furthermore, the delivery of mental healthcare services still often involves weekly, monthly, or even less frequent appointments with a therapist.  But, of course, our mental health needs aren't limited this these sparse, pre-schedules appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
-
-## Disruptive Innovation in Mental Healthcare
+## Digital Therapeutics
 
 <!-- Consider image: Bank teller vs. ATM-->
 
@@ -83,11 +83,11 @@ Fortunately, I believe we are now poised to experience disruptive innovation in 
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
-As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, ATMs can be found almost everywhere and they provide us with 24/7 access to our cash money. 
+As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, ATMs can be found almost everywhere and they provide us with 24/7 access to our cash. 
 
 In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  They will make these services more accessible, highly available, and for some, even more acceptable.  
 
-## Digital Therapeutics
+---
 
 So what are digital therapeutics?  
 
