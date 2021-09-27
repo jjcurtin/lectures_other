@@ -17,6 +17,7 @@ https://www.istockphoto.com/photo/upset-male-outcast-feel-lonely-sitting-alone-i
 Lonely woman
 https://www.istockphoto.com/photo/upset-mixed-race-woman-suffering-from-bullying-sitting-alone-in-cafe-gm1152767837-312863303
 
+Also check https://pxhere.com/ for CC0 images
 # Other Useful Sources
 https://www.hopkinsmedicine.org/health/wellness-and-prevention/mental-health-disorder-statistics
 

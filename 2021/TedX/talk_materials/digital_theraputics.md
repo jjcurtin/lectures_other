@@ -17,7 +17,7 @@ My dad suffered and he suffered without support from our mental healthcare syste
 
 ---
 
-We have a mental health crisis in the U.S., and it’s a crisis of high need.  
+We have a mental health crisis in the U.S., and it’s a crisis of **high need**.  
 
 More than one in five adults suffer from some form of mental illness including substance use disorders. 
 
@@ -27,9 +27,9 @@ And mental illnesses are the leading cause of years of healthy life lost in the 
 
 ---
 
-But we don’t only have a crisis of high need, we have a crisis of **unmet** high need because our delivery of mental healthcare services is deeply flawed.
+But we don’t only have a crisis of high need, we have a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
 
-In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment.  **More** **than** **half**!  
+In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment.  **More than half**!  
 
 And for those suffering with a substance use disorder in that same year, 9 out of 10 people did not receive any treatment at all.  
 
@@ -48,13 +48,12 @@ And similar mental healthcare disparities exist for people living in rural areas
 /psychologist_heatmap.png
 <!--edit figure title-->
 
-My dad’s access to services was limited by their cost. But consider the **access** to mental health services for the farmer in rural Kansas, when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.
+My dad’s access to services was limited by their cost. But consider the **access** to mental health services for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.
 
-<!--more than 90% of all psychologists and psychiatrists and 80% of MSWs work exclusively in metropolitan areas-->
-
+<!--when 61% of rural counties lack a psychologist, 80% do not have even a single psychiatrist; and 91% lack a psychiatric NP.-->
 ---
 
-/stigma.jpg
+/stigma_1.png
 <!--consider this figure and buy-->
 
 Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized.  And for some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. 
@@ -71,19 +70,19 @@ Mental healthcare services are often not **available** when we need them most.  
 
 /calendar.png
 
-Furthermore, the delivery of mental healthcare services still often involves weekly, monthly, or even less frequent appointments with a therapist.  But, of course, our mental health needs aren't limited this these sparse, pre-schedules appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+And the delivery of mental healthcare still often involves weekly, monthly, or even less frequent appointments with a therapist.  But, of course, our mental health needs aren't limited this these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 ## Digital Therapeutics
 
 <!-- Consider image: Bank teller vs. ATM-->
 
-Fortunately, I believe we are now poised to experience disruptive innovation in the mental health services that we provide and the methods by which they are delivered.
+Fortunately, we are now poised to experience disruptive innovation in the mental healthcare services that we provide and the methods by which they are delivered.
 
 I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
  
 As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, ATMs can be found almost everywhere and they provide us with 24/7 access to our cash. 
 
-In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental health services.  They will make these services more accessible, highly available, and for some, even more acceptable.  
+In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental healthcare.  They will make it more accessible, highly available, and for some, even more acceptable.  
 
 ---
 
@@ -110,7 +109,7 @@ Their system and other digital therapeutics slowly evolved  over the years with 
 
 
 ```
-<!--Smartphone Ownership by Key Demographics 
+Smartphone Ownership by Key Demographics 
 
 White	            85%
 Black	            83%
@@ -126,11 +125,13 @@ $50,000-$74,999	    85%
 $75,000+	        96%
 ```
 
-This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now carry these pocket-sized, powerful, Internet-connected computers with them everywhere they go. This positioned digital therapeutics delivered on smartphones to be both highly accessible and available 24 hours a day, 7 days a week.
+This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now own smartphones and  smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  
 
-Equally important, smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  This makes it possible to develop digital therapeutics on smartphones that reach those groups that experience the greatest mental health disparities.
+Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go. They rarely leave our side no matter what we are doing!
 
-Not surprisingly given these advances in smartphone technology, we have now seen an explosion in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
+<!-- Maybe pull out my smartphone from my pocket?-->
+
+Not surprisingly, these technological advances and our widespread use of the smartphone have powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
 
 ---
 
@@ -145,19 +146,17 @@ These digital therapeutics are targeted at veterans but the VA makes them freely
 
 ---
 
-There has also been substantial development outside of the VA on digital therapeutics for substance use disorders.  
 
-The CHESS digital therapeutic developed by Dave Gustafson that I highlighted earlier remains available and has been used by at least 60 treatment centers nationwide. 
+There has also been substantial progress outside of the VA on digital therapeutics.
 
-A team of researchers and clinicians at Yale University led by Kathleen Carroll developed CBT4CBT, a digital therapeutic that teaches cognitive and behavioral skills that can help people gain control over their use of alcohol or other drugs. 
-
-<!-- “CBT4CBT can extend the clinician’s reach and improve outcomes by replacing or supplementing clinician-delivered therapy. CBT4CBT is a user, friendly, engaging, broadly accessible, cost-effective means of providing access to empirically validated cognitive behavioral therapy.” -->
-
-And as yet another example, Lisa Marsch and the Dartmouth Center for Technology and Behavioral Health developed the Therapeutic Education System or TES.  TES focuses on cognitive behavioral skills training such as effective strategies for refusing drugs and managing thoughts about drug use.  It also includes tools for self-management and planning.
+For example, there are now three highly respected digital therapeutics available for substance use disorders.  One is the product of 30 years of continued research and development by Dave Gustafson at the University of Wisconsin and the other two have been developed by digital health research centers at Yale and Dartmouth.  
 
 ---
 
-<!-- Develop image of a few of these apps with their icons for tools & services-->
+
+<!-- Need to improve this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
+
+<!-- Also  need an engaging image to make the transition-->
 
 More generally, there are a handful of key interventions, tools, and services provided by many digital therapeutics today in the mental health domain.
 
@@ -175,37 +174,45 @@ These include:
 
 /woebot.png
 
+<!-- Need to simplify the language here-->
+
 On the more leading edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
 
 For example, Woebot is a chatbot designed by Stanford-trained researchers and psychologists.  Woebot uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support.  
 
 ---
 
-<!-- juxtapose atm image with dtx-->
+<!-- juxtapose ATM image with dtx-->
 
-By their very nature, digital therapeutics on smartphones can meaningfully address issues of access and availability as smartphone ownership continues to increase overall and in vulnerable groups.  These digital therapeutics can be accessible and available, anywhere, 24/7.  
+By their very nature, digital therapeutics on smartphones can meaningfully address issues of mental healthcare access and availability.  And this will continue to improve as smartphone ownership increases further.   
 
----
+These digital therapeutics can be accessible and available, everywhere you go, 24/7.  
 
-Equally important, the emerging evidence for their acceptability by patients is very encouraging.  
-
-For example, the VAs PTSD coach, a single app in their suite of 20, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
+They also have unrivaled potential to scale up the capacity of our mental healthcare system because many of their supports don't rely a scarce resource, our therapists.
 
 ---
 
+Equally important, many patients appear to find them acceptable.
+
+For example, the VAs digital therapeutic for post-traumatic stress disorder, a single app in their suite of 20 digital therapeutics, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
+
+---
+
+<!--Need a better, new image for the bond with woebot-->
 /woebot.png
 
-Beyond just interest, when chatbots or other virtual agents are included, patients may form real connections.  
+In fact, they may be more than just acceptable.  When chatbots or other virtual agents are included, patients may form real connections.  
 
----
 
-In another study, over 36,000 adult users who received digital CBT from Woebot reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they often felt  
+In a recent study, over 36,000 adults who received digital cognitive behavioral therapy from Woebot described their therapeutic bond with the chatbot in terms typically seen only for human therapists.  They frequently agreed with statements like The  reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they often felt  
 
 * Woebot likes me.
 * Woebot and I respect each other.
 * Woebot appreciates me.
 * Woebot cares about me even when I do things that they do not approve of.
 
+
+The ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the potential of digital therapeutics like never before
 
 In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. 
 
