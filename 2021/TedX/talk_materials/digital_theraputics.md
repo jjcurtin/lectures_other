@@ -5,6 +5,8 @@
 
 ## The Mental Healthcare Crisis
 
+<!--Image of my dad?-->
+
 My dad is a good man. But he has struggled with his use of alcohol for his entire adult life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
 
 After my mom experienced a debilitating traumatic brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
@@ -13,14 +15,19 @@ Even if he had had access to treatment, it likely wouldn’t have been **accepta
 
 And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
 
-My dad suffered and he suffered without support from our mental healthcare system.
+My dad suffered and he suffered without support from our mental healthcare system. 
+
+<!--in large part, I do this work because of him-->
 
 ---
+
+<!--image of country with 52 million people?-->
 
 We have a mental health crisis in the U.S., and it’s a crisis of **high need**.  
 
 More than one in five adults suffer from some form of mental illness including substance use disorders. 
 
+<!--image of city with population of 100,000;  Or a personal connection?-->
 Almost 100,000 people have died from drug overdoses in the past 12 months alone.
 
 And mental illnesses are the leading cause of years of healthy life lost in the U.S.
@@ -56,7 +63,7 @@ My dad’s access to services was limited by their cost. But consider the **acce
 /stigma_1.png
 <!--consider this figure and buy-->
 
-Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized.  And for some, the need to talk about the most intimate and personal details of their life with someone else poses a barrier to seeking support. 
+Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and sharing our most intimate thoughts and feelings with a therapist is hard.  
 
 ---
 
@@ -254,6 +261,8 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 ---
 
+<!-- "John, I'm still in your pocket and your watch and I have been noticing your heart rate.  We think I should lead you through some guided meditation to relax after you get off the stage...."-->
+
 /smartphone.png
 
 Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that smartphones collect about us.
@@ -411,7 +420,7 @@ But if we succeed, smart digital therapeutics will become important tools to red
 
 <!--Need more powerful end!-->
 
-
+<!--Too late for my dad.  I hope we do better for my son and daughter.  Images?-->
 
 
 
