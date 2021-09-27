@@ -3,11 +3,11 @@
 # Smart Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
 
 
-## Our Mental Healthcare
+## The Mental Healthcare Crisis
 
 My dad is a good man. But he has struggled with his use of alcohol for his entire adult life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
 
-After my mom experienced a seriously debilitating traumatic brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
+After my mom experienced a debilitating traumatic brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
 
 Even if he had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
@@ -21,7 +21,7 @@ We have a mental health crisis in the U.S., and it’s a crisis of high need.
 
 More than one in five adults suffer from some form of mental illness including substance use disorders. 
 
-Almost 100,000 people have died from opioid, methamphetamine, and other drug overdoses in the past 12 months alone.
+Almost 100,000 people have died from drug overdoses in the past 12 months alone.
 
 And mental illnesses are the leading cause of years of healthy life lost in the U.S.
 
@@ -32,8 +32,6 @@ But we don’t only have a crisis of high need, we have a crisis of **unmet** hi
 In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment.  **More** **than** **half**!  
 
 And for those suffering with a substance use disorder in that same year, 9 out of 10 people did not receive any treatment at all.  
-
-And the COVID pandemic has only made these statistics worse.
 
 ---
 
@@ -67,7 +65,7 @@ Seeking out mental health treatment is **unacceptable** to many of us because me
 <!--may update image to gray and red cartoon characters-->
 <!--need to buy copyright or remake image-->
 
-Mental healthcare services are often not **available** when we need them most.  For example, in metropolitan Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
+Mental healthcare services are often not **available** when we need them most.  For example, in Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
 
 ---
 
