@@ -1,5 +1,13 @@
 # Images
 
+## Stock Photo Sites
+https://www.istockphoto.com/
+https://stock.adobe.com/
+https://www.shutterstock.com
+
+
+## Specific Images
+
 iStock - https://www.istockphoto.com/
 
 waitlist images found with search on "long lines"
@@ -16,6 +24,8 @@ https://www.istockphoto.com/photo/upset-male-outcast-feel-lonely-sitting-alone-i
 
 Lonely woman
 https://www.istockphoto.com/photo/upset-mixed-race-woman-suffering-from-bullying-sitting-alone-in-cafe-gm1152767837-312863303
+
+https://www.shutterstock.com/image-photo/diverse-multiethnic-friends-sitting-together-cafe-1225131265
 
 Also check https://pxhere.com/ for CC0 images
 # Other Useful Sources

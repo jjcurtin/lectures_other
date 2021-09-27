@@ -88,15 +88,16 @@ In a similar fashion, digital therapeutics, and in particular, digital therapeut
 
 So what are digital therapeutics?  
 
-Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage,or treat a medical disorder or disease. They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.  
+Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage, or treat a medical disorder or disease. 
+<!--They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.-->
 
 ---
 
 /barn.png
 
-The term, digital therapeutic, is new but this approach to providing healthcare services is not.  In fact, much of this early work was pioneered here in Wisconsin, by my colleague David Gustafson at the University of Wisconsin's Center for Health Enhancement Systems Studies.  
+The term, digital therapeutic, is new but this approach to providing healthcare is not.  In fact, much of the early work was pioneered here in Wisconsin, by my colleague David Gustafson, at the University of Wisconsin's Center for Health Enhancement Systems Studies.  
 
-In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health and personal issues.  
+In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health, and personal issues.  
 
 Their system and other digital therapeutics slowly evolved  over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
 
@@ -125,13 +126,13 @@ $50,000-$74,999	    85%
 $75,000+	        96%
 ```
 
-This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now own smartphones and  smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  
+This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now own smartphones and smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  
 
 Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go. They rarely leave our side no matter what we are doing!
 
 <!-- Maybe pull out my smartphone from my pocket?-->
 
-Not surprisingly, these technological advances and our widespread use of the smartphone have powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
+Not surprisingly, these technological advances and our widespread use of smartphones have powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
 
 ---
 
@@ -146,13 +147,13 @@ These digital therapeutics are targeted at veterans but the VA makes them freely
 
 ---
 
+<!--What image?-->
 
 There has also been substantial progress outside of the VA on digital therapeutics.
 
-For example, there are now three highly respected digital therapeutics available for substance use disorders.  One is the product of 30 years of continued research and development by Dave Gustafson at the University of Wisconsin and the other two have been developed by digital health research centers at Yale and Dartmouth.  
+For example, there are now three validated digital therapeutics available for substance use disorders.  One is the product of 30 years of continued research and development by Dave Gustafson at the University of Wisconsin and the other two have been developed by digital health research centers at Yale and Dartmouth.  
 
 ---
-
 
 <!-- Need to improve this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
 
@@ -176,7 +177,7 @@ These include:
 
 <!-- Need to simplify the language here-->
 
-On the more leading edge, there has been recent rapid developments of virtual relational agents that use artificial intelligence based natural language processing to communicate more naturally while providing support for mental illnesses.
+On the more leading edge, there has been recent rapid developments of virtual relational agents that use natural language processing to communicate more naturally while providing support for mental illnesses.
 
 For example, Woebot is a chatbot designed by Stanford-trained researchers and psychologists.  Woebot uses brief, text-based conversations and tools based on CBT and related interventions to provide psycho-education and guided support.  
 
@@ -184,15 +185,11 @@ For example, Woebot is a chatbot designed by Stanford-trained researchers and ps
 
 <!-- juxtapose ATM image with dtx-->
 
-By their very nature, digital therapeutics on smartphones can meaningfully address issues of mental healthcare access and availability.  And this will continue to improve as smartphone ownership increases further.   
-
-These digital therapeutics can be accessible and available, everywhere you go, 24/7.  
-
-They also have unrivaled potential to scale up the capacity of our mental healthcare system because many of their supports don't rely a scarce resource, our therapists.
+By their very nature, all of these digital therapeutics on smartphones can be accessible and available, everywhere you go, 24/7.  And this will continue to improve as smartphone ownership continues to increase.   
 
 ---
 
-Equally important, many patients appear to find them acceptable.
+Equally important, many patients appear to find digital therapeutics acceptable.
 
 For example, the VAs digital therapeutic for post-traumatic stress disorder, a single app in their suite of 20 digital therapeutics, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
 
@@ -201,62 +198,44 @@ For example, the VAs digital therapeutic for post-traumatic stress disorder, a s
 <!--Need a better, new image for the bond with woebot-->
 /woebot.png
 
-In fact, they may be more than just acceptable.  When chatbots or other virtual agents are included, patients may form real connections.  
+In fact, digital therapeutics may be more than just acceptable.  When chatbots or other virtual agents are included, patients may form real connections with them.  
 
-
-In a recent study, over 36,000 adults who received digital cognitive behavioral therapy from Woebot described their therapeutic bond with the chatbot in terms typically seen only for human therapists.  They frequently agreed with statements like The  reported on the quality of their therapeutic bond with the chatbot using a standard self-report measure called the Working Alliance Inventory.  Within 5 days of initial use, their working alliance overall score and their mean bond score were comparable to scores typically seen in research on traditional, outpatient, individual CBT and group CBT.  This meant that participants reported that they often felt  
+In a recent study, over 36,000 adults who received digital cognitive behavioral therapy from Woebot described their therapeutic bond in terms typically reserved only for human therapists.  Patients frequently endorsed statements like:
 
 * Woebot likes me.
 * Woebot and I respect each other.
 * Woebot appreciates me.
 * Woebot cares about me even when I do things that they do not approve of.
 
-
-The ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the potential of digital therapeutics like never before
-
-In his early work, Dave Gustafson and colleagues developed an interactive program to interview severely depressed people to predict their risk of suicide. They discovered that patients in deep personal distress preferred to "talk" openly to a computer over a person. 
-
 ---
 
-/ellie.jpg
+Other research has observed that patients self-disclose more, display their sadness more,  and do less impression management when interacting with virtual agents rather than human therapists.
 
-More recently, researchers had participants interact with Ellie, the virtual interviewer I described earlier, in the context of health-screening interviews.  The participants were led to believe that Ellie was controlled by either a human or automation and when the believed they were interacting with a computer, they reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose. 
-
----
-
-<!--Need a concluding sentence or two about this that also transitions to effectiveness-->
+Alison Darcy, the developer of Woebot, has noted that this ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the  vast potential of digital therapeutics
 
 ---
 
 Of course, it would be meaningless if digital therapeutics were accessible, available, and acceptable if there were not effective tools to help people with substance use disorders and other mental illness.
 
-The gold standard for evidence of treatment effectiveness is the randomized controlled trial or RCTs where patients are randomly assigned to receive the treatment in question vs. a control condition that does not include that treatment.
+And the available evidence today suggests that many do provide meaningful support.  
 
-These RCTs are now being conducted for many digital therapeutics.
+For example, after being discharged from residential care, patients with alcohol use disorder using Dave Gustafson's digital therapeutic reported less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher than patients receiving traditional treatment only.
 
----
-
-The VA's PTSD Coach use resulted in significantly greater improvements in symptoms of PTSD and depression as well as overall psychosocial functioning relative to a waitlist control condition]
+And these improvements were durable - they were maintained twelve months after leaving residential care.  
 
 ---
 
-To evaluate Dave Gustafson's CHESS digital therapeutic, patients receiving residential care for alcohol use disorder were randomized to treatment as usual or that same treatment + CHESS.   Twelve months later, patients using CHESS had less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher.
+<!--Image of single patient vs. millions of patients-->
 
-
-An RCT for the therapeutic education system documented comparable benefits when added to 12 weeks of outpatient treatment for substance use disorders.  Patients using TES had 60% higher odds of abstinence at end of treatment.  They were also dropped out of outpatient treatment at lower rates than did patients not using TES.    .   
-
-
-<!--Could review similar evidence for CBT4CBT but not for TedX--  https://cbt4cbt.com/evidence/> -->
-
----
-
-<!--Need a concluding sentence or two about effectiveness-->
+These magnitude of these benefits are meaningful already, even when we only think about a single patient.  But their true power is in their scale, when these digital therapeutics are provided to millions in need.
 
 ---
  
 ## Smarter Digital Therapeutics with Personal Sensing
 
-The potential of digital therapeutics arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
+<!-- Image representing challenge of choosing what to do-->
+
+Much of potential of digital therapeutics arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
 
 But this is also their challenge.  As the patient you now have to tackle difficult questions like:
 
@@ -277,7 +256,7 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 /smartphone.png
 
-Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that  smartphones collect about us.
+Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that smartphones collect about us.
 
 Smartphones log our personal communications by phone calls and text messages. Facebook posts, Instagram photos, tweets, and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
@@ -401,7 +380,6 @@ Fortunately, the FDA has begun to recognize the need for regulation and to clari
 lifestyle.  However, they do plan to provide regulatory oversight for the narrower class of digital therapeutics that are used to diagnose, treat or manage disease including mental illness.  In fact, in 2018 the FDA cleared the first digital therapeutic for substance use disorders based in part on evidence of its effectiveness.  
 
 This is an important first step but FDA oversight is not sufficient because patients always be aware of their guidance or the subtle distinctions between a digital health app and a digital therapeutic.
-
 
 ---
 
