@@ -250,7 +250,7 @@ But this is also their challenge.  As the patient you now have to tackle difficu
 
 * When should I use them?
 * For how long?
-* Which of these various supports are right for me?
+* Which of their various supports are right for me?
 * And which are right for me **now**, at this moment in time?
 
 This is why the next wave of digital therapeutics must get smarter to realize their full potential.  And they will do this through the use of artificial intelligence powered personal sensing.
@@ -268,7 +268,7 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 /smartphone.png
 
-Much like digital therapeutics themselves, personal sensing has been supercharged by the proliferation of smartphones and the raw data that smartphones collect about us.
+Much like digital therapeutics themselves, personal sensing has been supercharged by smartphones and the raw data that smartphones collect about us through their many sensors and logs
 
 Smartphones log our personal communications by phone calls and text messages. Facebook posts, Instagram photos, tweets, and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
@@ -278,12 +278,10 @@ Personal sensing involves capturing all these raw data streams, deriving predict
 
 My research team is one of a handful who have been funded by the National Institutes of Health to develop the foundation for personal sensing within digital therapeutics to help patients with substance use disorders.
 
-We have two active grants from the NIH that focus on patients in recovery from alcohol use disorder and opioid use disorder, respectively.
-
 We started this research when Dave Gustafson approached my team with a simple question. He asked...  
 
 > "Could you predict not only who might be at greatest risk for relapse
-> but critically, precisely WHEN that relapse might occur."
+> but critically, precisely WHEN that relapse might occur."  
 
 If done well, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
 
@@ -293,13 +291,13 @@ Not least among these is the possibility to deliver interventions "just-in-time"
 
 /gps_1.png
 
-Let me highlight two particularly exciting data streams we are studying to help you develop an intuition for how this works.  
+And I can help you develop a solid intuition for how this works by looking a bit more closely at two of the more revealing personal sensing methods we are developing.  
 
-First, personal sensing of people's moment by moment location using smartphone location services offers a potentially clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  
+First, sensing people's moment by moment location using their smartphone can provide a clear window into their daily lives, their day-to-day activities, and their overall health, both physical and mental.  
 
-Behind me is a wide view of my own movement patterns over a two-month period when we were first developing this personal sensing method.  You can see the paths that I traveled, colored by how I was traveling, with travel by car in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
+Behind me is a wide view of my movement patterns detected by my smartphone over a two-month period when we were first developing this personal sensing method.  You can see the paths that I traveled, with travel by car in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the day and exact time that I was at each location.  
 
-You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to the west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
+You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to the west and northwest.  Running makes an important contribution to both my physical and mental health. You could learn these patterns and also detect if events in my life disrupted these patterns.
 
 ---
 
@@ -309,7 +307,9 @@ Zooming in to the Madison isthmus, you can immediately see dense clusters of red
 
 You can see my daily running commute to and from my office.  From this, you can observe the long days, and short days, at the office.   
 
-If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  These are already very rich data.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
+If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
+
+
 
 <!--Can still tune these examples above-->
 <!-- time in hospital-->   <!--time away from work and running-->  <!--COVID image?-->
@@ -325,11 +325,9 @@ But imagine what you could learn about me if you knew the patterns of my communi
 
 ---
 
-These raw location and communications data that we sense directly from the smartphone are powerful signals for prediction right out of the box.  But we can make them more powerful still by anchoring them within a longitudinal context. 
+These raw location and communications data that we sense directly from the smartphone are powerful signals for prediction right out of the box. But personal sensing draws additional power from repeated measurements of the same person over days, weeks, months, and even years.  It is the change in our patterns that are often most meaningful.  We stop going to work briefly for a vacation or we stop for a longer period when we lose our job. We stop or restart going to AA meetings or to our therapist.  
 
-Personal sensing draws some of its power from repeated measurements of the same person over days, weeks, months, and even years.  It is the change in our patterns that are often most meaningful.  We stop going to work briefly for a vacation or we stop for a longer period when we lose our job. 
-
-Or we start or re-start late night calls and text messages after a period of successful recovery when we had established more healthy behaviors and lifestyle. 
+Or we start late night calls and text messages after a period of successful recovery when we had established more healthy behaviors and lifestyle. 
 
 <!--consider better examples-->
 
@@ -337,33 +335,35 @@ Or we start or re-start late night calls and text messages after a period of suc
 
 <!--Slide: Text message with "Mom" vs. "Joe Party-Party".  "I'm really stressed and I am want to use....   Can you help me?   Yes, I am home right now.  Come over as soon as you can"-->
 
-We can engineer even more sensitive predictive features from these data by wrapping them in an intra-personal subjective context.  In other words, what do these people and places mean to us?
+We can engineer even more sensitive predictive features from these data by discovering what these people and places mean to us.
 
 For example, this very same text message thread behind me may indicate quite different risk for relapse when sent to your mother, who supports your recovery, vs. a friend who still regularly engages in drug use themselves <!-- or "...who wants you back at their parties" if that seems more acceptable info to gather without unpacking-->.  
 
-We have demonstrated that we can gather this context quickly and with little burden to the patient by pushing out a few key questions to their smartphone about their frequent contacts and places over the first couple of months of their use of the digital therapeutic. It turns out that we are all creatures of habit, and we only have a small number of people we talk to regularly and places we visit.  
+We can gather this information quickly and with little burden to the patient by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the digital therapeutic. It turns out that we are all creatures of habit, and we only have a small number of important people and places in our lives.
 
-For people, we can ask if they support the patient's recovery. For places, we can assess its subjective risk to their recovery, and their typical activities at that location.   For both people and places, we can ask if their associated experiences are generally pleasant or unpleasant.  
+We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery or undermine it. Armed with this information, we can gain more precise insights into your patterns of movements and social communications. Are they healthy or unhealthy, rewarding and rich, or stressful or isolating.  And how have these patterns changed, for better or for worse, over recent days, weeks, and months.  
 
+<!--need pronouns and consistent focus on target we are sensing-->
 ---
 
 <!-- Maybe a map with clear indications of my house, my office, and a few key public bars and health care facilities??  -->
 
-We can further flesh out the context for places using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
+We can further flesh out the meaning for specific places passively using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
 
 ---
 
-Our preliminary analyses have already demonstrated that we can use predictive features derived from contextualized personal sensing to determine the probability of a future lapse within the next 24 hours with high accuracy.  We are now working actively to increase the temporal precision of these predictions from the day to the exact hour when the lapse starts and from tomorrow to next week.
+Our preliminary analyses have already demonstrated that we can use predictive features derived from this enriched personal sensing to determine the probability of a future lapse within the next 24 hours with high accuracy.  We are now working actively to increase the temporal precision of these predictions from the day to the exact hour when the lapse starts and from tomorrow to next week.
 
-If patients knew their future risk, they could plan accordingly.  They could increase their use of their digital therapeutic or step up their traditional clinical care when their risk of relapse was high or increasing.  
+If patients knew their future risk, they could plan accordingly.  They could increase their use of their digital therapeutic or step up their traditional mental healthcare when their risk of relapse was high or increasing.  
 
 Patients could also opt in to share their risk with their healthcare providers though their digital therapuetic's clinician dashboard.  This would allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
 
 ---
 
-Once we can predict relapse risk using personal sensing, we can also begin to ask and even more important question.
+Once we can predict relapse risk using personal sensing, we can also begin to ask an even more important question.
 
-What interventions or other supports are optimal for a specific patient at a specific moment in time to reduce their risk.  
+> What interventions or other supports are optimal for a specific
+> patient at a specific moment in time to reduce their risk?
 
 For example, if recent poor sleep is contributing to their risk, interventions to improve sleep hygiene or reduce stress could be delivered.  
 
@@ -392,7 +392,7 @@ Currently, the world of digital health more broadly is a bit like the Wild West.
 Fortunately, the FDA has begun to recognize the need for regulation and to clarify its planned approach.  The FDA does not plan to regulate the broad category of digital health apps that are intended to maintain or encourage a healthy
 lifestyle.  However, they do plan to provide regulatory oversight for the narrower class of digital therapeutics that are used to diagnose, treat or manage disease including mental illness.  In fact, in 2018 the FDA cleared the first digital therapeutic for substance use disorders based in part on evidence of its effectiveness.  
 
-This is an important first step but FDA oversight is not sufficient because patients always be aware of their guidance or the subtle distinctions between a digital health app and a digital therapeutic.
+This is an important first step but FDA oversight is not sufficient because patients may not always be aware of their guidance or the subtle distinctions between a digital health app and a digital therapeutic.
 
 ---
 
