@@ -25,3 +25,14 @@ I also want to emphasize that I am not talking about replacing human therapists.
 <!--Let me start with some sobering statements.  We have a mental healthcare crisis in the United States.  Our need for mental health services is alarmingly high and the practical capacity of our healthcare system to meet this need is woefully inadequate.-->
 
 <!--We all know this story because its the story of our family members, our friends, for some of us, ourselves.-->
+
+
+# VA materials from focused draft
+/va-dtx.png
+<!-- Draft image;  Need to consider which apps to highlight. Consider apps featured in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6087876/#!po=78.1250; apps are here: https://mobile.va.gov/appstore/all -->
+
+Our nation's largest integrated health care system, the Veterans Health Administration, has been at the forefront of this implementation effort.  
+
+The VA has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for mental illness.  
+
+These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone.  

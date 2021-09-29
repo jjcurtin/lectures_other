@@ -103,7 +103,7 @@ The term, digital therapeutic, is new but this approach to providing healthcare 
 
 In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health, and personal issues.  
 
-Their system and other digital therapeutics slowly evolved over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
+But the impact of his and other early digital therapeutics remained limited because computers were expensive and many people didn't have access to them.
 
 ---
 
@@ -132,48 +132,32 @@ $50,000-$74,999	    85%
 $75,000+	        96%
 ```
 
-This all changed with the advent and rapid proliferation of the smartphone over the past decade.  85% of adults in the U.S. now own smartphones and smartphone ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  
+This all changed with the smartphone.  Raise your hand if you have a smartphone with you in your pocket or purse?  <!-- Maybe pull out my smartphone from my pocket?-->
 
-Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go. They rarely leave our side no matter what we are doing!
+85% of adults in the U.S. now own smartphones.  And ownership is already relatively high and increasing even for people from minority racial/ethnic groups, rural communities, and those with lower income.  Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go. Many of use even sleep with them next to our beds.
 
-<!-- Maybe pull out my smartphone from my pocket?-->
-<!-- ask audience who has one in their pocket or purse?-->
+And its this widespread use of smartphones that has powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness that can provide support to patients 24/7, wherever they go.
 
-Not surprisingly, these technological advances and our widespread use of smartphones have powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
+___
 
----
-
-/va-dtx.png
-<!-- Draft image;  Need to consider which apps to highlight. Consider apps featured in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6087876/#!po=78.1250; apps are here: https://mobile.va.gov/appstore/all -->
-
-Our nation's largest integrated health care system, the Veterans Health Administration, has been at the forefront of this implementation effort.  
-
-The VA has developed and distributed a suite of 20 digital therapeutics that provide evidence-based treatments and self-management strategies for mental illness.  
-
-These digital therapeutics are targeted at veterans but the VA makes them freely available to everyone.  
+Some of the best examples of these digital therapeutics have been developed to support patients with alcohol and other substance use disorders.   Three separate, validated digital therapeutics are being used today by patients across the country during their treatment and recovery.  One of these digital therapeutics is the product of 30 years of continued research and development of the original system developed by Dave Gustafson at the University of Wisconsin that you just saw and the other two have been developed by digital health research centers at Yale and Dartmouth.  
 
 ---
 
-<!--What image?-->
-
-There has also been substantial progress outside of the VA on digital therapeutics.
-
-For example, there are now three validated digital therapeutics available for substance use disorders.  One is the product of 30 years of continued research and development by Dave Gustafson at the University of Wisconsin and the other two have been developed by digital health research centers at Yale and Dartmouth.  
-
----
-
-<!-- Need to improve this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
+<!-- Need to improve the text in this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
 
 <!-- Also  need an engaging image to make the transition-->
 
-More generally, there are a handful of key interventions, tools, and services provided by many digital therapeutics today in the mental health domain.
+These digital therapeutics include a rich set of interventions, tools, and services to support patients.
 
-These include:
 
-* Specific interventions like cognitive behavioral therapy that target specific mental illnesses
+They include:
+
+* Specific interventions like cognitive behavioral therapy
 * Interventions designed to increase well-being generally like guided meditation and guided stress reduction and relaxation modules
 * Curated access to mental health relevant psycho-educational materials
-* Peer support in the form of discussion forums and peer-to-peer messaging.  Digital therapeutics targeting substance use disorders can also locate self-help groups like AA and NA meetings.
+* Peer support in the form of discussion forums and peer-to-peer messaging with the app.
+* They can can also help locate self-help groups like AA and NA meetings.
 * Healthcare planning tools such as medication managers, appointment scheduling, and appointment reminders are often included.  
 * Self-assessment and symptom tracking tools are generally included
 * Clinician dashboards are also emerging that can allow both bi-direction communication with healthcare providers and patient symptom tracking by clinicians
@@ -190,13 +174,7 @@ For example, Woebot is a chatbot designed by Stanford-trained researchers and ps
 
 ---
 
-<!-- juxtapose ATM image with dtx-->
-
-By their very nature, all of these digital therapeutics on smartphones can be accessible and available, everywhere you go, 24/7.  And this will continue to improve as smartphone ownership continues to increase.   
-
----
-
-Equally important, many patients appear to find digital therapeutics acceptable.
+By their very nature, all of these digital therapeutics on smartphones can be accessible and available, everywhere you go, 24/7.  But, equally important, many patients appear to find digital therapeutics acceptable.
 
 For example, the VAs digital therapeutic for post-traumatic stress disorder, a single app in their suite of 20 digital therapeutics, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
 
@@ -204,8 +182,8 @@ For example, the VAs digital therapeutic for post-traumatic stress disorder, a s
 
 ---
 
-<!--Need a better, new image for the bond with woebot-->
-/woebot.png
+<!--Similar or modify a woebot?-->
+/bot_bond.png
 
 In fact, digital therapeutics may be more than just acceptable.  When chatbots or other virtual agents are included, patients may form real connections with them.  
 
@@ -218,7 +196,7 @@ In a recent study, over 36,000 adults who received digital cognitive behavioral 
 
 ---
 
-Other research has observed that patients self-disclose more, display their sadness more,  and do less impression management when interacting with virtual agents rather than human therapists.
+Other studies has observed that patients self-disclose more, display their sadness more,  and do less impression management when interacting with virtual agents rather than human therapists.
 
 <!--Alison Darcy, the developer of Woebot, has noted that this ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the  vast potential of digital therapeutics-->
 
@@ -226,17 +204,19 @@ Other research has observed that patients self-disclose more, display their sadn
 
 Of course, it would be meaningless if digital therapeutics were accessible, available, and acceptable if there were not effective tools to help people with substance use disorders and other mental illness.
 
-And the available evidence today suggests that many do provide meaningful support.  
+And the available evidence today suggests they are effective.
 
-For example, after being discharged from residential care, patients with alcohol use disorder using Dave Gustafson's digital therapeutic reported less than half as many risk drinking days and their odds of total abstinence was approximately 60% higher than patients receiving traditional treatment only.
+For example, after being discharged from residential care, patients with alcohol use disorder using Dave Gustafson's digital therapeutic reported less than half as many risky drinking days and their odds of complete abstinence almost doubled relative to patients receiving traditional treatment only.
 
 And these improvements were durable - they were maintained twelve months after leaving residential care.  
+
+Similar results have been reported for alcohol and other drugs for the digital therapeutics developed by the Yale and Dartmouth centers as well.
 
 ---
 
 <!--Image of single patient vs. millions of patients-->
 
-These magnitude of these benefits are meaningful already, even when we only think about a single patient.  But their true power is in their scale, when these digital therapeutics are provided to millions in need.
+The magnitude of these benefits are meaningful already, even when we only think about a single patient.  But their true power is in their scale, when these digital therapeutics are provided to millions in need they could substantially improve public health overall.  
 
 ---
  
@@ -333,7 +313,9 @@ Or we start late night calls and text messages after a period of successful reco
 
 ---
 
-<!--Slide: Text message with "Mom" vs. "Joe Party-Party".  "I'm really stressed and I am want to use....   Can you help me?   Yes, I am home right now.  Come over as soon as you can"-->
+<!--Slide: Text message with "Mom" vs. "Joe Party-Party".-->
+
+/mom_raw.png
 
 We can engineer even more sensitive predictive features from these data by discovering what these people and places mean to us.
 
