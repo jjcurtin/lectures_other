@@ -5,19 +5,17 @@
 
 ## The Mental Healthcare Crisis
 
-<!--Image of my dad?-->
+<!--Image of my dad?  He is a real person!-->
 
 My dad is a good man. But he has struggled with his use of alcohol for his entire adult life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
 
-After my mom experienced a debilitating traumatic brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
+After my mom experienced a permanently debilitating brain injury from a car accident, my dad devotedly stayed home for 25 years rather than work so that he could care for her at home.  However, this left him without health insurance through a job and therefore his **access** to mental healthcare was limited by its high cost.  
 
-Even if he had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
+Even if he had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. But even our family never discussed it.  It was the elephant in the room that we all ignored.
 
 And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost his job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
 
-My dad suffered and he suffered without support from our mental healthcare system. 
-
-<!--in large part, I do this work because of him-->
+My dad suffered and he suffered without support from our mental healthcare system. In large part, my own work now is driven so that others don't suffer similarly.  
 
 ---
 
@@ -25,12 +23,12 @@ My dad suffered and he suffered without support from our mental healthcare syste
 
 We have a mental health crisis in the U.S., and it’s a crisis of **high need**.  
 
-More than one in five adults suffer from some form of mental illness including substance use disorders. 
+More than **one in five adults** suffer from some form of mental illness including substance use disorders. 
+
+Mental illnesses overall are the leading cause of years of healthy life lost.
 
 <!--image of city with population of 100,000;  Or a personal connection?-->
-Almost 100,000 people have died from drug overdoses in the past 12 months alone.
-
-And mental illnesses are the leading cause of years of healthy life lost in the U.S.
+And in the past 12 months alone, almost **100,000 people** have died from drug overdoses.
 
 ---
 
@@ -38,7 +36,7 @@ But we don’t only have a crisis of high need, we have a crisis of **unmet** hi
 
 In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive any treatment.  **More than half**!  
 
-And for those suffering with a substance use disorder in that same year, 9 out of 10 people did not receive any treatment at all.  
+And for those suffering with a substance use disorder in that same year, **9 out of 10 people** did not receive any treatment at all.  
 
 ---
 
@@ -68,7 +66,6 @@ Seeking out mental health treatment is **unacceptable** to many of us because me
 ---
 
 /waitlist_2.jpg
-<!--may update image to gray and red cartoon characters-->
 <!--need to buy copyright or remake image-->
 
 Mental healthcare services are often not **available** when we need them most.  For example, in Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
@@ -106,12 +103,14 @@ The term, digital therapeutic, is new but this approach to providing healthcare 
 
 In the 1980s, Dave and his center released a computer-based system to help adolescents deal with substance use, health, and personal issues.  
 
-Their system and other digital therapeutics slowly evolved  over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
+Their system and other digital therapeutics slowly evolved over the years with changes in technology, but their impact remained limited because computers were expensive and many people didn't have access to them.
 
 ---
 
 <!--plot of ownership combined with simple tables?-->
 <!--Show only smartphone data from this plot; https://www.pewresearch.org/internet/fact-sheet/mobile/-->
+
+<!--Or maybe just images of lots of diverse people using phones in diverse locations??-->
 
 /smartphone_ownership.png
 
@@ -138,6 +137,7 @@ This all changed with the advent and rapid proliferation of the smartphone over 
 Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go. They rarely leave our side no matter what we are doing!
 
 <!-- Maybe pull out my smartphone from my pocket?-->
+<!-- ask audience who has one in their pocket or purse?-->
 
 Not surprisingly, these technological advances and our widespread use of smartphones have powered a surge in research, development, and implementation of the first wave of digital therapeutics for mental illness.  
 
@@ -200,6 +200,8 @@ Equally important, many patients appear to find digital therapeutics acceptable.
 
 For example, the VAs digital therapeutic for post-traumatic stress disorder, a single app in their suite of 20 digital therapeutics, has been downloaded more than a half million times across 115 countries.  And over 60% of its users engaged with it on multiple occasions. 
 
+<!-- in the last week of March 2020 more than 750,000 Apple iOS users downloaded MBI apps (Kellen & Saxena, 2020)  https://aisel.aisnet.org/iceb2020/43/ -->
+
 ---
 
 <!--Need a better, new image for the bond with woebot-->
@@ -218,7 +220,7 @@ In a recent study, over 36,000 adults who received digital cognitive behavioral 
 
 Other research has observed that patients self-disclose more, display their sadness more,  and do less impression management when interacting with virtual agents rather than human therapists.
 
-Alison Darcy, the developer of Woebot, has noted that this ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the  vast potential of digital therapeutics
+<!--Alison Darcy, the developer of Woebot, has noted that this ability to establish a bond, and to do so with millions of people simultaneously, is the secret to unlocking the  vast potential of digital therapeutics-->
 
 ---
 
@@ -257,6 +259,7 @@ This is why the next wave of digital therapeutics must get smarter to realize th
 
 ---
 
+<!--  Make this more plain english-->
 "Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms".
 
 ---
@@ -296,7 +299,7 @@ First, personal sensing of people's moment by moment location using smartphone l
 
 Behind me is a wide view of my own movement patterns over a two-month period when we were first developing this personal sensing method.  You can see the paths that I traveled, colored by how I was traveling, with travel by car in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed in this map, all of these points are time-stamped so that we know the day and exact time that I was at each location.  
 
-You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
+You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to the west and northwest.  You could learn these patterns and also detect if events in my life disrupted these these patterns.
 
 ---
 
@@ -309,6 +312,7 @@ You can see my daily running commute to and from my office.  From this, you can 
 If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  These are already very rich data.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
 
 <!--Can still tune these examples above-->
+<!-- time in hospital-->   <!--time away from work and running-->  <!--COVID image?-->
 
 ---
 
