@@ -206,7 +206,7 @@ Other studies has observed that patients self-disclose more, display their sadne
 
 ---
 
-Of course, it would be meaningless if digital therapeutics were accessible, available, and acceptable if there were not effective tools to help people with substance use disorders and other mental illness.
+Of course, it would be meaningless if digital therapeutics were accessible, available, and acceptable if they were not effective tools to help people with substance use disorders and other mental illness.
 
 And the available evidence today suggests they are effective.
 
@@ -228,7 +228,7 @@ The magnitude of these benefits are meaningful already, even when we only think 
 
 <!-- Image representing challenge of choosing what to do-->
 
-Much of potential of digital therapeutics arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
+Much of the potential of digital therapeutics arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
 
 But this is also their challenge.  As the patient you now have to tackle difficult questions like:
 
@@ -265,7 +265,7 @@ My research team is one of a handful who have been funded by the National Instit
 We started this research when Dave Gustafson approached my team with a simple question. He asked...  
 
 > "Could you predict not only who might be at greatest risk for relapse
-> but critically, precisely WHEN that relapse might occur."  
+> but critically, precisely **when** that relapse might occur."  
 
 If done well, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
 
@@ -293,10 +293,9 @@ You can see my daily running commute to and from my office.  From this, you can 
 
 If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
 
-
-
 <!--Can still tune these examples above-->
 <!-- time in hospital-->   <!--time away from work and running-->  <!--COVID image?-->
+<!--specific restaurants or cafes if humorous or personalizing-->
 
 ---
 
@@ -323,11 +322,11 @@ Or we start late night calls and text messages after a period of successful reco
 
 We can engineer even more sensitive predictive features from these data by discovering what these people and places mean to us.
 
-For example, this very same text message thread behind me may indicate quite different risk for relapse when sent to your mother, who supports your recovery, vs. a friend who still regularly engages in drug use themselves <!-- or "...who wants you back at their parties" if that seems more acceptable info to gather without unpacking-->.  
+For example, this very same text message thread behind me may indicate quite different risk for relapse when sent to your mother, who supports your recovery, vs. a friend who wants you back in the bar with them. <!-- better description? "...who wants you back at their all-night parties"-->.  
 
 We can gather this information quickly and with little burden to the patient by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the digital therapeutic. It turns out that we are all creatures of habit, and we only have a small number of important people and places in our lives.
 
-We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery or undermine it. Armed with this information, we can gain more precise insights into your patterns of movements and social communications. Are they healthy or unhealthy, rewarding and rich, or stressful or isolating.  And how have these patterns changed, for better or for worse, over recent days, weeks, and months.  
+We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, we can gain more precise insights into your patterns of movements and social communications. Are they healthy or unhealthy, rewarding and rich, or stressful or isolating.  Do the people you surround yourself with support your recovery or tempt you back to old ways.  And how have these patterns changed, for better or for worse, over recent days, weeks, and months.  
 
 <!--need pronouns and consistent focus on target we are sensing-->
 ---
@@ -342,7 +341,7 @@ Our preliminary analyses have already demonstrated that we can use predictive fe
 
 If patients knew their future risk, they could plan accordingly.  They could increase their use of their digital therapeutic or step up their traditional mental healthcare when their risk of relapse was high or increasing.  
 
-Patients could also opt in to share their risk with their healthcare providers though their digital therapuetic's clinician dashboard.  This would allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
+Patients could also opt in to share their risk with their healthcare providers though their digital therapeutic's clinician dashboard.  This would allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
 
 ---
 
@@ -357,7 +356,11 @@ If they have slipped back into interactions with unhealthy peers, they could be 
 
 During moments of peak craving, they could be distracted by engaging video games until their craving subsides as it usually does.  Immediate contact with designated supportive family or sponsors could also recommended and facilitated.
 
+<!--If I dropped pitfalls section, I could instead highlight the key ones that are clear without unpacking here-->
+
 With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
+
+<!--One more sentence to tie back as addressing the mental health crisis-->
 
 
 ## Pitfalls and Prescriptions
@@ -410,7 +413,7 @@ But if we succeed, smart digital therapeutics will become important tools to red
 
 <!--Need more powerful end!-->
 
-<!--Too late for my dad.  I hope we do better for my son and daughter.  Images?-->
+<!--Too late for my dad.  I hope we can do better for my son and daughter if they need support in the future.  Images?-->
 
 
 
