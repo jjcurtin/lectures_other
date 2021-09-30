@@ -92,9 +92,12 @@ As a classic example of disruptive innovation, consider the ATMs impact on banki
 
 In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental healthcare.  They will make it more accessible, highly available, and for some, even more acceptable.  
 
+I want to be very clear on one point though before we move forward.  I do not believe or hope that digital therapeutics will replace human clinicians. We still have bank tellers after the introduction of the ATM. The mix of services and tasks performed by these tellers has just shifted to what they do best. As we increasingly adopt the use of digital therapeutics, I expect to see the same optimization of our use of mental healthcare providers for what they are uniquely positioned to do well. Digital therapeutics will just extend their reach and impact and by extension the overall
+capacity of our mental healthcare system.
+
 ---
 
-So what are digital therapeutics?  
+So what are digital therapeutics?
 
 Digital therapeutics use software programs or "apps" to deliver evidence-based interventions to prevent, manage, or treat a medical disorder or disease. 
 <!--They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.-->
