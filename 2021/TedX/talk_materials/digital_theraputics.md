@@ -1,10 +1,14 @@
 
 
-# Smart Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
+# Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
+# Smart Digital Therapeutics vs. the Mental Healthcare Crisis
+# Smart Digital Therapeutics Combat the Mental Healthcare Crisis
+# Smart Digital Therapeutics: A Tool Whose Time Has Come
+# Smart Digital Therapeutics: Tipping the scale in the mental health crisis
+# Better Mental Healthcare May Be Only An App Away
 
 
 ## The Mental Healthcare Crisis
-
 <!--Image of my dad?  He is a real person!-->
 
 My dad is a good man. But he has struggled with his use of alcohol for his entire adult life. It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
@@ -92,7 +96,7 @@ In a similar fashion, digital therapeutics, and in particular, digital therapeut
 
 So what are digital therapeutics?  
 
-Digital therapeutics use software programs to deliver evidence-based interventions to prevent, manage, or treat a medical disorder or disease. 
+Digital therapeutics use software programs or "apps" to deliver evidence-based interventions to prevent, manage, or treat a medical disorder or disease. 
 <!--They are used independently or in combination with medications or other therapies to optimize patient care and health outcomes.-->
 
 ---
