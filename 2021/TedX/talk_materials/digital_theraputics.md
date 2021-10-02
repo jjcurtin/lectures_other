@@ -29,10 +29,8 @@ We have a mental health crisis in the U.S., and it’s a crisis of **high need**
 
 More than **one in five adults** suffer from some form of mental illness including substance use disorders. 
 
-Mental illnesses overall are the leading cause of years of healthy life lost.
-
-<!--image of city with population of 100,000;  Or a personal connection?-->
-And in the past 12 months alone, almost **100,000 people** have died from drug overdoses.
+<!--image Sarah and Victor?-->
+And in the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was the brother of my graduate student, who died from an opioid overdose this past spring.
 
 ---
 
@@ -65,20 +63,17 @@ My dad’s access to services was limited by their cost. But consider the **acce
 /stigma_1.png
 <!--consider this figure and buy-->
 
-Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and sharing our most intimate thoughts and feelings with a therapist is hard.  
+Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and making ourselves vulnerable by sharing our most intimate thoughts and feelings with a therapist is hard.  
 
 ---
 
 /waitlist_2.jpg
-<!--need to buy copyright or remake image-->
-
-Mental healthcare services are often not **available** when we need them most.  For example, in Madison, WI, where I live, many well-regarded psychologists seem to rarely accept new patients, and others have wait lists that can delay a first visit for months.  
-
----
-
 /calendar.png
+<!--combine images and maybe panel and order by point-->
 
-And the delivery of mental healthcare still often involves weekly, monthly, or even less frequent appointments with a therapist.  But, of course, our mental health needs aren't limited this these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
+Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have wait lists that can delay a first visit for months.  
+
+And once we make it past the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But, of course, our mental health needs aren't limited this these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings, and even drug relapses can occur and require support at any time.
 
 ## Digital Therapeutics
 
@@ -86,11 +81,7 @@ And the delivery of mental healthcare still often involves weekly, monthly, or e
 
 Fortunately, we are now poised to experience disruptive innovation in the mental healthcare services that we provide and the methods by which they are delivered.
 
-I use the term **disruptive innovation** intentionally to signal the magnitude and nature of this potentially transformative change.  
- 
-As a classic example of disruptive innovation, consider the ATMs impact on banking.  How many of you remember “bankers hours?” Today, ATMs can be found almost everywhere and they provide us with 24/7 access to our cash. 
-
-In a similar fashion, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental healthcare.  They will make it more accessible, highly available, and for some, even more acceptable.  
+Digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are positioned to disrupt and improve mental healthcare.  They will make it more accessible, highly available, and for some, even more acceptable.  
 
 I want to be very clear on one point though before we move forward.  I do not believe or hope that digital therapeutics will replace human clinicians. We still have bank tellers after the introduction of the ATM. The mix of services and tasks performed by these tellers has just shifted to what they do best. As we increasingly adopt the use of digital therapeutics, I expect to see the same optimization of our use of mental healthcare providers for what they are uniquely positioned to do well. Digital therapeutics will just extend their reach and impact and by extension the overall
 capacity of our mental healthcare system.
