@@ -7,7 +7,7 @@
 
 My dad is a good man. When I was still relatively young, my mother lost control of her car when it hit a patch of icy road two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She lived but she never recovered.  She needed full-time care for the rest of her life.  My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution.     
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background.  At other times, it was severe.  It shaped our family.  He is almost 80 years old now and he has never received any treatment.  
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe.  It shaped our family.  He is almost 80 years old now and he has never received any treatment.  This is heartbreaking, but it is not surprising.
 
 While caring for my mom at home, his **access** to mental healthcare was limited by its high cost without healthcare through a job.  
 
@@ -15,7 +15,7 @@ Even if he had had access to treatment, it likely wouldn’t have been **accepta
 
 And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
 
-My dad is a good man, and he suffered, and he suffered without support from our mental healthcare system. In large part, my own work now is driven so that others don't suffer similarly.  
+My dad is a good man, and he suffered, and he suffered without support from our mental healthcare system. In large part, my work now is driven so that others don't suffer similarly.  
 
 ---
 
