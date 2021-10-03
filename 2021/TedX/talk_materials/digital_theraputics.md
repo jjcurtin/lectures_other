@@ -30,8 +30,11 @@ More than **one in five adults** suffer from some form of mental illness includi
 
 ---
 
-<!--image Sarah and Victor?-->
+
 And in the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was the brother of my graduate student, who died from an opioid overdose this past spring.
+<!-- Confirm with Sarah.  Get her preference for language-->
+<!--image of Sarah and Victor?-->
+<!--"my graduate student"-->
 
 ---
 
@@ -49,7 +52,7 @@ And similar mental healthcare disparities exist for people living in rural areas
 
 ---
 
-**Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of others as well.
+**Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of so many of our family, friends, and even ourselves.
 
 ---
 
@@ -75,7 +78,7 @@ Seeking out mental health treatment is **unacceptable** to many of us because me
 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have long wait lists that can delay the start of treatment for months.  
 
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited this these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings and other dark thoughts and emotions can occur and require support at any time.
+And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings and other difficult thoughts and emotions can occur and require support at any time.
 
 ## Digital Therapeutics
 
@@ -87,20 +90,21 @@ ___
 
 But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or even hope that digital therapeutics will replace human clinicians. 
 
-* Digital therapeutics provide **new tools** that are not part of traditional mental healthcare delivered by human clinicians
+* Digital therapeutics offer **new tools** that are not part of traditional mental healthcare delivered by human clinicians
 * Digital therapeutics can provide a safety net for people who are not receiving traditional care now. 
 * Digital therapeutics may reduce barriers for some people that later eases them into traditional care.  
-* And digital therapeutics can optimize traditional care to extend its reach and impact while allowing clinicians the time to provide what they uniquely do well. 
+* And digital therapeutics can optimize traditional care to extend its reach and impact while allowing clinicians the time to provide what they do uniquely well. 
 
 Human clinicians will always be needed but we simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
 ---
 
-So what are digital therapeutics, you ask?
+So what are digital therapeutics?
 
 Digital therapeutics are software programs or "apps" that are designed to prevent, manage, or treat a medical disorder. 
 
 <!--consider distinguishing them from broader category of digital health apps?-->
+
 ---
 
 /barn.png
@@ -172,7 +176,7 @@ Clinician dashboards are also being developed to allow communication with health
 
 /woebot.png
 
-And on the more leading edge, some digital therapeutics now use virtual agents that can talk to patients in a more natural way while they provide support.  
+And on the leading edge, some digital therapeutics now use virtual agents that can talk to patients in a more natural way while they provide support.  
 
 <!--And the emerging evidence suggests that patients can develop bonds with these virtual agents that can approach what we see human therapists.-->
 
@@ -198,10 +202,11 @@ Furthermore, emerging evidence suggests that the use of digital therapeutics can
 /smartphone_crowd.png
 
 I want to pause here for a moment more to make sure you develop an important intuition at this point about digital therapeutics.  
+<!--awkward phase-->
 
 The magnitude of the benefits I just described are meaningful already, even when we only think about a single patient.  
 
-But their true power is in their scale, when these benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
+But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
 
 This is how we can increase the treatment capacity of our mental healthcare system.
 
@@ -214,7 +219,7 @@ This is how we will see substantial improvement in public mental health overall.
 <!-- Image representing challenge of choosing what to do-->
 <!--version 1.0-->
 
-OK, so lets call the apps I have described to you so far, Digital Therapeutics 1.0.
+OK, so lets call the apps I have described to you so far, Digital Therapeutics version 1.0.
 
 Their power arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
 
@@ -227,25 +232,22 @@ But this is also their Achilles heel.  As the patient you now have to tackle dif
 
 ---
 
-This is why the next wave of digital therapeutics, digital therapeutics 2.0, must get smarter to realize their full potential.  They must get smarter and they must learn to know us better as individuals, not just a group of patients with the same crude diagnosis.  
+This is why the next wave of digital therapeutics, digital therapeutics 2.0, must get smarter to realize their full potential.  They must get smarter and they must learn to know us better as individuals, not just a group of patients with the same coarse diagnosis.  
 
 And they will do this through the use of artificial intelligence powered personal sensing.
 <!-- GEF: I would cut the AI reference. Just say through personal sensing.-->
 
-<!-- invoke the personal piece here as well.  They need to see more than just a diagnosis, - patient with substance use disorder.  They need to know us as individusl so that....  -->
-
 ---
 
 <!--  Make this more plain english-->
+Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
+
+
 "Personal sensing refers to collecting and analyzing data from sensors embedded in the context of daily life with the aim of identifying human behaviors, thoughts, feelings, and mental health symptoms".
 
 ---
 
-<!-- "John, er... excuse me....sorry to interprut but I'm still in your pocket and your apple watch and I have been noticing your high heart rate.  We think I should lead you through some guided meditation to relax after you get off the stage"-->
 
-<!--https://producer.musicradiocreative.com/siri-voice-generator-text-to-speech-online-for-free/-->
-
-<!-- GEF: this is funny!! Include this. I would put it at the end of the next "slide" (i.e., after "even predict how we may feel or behave in the future")-->
 /smartphone.png
 
 Much like digital therapeutics themselves, personal sensing has been supercharged by smartphones and the raw data that smartphones collect about us through their many sensors and logs
@@ -256,12 +258,20 @@ Personal sensing involves capturing all these raw data streams, deriving predict
 
 ---
 
+<!-- "John, er... excuse me....sorry to interupt but I'm still in your pocket and your apple watch and I have been noticing your high heart rate.  We think I should lead you through some guided meditation to relax after you get off the stage"-->
+
+<!--https://producer.musicradiocreative.com/siri-voice-generator-text-to-speech-online-for-free/-->
+
+---
+
 My research team is one of a handful who have been funded by the National Institutes of Health to develop the foundation for personal sensing within digital therapeutics to help patients with substance use disorders.
 
 We started this research when Dave Gustafson approached my team with a simple question. He asked...  
+<!--need to say who Dave is-->  
 
 > "Could you predict not only who might be at greatest risk for relapse
-> but critically, precisely **when** that relapse might occur."  
+> but critically, precisely **when** that relapse might occur and 
+> **how** best to intervene to prevent it"  
 
 If done well, this would open up a world of possibilities within digital therapeutics for substance use disorders.  
 
