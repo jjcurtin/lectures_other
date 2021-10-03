@@ -18,7 +18,7 @@ Even if he had had access to treatment, it likely wouldn’t have been **accepta
 
 And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
 
-My dad is a good man, and he suffered, and he suffered without support from our mental healthcare system. In large part, my work now is driven so that others don't suffer similarly.  
+My dad is a good man, and he suffered.  He suffered without support from our mental healthcare system. In large part, my work now is driven so that others don't suffer similarly.  
 
 ---
 
