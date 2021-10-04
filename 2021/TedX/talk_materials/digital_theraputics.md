@@ -1,8 +1,4 @@
-
-# Better Mental Healthcare May Be Only an App Away
-# Is Better Mental Healthcare Only an App Away?
-# Better Mental Healthcare at Your Fingertips
-# Is Better Mental Healthcare at our fingertips?
+# Mental Healthcare at Your Fingertips
 
 
 ## The Mental Healthcare Crisis
@@ -10,7 +6,7 @@
 
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered.  She required full-time care for the rest of her life.  My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution. My dad is a good man.      
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  This is heartbreaking, but it is not surprising.
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
 
 While caring for my mom at home, his **access** to mental healthcare was limited by its high cost without health insurance through a job.  
 
@@ -84,13 +80,13 @@ And once we make it off the wait list, treatment still often involves weekly, mo
 
 Access, acceptability, and availability - these issues are undermining our mental healthcare system and leaving millions without treatment when they need it most.  
 
-Fortunately, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are now emerging to target these very same three issues.  
+Fortunately, I am here today to tell you that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are now emerging to target these very same three issues.  
 
 ___
 
 But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or even hope that digital therapeutics will replace human clinicians. 
 
-* Digital therapeutics offer **new tools** that are not part of traditional mental healthcare delivered by human clinicians
+* Digital therapeutics offer us **new tools** that are not part of traditional mental healthcare delivered by human clinicians
 * Digital therapeutics can provide a safety net for people who are not receiving traditional care now. 
 * Digital therapeutics may reduce barriers for some people that later eases them into traditional care.  
 * And digital therapeutics can optimize traditional care to extend its reach and impact while allowing clinicians the time to provide what they do uniquely well. 
@@ -115,8 +111,6 @@ Digital therapeutics **delivered on computers** have been around since the 1980s
 This all changed with the smartphone.  Raise your hand if you have a smartphone with you in your pocket or purse?  
 
 <!-- Pull out my smartphone from my pocket and hold it up-->
-
-And now keep your hand raised if you've just now realized you forgot to silence it & are trying to do so now without us noticing!
 
 ---
 
@@ -143,7 +137,6 @@ Income < $30,000/year	76%
 Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups including minority racial/ethnic groups, rural communities, and those with lower income.  
 
 Most of us now carry these pocket-sized, powerful, Internet-connected computers with us everywhere we go.
-
 
 And its this widespread use of smartphones that has powered a surge in research, development, and implementation of the first wave of digital therapeutics that can now provide us support
 * 24 hours a day, 
@@ -176,12 +169,16 @@ Clinician dashboards are also being developed to allow communication with health
 
 /woebot.png
 
-And on the leading edge, some digital therapeutics now use virtual agents that can talk to patients in a more natural way while they provide support.  
+And on the leading edge, some digital therapeutics now use virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
 
-<!--And the emerging evidence suggests that patients can develop bonds with these virtual agents that can approach what we see human therapists.-->
+<!--And the emerging evidence suggests that patients can develop bonds with these virtual agents that can approach what we see with human therapists.-->
 
 ---
 
+<!-- break apart with simple, single stats images?-->
+<!-- ~2x the odds of remaining abstinent-->
+<!-- Benefits are long lasting-->
+<!-- May increase retention in traditional treatment-->
 Of course, all of this would be meaningless if digital therapeutics were not effective.
 
 But they are.  
@@ -199,12 +196,12 @@ Furthermore, emerging evidence suggests that the use of digital therapeutics can
 ---
 
 <!--Image of single patient on couch with therapist or a single person using smartphone vs. crowd of people with smartphones-->
+
+This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient.  
+
+---
+
 /smartphone_crowd.png
-
-I want to pause here for a moment more to make sure you develop an important intuition at this point about digital therapeutics.  
-<!--awkward phase-->
-
-The magnitude of the benefits I just described are meaningful already, even when we only think about a single patient.  
 
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
 
