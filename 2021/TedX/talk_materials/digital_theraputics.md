@@ -217,7 +217,7 @@ This is how we will see substantial improvement in public mental health overall.
 
 OK, so lets call the smartphone apps I have described to you so far, the beta version of digital therapeutics.  These apps are available and in use today by small numbers of people with substance use disorders across the country.
 
-Their power arises from easy, 24/7 access to their rich and diverse set of interventions, tools, and services.
+Their power arises from easy, 24/7 access to their rich and diverse set of supports -their interventions, tools, and services.
 
 ---
 
@@ -234,14 +234,14 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 
 This is why the next wave of digital therapeutics must get smarter to realize their full potential.  They must get smarter and they must learn to know us better as individuals, not just a homogeneous group of patients with the same coarse diagnoses and same treatment needs at all times.  
 
-And they will do this through the use of built-in artificial intelligence algorithms that are powered personal sensing.
+And they will do this through the use of built-in artificial intelligence algorithms that are powered by personal sensing.
 
 ---
 
 Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
 
 I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  And they work.  My closet is overflowing with all the latest brands of now stinky trail runners.   
-
+ 
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
 <!--On a slightly more embarrassing note, after having a vasectomy a few years ago, I immediately started receiving ads for ice packs and "tighty-whitey" supportive underwear.   But those worked too! -->
@@ -259,10 +259,6 @@ Much like digital therapeutics themselves, personal sensing has been supercharge
 Smartphones log our personal communications by phone calls and text messages. Facebook posts and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
 Personal sensing involves capturing all this information and using it to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
-
----
-
-
 
 ---
 
@@ -294,9 +290,9 @@ Let's "look under the hood" so to speak at two of the more revealing personal se
 
 Behind me is a wide view of my moment by moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  You can see the paths that I traveled, with movement by car in yellow and running in blue.  
 
-The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the day and exact time that I was at each location.  
+The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the days and exact times that I was at each location.  
 
-As my smartphone ads know, you can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.  Running is key to both my physical and mental health.
+As my smartphone ads already know, you can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.  Running is key to both my physical and mental health.
 
 ---
 
@@ -330,13 +326,13 @@ But imagine what you could learn about me if you knew the patterns of my communi
 
 We can make these raw location and communications data more powerful still by discovering what these people and places actually mean to us.  
 
-For example, this very same text message thread behind me would indicate quite different risk for relapse for someone in recovery when sent to their mother, who supports their recovery, vs. their drinking buddy who wants them back in the bar. <!-- better description? "...who wants you back at their all-night parties"-->.  
+For example, this very same text message thread behind me would indicate quite different risk for relapse for someone in recovery when sent to their mother, who supports their recovery, vs. their drinking buddy who wants them back in the bar. 
 
 ---
 
 We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. It turns out that we are all creatures of habit, and typically only have a small number of important people and places in our lives.
 
-We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, we can make more precise predictions.
+We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, our algorithms can make even more precise predictions.
 
 ---
 
@@ -344,23 +340,27 @@ For my dad, we could learn that his friend Ed has been a lifelong source of stab
 
 We could also see when time spent with Ed abruptly stops each fall because Ed spends his winters in Florida.  These months are harder for my dad and he would benefit from more support.
 
-We could pinpoint the day of my mom's car accident, when my dad is suddenly spending all day, into the late evening, at St John's Hospital, and returning home for only a few hours of sleep each night.  If this happened now, there would also be frantic text messages to keep family and friends informed.
+He could be encouraged by the app to reach out to other supportive family and friends during these times.  He could be provided with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
 
-suddenly frantic back and forth trips to the local hospital 
+If the app knew him well, it could predict which of these forms of support might be most effective for him.
 
-<!--examples from me?-->
+If he had also received traditional mental healthcare, he might have given permission for the app share his risk with his therapist.  This could allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
 
----
-<!-- GEF: consider personal example of fewer/no runs would be a big red flag for you. Also could use this to get across the idea that you already know the impact not running has on you, but there may be other things you wouldn't be able to know just intuitively-->
----
-
-At some point, probably about five minutes ago, you probably thought "Holy crap, this is really private information, who will have it and what will they do with it?"
+<!--We could pinpoint the day of my mom's car accident, when my dad is suddenly spending all day, into the late evening, at St John's Hospital, and returning home for only a few hours of sleep each night.  If this happened now, there would also be frantic text messages to keep family and friends informed-->
 
 ---
 
-We can already predict if someone in our research studies will drink tomorrow with relatively high accuracy based on personal sensing of their recent experiences and behavior.  
+<!--Any benefit to using me too?-->
+<!--If we were sensing my life about a year ago, we would see my 8 days as an inpatient at UW Hospital following a rare and life-threatening drug reaction to an antibiotic I had received.  We would see my frantic text messages to keep family and friends informed.  After I was discharged, we would notice my sleepless nights caused in part by high doses of corticosteroids.  The app might know that I had started dabbling with meditation and it could recommend I medidate at night to help me sleep better.  Continue with running stopped, depression, nudge me to start again-->
 
-But these are research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. And from 
+
+---
+
+In our research studies, we can already predict if someone will drink tomorrow with relatively high accuracy based on personal sensing of their recent experiences and behavior.  
+
+But these are research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with patients from rural communities or black and brown patients.  
+
+We have seen these failures for A 
 
 
 
@@ -369,51 +369,21 @@ Personal sensing AI algorithms can recommend and deliver the optimal supports ba
 <!-- facial analysis software couldn’t detect my dark-skinned face until I put on a white mask. These systems are often trained on images of predominantly light-skinned men. Given the task of guessing the gender of a face, all companies performed substantially better on male faces than female faces. The companies I evaluated had error rates of no more than 1% for lighter-skinned men. For darker-skinned women, the errors soared to 35%. AI systems from leading companies have failed to correctly classify the faces of Oprah Winfrey, Michelle Obama, and Serena Williams.-->
 <!-- diversity plug-->
 
-But if we succeed, smart digital therapeutics will become important tools to reduce our mental health crisis broadly while also addressing intolerable disparities in health outcomes.   
+
+---
+
+At some point, probably about five minutes ago, you probably thought "Holy crap, this is really private information, who will have it and what will they do with it?"
 
 ---
 
 
-
-
-If patients knew their future risk, they could plan accordingly.  They could increase their use of their digital therapeutic or step up their traditional mental healthcare when their risk of relapse was high or increasing.  
-
-Patients could also opt in to share their risk with their healthcare providers though their digital therapeutics's clinician dashboard.  This would allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
-
----
-
-Once we can predict relapse risk using personal sensing, we can also begin to ask an even more important question.
-
-> What interventions or other supports are optimal for a specific
-> patient at a specific moment in time to reduce their risk?
-
-For example, if recent poor sleep is contributing to their risk, interventions to improve sleep hygiene or reduce stress could be delivered.  
-
-If they have slipped back into interactions with unhealthy peers, they could be encouraged to re-engage with peer support groups within the digital therapeutic or provided with information about upcoming local AA or NA meetings.  
-
-During moments of peak craving, they could be distracted by engaging video games until their craving subsides as it usually does.  Immediate contact with designated supportive family or sponsors could also recommended and facilitated.
-
-<!--If I dropped pitfalls section, I could instead highlight the key ones that are clear without unpacking here-->
-
-<!-- make this quote a slide-->
+<!-- make this quote a slide?-->
 With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
 These tools weren't available to support my dad.  BUT.....
-
-<!--One more sentence to tie back as addressing the mental health crisis-->
-<!--GEF: These advances would allow us to tackle the issues of access, acceptability, and availability currently plaguing mental healthcare. Armed with digital therapeutics and personal sensing, we can get help to the untreated individuals who need support and care, when and where they need it most.-->
-
-## Pitfalls and Prescriptions
-
-
-
-
-<!--Need more powerful end!-->
-
 <!--Too late for my dad.  I hope we can do better for my son and daughter if they need support in the future.  Images?-->
 
----
+<!--One more sentence to tie back as addressing the mental health crisis-->
 
-
-I have 
+<!--GEF: These advances would allow us to tackle the issues of access, acceptability, and availability currently plaguing mental healthcare. Armed with digital therapeutics and personal sensing, we can get help to the untreated individuals who need support and care, when and where they need it most.-->
 
