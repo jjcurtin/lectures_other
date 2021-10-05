@@ -140,4 +140,63 @@ $75,000+	        96%
 
 
 
+# Personal sensing examples
+
+Behind me is a wide view of my moment by moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  You can see the paths that I traveled, with movement by car in yellow and running in blue.  The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the day and exact time that I was at each location.  
+
+You can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parts to the west and northwest.  Running makes an important contribution to both my physical and mental health. You could learn these patterns and also detect if events in my life disrupted these patterns.
+
+---
+
+/gps_2.png
+
+Zooming in to the Madison isthmus, you can immediately see dense clusters of red dots indicating places visited near my home and where I work at the University of Wisconsin.  You can see that I drive my children clockwise around the lake each morning to their elementary school.  And you could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
+
+You can see my daily running commute to and from my office.  From this, you can observe the long days, and short days, at the office.   
+
+If you probed the red dots indicating the places I visit, you would find the restaurants, bars, and coffee shops I frequent to eat, drink and socialize.  You could identify the homes of my friends, and the stores where I shop.  You could see when my life was filled with healthy and rewarding social activities.  You might also see periods of social isolation during bouts with depression or high stress.
+
+<!--Can still tune these examples above-->
+<!-- time in hospital-->   <!--time away from work and running-->  <!--COVID image?-->
+<!--specific restaurants or cafes if humorous or personalizing-->
+
+---
+
+/text_messages.png
+<!--Will edit for copyright and to more clearly convey stressor of having phone stolen-->
+
+We also collect smartphone communications logs and text message content.  And no, I don't plan to show you my actual text messages!
+
+But imagine what you could learn about me if you knew the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  You might see the late sleepless nights, particularly if you also logged all the use of my smartphone.  You might see my messages sharing joys or stressors, like when my expensive phone was stolen.  Natural language processing could be used to extract the meaning of my words and use this to make inferences about my recent experiences, emotional state, and even psychiatric symptoms. 
+
+---
+
+These raw location and communications data that we sense directly from the smartphone are powerful signals for prediction right out of the box. But personal sensing draws additional power from repeated measurements of the same person over days, weeks, months, and even years.  It is the change in our patterns that are often most meaningful.  We stop going to work briefly for a vacation or we stop for a longer period when we lose our job. We stop or restart going to AA meetings or to our therapist.  
+
+Or we start late night calls and text messages after a period of successful recovery when we had established more healthy behaviors and lifestyle. 
+
+<!--consider better examples-->
+<!-- GEF: consider personal example of fewer/no runs would be a big red flag for you. Also could use this to get across the idea that you already know the impact not running has on you, but there may be other things you wouldn't be able to know just intuitively-->
+---
+
+<!--Slide: Text message with "Mom" vs. "Joe Party-Party".-->
+
+/mom_raw.png
+
+We can engineer even more sensitive predictive features from these data by discovering what these people and places mean to us.
+
+For example, this very same text message thread behind me may indicate quite different risk for relapse when sent to your mother, who supports your recovery, vs. a friend who wants you back in the bar with them. <!-- better description? "...who wants you back at their all-night parties"-->.  
+
+We can gather this information quickly and with little burden to the patient by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the digital therapeutic. It turns out that we are all creatures of habit, and we only have a small number of important people and places in our lives.
+
+We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, we can gain more precise insights into your patterns of movements and social communications. <!-- GEF: i think you can delete the next two sentences and go straight to patterns changing--> Are they healthy or unhealthy, rewarding and rich, or stressful or isolating.  Do the people you surround yourself with support your recovery or tempt you back to old ways.  And how have these patterns changed, for better or for worse, over recent days, weeks, and months.  
+
+<!--need pronouns and consistent focus on target we are sensing-->
+---
+
+<!-- Maybe a map with clear indications of my house, my office, and a few key public bars and health care facilities??  -->
+
+We can further flesh out the meaning for specific places passively using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
+
+
 
