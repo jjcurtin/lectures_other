@@ -198,5 +198,14 @@ We can identify the specific people and places that make us happy or sad or stre
 
 We can further flesh out the meaning for specific places passively using their spacial-temporal features and publicly available map data that are often sufficient to identify our home, our workplace, and commercial spaces, like bars, restaurants, liquor stores, healthcare facilities and the like.  
 
+# Personal sensing examples
 
+We could pinpoint the day of my mom's car accident, when my dad is suddenly spending all day, into the late evening, at St John's Hospital, and returning home for only a few hours of sleep each night.  If this happened now, there would also be frantic text messages to keep family and friends informed
+
+---
+
+If we were sensing my life about a year ago, we would see my 8 days as an inpatient at UW Hospital following a rare and life-threatening drug reaction to an antibiotic I had received.  We would see my frantic text messages to keep family and friends informed.  After I was discharged, we would notice my sleepless nights caused in part by high doses of corticosteroids.  The app might know that I had started dabbling with meditation and it could recommend I meditate at night to help me sleep better.  Continue with running stopped, depression, nudge me to start again
+
+# Ads
+On a slightly more embarrassing note, after having a vasectomy a few years ago, I immediately started receiving ads for ice packs and "tighty-whitey" supportive underwear.   But those worked too!
 
