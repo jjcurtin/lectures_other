@@ -26,10 +26,10 @@ More than **one in five adults** suffer from some form of mental illness includi
 
 ---
 
-And in the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was the brother of my graduate student, who died from an opioid overdose this past spring.
-<!-- Confirm with Sarah.  Get her preference for language-->
-<!--image of Sarah and Victor?-->
+In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was the brother of my graduate student, who died from an opioid overdose this past spring.
+<!-- Confirm with Sarah.  If comforable, get her preference for language-->
 <!--"my graduate student"-->
+<!--image of Sarah and Victor?-->
 
 ---
 
@@ -47,7 +47,7 @@ And similar mental healthcare disparities exist for people living in rural areas
 
 ---
 
-**Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  You can see them in my dad’s story, but you can see them in the stories of so many of our family, friends, and even ourselves.
+**Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
 
 ---
 
@@ -59,11 +59,8 @@ My dad’s access to services was limited by their cost. But consider the **acce
 ---
 
 /stigma_1.png
-<!--consider this figure and buy-->
 
 Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and making ourselves vulnerable by sharing our most intimate thoughts and feelings with a therapist is hard.  
-
-<!--GEF: consider incorporating what we talked about, how difficult it was for you to be willing to share your dad's story, and you study this. -->
 
 ---
 
@@ -73,7 +70,7 @@ Seeking out mental health treatment is **unacceptable** to many of us because me
 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have long wait lists that can delay the start of treatment for months.  
 
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these sparse, pre-scheduled appointments.  Crises, stressors, strong drug cravings and other difficult thoughts and emotions can occur and require support at any time.
+And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these sparse, pre-scheduled appointments.  Crises, stressors, drug cravings, and other difficult thoughts and emotions can occur and require support at any time.
 
 ## Digital Therapeutics
 
@@ -83,13 +80,13 @@ Fortunately, I am here today to tell you that digital therapeutics, and in parti
 
 ___
 
-But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or even hope that digital therapeutics will replace human clinicians. 
+But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or hope that digital therapeutics will replace human clinicians. 
 
 * Digital therapeutics will offer us **new tools** that are not part of traditional mental healthcare delivered by human clinicians
-* Digital therapeutics can provide **a safety net** for people who are not receiving traditional care now. 
-* Digital therapeutics may **reduce acceptability barriers** for some people that later eases them into traditional care.  
+* They can provide **a safety net** for people who are not receiving traditional care now. 
+* And they may **reduce acceptability barriers** for some people that later eases them into traditional care.  
 
-Human clinicians will always be needed for what they do uniquely well, but we simply need more than they can provide alone.  Digital therapeutics can provide that "more."
+But, human clinicians will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
 ---
 
@@ -124,7 +121,7 @@ Rural	                80%
 Income < $30,000/year	76%
 ```
 
-This all changed with the smartphone. Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups including minority racial/ethnic groups, rural communities, and those with lower income.  
+This all changed with the smartphone. Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups.  
 
 Most of us now carry these pocket-sized, powerful computers with us everywhere we go.
 
@@ -145,14 +142,13 @@ Some of the best examples of these digital therapeutics have been developed to s
 
 Examples of these include:
 
-* Evidence-based interventions like cognitive behavioral therapy
-* Interventions designed to increase well-being or reduce stress like guided meditation
+* Evidence-based interventions like cognitive behavioral therapy and mindfulness based stress reduction.  
 * Peer support in the form of discussion forums with other patients using the app
 * Search tools to locate self-help groups like AA and NA meetings
-* Healthcare planning tools such as medication managers, appointment scheduling, and appointment reminders
+* Healthcare planning tools such as medication managers and appointment reminders
 * And self-assessment and symptom tracking tools
 
-Clinician dashboards are also being developed to allow communication with healthcare providers.  These dashboards can also allow clinicians to track their patients' symptoms in real time. 
+Clinician dashboards are also being developed to allow communication with healthcare providers within the app.
 
 ---
 
@@ -161,8 +157,6 @@ Clinician dashboards are also being developed to allow communication with health
 <!--Need permission to use -->
 
 And on the leading edge, some digital therapeutics now use chatbots or other virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
-
-<!--And the emerging evidence suggests that patients can develop bonds with these virtual agents that can approach what we see with human therapists.-->
 
 ---
 
@@ -181,8 +175,6 @@ These increases in abstinence from using digital therapeutics are observed when 
 But these increases in abstinence are also observed when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
 And these benefits are durable - they have been documented up to 12 months after the start of treatment.  
-
-Furthermore, emerging evidence suggests that the use of digital therapeutics can also increase retention in traditional treatments for substance use disorders.  This highlights again that digital therapeutics can complement rather than compete with care offered by human clinicians.  
 
 ---
 
@@ -243,7 +235,7 @@ This fall, I've been bombarded with ads for books, videos, and classes to improv
 
 <!-- simplify this and synch with an image by Kortney-->
 
-Much like digital therapeutics themselves, personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
+Much like digital therapeutics, personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
 
 Smartphones log our personal communications by phone calls and text messages. Facebook posts and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
@@ -257,11 +249,11 @@ My research team became interested in personal sensing when my colleague Dave Gu
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-He had just completed another large study of his app that again confirmed about double the odds of abstinence among its users.  However, he also noticed among those people who did still relapse, many of them either hadn't used the app in the days leading up that relapse or if they did use it, they hadn't used the specific supports in the app that he would have thought would be most effective.
+He had just completed another large study demonstrating the effectiveness of his app. However, he also noticed that among those people who did still relapse, many of them either hadn't used the app in the days leading up that relapse or if they did use it, they hadn't used the specific supports in the app that he would have thought would be most effective.
 
 He wondered if the benefits of his app could be increased further if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time.  
 
-This launched us on a new program of research to develop personal sensing algorithms  that could accomplish these goals.
+This launched us on a new program of research to develop personal sensing algorithms that could accomplish these goals.
 
 ---
 
@@ -273,7 +265,7 @@ Behind me is a wide view of my moment-by-moment location detected by my smartpho
 
 The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the days and exact times that I was at each location.  
 
-As my smartphone ads already know, you can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.  Running is key to both my physical and mental health.
+As my smartphone ads already know, you can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
 
 ---
 
@@ -309,7 +301,7 @@ For example, this very same text message thread behind me would indicate quite d
 
 ---
 
-We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. It turns out that we are all creatures of habit, and typically only have a small number of important people and places in our lives.
+We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. 
 
 We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, our algorithms can make even more precise predictions.
 
@@ -327,13 +319,13 @@ If he had also received traditional mental healthcare, he might have given permi
 
 ---
 
-In our research studies, we can already predict if someone will drink tomorrow with relatively high accuracy based on personal sensing of their recent experiences and behavior.  
+In our research studies, we can already predict if someone will drink tomorrow with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  
 
-But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with patients from rural communities or black and brown patients.  
+But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
-For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey, Michelle Obama, and Serena Williams.
+For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
 
-We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. We can do better and we must.
+We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. We can do better and we will.
 
 ---
 
@@ -344,34 +336,46 @@ We must commit to train our personal sensing algorithms on diverse samples of pa
 
 /surprised_faces.png
 
-I also suspect that at some point, probably about five minutes ago, you also probably thought: 
+I also suspect that at some point, probably about five minutes ago, you also  thought: 
 
 > "Holy crap, this is really private information that these apps will collect from us.  Who will have access to it and what will they do with it?"
 
-It’s little wonder that people are skeptical of tech companies and how they will treat our data following egregious privacy violations including the Cambridge Analytica scandal involving Facebook in 2018 and the more recent WhatsApp Pegasus spyware scandal.
+Most of us are too familiar with recent egregious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
 
-<!--political consulting firm Cambridge Analytica that did work for the Trump campaign, had harvested personal data of millions of Facebook users without their consent and used it for political advertising purposes.-->
-
-<!--WhatsApp Pegasus spyware scandal, where a spyware was allegedly used to snoop on journalists, activists, lawyers and senior government officials in 20 countries around the world, including India.-->
+Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
 ---
 
-<!--I am encouraged that in our research, participants generally find it acceptable to share this sensitive information with us.  This may be because they recognize that other apps on their phone already collect similar information but our digital therapeutics will use their information to improve their mental health rather than profit off it by selling them products.  If we share our personal data, we should benefit from it directly.  -->
+So here's why I'm optimistic
 
-Despite this, I am optimistic that both business incentives and regulatory oversight are aligned to address privacy concerns, at least in the context of digital therapeutics for mental healthcare.  
+First, the business incentives for developers of digital therapeutics strongly encourage robust privacy protections.  Patient trust in mental healthcare is fundamental to their own financial success and it would be an incredibly poor business decision to behave in any way that would undermine that trust.  
+
+For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, they quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for the US healthcare industry by HIPAA.
+
 ---
 
-I am also optimistic because digital therapeutic app developers already recognize that strict privacy protections will be needed to 
+/fda.png
 
-For example, Woebot, a leading chatbot for mental healthcare, was originally situated within Facebook messenger.  
+But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  
 
+This means that digital therapeutics must demonstrate both their effectiveness and their risks, including privacy risks, to be cleared for use by the FDA. These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
-<!-- make this quote a slide?-->
-With digital therapeutics and personal sensing, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
+---
 
- 
-we succeed, digital therapeutics will improve access, acceptability, and availability, thus reducing our mental health crisis broadly while also addressing intolerable disparities in health outcomes." 
- 
- 
-These tools weren't available to support my dad.  BUT.....
-<!--Too late for my dad.  I hope we can do better for my son and daughter if they need support in the future.  Images?-->
+And, in fact, the FDA has already followed through and cleared two digital therapeutics to help people manage and treat substance use disorders.  
+
+Digital therapeutics are here today.  
+
+---
+
+<!-- still a bit of a rough transistion-->
+
+<!-- slide that says:  “delivering the right treatments, at the right time, to the right person, every time”-->
+And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
+
+---
+
+<!-- add final line in red..    ".... and for EVERYONE!"  or ".... and for all of us!"-->
+My dad did not receive the support he needed.  My hope is that digital therapeutics can begin to help break down barriers and provide mental healthcare that is accessible, acceptable, and available for all of us.  
+
+Thank you.
