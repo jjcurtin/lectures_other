@@ -209,3 +209,7 @@ If we were sensing my life about a year ago, we would see my 8 days as an inpati
 # Ads
 On a slightly more embarrassing note, after having a vasectomy a few years ago, I immediately started receiving ads for ice packs and "tighty-whitey" supportive underwear.   But those worked too!
 
+
+# Privacy
+
+I am encouraged that in our research, participants generally find it acceptable to share this sensitive information with us.  This may be because they recognize that other apps on their phone already collect similar information but our digital therapeutics will use their information to improve their mental health rather than profit off it by selling them products.  If we share our personal data, we should benefit from it directly. 
