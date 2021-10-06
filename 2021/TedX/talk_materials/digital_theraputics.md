@@ -348,17 +348,17 @@ I also suspect that at some point, probably about five minutes ago, you also pro
 
 > "Holy crap, this is really private information that these apps will collect from us.  Who will have access to it and what will they do with it?"
 
-In the wake of the worst year on record for social media giants, it’s little wonder that people are skeptical of tech companies and how they will treat our data.
+It’s little wonder that people are skeptical of tech companies and how they will treat our data following egregious privacy violations including the Cambridge Analytica scandal involving Facebook in 2018 and the more recent WhatsApp Pegasus spyware scandal.
 
-The report shed light on how political consulting firm Cambridge Analytica that did work for the Trump campaign, had harvested personal data of millions of Facebook users without their consent and used it for political advertising purposes.
+<!--political consulting firm Cambridge Analytica that did work for the Trump campaign, had harvested personal data of millions of Facebook users without their consent and used it for political advertising purposes.-->
 
-Third, with the WhatsApp Pegasus spyware scandal, where a spyware was allegedly used to snoop on journalists, activists, lawyers and senior government officials in 20 countries around the world, including India.
+<!--WhatsApp Pegasus spyware scandal, where a spyware was allegedly used to snoop on journalists, activists, lawyers and senior government officials in 20 countries around the world, including India.-->
 
 ---
 
 <!--I am encouraged that in our research, participants generally find it acceptable to share this sensitive information with us.  This may be because they recognize that other apps on their phone already collect similar information but our digital therapeutics will use their information to improve their mental health rather than profit off it by selling them products.  If we share our personal data, we should benefit from it directly.  -->
 
-Despite this, I am optimistic that both business incentives and regulatory oversight are aligned to address privacy concerns, at least in the context of digital thearapetics for mental healthcare.  
+Despite this, I am optimistic that both business incentives and regulatory oversight are aligned to address privacy concerns, at least in the context of digital therapeutics for mental healthcare.  
 ---
 
 I am also optimistic because digital therapeutic app developers already recognize that strict privacy protections will be needed to 
