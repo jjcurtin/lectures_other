@@ -213,3 +213,14 @@ On a slightly more embarrassing note, after having a vasectomy a few years ago, 
 # Privacy
 
 I am encouraged that in our research, participants generally find it acceptable to share this sensitive information with us.  This may be because they recognize that other apps on their phone already collect similar information but our digital therapeutics will use their information to improve their mental health rather than profit off it by selling them products.  If we share our personal data, we should benefit from it directly. 
+
+
+
+# Human clinicians
+But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or hope that digital therapeutics will replace human clinicians. 
+
+* Digital therapeutics will offer us **new tools** that are not part of traditional mental healthcare delivered by human clinicians
+* They can provide **a safety net** for people who are not receiving traditional care now. 
+* And they may **reduce acceptability barriers** for some people that later eases them into traditional care.  
+
+But, human clinicians will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."

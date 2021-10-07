@@ -18,18 +18,15 @@ My dad is a good man, and he suffered.  He suffered without support from our men
 
 ---
 
-<!--image of country with 52 million people?-->
-
 We have a mental health crisis in the U.S., and it’s a crisis of **high need**.  
 
 More than **one in five adults** suffer from some form of mental illness including substance use disorders. 
 
 ---
 
-In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was the brother of my graduate student, who died from an opioid overdose this past spring.
-<!-- Confirm with Sarah.  If comforable, get her preference for language-->
-<!--"my graduate student"-->
 <!--image of Sarah and Victor?-->
+
+In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was Victor Kittleson, the 29 year old brother of my graduate student, who died from an opioid overdose this past spring.
 
 ---
 
@@ -58,19 +55,23 @@ My dad’s access to services was limited by their cost. But consider the **acce
 
 ---
 
-/stigma_1.png
+/stigma_2.png
 
 Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and making ourselves vulnerable by sharing our most intimate thoughts and feelings with a therapist is hard.  
 
 ---
 
+/waitlist_3.png
+
 /waitlist_2.jpg
-/calendar.png
-<!--combine images and maybe panel and order by point-->
 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have long wait lists that can delay the start of treatment for months.  
 
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these sparse, pre-scheduled appointments.  Crises, stressors, drug cravings, and other difficult thoughts and emotions can occur and require support at any time.
+---
+
+/calendar.png
+
+And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these scheduled appointments.  Crises, stressors, drug cravings, and other difficult thoughts and emotions can occur and require support at any time.
 
 ## Digital Therapeutics
 
@@ -80,13 +81,9 @@ Fortunately, I am here today to tell you that digital therapeutics, and in parti
 
 ___
 
-But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or hope that digital therapeutics will replace human clinicians. 
-
-* Digital therapeutics will offer us **new tools** that are not part of traditional mental healthcare delivered by human clinicians
-* They can provide **a safety net** for people who are not receiving traditional care now. 
-* And they may **reduce acceptability barriers** for some people that later eases them into traditional care.  
-
-But, human clinicians will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
+But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or hope that digital therapeutics will replace human therapists. 
+  
+Therapists will always be needed for what they do uniquely well.  But we simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
 ---
 
@@ -103,12 +100,8 @@ Digital therapeutics **delivered on computers** have been around since the 1980s
 
 ---
 
-<!--plot of ownership combined with simple tables?-->
-<!--Show only smartphone data from this plot; https://www.pewresearch.org/internet/fact-sheet/mobile/-->
 <!--Or maybe just images of lots of diverse people using phones in diverse locations??-->
 <!--maybe images with but with subset of stats for vulnerable groups?-->
-
-/smartphone_ownership.png
 
 ```
 Smartphone Ownership by Key Demographics
@@ -129,8 +122,7 @@ And its this widespread use of smartphones that has powered the first wave of di
 * 24 hours a day, 
 * 7 days a week, 
 * every day of the year,
-* regardless of where we live, 
-* and wherever we go
+* regardless of where we live
 
 ___
 
@@ -156,7 +148,7 @@ Clinician dashboards are also being developed to allow communication with health
 
 <!--Need permission to use -->
 
-And on the leading edge, some digital therapeutics now use chatbots or other virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
+And some digital therapeutics now use chatbots or other virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
 
 ---
 
@@ -188,19 +180,13 @@ This is a big deal.  The magnitude of these benefits are meaningful already, eve
 
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
 
-This is how we can increase the treatment capacity of our mental healthcare system.
-
-This is how we will see substantial improvement in public mental health overall.  
-
----
+This is how we can increase the treatment capacity of our mental healthcare system and see substantial improvement in public mental health overall.  
  
 ## Smarter Digital Therapeutics with Personal Sensing
 
 /beta.png
 
-OK, so lets call the smartphone apps I have described to you so far, the beta version of digital therapeutics.  These apps are available and in use today by small numbers of people with substance use disorders across the country.
-
-Their power arises from easy, 24/7 access to their rich and diverse set of supports -their interventions, tools, and services.
+OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their rich and diverse set of supports - their interventions, tools, and services.
 
 ---
 
@@ -249,7 +235,7 @@ My research team became interested in personal sensing when my colleague Dave Gu
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-He had just completed another large study demonstrating the effectiveness of his app. However, he also noticed that among those people who did still relapse, many of them either hadn't used the app in the days leading up that relapse or if they did use it, they hadn't used the specific supports in the app that he would have thought would be most effective.
+He had just completed   large study demonstrating the effectiveness of his app. However, he also noticed that among those people who did still relapse, many of them either hadn't used the app in the days leading up that relapse or if they did use it, they hadn't used the specific supports in the app that he would have thought would be most effective.
 
 He wondered if the benefits of his app could be increased further if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time.  
 
@@ -259,7 +245,7 @@ This launched us on a new program of research to develop personal sensing algori
 
 /gps_1.png
 
-Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that we are developing to provide some intuition about how this works.
+Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that we are developing to provide you with some intuition about how this works.
 
 Behind me is a wide view of my moment-by-moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  You can see the paths that I traveled, with movement by car in yellow and running in blue.  
 
@@ -364,18 +350,18 @@ This means that digital therapeutics must demonstrate both their effectiveness a
 
 And, in fact, the FDA has already followed through and cleared two digital therapeutics to help people manage and treat substance use disorders.  
 
-Digital therapeutics are here today.  
-
 ---
 
 <!-- still a bit of a rough transistion-->
 
 <!-- slide that says:  “delivering the right treatments, at the right time, to the right person, every time”-->
+
+Digital therapeutics are here today.  
 And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
 ---
 
 <!-- add final line in red..    ".... and for EVERYONE!"  or ".... and for all of us!"-->
-My dad did not receive the support he needed.  My hope is that digital therapeutics can begin to help break down barriers and provide mental healthcare that is accessible, acceptable, and available for all of us.  
+My dad did not receive the support he needed.  My hope is that digital therapeutics can begin to help break down barriers to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
