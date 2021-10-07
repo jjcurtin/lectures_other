@@ -42,8 +42,6 @@ Our failure to treat is even more troubling for vulnerable groups.  African Amer
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
----
-
 **Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
 
 ---
@@ -345,8 +343,6 @@ For example, Woebot, the chatbot I briefly described earlier, started its life e
 But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  
 
 This means that digital therapeutics must demonstrate both their effectiveness and their risks, including privacy risks, to be cleared for use by the FDA. These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
-
----
 
 And, in fact, the FDA has already followed through and cleared two digital therapeutics to help people manage and treat substance use disorders.  
 
