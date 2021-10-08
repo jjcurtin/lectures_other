@@ -6,37 +6,31 @@
 
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered.  She required full-time care for the rest of her life and it devastated my family.  
 
+---
+
+/dad.jpg
+
 My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution. My dad is a good man.      
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
 
-While caring for my mom at home, his **access** to mental healthcare was limited by its high cost without health insurance through a job.  
+---
 
-Even if he had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. But **even our family** never discussed it.  It was the elephant in the room.
+We have a mental health crisis in the U.S. and it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
 
-And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
+In 2019, well over half of the 52 million individuals in the U.S. with an active mental illness did not receive **any** treatment.  **More than half**!  
 
-My dad is a good man, and he suffered.  He suffered without support from our mental healthcare system. 
+And for those suffering with a substance use disorder - like my dad - it was worse still.  **9 out of 10 people** with substance use disorders did not receive any treatment at all.
+
+Our failure to provide treatment has tragic consequences.  In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  
 
 ---
 
-We have a mental health crisis in the U.S., and it’s a crisis of **high need**.  
+/victor.jpg
 
-More than **one in five adults** suffer from some form of mental illness including substance use disorders. 
+And these are not just big numbers, they are real people. 
 
----
-
-<!--image of Sarah and Victor?-->
-
-In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  One of them was Victor Kittleson, the 29 year old brother of my graduate student, who died from an opioid overdose this past spring.
-
----
-
-We have a mental health crisis, but more precisely, it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
-
-In 2019, well over half of the individuals in the U.S. with active mental illness did not receive **any** treatment.  **More than half**!  
-
-And for those suffering with a substance use disorder in that same year, **9 out of 10 people** did not receive any treatment at all.  
+One of them was Victor Kittleson, the 29 year old brother of my graduate student, who died from an opioid overdose this past summer.
 
 ---
 
@@ -44,40 +38,47 @@ Our failure to treat is even more troubling for vulnerable groups.  African Amer
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
+---
+
 **Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
+
+---
+
+While caring for my mom at home, my dad's **access** to mental healthcare was limited by its high cost without health insurance through a job.  
 
 ---
 
 /psychologist_heatmap.png
 <!--edit figure title-->
+<!--edit figure to be standard heat map-->
 
-My dad’s access to services was limited by their cost. But consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.
-
----
-
-/stigma_2.png
-
-Seeking out mental health treatment is **unacceptable** to many of us because mental illness is still highly stigmatized and making ourselves vulnerable by sharing our most intimate thoughts and feelings with a therapist is hard.  
+But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
 
 ---
 
-/waitlist_3.png
+<!--consider images and talk with Kortney too-->
+
+Even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
+
+But **even our family** never discussed it.  It was the elephant in the room.  Making ourselves vulnerable to therapists and to each other is hard.  
+
+And it is harder still because of the stigma that still surrounds mental illness even today.
+
+---
 
 /waitlist_2.jpg
 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have long wait lists that can delay the start of treatment for months.  
 
----
+And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
 
-/calendar.png
-
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these scheduled appointments.  Crises, stressors, and other difficult thoughts and emotions can occur and require support at any time.
+Would a therapist have been available to my dad at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them? 
 
 ## Digital Therapeutics
 
-Access, acceptability, and availability - these issues are undermining the treatment capacity of our mental healthcare system and leaving millions without treatment when they need it most.  
+**Access, acceptability, and availability** - these issues are undermining the treatment capacity of our mental healthcare system and leaving millions without treatment when they need it most.  
 
-Fortunately, I am here today to tell you that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are now emerging to target these very same three issues.  
+Fortunately, digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are now emerging to target these very same three issues.  
 
 ___
 
@@ -91,6 +92,8 @@ So what are digital therapeutics?
 
 Digital therapeutics are software programs or "apps" that are designed to prevent, manage, or treat a medical disorder. 
  
+<!--GEF: Digital therapeutics are a subset of health-related software programs or "apps". They're not just counting your steps - they are explicitly designed to prevent, manage, or treat a medical disorder.-->
+
 ---
 
 <!--Or maybe just images of lots of diverse people using phones in diverse locations??-->
@@ -107,9 +110,9 @@ Rural	                80%
 Income < $30,000/year	76%
 ```
 
-Digital therapeutics are delivered to patients on their smartphones and this is key to their accessibility and availability.
+Digital therapeutics are delivered to patients on their smartphones and this is the key to their accessibility and availability.
 
-Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups.  
+Today, 85% of adults in the U.S. own smartphones.  And ownership is similarly high even for people from vulnerable groups due to race, ethnicity, income, and geography.
 
 Most of us now carry these pocket-sized, powerful computers with us everywhere we go.
 
@@ -125,7 +128,9 @@ ___
 
 <!-- Need to improve the text in this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
 
-Some of the best examples of these digital therapeutics have been developed to support patients with alcohol and other substance use disorders.  They include a rich set of interventions, tools, and services to support patients during their recovery.
+<!--GEF: transition to personal examples/add in personal context instead. E.g., "If my dad had access to a digital therapeutic, he could have used it to..." -->
+
+Some of the best examples of these digital therapeutics have been developed to support patients with substance use disorders.  They include a rich set of interventions, tools, and services to support patients during their recovery.
 
 Examples of these include:
 
@@ -155,15 +160,15 @@ Of course, all of this would be meaningless if digital therapeutics were not eff
 
 But they are.  
 
-For example, patients using digital therapeutics have about double the odds of remaining abstinent from alcohol or other drugs.
+For example, patients using digital therapeutics are almost twice as likely to be abstinent from alcohol or other drugs.
 
-These increases in abstinence from using digital therapeutics are observed both when compared to patients on wait lists, who have yet to gained access to treatment and also when digital therapeutics are added on top of traditional treatments for substance use disorders.
+These increases in abstinence from using digital therapeutics are observed not only when compared to patients on wait lists, who have yet to gained access to treatment but also when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
 And these benefits are durable - they have been documented up to 12 months after the start of treatment.  
 
 ---
 
-<!--Image of single patient on couch with therapist or a single person using smartphone-->
+/single_patient.png
 
 This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient.  
 
@@ -194,7 +199,7 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 
 ---
 
-To realize their full potential, the next wave of digital therapeutics must learn to know us better as individuals, not just a homogeneous group of patients with the same coarse diagnoses and same treatment needs at all times.  
+To realize their full potential, the next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
 
 And they will do this through the use of built-in artificial intelligence algorithms that are powered by personal sensing.
 
@@ -230,7 +235,9 @@ My research team became interested in personal sensing when my colleague Dave Gu
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-He had just completed   large study demonstrating the effectiveness of his app. However, he also noticed that among those people who did still relapse, many of them either hadn't used the app in the days leading up that relapse or if they did use it, they hadn't used the specific supports in the app that he would have thought would be most effective.
+<!--GEF: these next few paragraphs are harder for me to parse than the rest of your language/sentence structure has been. I think maybe it has to do with the sentences getting longer and clause-filled. Consider chopping into single-idea, bite-sized sentences. -->
+
+He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many people who did relapse hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
 
 He wondered if the benefits of his app could be increased further if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time.  
 
@@ -279,7 +286,7 @@ But imagine what you could learn about me if you knew the patterns of my communi
 We can make these raw location and communications data more powerful still by discovering what these people and places actually mean to us.  
 
 For example, this very same text message thread behind me would indicate quite different risk for relapse for someone in recovery when sent to their mother, who supports their recovery, vs. their drinking buddy who wants them back in the bar. 
-
+<!--GEF: wondering if this is an opportunity to personalize - rather than showing two "strangers'" texts, could you make up an example that connects to Victor or your dad? -->
 ---
 
 We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. 
@@ -294,9 +301,9 @@ We could also see when time spent with Ed abruptly stops each fall because Ed sp
 
 He could be encouraged by the app to reach out to other supportive family and friends during these times.  He could be provided with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
 
-If the app knew him well, it could predict which of these forms of support might be most effective for him.
+If the app knew him well, it might even predict which of these forms of support would be most effective for him.
 
-If he had also received traditional mental healthcare, he might have given permission for the app share his risk with his therapist.  This could allow clinicians to efficiently direct their own limited resources toward their patients with greatest need.
+If he had also received traditional mental healthcare, he might have given permission for the app share his risk with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
 ---
 
@@ -315,8 +322,6 @@ We must commit to train our personal sensing algorithms on diverse samples of pa
 
 /surprised_cat_1.png
 
-/surprised_faces.png
-
 I also suspect that at some point, probably about five minutes ago, you also  thought: 
 
 > "Holy crap, this is really private information that these apps will collect from us.  Who will have access to it and what will they do with it?"
@@ -329,7 +334,7 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 So here's why I'm optimistic
 
-First, the business incentives for developers of digital therapeutics strongly encourage robust privacy protections.  Patient trust in mental healthcare is fundamental to their own financial success and it would be an incredibly poor business decision to behave in any way that would undermine that trust.  
+First, the business incentives for developers of digital therapeutics strongly encourage robust privacy protections to maintain the trust that is necessary for patients to accept their apps.
 
 For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, they quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for the US healthcare industry by HIPAA.
 
@@ -339,9 +344,13 @@ For example, Woebot, the chatbot I briefly described earlier, started its life e
 
 But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  
 
-This means that digital therapeutics must demonstrate both their effectiveness and their risks, including privacy risks, to be cleared for use by the FDA. These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
+This means that the FDA evaluates both the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients.  
 
-And, in fact, the FDA has already followed through and cleared two digital therapeutics to help people manage and treat substance use disorders.  
+These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
+
+<!--Updated clear guidance from the FDA was also designed to encourage increased investment and development of digital therapeutics by health and technology companies.-->  
+
+And, in fact, the FDA has already followed through and cleared two new digital therapeutics to help people manage and treat substance use disorders.  
 
 ---
 
@@ -355,7 +364,7 @@ And as they begin to add personal sensing capabilities, we can start to imagine 
 
 ---
 
-<!-- add final line in red..    ".... and for EVERYONE!"  or ".... and for all of us!"-->
+<!-- add final line in red..    ".... and for all of us!"-->
 My dad did not receive the support he needed.  My hope is that digital therapeutics can help to break down barriers to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
