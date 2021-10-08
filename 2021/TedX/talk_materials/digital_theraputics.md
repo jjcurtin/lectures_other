@@ -34,7 +34,7 @@ In the past 12 months alone, almost **100,000 people** have died from drug overd
 
 We have a mental health crisis, but more precisely, it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
 
-In 2019, well over half of the individuals in the U.S. with an active mental illness did not receive **any** treatment.  **More than half**!  
+In 2019, well over half of the individuals in the U.S. with active mental illness did not receive **any** treatment.  **More than half**!  
 
 And for those suffering with a substance use disorder in that same year, **9 out of 10 people** did not receive any treatment at all.  
 
@@ -71,11 +71,11 @@ Mental healthcare services are often not **available** when we need them most.  
 
 /calendar.png
 
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these scheduled appointments.  Crises, stressors, drug cravings, and other difficult thoughts and emotions can occur and require support at any time.
+And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these scheduled appointments.  Crises, stressors, and other difficult thoughts and emotions can occur and require support at any time.
 
 ## Digital Therapeutics
 
-Access, acceptability, and availability - these issues are undermining our mental healthcare system and leaving millions without treatment when they need it most.  
+Access, acceptability, and availability - these issues are undermining the treatment capacity of our mental healthcare system and leaving millions without treatment when they need it most.  
 
 Fortunately, I am here today to tell you that digital therapeutics, and in particular, digital therapeutics **delivered on smartphones and made smarter still by personal sensing technologies**, are now emerging to target these very same three issues.  
 
@@ -130,7 +130,7 @@ Some of the best examples of these digital therapeutics have been developed to s
 Examples of these include:
 
 * Evidence-based interventions like cognitive behavioral therapy and mindfulness based stress reduction.  
-* Peer support in the form of discussion forums with other patients using the app
+* Peer support in discussion forums with other patients using the app
 * Search tools to locate self-help groups like AA and NA meetings
 * Healthcare planning tools such as medication managers and appointment reminders
 * And self-assessment and symptom tracking tools
@@ -157,9 +157,7 @@ But they are.
 
 For example, patients using digital therapeutics have about double the odds of remaining abstinent from alcohol or other drugs.
 
-These increases in abstinence from using digital therapeutics are observed when compared to patients on wait lists, who have yet to gained access to treatment.  
-
-But these increases in abstinence are also observed when digital therapeutics are added on top of traditional treatments for substance use disorders.
+These increases in abstinence from using digital therapeutics are observed both when compared to patients on wait lists, who have yet to gained access to treatment and also when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
 And these benefits are durable - they have been documented up to 12 months after the start of treatment.  
 
@@ -204,7 +202,7 @@ And they will do this through the use of built-in artificial intelligence algori
 
 Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
 
-I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  And they work.  My closet is overflowing with all the latest brands of now stinky trail runners.   
+I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
@@ -216,11 +214,13 @@ This fall, I've been bombarded with ads for books, videos, and classes to improv
 
 <!-- simplify this and synch with an image by Kortney-->
 
-Much like digital therapeutics, personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
+Personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
 
 Smartphones log our personal communications by phone calls and text messages. Facebook posts and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
 Personal sensing involves capturing all this information and using it to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
+
+Right now, it is used primarily to sell us things.   But we hope to use it to improve mental healthcare.
 
 ---
 
@@ -350,6 +350,7 @@ And, in fact, the FDA has already followed through and cleared two digital thera
 <!-- slide that says:  “delivering the right treatments, at the right time, to the right person, every time”-->
 
 Digital therapeutics are here today.  
+
 And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
 ---
