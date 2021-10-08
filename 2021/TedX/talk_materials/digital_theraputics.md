@@ -4,7 +4,9 @@
 ## The Mental Healthcare Crisis
 <!--Image of my dad?-->
 
-When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered.  She required full-time care for the rest of her life.  My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution. My dad is a good man.      
+When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered.  She required full-time care for the rest of her life and it devastated my family.  
+
+My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution. My dad is a good man.      
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
 
@@ -14,7 +16,7 @@ Even if he had had access to treatment, it likely wouldn’t have been **accepta
 
 And had he received treatment, that treatment may not have been **available** to him at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them. 
 
-My dad is a good man, and he suffered.  He suffered without support from our mental healthcare system. In large part, my work now is driven so that others don't suffer similarly.  
+My dad is a good man, and he suffered.  He suffered without support from our mental healthcare system. 
 
 ---
 
@@ -88,14 +90,7 @@ Therapists will always be needed for what they do uniquely well.  But we simply 
 So what are digital therapeutics?
 
 Digital therapeutics are software programs or "apps" that are designed to prevent, manage, or treat a medical disorder. 
-
----
-
-/barn.png
-<!--Still use image but with caption to indicate early CHESS?-->
-
-Digital therapeutics **delivered on computers** have been around since the 1980s but their impact remained limited because computers were expensive and many people didn't have access to them.
-
+ 
 ---
 
 <!--Or maybe just images of lots of diverse people using phones in diverse locations??-->
@@ -112,11 +107,13 @@ Rural	                80%
 Income < $30,000/year	76%
 ```
 
-This all changed with the smartphone. Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups.  
+Digital therapeutics are delivered to patients on their smartphones and this is key to their accessibility and availability.
+
+Today, 85% of adults in the U.S. own smartphones.  And ownership is already relatively high and increasing even for people from vulnerable groups.  
 
 Most of us now carry these pocket-sized, powerful computers with us everywhere we go.
 
-And its this widespread use of smartphones that has powered the first wave of digital therapeutics that can now provide us support
+And its this widespread use of smartphones that allows digital therapeutics to provide support
 * 24 hours a day, 
 * 7 days a week, 
 * every day of the year,
@@ -358,6 +355,6 @@ And as they begin to add personal sensing capabilities, we can start to imagine 
 ---
 
 <!-- add final line in red..    ".... and for EVERYONE!"  or ".... and for all of us!"-->
-My dad did not receive the support he needed.  My hope is that digital therapeutics can begin to help break down barriers to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
+My dad did not receive the support he needed.  My hope is that digital therapeutics can help to break down barriers to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
