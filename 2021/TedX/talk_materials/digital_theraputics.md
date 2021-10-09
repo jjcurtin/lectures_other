@@ -48,14 +48,13 @@ While caring for my mom at home, my dad's **access** to mental healthcare was li
 ---
 
 /psychologist_heatmap.png
-<!--edit figure title-->
-<!--edit figure to be standard heat map-->
+<!--Have Kortney edit figure to be standard heat map with clearer legend and title-->
 
 But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
 
 ---
 
-<!--consider images and talk with Kortney too-->
+<!--consider stock images and talk with Kortney too-->
 
 Even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
@@ -95,23 +94,11 @@ Digital therapeutics are software programs or "apps" that are designed to preven
 
 ---
 
-<!--Or maybe just images of lots of diverse people using phones in diverse locations??-->
-<!--maybe images with but with subset of stats for vulnerable groups?-->
-
-```
-Smartphone Ownership by Key Demographics
-
-Overall	                85%
-
-Black	                83%
-Hispanic	            85%
-Rural	                80%
-Income < $30,000/year	76%
-```
+<!--images of lots of diverse people using phones in diverse locations-->
 
 Digital therapeutics are delivered to patients on their smartphones and this is the key to their accessibility and availability.
 
-Today, 85% of adults in the U.S. own smartphones.  And ownership is similarly high even for people from vulnerable groups due to race, ethnicity, income, and geography.
+Today, 85% of adults in the U.S. own smartphones.  And equally important, ownership is similarly high regardless of race, ethnicity, income, and geography.
 
 Most of us now carry these pocket-sized, powerful computers with us everywhere we go.
 
@@ -151,10 +138,6 @@ And some digital therapeutics now use chatbots or other virtual agents that can 
 
 ---
 
-<!-- break apart with simple, single stats images?-->
-<!-- ~2x the odds of remaining abstinent-->
-<!-- Benefits are long lasting-->
-<!-- May increase retention in traditional treatment-->
 Of course, all of this would be meaningless if digital therapeutics were not effective.
 
 But they are.  
@@ -175,6 +158,8 @@ This is a big deal.  The magnitude of these benefits are meaningful already, eve
 
 /smartphone_crowd.png
 
+<!--This is not a stock image.   I really like it if we can find a way to buy rights to it.  If  not, we need something similar.-->
+
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
 
 This is how we can increase the treatment capacity of our mental healthcare system and see substantial improvement in public mental health overall.  
@@ -190,7 +175,7 @@ OK, so lets call the apps I have described to you so far, the beta version of di
 <!-- Image representing challenge of choosing what to do?-->
 
 But this is also their Achilles heel.  As the patient using these apps, you now have to tackle difficult questions like:
-
+ 
 * When should I use them?
 * For how long?
 * Which of their various supports are right for me?
@@ -210,13 +195,11 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
-<!--Other or better examples?-->
-
 ---
 
 /smartphone.png
 
-<!-- simplify this and synch with an image by Kortney-->
+<!-- simplify this text and synch with an image by Kortney-->
 
 Personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
 
@@ -234,11 +217,11 @@ My research team became interested in personal sensing when my colleague Dave Gu
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-<!--GEF: these next few paragraphs are harder for me to parse than the rest of your language/sentence structure has been. I think maybe it has to do with the sentences getting longer and clause-filled. Consider chopping into single-idea, bite-sized sentences. -->
-
-He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many people who did relapse hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
+He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
 
 He wondered if the benefits of his app could be increased further if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time.  
+
+<!--the two paragraphs above are still a bit redundant and rough-->
 
 This launched us on a new program of research to develop personal sensing algorithms that could accomplish these goals.
 
@@ -270,7 +253,7 @@ If you probed the red dots indicating the places I visited, you would find the r
 
 /text_messages.png
 
-<!--Will edit for copyright-->
+<!--Will remake for copyright-->
 
 We also collect smartphone communications logs and even the content of text messages.  And no such luck, I don't plan to show you my actual text messages!
 
@@ -286,6 +269,7 @@ We can make these raw location and communications data more powerful still by di
 
 For example, this very same text message thread behind me would indicate quite different risk for relapse for someone in recovery when sent to their mother, who supports their recovery, vs. their drinking buddy who wants them back in the bar. 
 <!--GEF: wondering if this is an opportunity to personalize - rather than showing two "strangers'" texts, could you make up an example that connects to Victor or your dad? -->
+
 ---
 
 We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. 
@@ -316,14 +300,13 @@ We must commit to train our personal sensing algorithms on diverse samples of pa
 
 ---
 
-<!--https://www.shutterstock.com/image-photo/shocked-stupefied-dark-skinned-man-their-793124137-->
 <!--https://www.shutterstock.com/image-photo/young-crazy-surprised-cat-make-big-1058307686-->
 
 /surprised_cat_1.png
 
-I also suspect that at some point, probably about five minutes ago, you also  thought: 
+I also suspect that at some point, probably about five minutes ago, you also thought: 
 
-> "Holy crap, this is really private information that these apps will collect from us.  Who will have access to it and what will they do with it?"
+> "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
 
 Most of us are too familiar with recent egregious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
 
@@ -333,23 +316,23 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 So here's why I'm optimistic
 
-First, the business incentives for developers of digital therapeutics strongly encourage robust privacy protections to maintain the trust that is necessary for patients to accept their apps.
+First, the business incentives for developers of digital therapeutics strongly encourage  them to adopt robust privacy protections to maintain the trust that is necessary for patients to accept their apps.  <!--"accept" is not quite the right word-->
 
-For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, they quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for the US healthcare industry by HIPAA.
+For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, the developers quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for personal health information by HIPAA.
 
 ---
 
 /fda.png
 
-But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  
+But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward-->
 
-This means that the FDA evaluates both the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients.  
+This means that the FDA now evaluates both the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients.  
 
 These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
 <!--Updated clear guidance from the FDA was also designed to encourage increased investment and development of digital therapeutics by health and technology companies.-->  
 
-And, in fact, the FDA has already followed through and cleared two new digital therapeutics to help people manage and treat substance use disorders.  
+And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
 
 ---
 
@@ -361,9 +344,11 @@ Digital therapeutics are here today.
 
 And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
+<!--I havent used the term precision mental healthcare anywhere else.  But the name is somewhat self-defining?-->
+
 ---
 
 <!-- add final line in red..    ".... and for all of us!"-->
-My dad did not receive the support he needed.  My hope is that digital therapeutics can help to break down barriers to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
+My dad did not receive the mental healthcare he needed.  My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
