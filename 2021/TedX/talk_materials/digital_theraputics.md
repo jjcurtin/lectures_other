@@ -48,13 +48,13 @@ While caring for my mom at home, my dad's **access** to mental healthcare was li
 ---
 
 /psychologist_heatmap.png
-<!--Have Kortney edit figure to be standard heat map with clearer legend and title-->
+<!--Have Kortney edit colors in figure to be standard heat map with clearer legend and title-->
 
 But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
 
 ---
 
-<!--consider stock images and talk with Kortney too-->
+<!--consider stock images and talk with Kortney too about her ideas-->
 
 Even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
@@ -94,7 +94,7 @@ Digital therapeutics are software programs or "apps" that are designed to preven
 
 ---
 
-<!--images of lots of diverse people using phones in diverse locations-->
+<!--use stock images of lots of diverse people using phones in diverse locations-->
 
 Digital therapeutics are delivered to patients on their smartphones and this is the key to their accessibility and availability.
 
@@ -110,7 +110,7 @@ And its this widespread use of smartphones that allows digital therapeutics to p
 
 ___
 
-<!-- Need an engaging image to make the transition and highlight diversity of tools and services.   Cartoon/sketch?-->
+<!-- Need an engaging image to make the transition and highlight diversity of tools and services.   Cartoon/sketch?  Talk with Kortney about her ideas-->
 
 <!-- Need to improve the text in this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
 
@@ -132,7 +132,7 @@ Clinician dashboards are also being developed to allow communication with health
 
 /woebot.png
 
-<!--Need permission to use -->
+<!--Need permission to use image -->
 
 And some digital therapeutics now use chatbots or other virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
 
@@ -172,7 +172,7 @@ OK, so lets call the apps I have described to you so far, the beta version of di
 
 ---
 
-<!-- Image representing challenge of choosing what to do?-->
+<!-- Image representing challenge of choosing what to do?  Talk with Kortney about her ideas-->
 
 But this is also their Achilles heel.  As the patient using these apps, you now have to tackle difficult questions like:
  
@@ -198,8 +198,8 @@ This fall, I've been bombarded with ads for books, videos, and classes to improv
 ---
 
 /smartphone.png
-
-<!-- simplify this text and synch with an image by Kortney-->
+<!-- Have Kortney create a similar image.  We dont have copyright to this one.  Just grabbed it off the web-->
+<!-- simplify this text and synch with image created by Kortney-->
 
 Personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
 
@@ -263,7 +263,7 @@ But imagine what you could learn about me if you knew the patterns of my communi
 
 /mom_raw.png
 
-<!-- make this image funny with faces??-->
+<!-- make this image funny with faces?  Talk with Kortney about her thoughts but could also just grab some faces from stock images-->
 
 We can make these raw location and communications data more powerful still by discovering what these people and places actually mean to us.  
 
@@ -339,6 +339,7 @@ And, in fact, the FDA has already followed through and recently cleared two new 
 <!-- still a bit of a rough transistion-->
 
 <!-- slide that says:  “delivering the right treatments, at the right time, to the right person, every time”-->
+<!--Talk with Kortney about attractive font and layout on slide for this and next panel-->
 
 Digital therapeutics are here today.  
 
@@ -348,7 +349,7 @@ And as they begin to add personal sensing capabilities, we can start to imagine 
 
 ---
 
-<!-- add final line in red..    ".... and for all of us!"-->
+<!-- Talk with Kortney about adding final line to above but in red?..    ".... and for all of us!"-->
 My dad did not receive the mental healthcare he needed.  My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
