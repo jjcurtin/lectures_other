@@ -2,15 +2,14 @@
 
 
 ## The Mental Healthcare Crisis
-<!--Image of my dad?-->
 
-When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered.  She required full-time care for the rest of her life and it devastated my family.  
+When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me.  She required full-time care for the rest of her life and it devastated my family.  
 
 ---
 
 /dad.jpg
 
-My dad devotedly stayed home for 25 years rather than work so that he could care for her at home rather than commit her to an institution. My dad is a good man.      
+My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
 
@@ -28,7 +27,7 @@ Our failure to provide treatment has tragic consequences.  In the past 12 months
 
 /victor.jpg
 
-And these are not just big numbers, they are real people. 
+And these are not just big numbers, they are real people.
 
 One of them was Victor Kittleson, the 29 year old brother of my graduate student, who died from an opioid overdose this past summer.
 
