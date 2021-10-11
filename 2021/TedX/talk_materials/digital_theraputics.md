@@ -181,8 +181,6 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 * Which of their various supports are right for me?
 * And which are right for me **now**, at this moment in time?
 
----
-
 To realize their full potential, the next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
 
 And they will do this through the use of built-in artificial intelligence algorithms that are powered by personal sensing.
