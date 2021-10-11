@@ -152,7 +152,7 @@ And these benefits are durable - they have been documented up to 12 months after
 
 /single_patient.png
 
-This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient.  
+This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient using the app.  
 
 ---
 
@@ -193,6 +193,8 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
+Right now, personal sensing is used primarily to sell us things.   But we hope to use it to improve mental healthcare.
+
 ---
 
 /smartphone.png
@@ -204,8 +206,6 @@ Personal sensing has been supercharged by smartphones and the data that they col
 Smartphones log our personal communications by phone calls and text messages. Facebook posts and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
 
 Personal sensing involves capturing all this information and using it to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
-
-Right now, it is used primarily to sell us things.   But we hope to use it to improve mental healthcare.
 
 ---
 
