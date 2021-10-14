@@ -191,7 +191,7 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
-Right now, personal sensing is used primarily to sell us things.   But we hope to use it to improve mental healthcare.
+Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their data to improve their own mental healthcare.
 
 ---
 
@@ -261,7 +261,7 @@ But imagine what we can learn about me from the patterns of my communications - 
 
 We can improve our predictions about me even further by identifying the specific people and places that make me happy or sad or stressed, those that I perceive support my mental health and those who undermine it. 
 
-We gathered this information quickly by pushing out a few key questions to my smartphone about my frequent contacts and locations over the first couple of months of my use of the app. 
+We gathered this information quickly by pushing out a few key questions to me though my smartphone about my frequent contacts and locations over the first couple of months of my use of the app. 
 
 Armed with this information, the app's algorithms can make even more precise predictions.
 
@@ -288,7 +288,7 @@ If he had also received traditional mental healthcare, he might have given permi
 
 ---
 
-In our research studies, we can already predict if someone will drink tomorrow with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  
+In our research studies, we can already predict if someone will drink **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  This is exciting.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
@@ -314,14 +314,13 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 /fda.png
 
-So here's why I'm optimistic.  In the last five years, the FDA has begun to recognize both the rapid pace of innovation, and the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has now clarified that it intends to regulate software, including mobile apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward?-->
+So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has now clarified that it intends to regulate software, including mobile apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward?-->
 
-This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. It also continues to monitor benefits and risks associated with these apps real-world performance after clearance. 
+This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. 
 
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
 This FDA guidance was also designed to provide the clarity and predictability necessary to stimulate further development, innovation, and investment in digital therapeutics.  
-
 
 And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
 
@@ -339,13 +338,15 @@ Digital therapeutics are here today.
 And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson.  In large part, my work now is driven so that others don't suffer similarly.  
+
+My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available 
+
 <!--I havent used the term precision mental healthcare anywhere else.  But the name is somewhat self-defining?-->
 
 ---
 
 <!-- Talk with Kortney about adding final line to above but in red?..    ".... and for all of us!"-->
 
-
-My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
+**for all of us**.  
 
 Thank you.
