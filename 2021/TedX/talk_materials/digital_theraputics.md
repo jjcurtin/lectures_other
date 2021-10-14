@@ -11,8 +11,8 @@ When I was still relatively young, my mother lost control of her car when it hit
 
 My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. But we did. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
-
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
+<!--In large part, my work now is driven so that others don't suffer similarly.-->
 ---
 
 We have a mental health crisis in the U.S. and it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
@@ -142,7 +142,7 @@ Of course, all of this would be meaningless if digital therapeutics were not eff
 
 But they are.  
 
-For example, patients using digital therapeutics are almost twice as likely to be abstinent from alcohol or other drugs.
+For example, patients using digital therapeutics have almost double the odds of being abstinent from alcohol or other drugs.
 
 These increases in abstinence from using digital therapeutics are observed not only when compared to patients on wait lists, who have yet to gained access to treatment but also when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
@@ -294,7 +294,7 @@ But these are **preliminary** research studies.  And we started with participant
 
 For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
 
-We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. We can do better and we will.
+We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. Our current studies now specifically recruits for racial, ethnic, and geographic diversity across the entire United States. 
 
 ---
 
@@ -312,25 +312,22 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 ---
 
-So here's why I'm optimistic
-
-First, the business incentives for developers of digital therapeutics strongly encourage  them to adopt robust privacy protections to maintain the trust that is necessary for patients to accept their apps.  <!--"accept" is not quite the right word-->
-
-For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, the developers quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for personal health information by HIPAA.
-
----
-
 /fda.png
 
-But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward-->
+So here's why I'm optimistic.  In the last five years, the FDA has begun to recognize both the rapid pace of innovation, and the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has now clarified that it intends to regulate software, including mobile apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward?-->
 
-This means that the FDA now evaluates both the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients.  
+This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. It also continues to monitor benefits and risks associated with these apps real-world performance after clearance. 
 
-These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
+These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
-<!--Updated clear guidance from the FDA was also designed to encourage increased investment and development of digital therapeutics by health and technology companies.-->  
+___
+
+This FDA guidance was also designed to provide the clarity and predictability necessary to stimulate further development, innovation, and investment in digital therapeutics.  
+
 
 And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
+
+
 
 ---
 
@@ -348,6 +345,8 @@ And as they begin to add personal sensing capabilities, we can start to imagine 
 ---
 
 <!-- Talk with Kortney about adding final line to above but in red?..    ".... and for all of us!"-->
-My dad did not receive the mental healthcare he needed.  My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
+My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson.  In large part, my work now is driven so that others don't suffer similarly.  
+
+My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
 Thank you.
