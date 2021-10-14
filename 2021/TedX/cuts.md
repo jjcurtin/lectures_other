@@ -224,3 +224,40 @@ But let me pause for a moment.  I want to be very clear on one point before we m
 * And they may **reduce acceptability barriers** for some people that later eases them into traditional care.  
 
 But, human clinicians will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
+
+# Larger privacy section pre-cut woebot
+I also suspect that at some point, probably about five minutes ago, you also thought: 
+
+> "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
+
+Most of us are too familiar with recent egregious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
+
+Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
+
+---
+
+So here's why I'm optimistic
+
+First, the business incentives for developers of digital therapeutics strongly encourage  them to adopt robust privacy protections to maintain the trust that is necessary for patients to accept their apps.  <!--"accept" is not quite the right word-->
+
+For example, Woebot, the chatbot I briefly described earlier, started its life embedded within Facebook Messenger.  However, after the Cambridge Analytica scandal, the developers quickly pivoted to provide a stand alone app for Woebot so that they could maintain control over their user's data outside of Facebook servers.  Their data protection procedures now adhere to the standards set for personal health information by HIPAA.
+
+---
+
+/fda.png
+
+But, of course, business incentives and voluntary compliance are not sufficient.  So more importantly, the FDA has begun to regulate software as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward-->
+
+This means that the FDA now evaluates both the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients.  
+
+These FDA policy changes are huge and they situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
+
+<!--Updated clear guidance from the FDA was also designed to encourage increased investment and development of digital therapeutics by health and technology companies.-->  
+
+And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
+
+<!--Updated clear guidance from the FDA was also designed to encourage increased investment and development of digital therapeutics by health and technology companies.-->  
+<!--the rapid pace of innovation, and their potential benefits and risks to public health. The FDA is issuing this guidance document to inform manufacturers, distributors, and other entities about how the FDA intends to apply its regulatory authorities to select software applications intended for use on mobile platforms (mobile applications or "mobile apps") or on general-purpose computing platforms. Given the rapid expansion and broad applicability of software functions deployed on mobile or other general-purpose computing platforms, the FDA is issuing this guidance document to clarify the subset of software functions to which the FDA intends to apply its authority.-->
+
+<!--FDA is issuing this guidance to provide clarity and predictability for software manufacturers-->
+<!--to promote safe innovation and protect patient safety-->
