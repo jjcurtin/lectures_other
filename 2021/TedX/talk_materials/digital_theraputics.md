@@ -88,9 +88,7 @@ Therapists will always be needed for what they do uniquely well.  But we simply 
 
 So what are digital therapeutics?
 
-Digital therapeutics are software programs or "apps" that are designed to prevent, manage, or treat a medical disorder. 
- 
-<!--GEF: Digital therapeutics are a subset of health-related software programs or "apps". They're not just counting your steps - they are explicitly designed to prevent, manage, or treat a medical disorder.-->
+Digital therapeutics are software programs or "apps" that are designed to prevent, manage, or treat disease, including mental illness. 
 
 ---
 
@@ -229,21 +227,23 @@ This launched us on a new program of research to develop personal sensing algori
 
 Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that we are developing to provide you with some intuition about how this works.
 
-Behind me is a wide view of my moment-by-moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  You can see the paths that I traveled, with movement by car in yellow and running in blue.  
+Behind me is a wide view of my moment-by-moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  We can see the paths that I traveled, with movement by car in yellow and running in blue.  
 
-The points in red indicate places that I stopped to visit for at least a few minutes.  And although not displayed here, we know the days and exact times that I was at each location.  
+The points in red indicate places that I stopped to visit for at least a few minutes.  
 
-As my smartphone ads already know, you can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
+And although not displayed here, we know the days and exact times that I was at each location.  <!--how to indicate this in image?-->
+
+As my smartphone ads already know, we can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
 
 ---
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, you can see dense clusters of red dots indicating places visited near my home and where I work at the University of Wisconsin.  You can see that I drive my children clockwise around the lake each morning to their elementary school.  And you could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
+Zooming in to the Madison isthmus, we can see dense clusters of red dots indicating places visited near my home and where I work at the University of Wisconsin.  We can see that I drive my children clockwise around the lake each morning to their elementary school.  And we could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
 
-You can see my daily running commute to and from my office.  From this, you can observe the long days, and short days, at the office.   
+We can see my daily running commute to and from my office.  From this, we can observe the long days, and short days, at the office.   
 
-If you probed the red dots indicating the places I visited, you would find the restaurants, bars, and coffee shops where I eat, drink and socialize.  We can use public map data to identify these places and make inferences about what I do there.  
+If we probed the red dots indicating the places I visited, we would find the restaurants, bars, and coffee shops where I eat, drink and socialize.  We can use public map data to identify these places and make inferences about what I do there.  
 
 <!--specific restaurants or cafes if humorous or personalizing-->
 
@@ -255,28 +255,28 @@ If you probed the red dots indicating the places I visited, you would find the r
 
 We also collect smartphone communications logs and even the content of text messages.  And no such luck, I don't plan to show you my actual text messages!
 
-But imagine what you could learn about me if you knew the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
+But imagine what we can learn about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
 
 ---
+
+We can improve our predictions about me even further by identifying the specific people and places that make me happy or sad or stressed, those that I perceive support my mental health and those who undermine it. 
+
+We gathered this information quickly by pushing out a few key questions to my smartphone about my frequent contacts and locations over the first couple of months of my use of the app. 
+
+Armed with this information, the app's algorithms can make even more precise predictions.
+
+---
+
+<!-- think more about this image--> 
 
 /mom_raw.png
+For example, if my dad was using such an app, we could learn that his friend Ed has been a lifelong source of stability and support.  
 
-<!-- make this image funny with faces?  Talk with Kortney about her thoughts but could also just grab some faces from stock images-->
-
-We can make these raw location and communications data more powerful still by discovering what these people and places actually mean to us.  
-
-For example, this very same text message thread behind me would indicate quite different risk for relapse for someone in recovery when sent to their mother, who supports their recovery, vs. their drinking buddy who wants them back in the bar. 
-<!--GEF: wondering if this is an opportunity to personalize - rather than showing two "strangers'" texts, could you make up an example that connects to Victor or your dad? -->
+If we saw this text message thread with Ed, we would know my dad was seeking support. However, these same messages would mean something quite different if they were exchanged with one of my dad's drinking buddies who wants him back in the bar. 
 
 ---
 
-We can gather this information quickly by pushing out a few key questions to their smartphone about their frequent contacts and locations over the first couple of months of their use of the app. 
-
-We can identify the specific people and places that make us happy or sad or stressed, those that we perceive support our recovery and those who undermine it. Armed with this information, our algorithms can make even more precise predictions.
-
----
-
-For my dad, we could learn that his friend Ed has been a lifelong source of stability and support.  We would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
+More generally, we would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
 
 We could also see when time spent with Ed abruptly stops each fall because Ed spends his winters in Florida.  These months are harder for my dad and he would benefit from more support.
 
@@ -320,8 +320,6 @@ This means that the FDA now evaluates the effectiveness and risks, including pri
 
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
-___
-
 This FDA guidance was also designed to provide the clarity and predictability necessary to stimulate further development, innovation, and investment in digital therapeutics.  
 
 
@@ -340,12 +338,13 @@ Digital therapeutics are here today.
 
 And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
+My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson.  In large part, my work now is driven so that others don't suffer similarly.  
 <!--I havent used the term precision mental healthcare anywhere else.  But the name is somewhat self-defining?-->
 
 ---
 
 <!-- Talk with Kortney about adding final line to above but in red?..    ".... and for all of us!"-->
-My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson.  In large part, my work now is driven so that others don't suffer similarly.  
+
 
 My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available **for all of us**.  
 
