@@ -66,7 +66,7 @@ And it is harder still because of the stigma that surrounds mental illness even 
 
 /waitlist_2.jpg
 
-Mental healthcare services are often not **available** when we need them most.  Many well-regarded psychologists have long wait lists that can delay the start of treatment for months.  
+Mental healthcare services are often not **available** when we need them most.  Many well-regarded therapists have long wait lists that can delay the start of treatment for months.  
 
 And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
 
