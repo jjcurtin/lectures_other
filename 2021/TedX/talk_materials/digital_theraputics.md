@@ -11,7 +11,7 @@ When I was still relatively young, my mother lost control of her car when it hit
 
 My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe and almost impossible to ignore. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
 <!--In large part, my work now is driven so that others don't suffer similarly.-->
 ---
 
@@ -60,7 +60,7 @@ Even if my dad had had access to treatment, it likely wouldn’t have been **acc
 
 But **even our family** never discussed it.  It was the elephant in the room.  Making ourselves vulnerable to therapists and to each other is hard.  
 
-And it is harder still because of the stigma that still surrounds mental illness even today.
+And it is harder still because of the stigma that surrounds mental illness even today.
 
 ---
 
@@ -118,13 +118,12 @@ Some of the best examples of these digital therapeutics have been developed to s
 
 Examples of these include:
 
-* Evidence-based interventions like cognitive behavioral therapy and mindfulness based stress reduction.  
+* Evidence-based interventions like cognitive behavioral therapy
 * Peer support in discussion forums with other patients using the app
 * Search tools to locate self-help groups like AA and NA meetings
 * Healthcare planning tools such as medication managers and appointment reminders
-* And self-assessment and symptom tracking tools
-
-Clinician dashboards are also being developed to allow communication with healthcare providers within the app.
+* Symptom tracking tools,
+* And clinician dashboards that allow communication and data sharing with healthcare providers.
 
 ---
 
@@ -182,6 +181,8 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 To realize their full potential, the next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
 
 And they will do this through the use of built-in artificial intelligence algorithms that are powered by personal sensing.
+
+<!-- this text doesnt really say that the app needs to recommend treatments-->
 
 ---
 

@@ -1,9 +1,12 @@
 # Kortney
 
-Edit heatmap image
-image for acceptable and possibly stigma
-image for interventions, tools, and services
-Image representing challenge of choosing what to do?
-smartphone - I know you better than you know yourself  heart
-modify maps to display that we know time/date/duration?
+1. Edit heatmap image
+2. Smartphone knows you
+3. Image for acceptable and possibly stigma
+4. Image representing challenge of choosing what to do?
+
+Image for interventions, tools, and services
+
+
+
 Last text slides?
