@@ -11,7 +11,9 @@ When I was still relatively young, my mother lost control of her car when it hit
 
 My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  It breaks my heart, but it is not surprising.
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  
+
+It breaks my heart, but it is not surprising.
 <!--In large part, my work now is driven so that others don't suffer similarly.-->
 ---
 
@@ -29,7 +31,7 @@ Our failure to provide treatment has tragic consequences.  In the past 12 months
 
 And these are not just big numbers, they are real people.
 
-One of them was Victor Kittleson, the 29 year old brother of my graduate student, who died from an opioid overdose this past summer.
+One of them was Victor Kittleson, the 29 year-old brother of my graduate student, who died from an opioid overdose this past summer.
 
 ---
 
