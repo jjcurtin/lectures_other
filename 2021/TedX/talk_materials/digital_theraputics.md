@@ -3,7 +3,7 @@
 
 ## The Mental Healthcare Crisis
 
-When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me.  She required full-time care for the rest of her life and it devastated my family.  
+When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me.  She required full-time care for the rest of her life.  
 
 ---
 
@@ -110,30 +110,17 @@ And its this widespread use of smartphones that allows digital therapeutics to p
 
 ___
 
-<!-- Need an engaging image to make the transition and highlight diversity of tools and services.   Cartoon/sketch?  Talk with Kortney about her ideas-->
+Some of the best examples of these digital therapeutics have been developed  for patients with substance use disorders.  These apps include multiple supports for patients during their treatment and recovery.
 
-<!-- Need to improve the text in this panel.   Want to make clear there are rich/varied supports but need to make it more interesting!-->
+For example, if you need formal treatments, they have you covered.  The apps include cognitive behavioral therapy and mindfulness-based relapse prevention
 
-<!--GEF: transition to personal examples/add in personal context instead. E.g., "If my dad had access to a digital therapeutic, he could have used it to..." -->
+If you need peer support, the apps include discussion forums with other patients.
 
-Some of the best examples of these digital therapeutics have been developed to support patients with substance use disorders.  They include a rich set of interventions, tools, and services to support patients during their recovery.
+The apps can also help you locate self-help groups like AA or NA in your community.
 
-Examples of these include:
+The apps can help you track your symptoms over time and your symptoms can even be shared with your therapist if you opt to do so through the apps' clinician dashboard.
 
-* Evidence-based interventions like cognitive behavioral therapy
-* Peer support in discussion forums with other patients using the app
-* Search tools to locate self-help groups like AA and NA meetings
-* Healthcare planning tools such as medication managers and appointment reminders
-* Symptom tracking tools,
-* And clinician dashboards that allow communication and data sharing with healthcare providers.
-
----
-
-/woebot.png
-
-<!--Need permission to use image -->
-
-And some digital therapeutics now use chatbots or other virtual agents that can text message or even talk to patients in a more natural way while they provide support.  
+And these are just a few examples of the many supports that are possible to provide in these apps.  
 
 ---
 
@@ -149,15 +136,7 @@ And these benefits are durable - they have been documented up to 12 months after
 
 ---
 
-/single_patient.png
-
 This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient using the app.  
-
----
-
-/smartphone_crowd.png
-
-<!--This is not a stock image.   I really like it if we can find a way to buy rights to it.  If  not, we need something similar.-->
 
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
 
@@ -167,7 +146,9 @@ This is how we can increase the treatment capacity of our mental healthcare syst
 
 /beta.png
 
-OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their rich and diverse set of supports - their interventions, tools, and services.
+<!-- Need to think about "within our grasp" part and how to emphasize if it stays as part of the talk-->
+
+OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their many supports - their interventions, tools, and services.
 
 ---
 
@@ -194,7 +175,7 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
 
-Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their data to improve their own mental healthcare.
+Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their personal data to improve their own mental healthcare.
 
 ---
 
@@ -202,9 +183,11 @@ Currently, personal sensing is used primarily to sell us things.   But we hope t
 <!-- Have Kortney create a similar image.  We dont have copyright to this one.  Just grabbed it off the web-->
 <!-- simplify this text and synch with image created by Kortney-->
 
-Personal sensing has been supercharged by smartphones and the data that they collect about us through their many sensors and logs
+Personal sensing has been supercharged by smartphones and the data that they passively collect about us as we use them.
 
-Smartphones log our personal communications by phone calls and text messages. Facebook posts and other social media activities are often created or viewed through our smartphones. Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  And much of this is done passively without any burden to us other then carrying and using our smartphones as we typically do.  
+We use our smartphones to make phone calls and text messages.  These communications are stored in logs.  We often access and post to our social media accounts from our smartphones.
+
+Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  
 
 Personal sensing involves capturing all this information and using it to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
 
@@ -222,7 +205,7 @@ He wondered if the benefits of his app could be increased further if it knew the
 
 <!--the two paragraphs above are still a bit redundant and rough-->
 
-This launched us on a new program of research to develop personal sensing algorithms that could accomplish these goals.
+This launched us on a new program of research to develop personal sensing algorithms that could be added to digital therapeutic apps to accomplish these goals.
 
 ---
 
@@ -230,25 +213,23 @@ This launched us on a new program of research to develop personal sensing algori
 
 Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that we are developing to provide you with some intuition about how this works.
 
-Behind me is a wide view of my moment-by-moment location detected by my smartphone over a month when we were first experimenting with this personal sensing method.  We can see the paths that I traveled, with movement by car in yellow and running in blue.  
+Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this personal sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
 
 The points in red indicate places that I stopped to visit for at least a few minutes.  
 
-And although not displayed here, we know the days and exact times that I was at each location.  <!--how to indicate this in image?-->
+And although not displayed here, the app knows the days and exact times that I was at each location.  <!--how to indicate this in image?-->
 
-As my smartphone ads already know, we can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
+The app can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
 
 ---
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, we can see dense clusters of red dots indicating places visited near my home and where I work at the University of Wisconsin.  We can see that I drive my children clockwise around the lake each morning to their elementary school.  And we could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
+Zooming in to the Madison isthmus, the recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
 
-We can see my daily running commute to and from my office.  From this, we can observe the long days, and short days, at the office.   
+The app records my daily running commute to and from my office.  From this, it can observe the my days, and short days, at the office.   
 
-If we probed the red dots indicating the places I visited, we would find the restaurants, bars, and coffee shops where I eat, drink and socialize.  We can use public map data to identify these places and make inferences about what I do there.  
-
-<!--specific restaurants or cafes if humorous or personalizing-->
+Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
 ---
 
@@ -256,48 +237,39 @@ If we probed the red dots indicating the places I visited, we would find the res
 
 <!--Will remake for copyright-->
 
-We also collect smartphone communications logs and even the content of text messages.  And no such luck, I don't plan to show you my actual text messages!
+The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
-But imagine what we can learn about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
-
----
-
-We can improve our predictions about me even further by identifying the specific people and places that make me happy or sad or stressed, those that I perceive support my mental health and those who undermine it. 
-
-We gathered this information quickly by pushing out a few key questions to me though my smartphone about my frequent contacts and locations over the first couple of months of my use of the app. 
-
-Armed with this information, the app's algorithms can make even more precise predictions.
+But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
 
 ---
 
-<!-- think more about this image--> 
+<!-- the app knows or we know?-->
 
-/mom_raw.png
-For example, if my dad was using such an app, we could learn that his friend Ed has been a lifelong source of stability and support.  
+The app can improve its predictions even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
 
-If we saw this text message thread with Ed, we would know my dad was seeking support. However, these same messages would mean something quite different if they were exchanged with one of my dad's drinking buddies who wants him back in the bar. 
+It can gather this information quickly by asking us few key questions about our frequent contacts and locations over the first couple of months that we use it.
 
----
+For example, if my dad was using such an app, it would see that he calls and texts frequently with his friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support.  
 
-More generally, we would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
+Given this, the app would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
 
-We could also see when time spent with Ed abruptly stops each fall because Ed spends his winters in Florida.  These months are harder for my dad and he would benefit from more support.
+It could also detect when time spent with Ed abruptly stops each fall because Ed spends his winters in Florida.  These months are harder for my dad and he would benefit from more support.
 
-He could be encouraged by the app to reach out to other supportive family and friends during these times.  He could be provided with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
+The app could encourage him to reach out to other supportive family and friends during these times.  It could provide him with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
 
 If the app knew him well, it might even predict which of these forms of support would be most effective for him.
 
-If he had also received traditional mental healthcare, he might have given permission for the app share his risk with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
+If he had also received traditional mental healthcare, he might have given permission for the app share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
 ---
 
-In our research studies, we can already predict if someone will drink **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  This is exciting.
+In our research studies, we can already use the app to predict if someone will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  This is exciting.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
 For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
 
-We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. Our current studies now specifically recruits for racial, ethnic, and geographic diversity across the entire United States. 
+We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. Our current studies now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
 ---
 
@@ -317,7 +289,7 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 /fda.png
 
-So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has now clarified that it intends to regulate software, including mobile apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease.  <!--awkward?-->
+So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has begun to regulate software, including smartphone apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease. 
 
 This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. 
 
