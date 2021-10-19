@@ -13,17 +13,17 @@ My dad is a good man.  He devotedly stayed home for 25 years rather than work so
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  
 
-It breaks my heart, but it is not surprising.
-<!--In large part, my work now is driven so that others don't suffer similarly.-->
+It breaks my heart, but it is not surprising.  And I expect that many of you have similar stories about family and friends who didn't receive treatment.
+
 ---
 
 We have a mental health crisis in the U.S. and it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
 
-In 2019, well over half of the 52 million individuals in the U.S. with an active mental illness did not receive **any** treatment.  **More than half**!  
+In 2019, well over half of the 52 million Americans with an active mental illness did not receive **any** treatment.  **More than half**!  
 
-And for those suffering with a substance use disorder - like my dad - it was worse still.  **9 out of 10 people** with substance use disorders did not receive any treatment at all.
+And for those suffering with a substance use disorder - like my dad - it was worse still.  **9 out of 10 without any treatment**
 
-Our failure to provide treatment has tragic consequences.  In the past 12 months alone, almost **100,000 people** have died from drug overdoses.  
+This failure to treat has tragic consequences.  In the past year alone, almost **100,000 people** have died from drug overdoses.  
 
 ---
 
@@ -31,11 +31,11 @@ Our failure to provide treatment has tragic consequences.  In the past 12 months
 
 And these are not just big numbers, they are real people.
 
-One of them was Victor Kittleson, the 29 year-old brother of my graduate student, who died from an opioid overdose this past summer.
+One of them was Victor Kittleson, the 29 year-old brother of one of my graduate students, who died from an opioid overdose this past summer.
 
 ---
 
-Our failure to treat is even more troubling for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
+This failure to treat is even more troubling for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
@@ -56,8 +56,6 @@ But geography also impacts access.  For example, consider the **access** to ment
 
 ---
 
-<!--consider stock images and talk with Kortney too about her ideas-->
-
 Even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
 But **even our family** never discussed it.  It was the elephant in the room.  Making ourselves vulnerable to therapists and to each other is hard.  
@@ -65,8 +63,6 @@ But **even our family** never discussed it.  It was the elephant in the room.  M
 And it is harder still because of the stigma that surrounds mental illness even today.
 
 ---
-
-/waitlist_2.jpg
 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded therapists have long wait lists that can delay the start of treatment for months.  
 
@@ -94,8 +90,6 @@ Digital therapeutics are software programs or "apps" that are designed to preven
 
 ---
 
-<!--use stock images of lots of diverse people using phones in diverse locations-->
-
 Digital therapeutics are delivered to patients on their smartphones and this is the key to their accessibility and availability.
 
 Today, 85% of adults in the U.S. own smartphones.  And equally important, ownership is similarly high regardless of race, ethnicity, income, and geography.
@@ -110,7 +104,7 @@ And its this widespread use of smartphones that allows digital therapeutics to p
 
 ___
 
-Some of the best examples of these digital therapeutics have been developed  for patients with substance use disorders.  These apps include multiple supports for patients during their treatment and recovery.
+Some of the best examples of these digital therapeutics have been developed to target substance use disorders.  These apps include multiple supports for patients during their treatment and recovery.
 
 For example, if you need formal treatments, they have you covered.  The apps include cognitive behavioral therapy and mindfulness-based relapse prevention
 
@@ -120,7 +114,7 @@ The apps can also help you locate self-help groups like AA or NA in your communi
 
 The apps can help you track your symptoms over time and your symptoms can even be shared with your therapist if you opt to do so through the apps' clinician dashboard.
 
-And these are just a few examples of the many supports that are possible to provide in these apps.  
+And these are just a few examples of the many supports that are possible to provide in these digital therapeutic apps.  
 
 ---
 
@@ -201,9 +195,7 @@ My research team became interested in personal sensing when my colleague Dave Gu
 
 He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
 
-He wondered if the benefits of his app could be increased further if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time.  
-
-<!--the two paragraphs above are still a bit redundant and rough-->
+He wondered if the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent a relapse.  
 
 This launched us on a new program of research to develop personal sensing algorithms that could be added to digital therapeutic apps to accomplish these goals.
 
@@ -217,7 +209,7 @@ Behind me is a wide view of my moment-by-moment location detected by a digital t
 
 The points in red indicate places that I stopped to visit for at least a few minutes.  
 
-And although not displayed here, the app knows the days and exact times that I was at each location.  <!--how to indicate this in image?-->
+And although not displayed here, the app knows the days and exact times that I was at each of these locations.  <!--how to indicate this in image?-->
 
 The app can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
 
@@ -225,9 +217,9 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, the recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes very late, to school!
+Zooming in to the Madison isthmus, the app recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
-The app records my daily running commute to and from my office.  From this, it can observe the my days, and short days, at the office.   
+The app recorded my daily running commute to and from my office.  From this, it can observe my longs days, and short days, at the office.   
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
@@ -243,11 +235,9 @@ But imagine what it learned about me from the patterns of my communications - Wh
 
 ---
 
-<!-- the app knows or we know?-->
-
 The app can improve its predictions even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
 
-It can gather this information quickly by asking us few key questions about our frequent contacts and locations over the first couple of months that we use it.
+It can gather this information quickly by asking us a few key questions about our frequent contacts and locations over the first couple of months that we use it.
 
 For example, if my dad was using such an app, it would see that he calls and texts frequently with his friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support.  
 
@@ -259,11 +249,11 @@ The app could encourage him to reach out to other supportive family and friends 
 
 If the app knew him well, it might even predict which of these forms of support would be most effective for him.
 
-If he had also received traditional mental healthcare, he might have given permission for the app share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
+If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
 ---
 
-In our research studies, we can already use the app to predict if someone will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  This is exciting.
+In our research studies, we can already use the app to predict if someone will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
