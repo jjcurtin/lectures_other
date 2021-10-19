@@ -1,4 +1,4 @@
-# Mental Healthcare at our Fingertips
+# Mental Healthcare at our Fingertips and within our Grasp
 
 
 ## The Mental Healthcare Crisis
@@ -288,8 +288,6 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 This FDA guidance was also designed to provide the clarity and predictability necessary to stimulate further development, innovation, and investment in digital therapeutics.  
 
 And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
-
-
 
 ---
 
