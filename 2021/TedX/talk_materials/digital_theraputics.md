@@ -4,7 +4,7 @@
 ## The Mental Healthcare Crisis
 
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me.  She required full-time care for the rest of her life.  
-
+ 
 ---
 
 /dad.jpg
@@ -13,7 +13,7 @@ My dad is a good man.  He devotedly stayed home for 25 years rather than work so
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  
 
-It breaks my heart, but it is not surprising.  And I expect that many of you have similar stories about family and friends who didn't receive treatment.
+It breaks my heart, but it is not surprising.  And I expect that many of you have similar stories about family and friends who didn't receive the treatment they needed.
 
 ---
 
