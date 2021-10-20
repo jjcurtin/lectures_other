@@ -19,7 +19,7 @@ It breaks my heart, but it is not surprising.  And I expect that many of you hav
 
 We have a mental health crisis in the U.S. and it is a crisis of **unmet** high need because our delivery of mental healthcare is deeply flawed.
 
-In 2019, well over half of the 52 million Americans with an active mental illness did not receive **any** treatment.  **More than half**!  
+In 2019, more than half of the 52 million Americans with an active mental illness did not receive **any** treatment.  **More than half**!  
 
 And for those suffering with a substance use disorder - like my dad - it was worse still.  **9 out of 10 without any treatment**
 
@@ -70,7 +70,7 @@ And once we make it off the wait list, treatment still often involves weekly, mo
 
 Would a therapist have been available to my dad at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them? 
 
-## Digital Therapeutics
+---
 
 **Access, acceptability, and availability** - these issues are undermining the treatment capacity of our mental healthcare system and leaving millions without treatment when they need it most.  
 
@@ -82,7 +82,9 @@ But let me pause for a moment.  I want to be very clear on one point before we m
   
 Therapists will always be needed for what they do uniquely well.  But we simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
----
+<!--4:30-->
+
+## Digital Therapeutics
 
 So what are digital therapeutics?
 
