@@ -146,8 +146,6 @@ OK, so lets call the apps I have described to you so far, the beta version of di
 
 ---
 
-<!-- Image representing challenge of choosing what to do?  Talk with Kortney about her ideas-->
-
 But this is also their Achilles heel.  As the patient using these apps, you now have to tackle difficult questions like:
  
 * When should I use them?
@@ -155,39 +153,9 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 * Which of their various supports are right for me?
 * And which are right for me **now**, at this moment in time?
 
-To realize their full potential, the next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
-
-And they will do this through the use of built-in artificial intelligence algorithms that are powered by personal sensing.
-
-<!-- this text doesnt really say that the app needs to recommend treatments-->
-
 ---
 
-Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
-
-I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  
- 
-This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I bought a few.
-
-Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their personal data to improve their own mental healthcare.
-
----
-
-/smartphone.png
-<!-- Have Kortney create a similar image.  We dont have copyright to this one.  Just grabbed it off the web-->
-<!-- simplify this text and synch with image created by Kortney-->
-
-Personal sensing has been supercharged by smartphones and the data that they passively collect about us as we use them.
-
-We use our smartphones to make phone calls and text messages.  These communications are stored in logs.  We often access and post to our social media accounts from our smartphones.
-
-Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  
-
-Personal sensing involves capturing all this information and using it to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
-
----
-
-My research team became interested in personal sensing when my colleague Dave Gustafson, the developer of a leading digital therapeutic for substance use disorders, approached us with a simple question. He asked...  
+My research team became interested these issues when my colleague Dave Gustafson, the developer of a leading digital therapeutic for substance use disorders, approached us with a simple question. He asked...  
 
 > "Could you predict not only who might be at greatest risk for relapse
 > but **precisely when** that relapse might occur and 
@@ -195,17 +163,43 @@ My research team became interested in personal sensing when my colleague Dave Gu
 
 He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
 
-He wondered if the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent a relapse.  
+He believed that the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent this upcoming relapse.  
 
-This launched us on a new program of research to develop personal sensing algorithms that could be added to digital therapeutic apps to accomplish these goals.
+---
+
+And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
+
+And they will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
+
+---
+
+Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
+
+I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  
+ 
+This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
+
+Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their personal data to improve their own mental healthcare.
+
+---
+
+/smartphone.png
+
+Personal sensing has been supercharged by smartphones and the data that they passively collect about us as we use them in our daily lives.
+
+We use our smartphones to make phone calls and text messages.  We often access and post to our social media accounts from our smartphones.
+
+Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  
+
+Personal sensing involves capturing all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
 
 ---
 
 /gps_1.png
 
-Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that we are developing to provide you with some intuition about how this works.
+Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
-Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this personal sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
+Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with sensing location information.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
 
 The points in red indicate places that I stopped to visit for at least a few minutes.  
 
@@ -235,11 +229,11 @@ But imagine what it learned about me from the patterns of my communications - Wh
 
 ---
 
-The app can improve its predictions even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
+The app can improve its predictions about us even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
 
 It can gather this information quickly by asking us a few key questions about our frequent contacts and locations over the first couple of months that we use it.
 
-For example, if my dad was using such an app, it would see that he calls and texts frequently with his friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support.  
+For example, if my dad was using this app, it would see that he calls and texts frequently with his close friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support to him.  
 
 Given this, the app would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
 
