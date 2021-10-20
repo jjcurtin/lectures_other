@@ -1,4 +1,4 @@
-# Mental Healthcare at our Fingertips and within our Grasp
+# Mental Healthcare at our Fingertips
 
 
 ## The Mental Healthcare Crisis
@@ -142,7 +142,7 @@ This is how we can increase the treatment capacity of our mental healthcare syst
 
 <!-- Need to think about "within our grasp" part and how to emphasize if it stays as part of the talk-->
 
-OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their many supports - their interventions, tools, and services.
+OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
 ---
 
@@ -179,7 +179,7 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
 
-Currently, personal sensing is used primarily to sell us things.   But we hope to empower people to use their personal data to improve their own mental healthcare.
+Currently, personal sensing uses our personal data to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
 
 ---
 
@@ -231,7 +231,7 @@ But imagine what it learned about me from the patterns of my communications - Wh
 
 The app can improve its predictions about us even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
 
-It can gather this information quickly by asking us a few key questions about our frequent contacts and locations over the first couple of months that we use it.
+It can gather this information quickly by asking us a few key questions about the  people and places it sees us interact with frequently over the first couple of months that we use the app.
 
 For example, if my dad was using this app, it would see that he calls and texts frequently with his close friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support to him.  
 
@@ -247,13 +247,14 @@ If he had also received traditional mental healthcare, he might have given permi
 
 ---
 
-In our research studies, we can already use the app to predict if someone will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
+In our research studies, we can already use our algorithms to predict if someone in recovery will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
 For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
 
-We must commit to train our personal sensing algorithms on diverse samples of patients or our algorithms' predictions and recommendations will be biased toward the needs of the majority and we may exacerbate rather than reduce existing mental healthcare disparities. Our current studies now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
+<!--still work on this?  Emphasize early days?-->
+Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and it may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
 ---
 
@@ -265,7 +266,7 @@ I also suspect that at some point, probably about five minutes ago, you also tho
 
 > "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
 
-Most of us are too familiar with recent egregious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
+Most of us are too familiar with recent serious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -279,31 +280,19 @@ This means that the FDA now evaluates the effectiveness and risks, including pri
 
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 
-This FDA guidance was also designed to provide the clarity and predictability necessary to stimulate further development, innovation, and investment in digital therapeutics.  
-
-And, in fact, the FDA has already followed through and recently cleared two new digital therapeutics to help people manage and treat substance use disorders.  
-
 ---
 
-<!-- still a bit of a rough transistion-->
+Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics to treat and manage substance use disorders.   Our nation's VA Medical Centers are providing digital therapeutics to treat other mental illnesses for everyone, not just veterans, for free through their VA mobile health website. If you need more care than you are receiving now, seek them out.
 
-<!-- slide that says:  “delivering the right treatments, at the right time, to the right person, every time”-->
-<!--Talk with Kortney about attractive font and layout on slide for this and next panel-->
+But remember, today's digital therapeutics are still developing.  As they get smarter through personal sensing, better mental healthcare is within our grasp.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
-Digital therapeutics are here today.  
+My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends.
 
-And as they begin to add personal sensing capabilities, we can start to imagine what precision mental healthcare might look like — “delivering the right treatments, at the right time, to the right person, every time”
 
-My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson.  In large part, my work now is driven so that others don't suffer similarly.  
 
-My hope is that digital therapeutics can help to break down barriers so that we can begin to provide mental healthcare that is accessible, acceptable, and available 
 
-<!--I havent used the term precision mental healthcare anywhere else.  But the name is somewhat self-defining?-->
 
----
 
-<!-- Talk with Kortney about adding final line to above but in red?..    ".... and for all of us!"-->
 
-**for all of us**.  
 
-Thank you.
+
