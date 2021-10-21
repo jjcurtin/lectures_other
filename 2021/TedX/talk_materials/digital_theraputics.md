@@ -3,7 +3,7 @@
 
 ## The Mental Healthcare Crisis
 
-When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me.  She required full-time care for the rest of her life.  
+When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me again.  She required full-time care for the rest of her life.  
  
 ---
 
@@ -35,7 +35,7 @@ One of them was Victor Kittleson, the 29 year-old brother of one of my graduate 
 
 ---
 
-This failure to treat is even more troubling for vulnerable groups.  Black and LatinX adults receive mental healthcare services at about half the rate of whites.  
+This failure to treat is even more troubling for vulnerable groups.  Black and LatinX adults receive mental healthcare services at only half the rate of whites.  
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
@@ -50,7 +50,6 @@ While caring for my mom at home, my dad's **access** to mental healthcare was li
 ---
 
 /psychologist_heatmap.png
-<!--Have Kortney edit colors in figure to be standard heat map with clearer legend and title-->
 
 But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
 
@@ -63,7 +62,7 @@ But **even our family** never discussed it.  It was the elephant in the room.  M
 And it is harder still because of the stigma that surrounds mental illness even today.
 
 ---
-
+ 
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded therapists have long wait lists that can delay the start of treatment for months.  
 
 And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
@@ -124,7 +123,7 @@ Of course, all of this would be meaningless if digital therapeutics were not eff
 
 But they are.  
 
-For example, patients using digital therapeutics have almost double the odds of being abstinent from alcohol or other drugs.
+For example, patients with substance use disorders who use digital therapeutics have almost double the odds of being abstinent from alcohol or other drugs.
 
 These increases in abstinence from using digital therapeutics are observed not only when compared to patients on wait lists, who have yet to gained access to treatment but also when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
@@ -138,7 +137,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 
 This is how we can increase the treatment capacity of our mental healthcare system and see substantial improvement in public mental health overall.  
  
-## Smarter Digital Therapeutics with Personal Sensing
+---
 
 /beta.png
 
@@ -167,7 +166,7 @@ He had just completed a large study demonstrating the effectiveness of his app. 
 
 He believed that the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent this upcoming relapse.  
 
----
+## Smarter Digital Therapeutics with Personal Sensing
 
 And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
 
