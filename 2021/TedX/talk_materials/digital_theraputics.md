@@ -35,7 +35,7 @@ One of them was Victor Kittleson, the 29 year-old brother of one of my graduate 
 
 ---
 
-This failure to treat is even more troubling for vulnerable groups.  African American & Hispanic Americans receive mental healthcare services at about half the rate of whites.  
+This failure to treat is even more troubling for vulnerable groups.  Black and LatinX adults receive mental healthcare services at about half the rate of whites.  
 
 And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
 
