@@ -11,7 +11,7 @@ When I was still relatively young, my mother lost control of her car when it hit
 
 My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
-My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was severe. He is almost 80 years old now and he has never received any treatment.  
+My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was quite severe. He is almost 80 years old now and he has never received any treatment.  
 
 It breaks my heart, but it is not surprising.  And I expect that many of you have similar stories about family and friends who didn't receive the treatment they needed.
 
@@ -65,7 +65,7 @@ And it is harder still because of the stigma that surrounds mental illness even 
  
 Mental healthcare services are often not **available** when we need them most.  Many well-regarded therapists have long wait lists that can delay the start of treatment for months.  
 
-And once we make it off the wait list, treatment still often involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
+And once we make it off the wait list, treatment typically involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
 
 Would a therapist have been available to my dad at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them? 
 
@@ -79,7 +79,7 @@ ___
 
 But let me pause for a moment.  I want to be very clear on one point before we move forward.  I do not believe or hope that digital therapeutics will replace human therapists. 
   
-Therapists will always be needed for what they do uniquely well.  But we simply need more than they can provide alone.  Digital therapeutics can provide that "more."
+Therapists will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
 <!--4:30-->
 
@@ -123,9 +123,9 @@ Of course, all of this would be meaningless if digital therapeutics were not eff
 
 But they are.  
 
-For example, patients with substance use disorders who use digital therapeutics have almost double the odds of being abstinent from alcohol or other drugs.
+For example, patients with substance use disorders who use a digital therapeutic have almost double the odds of being abstinent from alcohol or other drugs.
 
-These increases in abstinence from using digital therapeutics are observed not only when compared to patients on wait lists, who have yet to gained access to treatment but also when digital therapeutics are added on top of traditional treatments for substance use disorders.
+These increases in abstinence from using digital therapeutics are observed not only when compared to patients on wait lists, who have yet to gain access to treatment but also when digital therapeutics are added on top of traditional treatments for substance use disorders.
 
 And these benefits are durable - they have been documented up to 12 months after the start of treatment.  
 
@@ -137,6 +137,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 
 This is how we can increase the treatment capacity of our mental healthcare system and see substantial improvement in public mental health overall.  
  
+ <!--7:06-->
 ---
 
 /beta.png
