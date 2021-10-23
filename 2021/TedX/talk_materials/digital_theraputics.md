@@ -133,16 +133,12 @@ And these benefits are durable - they have been documented up to 12 months after
 
 This is a big deal.  The magnitude of these benefits are meaningful already, even when we only think about a single patient using the app.  
 
-But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need.  
-
-This is how we can increase the treatment capacity of our mental healthcare system and see substantial improvement in public mental health overall.  
+But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need and at relatively low cost. 
  
  <!--7:06-->
 ---
 
 /beta.png
-
-<!-- Need to think about "within our grasp" part and how to emphasize if it stays as part of the talk-->
 
 OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
@@ -163,14 +159,14 @@ My research team became interested these issues when my colleague Dave Gustafson
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective.
+He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective for them.
 
 He believed that the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent this upcoming relapse.  
 
 ## Smarter Digital Therapeutics with Personal Sensing
 
 And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
-
+ 
 And they will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
 
 ---
