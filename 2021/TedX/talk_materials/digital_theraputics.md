@@ -140,7 +140,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 
 /beta.png
 
-OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power arises from easy, 24/7 access to their many supports - their treatments, tools, and services.
+OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power comes from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
 ---
 
@@ -148,28 +148,28 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
  
 * When should I use them?
 * For how long?
-* Which of their various supports are right for me?
-* And which are right for me **now**, at this moment in time?
+* Which of their many supports are best for me?
+* And which are best for me **right now**, at this moment in time?
 
 ---
 
-My research team became interested these issues when my colleague Dave Gustafson, the developer of a leading digital therapeutic for substance use disorders, approached us with a simple question. He asked...  
+My research team became interested in these issues when my colleague Dave Gustafson, the developer of a leading digital therapeutic for substance use disorders, approached us with a simple question. He asked...  
 
 > "Could you predict not only who might be at greatest risk for relapse
 > but **precisely when** that relapse might occur and 
 > **how best to intervene** to prevent it"  
 
-He had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up that relapse.  And others who relapsed hadn't used the specific supports in the app that he would have thought would be most effective for them.
+Dave had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up to that relapse.  And others who had relapsed hadn't used the specific supports in the app that he would have thought would be most effective for them.
 
-He believed that the benefits of his app could be increased if it knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent this upcoming relapse.  
+He believed that the benefits of his app could be increased if the app knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent that relapse.  
+<!--8:53-->
+___ 
+
+And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
+ 
+And these apps will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
 
 ## Smarter Digital Therapeutics with Personal Sensing
-
-And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same coarse diagnoses and same treatment needs at all times.  
- 
-And they will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
-
----
 
 Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
 
@@ -177,8 +177,9 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
 
-Currently, personal sensing uses our personal data to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
+Currently, personal sensing use our personal data to target ads at us to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
 
+<!--9:30-->
 ---
 
 /smartphone.png
