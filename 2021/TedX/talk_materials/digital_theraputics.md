@@ -177,32 +177,32 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
 
-Currently, personal sensing use our personal data to target ads at us to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
+Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
 
 <!--9:30-->
 ---
 
 /smartphone.png
 
-Personal sensing has been supercharged by smartphones and the data that they passively collect about us as we use them in our daily lives.
+Personal sensing has been supercharged by smartphones.
 
 We use our smartphones to make phone calls and text messages.  We often access and post to our social media accounts from our smartphones.
 
 Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  
 
-Personal sensing involves capturing all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
+Personal sensing passively capturing all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
 
 ---
 
 /gps_1.png
 
-Let's "look under the hood" so to speak at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
+Let's "take a look under the hood" so to speak at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
-Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with sensing location information.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
+Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
 
-The points in red indicate places that I stopped to visit for at least a few minutes.  
+The red dots indicate places that I stopped to visit for at least a few minutes.  
 
-And although not displayed here, the app knows the days and exact times that I was at each of these locations.  <!--how to indicate this in image?-->
+And although not displayed here, the app knows the days and exact times that I was at each of these locations.
 
 The app can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
 
@@ -210,7 +210,9 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, the app recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
+Zooming in to the Madison isthmus, the app recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  
+
+It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
 The app recorded my daily running commute to and from my office.  From this, it can observe my longs days, and short days, at the office.   
 
