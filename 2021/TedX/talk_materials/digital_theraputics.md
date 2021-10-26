@@ -177,7 +177,7 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
  
 This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
 
-Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use their own data to improve their mental healthcare instead.
+Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use personal sensing to improve their mental healthcare instead.
 
 <!--9:30-->
 ---
@@ -190,7 +190,7 @@ We use our smartphones to make phone calls and text messages.  We often access a
 
 Smartphone-embedded sensors know our moment-by-moment location and activity level.  Sensors can even detect other people, or at least their smartphones, in our immediate environment.  
 
-Personal sensing passively capturing all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
+Personal sensing passively captures all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
 
 ---
 
@@ -232,7 +232,7 @@ But imagine what it learned about me from the patterns of my communications - Wh
 
 The app can improve its predictions about us even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
 
-It can gather this information quickly by asking us a few key questions about the  people and places it sees us interact with frequently over the first couple of months that we use the app.
+It can gather this information quickly by asking us a few key questions about the people and places it sees us interact with frequently over the first couple of months that we use the app.
 
 For example, if my dad was using this app, it would see that he calls and texts frequently with his close friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support to him.  
 
