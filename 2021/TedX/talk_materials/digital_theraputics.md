@@ -5,7 +5,7 @@
 
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me again.  She required full-time care for the rest of her life.  
  
----
+--- 
 
 /dad.jpg
 
@@ -37,7 +37,7 @@ One of them was Victor Kittleson, the 29 year-old brother of one of my graduate 
 
 This failure to treat is even more troubling for vulnerable groups.  Black and LatinX adults receive mental healthcare services at only half the rate of whites.  
 
-And similar mental healthcare disparities exist for people living in rural areas and for those with lower incomes.
+And similar mental healthcare disparities exist for people living in rural communities and for those with lower incomes.
 
 ---
 
@@ -196,7 +196,7 @@ Personal sensing passively captures all this information and more to understand 
 
 /gps_1.png
 
-Let's "take a look under the hood" so to speak at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
+Let's "take a look under the hood" at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
 Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
 
@@ -210,9 +210,9 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, the app can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
+Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
-The app recorded my daily running commute to and from my office.  From this, it can observe my longs days, and short days, at the office.   
+The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days, and short days, at the office.   
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
@@ -226,6 +226,8 @@ The app also collected my smartphone communications logs and even the content of
 
 But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
 
+<!--12:15-->
+ 
 ---
 
 The app can improve its predictions about us even further by identifying the specific people and places that make us happy or sad or stressed, those that we perceive support our mental health and those who undermine it. 
