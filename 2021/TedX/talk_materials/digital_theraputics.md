@@ -210,9 +210,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 /gps_2.png
 
-Zooming in to the Madison isthmus, the app recorded dense clusters of red dots indicating places that I visited near my home and where I work at the University of Wisconsin.  
-
-It can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
+Zooming in to the Madison isthmus, the app can see that I drive my children clockwise around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
 The app recorded my daily running commute to and from my office.  From this, it can observe my longs days, and short days, at the office.   
 
