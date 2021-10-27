@@ -234,16 +234,16 @@ The app can improve its predictions about us even further by identifying the spe
 
 It can gather this information quickly by asking us a few key questions about the people and places it sees us interact with frequently over the first couple of months that we use the app.
 
-For example, if my dad was using this app, it would see that he calls and texts frequently with his close friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support to him.  
+For example, if my dad was using this app, it would see that he calls and texts frequently with his close friend, Ed.  My dad would report that Ed has been a lifelong source of stability and support.  
 
 Given this, the app would know my dad is doing well when he spends time at Ed's house, when they call and text each other to plan activities, when they go for daily walks along the beach by the Long Island Sound.  
 
 It could also detect when time spent with Ed abruptly stops each fall because Ed spends his winters in Florida.  These months are harder for my dad and he would benefit from more support.
 
-The app could encourage him to reach out to other supportive family and friends during these times.  It could provide him with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
+The app could encourage him to reach out to other supportive family and friends during these months.  It could provide him with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
 
 If the app knew him well, it might even predict which of these forms of support would be most effective for him.
-
+ 
 If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
 ---
