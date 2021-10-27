@@ -248,14 +248,13 @@ If he had also received traditional mental healthcare, he might have given permi
 <!--13:56-->
 ---
 
-In our research studies, we can already use our algorithms to predict if someone in recovery will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
+In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
-For example, we have all seen media reports on how AI facial analysis algorithms trained on images of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
+For example, we have all seen media reports on how AI facial analysis algorithms trained on the faces of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
 
-<!--still work on this?  Emphasize early days?-->
-Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and it may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
+Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and their use may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
 ---
 
@@ -263,11 +262,11 @@ Personal sensing algorithms must be trained on diverse samples of patients or th
 
 /surprised_cat_1.png
 
-I also suspect that at some point, probably about five minutes ago, you also thought: 
+I also suspect that at some point, probably about five minutes ago, you thought: 
 
 > "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
 
-Most of us are too familiar with recent serious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
+Most of us are all too familiar with recent serious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -275,7 +274,7 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 /fda.png
 
-So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks to public health posed by digital therapeutics.  In response, the FDA has begun to regulate software, including smartphone apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease. 
+So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks posed by digital therapeutics.  In response, the FDA has begun to regulate software, including smartphone apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease. 
 
 This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. 
 
