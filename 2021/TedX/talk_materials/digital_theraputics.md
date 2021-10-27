@@ -245,7 +245,7 @@ The app could encourage him to reach out to other supportive family and friends 
 If the app knew him well, it might even predict which of these forms of support would be most effective for him.
  
 If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
-
+<!--13:56-->
 ---
 
 In our research studies, we can already use our algorithms to predict if someone in recovery will relapse back to drinking **tomorrow** with relatively high accuracy based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
