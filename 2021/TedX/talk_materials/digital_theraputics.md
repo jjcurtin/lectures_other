@@ -55,7 +55,7 @@ But geography also impacts access.  For example, consider the **access** to ment
 
 ---
 
-Even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
+But even if my dad had had access to treatment, it likely wouldn’t have been **acceptable** to him. Like many men of his generation, asking for help from others and sharing personal problems wasn’t his strong suit. 
 
 But **even our family** never discussed it.  It was the elephant in the room.  Making ourselves vulnerable to therapists and to each other is hard.  
 
@@ -171,7 +171,7 @@ And these apps will do this through the use of built-in artificial intelligence 
 
 ## Smarter Digital Therapeutics with Personal Sensing
 
-Although you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
+Now you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
 
 I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  
  
@@ -197,7 +197,7 @@ Personal sensing passively captures all this information and more to understand 
 
 /gps_1.png
 
-Let's "take a look under the hood" at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
+Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
 Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
 
@@ -205,7 +205,7 @@ The red dots indicate places that I stopped to visit for at least a few minutes.
 
 And although not displayed here, the app knows the days and exact times that I was at each of these locations.
 
-The app can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs in the county and state parks to the west and northwest.
+The app can immediately see that I am runner, with long runs leaving from downtown Madison and frequent trail runs on the weekends in the county and state parks to the west and northwest.
 
 ---
 
@@ -245,15 +245,17 @@ The app could encourage him to reach out to other supportive family and friends 
 
 If the app knew him well, it might even predict which of these forms of support would be most effective for him.
  
-If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad was more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
+If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad during the months when he is more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
+
 <!--13:56-->
+
 ---
 
 In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
 
 But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
-For example, we have all seen media reports on how AI facial analysis algorithms trained on the faces of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Oprah Winfrey or Michelle Obama.
+For example, many of us have seen media reports on how AI facial analysis algorithms trained on the faces of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Michelle Obama or Oprah Winfrey.
 
 Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and their use may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
@@ -283,17 +285,8 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 
 ---
 
-Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers are now providing digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, go find these apps.
+Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, go find these apps.
 
-But remember, today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our grasp.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
+But remember, today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends. 
-
-
-
-
-
-
-
-
-
