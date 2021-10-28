@@ -115,7 +115,7 @@ The apps can also help you locate self-help groups like AA or NA in your communi
 
 The apps can help you track your symptoms over time and your symptoms can even be shared with your therapist if you opt to do so through the apps' clinician dashboard.
 
-And these are just a few examples of the many supports that are possible to provide in these digital therapeutic apps.  
+And these are just a few examples of the many supports that are possible to provide to patients with digital therapeutic apps.  
 
 ---
 
@@ -175,7 +175,7 @@ Now you may not have heard the term "personal sensing" before, you have almost c
 
 I'm a running nut, and for me, ads for trail running shoes, the latest running backpacks, or the newest fancy water bottles follow me around everywhere.  
  
-This fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.   Right about now, I am kinda wishing I had bought a few.
+While preparing for TEDx this fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.
 
 Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use personal sensing to improve their mental healthcare instead.
 
@@ -213,7 +213,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
-The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days, and short days, at the office.   
+The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days I played hooky.   
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
