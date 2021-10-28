@@ -23,13 +23,11 @@ In 2019, more than half of the 52 million Americans with an active mental illnes
 
 And for those suffering with a substance use disorder - like my dad - it was worse still.  **9 out of 10 without any treatment**
 
-This failure to treat has tragic consequences.  In the past year alone, almost **100,000 people** have died from drug overdoses.  
-
 ---
 
 /victor.jpg
 
-And these are not just big numbers, they are real people.
+And these are not upsetting statistics, our failure to threat has tragic consequences for real people.
 
 One of them was Victor Kittleson, the 29 year-old brother of one of my graduate students, who died from an opioid overdose this past summer.
 
