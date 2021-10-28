@@ -3,6 +3,8 @@
 
 ## The Mental Healthcare Crisis
 
+/mom.jpg
+
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me again.  She required full-time care for the rest of her life.  
  
 --- 
@@ -267,7 +269,7 @@ I also suspect that at some point, probably about five minutes ago, you thought:
 
 > "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
 
-Most of us are all too familiar with recent serious privacy violations including the Facebook Cambridge Analytica scandal and the more recent WhatsApp Pegasus Spyware scandal.
+Most of us are all too familiar with recent serious privacy violations including the  Cambridge Analytica scandal and the more recent Pegasus Spyware scandal.
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -283,7 +285,7 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 
 ---
 
-Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, go find these apps.
+Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
 
 But remember, today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
