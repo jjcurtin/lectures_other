@@ -5,17 +5,20 @@
 
 /mom.jpg
 
+<!--click-->
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me again.  She required full-time care for the rest of her life.  
 
 --- 
 
 /dad.jpg
 
+<!--click-->
 My dad is a good man.  He devotedly stayed home for 25 years rather than work so that he could care for my mom at home rather than commit her to an institution.     
 
 My dad is a good man who he has struggled with his use of alcohol for his entire adult life. At times, it was in the background of our lives.  At other times, it was quite severe. He is almost 80 years old now and he has never received any treatment.  
 
 It breaks my heart, but it is not surprising.  And I expect that many of you have similar stories about family and friends who didn't receive the treatment they needed.
+<!--click-->
 
 ---
 
@@ -29,9 +32,13 @@ And for those suffering with a substance use disorder - like my dad - it was wor
 
 /victor.jpg
 
-And these are not upsetting statistics, our failure to threat has tragic consequences for real people.
+And these are not upsetting statistics, 
+
+<!--click-->
+they are real people.
 
 One of them was Victor Kittleson, the 29 year-old brother of one of my graduate students, who died from an opioid overdose this past summer.
+<!--click-->
 
 ---
 
@@ -51,7 +58,9 @@ While caring for my mom at home, my dad's **access** to mental healthcare was li
 
 /psychologist_heatmap.png
 
+<!--click-->
 But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
+<!--click-->
 
 ---
 
@@ -140,6 +149,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 
 /beta.png
 
+<!--click-->
 OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power comes from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
 ---
@@ -151,6 +161,7 @@ But this is also their Achilles heel.  As the patient using these apps, you now 
 * Which of their many supports are best for me?
 * And which are best for me **right now**, at this moment in time?
 
+<!--click-->
 ---
 
 My research team became interested in these issues when my colleague Dave Gustafson, the developer of a leading digital therapeutic for substance use disorders, approached us with a simple question. He asked...  
@@ -165,7 +176,7 @@ He believed that the benefits of his app could be increased if the app knew the 
 <!--8:53-->
 ___ 
 
-And I agree with him.  The next wave of digital therapeutics must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
+And I agree with him.  The next wave of digital therapeutics, **SMART DIGITAL THERAPEUTICS**, must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
  
 And these apps will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
 
@@ -185,6 +196,7 @@ Currently, personal sensing uses our personal data to target ads at us to sell u
 
 /smartphone.png
 
+<!--click-->
 Personal sensing has been supercharged by smartphones.
 
 We use our smartphones to make phone calls and text messages.  We often access and post to our social media accounts from our smartphones.
@@ -197,6 +209,7 @@ Personal sensing passively captures all this information and more to understand 
 
 /gps_1.png
 
+<!--click-->
 Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
 Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
@@ -211,6 +224,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 /gps_2.png
 
+<!--click-->
 Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
 The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days that I played hooky.   
@@ -223,9 +237,11 @@ Looking at the red dots indicating the places I visit, the app can detect the re
 
 <!--Will remake for copyright-->
 
+<!--click-->
 The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
 But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, my own words.  
+<!--click-->
 
 <!--12:15-->
  
@@ -251,7 +267,7 @@ If he had also received traditional mental healthcare, he might have given permi
 
 ---
 
-In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
+In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting and an important start**.
 
 But these are **preliminary** research studies.  And they included mostly white participants from our local Madison community.  Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
@@ -265,9 +281,11 @@ Personal sensing algorithms must be trained on diverse samples of patients or th
 
 I also suspect that at some point, probably about five minutes ago, you thought: 
 
+<!--click-->
 > "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
 
-Most of us are all too familiar with recent serious privacy violations including the  Cambridge Analytica scandal and the more recent Pegasus Spyware scandal.
+Most of us are all too familiar with recent serious privacy violations like the  Cambridge Analytica scandal and the Pegasus Spyware scandal.
+<!--click-->
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -275,11 +293,15 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 /fda.png
 
-So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks posed by digital therapeutics.  In response, the FDA has begun to regulate software, including smartphone apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease. 
+So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks posed by digital therapeutics.  
+
+<!--click-->
+In response, the FDA has begun to regulate software, including smartphone apps, as it does other medical devices if the purpose of that software is to prevent, manage, or treat disease. 
 
 This means that the FDA now evaluates the effectiveness and risks, including privacy risks, of digital therapeutics before clearing them for use with patients. 
 
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
+<!--click-->
 
 ---
 
