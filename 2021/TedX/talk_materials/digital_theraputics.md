@@ -6,7 +6,7 @@
 /mom.jpg
 
 When I was still relatively young, my mother lost control of her car when it hit a patch of ice two days before Christmas.  Her car spun off the road, her seat collapsed, and she experienced a traumatic brain injury.  She survived but she never recovered even to the point of recognizing my sister and me again.  She required full-time care for the rest of her life.  
- 
+
 --- 
 
 /dad.jpg
@@ -213,7 +213,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
-The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days I played hooky.   
+The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days that I played hooky.   
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
@@ -225,7 +225,7 @@ Looking at the red dots indicating the places I visit, the app can detect the re
 
 The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
-But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, in other words, my own words.  
+But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, my own words.  
 
 <!--12:15-->
  
@@ -253,9 +253,7 @@ If he had also received traditional mental healthcare, he might have given permi
 
 In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting**.
 
-But these are **preliminary** research studies.  And we started with participants from our local Madison community.  And the samples were predominately white. Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
-
-For example, many of us have seen media reports on how AI facial analysis algorithms trained on the faces of predominantly light-skinned men fail catastrophically when used to classify even famous dark-skinned women like Michelle Obama or Oprah Winfrey.
+But these are **preliminary** research studies.  And they included mostly white participants from our local Madison community.  Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
 Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and their use may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
@@ -287,6 +285,6 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 
 Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
 
-But remember, today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
+However, remember that today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends. 
