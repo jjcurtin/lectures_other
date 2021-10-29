@@ -4,6 +4,10 @@
 https://www.istockphoto.com/
 https://stock.adobe.com/
 https://www.shutterstock.com
+make sure to acknowledge Shutterstock on any slides that include our images. "Images courtesy of Shutterstock" or similar language is fine. 
+
+
+
 
 Unsplashed - https://unsplash.com/
 Creative commons - https://creativecommons.org/
