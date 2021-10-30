@@ -37,7 +37,7 @@ And these are not upsetting statistics,
 <!--click-->
 they are real people.
 
-One of them was Victor Kittleson, the 29 year-old brother of one of my graduate students, who died from an opioid overdose this past summer.
+One of them was Victor Kittleson, the kindhearted and sentimental brother of one of my graduate students, who died from an opioid overdose this past summer.
 <!--click-->
 
 ---
