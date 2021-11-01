@@ -212,7 +212,7 @@ Personal sensing passively captures all this information and more to understand 
 <!--click-->
 Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
-Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in yellow and running in blue.  
+Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in green and running in blue.  
 
 The red dots indicate places that I stopped to visit for at least a few minutes.  
 
@@ -240,7 +240,7 @@ Looking at the red dots indicating the places I visit, the app can detect the re
 <!--click-->
 The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
-But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message, my own words.  
+But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message.  
 <!--click-->
 
 <!--12:15-->
@@ -271,7 +271,7 @@ In our research studies, our algorithms can already predict with relatively high
 
 But these are **preliminary** research studies.  And they included mostly white participants from our local Madison community.  Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
-Personal sensing algorithms must be trained on diverse samples of patients or the algorithms' predictions and recommendations will be biased toward the needs of the majority and their use may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
+Personal sensing algorithms must be trained on diverse samples of patients or their use may exacerbate rather than reduce existing mental healthcare disparities. Our **current studies** now specifically recruit for racial, ethnic, and geographic diversity across the entire United States. 
 
 ---
 
@@ -307,6 +307,6 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 
 Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
 
-However, remember that today's beta versions of digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
+However, remember that the beta versions of today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends. 
