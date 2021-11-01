@@ -46,6 +46,7 @@ This failure to treat is even more troubling for vulnerable groups.  Black and L
 
 And similar mental healthcare disparities exist for people living in rural communities and for those with lower incomes.
 
+<!--1:54-->
 ---
 
 **Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
@@ -76,7 +77,7 @@ Mental healthcare services are often not **available** when we need them most.  
 
 And once we make it off the wait list, treatment typically involves weekly, monthly, or even less frequent appointments with a therapist.  But our mental health needs aren't limited to these pre-scheduled appointments.  
 
-Would a therapist have been available to my dad at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's car accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them? 
+Would a therapist have been available to my dad at his moments of greatest need - when he lost a job due to downsizing, or shortly after my mom's accident, or on the many dark mornings when he woke up with his hands shaking and had to decide if he was going to drink again to steady them? 
 
 ---
 
@@ -90,7 +91,7 @@ But let me pause for a moment.  I want to be very clear on one point before we m
   
 Therapists will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
-<!--4:30-->
+<!--4:15 - 4:30-->
 
 ## Digital Therapeutics
 
@@ -144,7 +145,7 @@ This is a big deal.  The magnitude of these benefits are meaningful already, eve
 
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need and at relatively low cost. 
  
- <!--7:06-->
+ <!--6:45 - 7:06-->
 ---
 
 /beta.png
@@ -173,12 +174,14 @@ My research team became interested in these issues when my colleague Dave Gustaf
 Dave had just completed a large study demonstrating the effectiveness of his app. However, he also noticed many of the people who relapsed hadn't used the app in the days leading up to that relapse.  And others who had relapsed hadn't used the specific supports in the app that he would have thought would be most effective for them.
 
 He believed that the benefits of his app could be increased if the app knew the person well enough to recognize when they were at greatest risk for relapse and if it was smart enough to recommend the specific supports that would be most effective for them at that moment in time to prevent that relapse.  
-<!--8:53-->
+
 ___ 
 
 And I agree with him.  The next wave of digital therapeutics, **SMART DIGITAL THERAPEUTICS**, must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
  
 And these apps will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
+
+<!--8:45-->
 
 ## Smarter Digital Therapeutics with Personal Sensing
 
@@ -189,8 +192,6 @@ I'm a running nut, and for me, ads for trail running shoes, the latest running b
 While preparing for TEDx this fall, I've been bombarded with ads for books, videos, and classes to improve my public speaking.
 
 Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use personal sensing to improve their mental healthcare instead.
-
-<!--9:30-->
 
 ---
 
@@ -263,11 +264,11 @@ If the app knew him well, it might even predict which of these forms of support 
  
 If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad during the months when he is more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
-<!--13:56-->
+<!--13:37 - 13:56-->
 
 ---
 
-In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent past experiences and behaviors.  **This is exciting and an important start**.
+In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent **past** experiences and behaviors.  **This is exciting and an important start**.
 
 But these are **preliminary** research studies.  And they included mostly white participants from our local Madison community.  Personal sensing algorithms trained on these participants would be unlikely to work well with black and brown patients or patients from rural communities.  
 
@@ -283,9 +284,10 @@ I also suspect that at some point, probably about five minutes ago, you thought:
 
 <!--click-->
 > "Holy crap, this is really private information that these apps would collect from me.  Who will have access to it and what will they do with it?"
+<!--click-->
 
 Most of us are all too familiar with recent serious privacy violations like the  Cambridge Analytica scandal and the Pegasus Spyware scandal.
-<!--click-->
+
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -303,6 +305,7 @@ This means that the FDA now evaluates the effectiveness and risks, including pri
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 <!--click-->
 
+<!--16:04-->
 ---
 
 Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
