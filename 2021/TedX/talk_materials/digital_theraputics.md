@@ -310,6 +310,6 @@ These FDA policy changes are huge and they begin to situate digital therapeutics
 
 Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
 
-However, remember that the beta versions of today's digital therapeutics are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
+However, remember that the beta versions of digital therapeutics available today are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends. 
