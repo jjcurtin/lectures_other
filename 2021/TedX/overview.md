@@ -1,6 +1,6 @@
-# Titles
+# Title
 
-Digital Therapeutics in Mental Healthcare: Promise, Progress, and Pitfalls
+Mental healthcare at our fingertips
 
 
 # Brief Abstract
@@ -11,11 +11,14 @@ Two technological innovations may fundamentally shift how we support people with
 
 This talk explores the opportunities that these two innovations provide and the obstacles that must be overcome to reduce mental health disparities and improve outcomes for everyone. 
 
+# Brief(er) Abstract
+We are experiencing a mental health crisis in the U.S. with many millions of people not receiving the treatment they desperately need.  This talk explores how two emerging technological innovations, Digital Therapeutics and Personal Sensing, can address this crisis by delivering highly scalable treatment and other supports that can be precisely tailored to the specific needs of the person and their moment in time. 
+
 # Bio
 
-John Curtin, PhD, is a Professor of Psychology at the University of Wisconsin-Madison.  His previous training was completed at the Johns Hopkins University, Florida State University, and Brown University.  He is the Director of Clinical Training for the doctoral program in Clinical Psychology at UW-Madison and the Director of the Addiction Research Center.  
+John Curtin, PhD, is a Professor of Psychology at the University of Wisconsin-Madison.  He is the Director of Clinical Training for the doctoral program in Clinical Psychology at UW-Madison and the Director of the Addiction Research Center.  
 
-His program of research focuses on the use of personal sensing and machine learning techniques for psychiatric diagnosis and risk prediction, precision medicine, and “just-in-time” interventions for substance use and other psychiatric disorders.  He has been continuously funded for this research by the National Institute of Alcohol Abuse and Alcoholism, the National Institute of Drug Abuse, and the National Institute of Mental Health since 2001.  His scholarship has been recognized with awards from the American Psychological Association, the Association for Psychological Science and UW-Madison.  Professor Curtin also contributes to UW-Madison's teaching mission, offering courses on substance use disorders, statistics, and applied machine learning.
+His program of research uses personal sensing and machine learning techniques for psychiatric diagnosis and risk prediction, precision medicine, and “just-in-time” interventions for substance use and other psychiatric disorders.  His scholarship has been recognized by grants from the National Institutes of Health and awards from the American Psychological Association, the Association for Psychological Science and UW-Madison.  Professor Curtin also contributes to UW-Madison's teaching mission, offering courses on substance use disorders, statistics, and applied machine learning.
 
 ## (Very) Draft Outline
 
