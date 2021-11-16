@@ -46,7 +46,6 @@ This failure to treat is even more troubling for vulnerable groups.  Black and L
 
 And similar mental healthcare disparities exist for people living in rural communities and for those with lower incomes.
 
-<!--1:54-->
 ---
 
 **Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
@@ -91,7 +90,6 @@ But let me pause for a moment.  I want to be very clear on one point before we m
   
 Therapists will always be needed for what they do uniquely well.  We simply need more than they can provide alone.  Digital therapeutics can provide that "more."
 
-<!--4:15 - 4:30-->
 
 ## Digital Therapeutics
 
@@ -145,12 +143,15 @@ This is a big deal.  The magnitude of these benefits are meaningful already, eve
 
 But their true power is in their scale, when the benefits from these apps are multiplied because they are provided simultaneously to millions of people in need and at relatively low cost. 
  
- <!--6:45 - 7:06-->
+
 ---
 
+<!--click-->
+<!-- 7:05-->
+ 
 /beta.png
 
-<!--click-->
+
 OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power comes from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
 ---
@@ -181,8 +182,6 @@ And I agree with him.  The next wave of digital therapeutics, **SMART DIGITAL TH
  
 And these apps will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
 
-<!--8:45-->
-
 ## Smarter Digital Therapeutics with Personal Sensing
 
 Now you may not have heard the term "personal sensing" before, you have almost certainly seen it in action.
@@ -195,9 +194,12 @@ Currently, personal sensing uses our personal data to target ads at us to sell u
 
 ---
 
+<!--click-->
+<!--9:35-->
+
 /smartphone.png
 
-<!--click-->
+
 Personal sensing has been supercharged by smartphones.
 
 We use our smartphones to make phone calls and text messages.  We often access and post to our social media accounts from our smartphones.
@@ -206,12 +208,18 @@ Smartphone-embedded sensors know our moment-by-moment location and activity leve
 
 Personal sensing passively captures all this information and more to understand our recent experiences, preferences, and behaviors.  It can be used to predict how we feel right now, and even how we may feel or behave in the future.  
 
+<!--click-->
+
+
+---
+
+Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
+
 ---
 
 /gps_1.png
 
 <!--click-->
-Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
 Behind me is a wide view of my moment-by-moment location detected by a digital therapeutic app over a month when we were first experimenting with this sensing method.  The app recorded the paths that I traveled, with movement by car in green and running in blue.  
 
@@ -232,19 +240,13 @@ The app recorded my daily running commute through downtown Madison to and from m
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
+<!--click-->
+
 ---
 
-/text_messages.png
-
-<!--Will remake for copyright-->
-
-<!--click-->
 The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
 But imagine what it learned about me from the patterns of my communications - Who I was calling, when I made those calls, and even the content of what I sent and received by text message.  
-<!--click-->
-
-<!--12:15-->
  
 ---
 
@@ -264,8 +266,6 @@ If the app knew him well, it might even predict which of these forms of support 
  
 If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad during the months when he is more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
-<!--13:37 - 13:56-->
-
 ---
 
 In our research studies, our algorithms can already predict with relatively high accuracy if someone in recovery will relapse back to drinking **tomorrow** based on personal sensing of their recent **past** experiences and behaviors.  **This is exciting and an important start**.
@@ -276,7 +276,7 @@ Personal sensing algorithms must be trained on diverse samples of patients or th
 
 ---
 
-<!--https://www.shutterstock.com/image-photo/young-crazy-surprised-cat-make-big-1058307686-->
+<!--15:10-->
 
 /surprised_cat_1.png
 
@@ -287,7 +287,6 @@ I also suspect that at some point, probably about five minutes ago, you thought:
 <!--click-->
 
 Most of us are all too familiar with recent serious privacy violations like the  Cambridge Analytica scandal and the Pegasus Spyware scandal.
-
 
 Given this, you might be surprised to hear me say that I am generally optimistic that we will get these privacy issues resolved, at least narrowly in the context of digital therapeutic apps.   I'm not making any promises for other apps on your phone or god forbid, Facebook! You're on your own there.....  
 
@@ -305,11 +304,11 @@ This means that the FDA now evaluates the effectiveness and risks, including pri
 These FDA policy changes are huge and they begin to situate digital therapeutics squarely within healthcare, where privacy protections have been considered paramount.  
 <!--click-->
 
-<!--16:04 - 16:15-->
 ---
 
 Digital therapeutics are here **today**.  The FDA has already cleared the first two digital therapeutics for substance use disorders. Our nation's VA Medical Centers have developed digital therapeutics to treat other mental illnesses.  And the VA is providing their apps for free to everyone, not just veterans, through their VA mobile health website. If you need more care than you are receiving now, download and try these apps.
 
 However, remember that the beta versions of digital therapeutics that are available today are still improving.  But as they get smarter through personal sensing, better mental healthcare is within our reach.  Smart digital therapeutics can deliver the right treatments, at the right time, every time, and for all of us.  
 
+<!--click-->
 My dad did not receive the mental healthcare he needed.  Neither did Victor Kittleson. With smart digital therapeutics, I hope that we can tell a different story for you and your family and friends. 
