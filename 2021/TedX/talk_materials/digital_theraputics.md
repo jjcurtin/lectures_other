@@ -147,7 +147,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 ---
 
 <!--click-->
-<!-- 7:05-->
+<!--10:45 remaining-->
  
 /beta.png
 
@@ -195,7 +195,7 @@ Currently, personal sensing uses our personal data to target ads at us to sell u
 ---
 
 <!--click-->
-<!--9:35-->
+<!--8:15 remaining-->
 
 /smartphone.png
 
@@ -276,7 +276,7 @@ Personal sensing algorithms must be trained on diverse samples of patients or th
 
 ---
 
-<!--15:10-->
+<!--2:30 remaining-->
 
 /surprised_cat_1.png
 
