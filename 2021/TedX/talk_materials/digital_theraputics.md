@@ -236,7 +236,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 <!--click-->
 Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
 
-The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days that I played hooky.   
+The app recorded my daily running commute through downtown Madison to and from my office.  From this, it can observe my longs days at the office and also those days that I skipped out.   
 
 Looking at the red dots indicating the places I visit, the app can detect the restaurants, bars, and coffee shops where I eat, drink and socialize.  It can use public map data to identify these places and make inferences about what I do there.  
 
@@ -262,7 +262,7 @@ It could also detect when time spent with Ed abruptly stops each fall because Ed
 
 The app could encourage him to reach out to other supportive family and friends during these months.  It could provide him with locations and meeting times for support groups in his community.  He could even be assisted to build community in the discussion forums within the app itself.
 
-If the app knew him well, it might even predict which of these forms of support would be most effective for him.
+If the app knew him well, it might even recommend which of these forms of support would be most effective for him.
  
 If he had also received traditional mental healthcare, he might have given permission for the app to share information with his therapist.  His therapist might then increase their support when my dad during the months when he is more isolated but direct their support preferentially to other patients when my dad was more stable and supported by his healthy friends and family.  
 
