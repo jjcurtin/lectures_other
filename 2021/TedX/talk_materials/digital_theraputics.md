@@ -32,10 +32,8 @@ And for those suffering with a substance use disorder - like my dad - it was wor
 
 /victor.jpg
 
-And these are not upsetting statistics, 
-
 <!--click-->
-they are real people.
+And these are not upsetting statistics, they are real people.
 
 One of them was Victor Kittleson, the kindhearted and sentimental brother of one of my graduate students, who died from an opioid overdose this past summer.
 <!--click-->
@@ -50,13 +48,11 @@ And similar mental healthcare disparities exist for people living in rural commu
 
 **Access** , **acceptability**, and **availability** - these are the factors that undermine our mental healthcare system.  
 
----
-
 While caring for my mom at home, my dad's **access** to mental healthcare was limited by its high cost without health insurance through a job.  
 
 ---
 
-/psychologist_heatmap.png
+/heatmap_low_res.jpg
 
 <!--click-->
 But geography also impacts access.  For example, consider the **access** to mental healthcare for the farmer in rural Kansas, when more than 90% of all psychologists and psychiatrists and 80% of social workers work exclusively in metropolitan areas and predominately on the coasts.  
@@ -154,8 +150,6 @@ But their true power is in their scale, when the benefits from these apps are mu
 
 OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power comes from easy, 24/7 access to their many supports - their treatments, tools, and services.
 
----
-
 But this is also their Achilles heel.  As the patient using these apps, you now have to tackle difficult questions like:
  
 * When should I use them?
@@ -178,7 +172,7 @@ He believed that the benefits of his app could be increased if the app knew the 
 
 ___ 
 
-And I agree with him.  The next wave of digital therapeutics, **SMART DIGITAL THERAPEUTICS**, must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
+And I agree with him.  The next wave of digital therapeutics, **smart digital therapeutics**, must learn to know us better as individuals, not just patients with the same crude diagnosis and same treatment needs at all times.  
  
 And these apps will do this through the use of built-in artificial intelligence algorithms that are powered by **personal sensing**.
 
@@ -192,13 +186,10 @@ While preparing for TEDx this fall, I've been bombarded with ads for books, vide
 
 Currently, personal sensing uses our personal data to target ads at us to sell us things.   But we hope to empower people to use personal sensing to improve their mental healthcare instead.
 
----
-
 <!--click-->
 <!--8:15 remaining-->
 
-/smartphone.png
-
+/smartphone.jpg
 
 Personal sensing has been supercharged by smartphones.
 
@@ -215,9 +206,7 @@ Personal sensing passively captures all this information and more to understand 
 
 Let's take a look at two of the more revealing personal sensing methods that my laboratory is developing to provide you with some intuition about how this works.
 
----
-
-/gps_1.png
+/gps_1.jpg
 
 <!--click-->
 
@@ -231,7 +220,7 @@ The app can immediately see that I am runner, with long runs leaving from downto
 
 ---
 
-/gps_2.png
+/gps_2.jpg
 
 <!--click-->
 Zooming in to the Madison isthmus, the app can see that I drive my children halfway around the lake each morning to their elementary school.  And it could detect those stressful mornings when getting my young kids dressed and fed didn't go as planned and we were late, sometimes **very late**, to school!
@@ -243,6 +232,9 @@ Looking at the red dots indicating the places I visit, the app can detect the re
 <!--click-->
 
 ---
+
+/text_messages.png
+<!--This is not the final  image from talk but will use for posting the transcript to website-->
 
 The app also collected my smartphone communications logs and even the content of my text messages.  And no such luck, I don't plan to show you my actual text messages!
 
@@ -278,7 +270,7 @@ Personal sensing algorithms must be trained on diverse samples of patients or th
 
 <!--2:30 remaining-->
 
-/surprised_cat_1.png
+/surprised_cat.jpg
 
 I also suspect that at some point, probably about five minutes ago, you thought: 
 
@@ -292,7 +284,7 @@ Given this, you might be surprised to hear me say that I am generally optimistic
 
 ---
 
-/fda.png
+/fda.jpg
 
 So here's why I'm optimistic.  In the last five years, the FDA has recognized both the potential benefits and risks posed by digital therapeutics.  
 
