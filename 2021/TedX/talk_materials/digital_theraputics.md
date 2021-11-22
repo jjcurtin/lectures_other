@@ -145,7 +145,7 @@ But their true power is in their scale, when the benefits from these apps are mu
 <!--click-->
 <!--10:45 remaining-->
  
-/beta.png
+/beta.jpg
 
 
 OK, so lets call the apps I have described to you so far, the beta version of digital therapeutics.  Their power comes from easy, 24/7 access to their many supports - their treatments, tools, and services.
