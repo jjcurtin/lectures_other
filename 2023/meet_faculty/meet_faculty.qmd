@@ -110,7 +110,7 @@ pr_all <- pr_week %>%
   bind_rows(pr_hour)
 ```
 
-```{r tmp_shaps}
+```{r global_shaps}
 # Grouped SHAPS
 shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) %>% 
   group_by(group) %>% 
@@ -125,59 +125,6 @@ shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_
   summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
   arrange(mean_value)
 ```
-
-
-```{r r-load_shaps}
-
-shap_week_local <- readRDS(file.path(path_models,
-                                     "imp_shap_grouped_all_1week_0_v4.rds")) 
-shap_day_local <-  readRDS(file.path(path_models,
-                                       "imp_shap_grouped_all_1day_0_v4.rds")) shap_hour_local <-  readRDS(file.path(path_models,
-                                      "imp_shap_grouped_all_1hour_0_v4.rds"))
-```
-
-```{r r-make_shaps_global}
-# xfun::cache_rds({
-  
-#   shap_global <- shap_week_local %>% 
-#     bind_rows(shap_day_local) %>% 
-#     bind_rows(shap_hour_local) %>% 
-#     mutate(window = factor(window, levels = c("week", "day", "hour"))) %>% 
-#     group_by(group, window) %>% 
-#     summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
-#     group_by(window) %>% 
-#     arrange(mean_value)
-# 
-# shap_global %>% saveRDS(file.path(path_models, 
-#                                        "tmp_shap_global.rds"))
-
-# shap_global <- readRDS(file.path(path_models, 
-#                                        "tmp_shap_global.rds"))
-# })
-
-# shap_week_global <- shap_week_local %>%
-#   group_by(group, window) %>% 
-#   summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
-#   arrange(mean_value)
-# shap__day_global <- shap_week_local %>% 
-#   group_by(group, window) %>% 
-#   summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
-#   arrange(mean_value)
-# shap__hour_global <-shap_hour_local %>%
-#   group_by(group) %>% 
-#   summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
-#   arrange(mean_value)
-# 
-# shap_global <- shap_week_global %>% 
-#   bind_rows(shap_day_global %>% 
-#   bind_rows(shap_hour_global %>% 
-#   mutate(window = factor(window, levels = c("week", "day", "hour"))) 
-```
-
-```{r r-make_shaps_local}
-
-```
-
 
 
 
