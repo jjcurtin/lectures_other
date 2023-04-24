@@ -869,61 +869,6 @@ And again, consistent with that AUC, the sensitivity, specificity, and balanced 
 
 :::
 
-## Local Variable Importance by Model{.medium}
-
-:::: {.columns}
-
-::: {.column width="50%"}
-
-:::
-
-::: {.column width="50%"}
-```{r r-shap_local}
-#| fig-height: 10
-#| fig-width: 6
-
-# ggplot(midwest, aes(state, area)) +
-#   geom_violin() +
-#   geom_sina()
-
-# or geom_jitter
-
-# sample full observations (ID)
-id_max <- shap_week_local %>% pull(ID) %>% max
-set.seed(1234)
-ids <- sample(1:id_max, 20000)
-
-shap_week_local %>%
-  ungroup() %>% 
-  filter(ID %in% ids) %>% 
-  # mutate(group = reorder(group, mean_value, sum)) %>%
-  ggplot(aes(x = shap, y = group)) +
-  ggforce::geom_sina(binwidth = .2, maxwidth = .5, scale = "width")
-  #ylab("SHAP value (impact on lapse probability)") +
-  #xlab("") +
-  #coord_flip() 
- # scale_fill_manual(values = c("purple","blue","orange"))
-```
-
-:::
-
-
-::::
-::: {.notes}
-In the spirit of making this model more transparent and interpretable, lets briefly look under the hood at the feature importance
-
-
-
-The plot on the right shows feature names and their associated importance.  From this we see a few important characteristics of the model.   
-
-First, only a small number of the approximately 300 features contribute meaningfully to predictions.   You can see that the importance is already skewing toward 0 even among the first 25 important features
-
-Second, 8 of the 10 EMA items are represented among these features. 
-
-And counts, mins, maxes, and medians, as well as raw and chng scores across all time periods all make contributions.
-:::
-
-
 ## Global Variable Importance by Model{.medium}
 
 :::: {.columns}
