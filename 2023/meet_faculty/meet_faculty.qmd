@@ -4,7 +4,7 @@ author: "John J. Curtin, Ph.D."
 institute: "University of Wisconsin-Madison"
 
 title-slide-attributes:
-  data-background-image: images/smartphone_know_you.png
+  data-background-image: ..\..\images/smartphone_know_you.png
   data-background-size: 35%
   data-background-repeat: no
   data-background-position: left 10% bottom 10%
@@ -362,7 +362,7 @@ We are in the early stages of model building at this point and I will focus toda
 :::: {.columns}
 
 ::: {.column width="60%"}
-![risk1_ema_questions.png](images\risk1_ema_questions.png){.absolute width="60%" top="15%" height="auto"}\    
+![risk1_ema_questions.png](/images/risk1_ema_questions.png){.absolute width="60%" top="15%" height="auto"}\    
 
 :::
 ::: {.column width="30%"}
@@ -547,7 +547,7 @@ But for now, I will use .5 such that the model will predict “lapse” for all 
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_week.png](images\metrics_1_week.png){width=85%}\
+![metrics_1_week.png](..\..\images\metrics_1_week.png){width=85%}\
 
 ```{r}
 metric_table <- tibble(item = c("AUC", " ", "Sensitivity", "Specificity", "Balanced accuracy"),
@@ -714,7 +714,7 @@ The day level model performed as well as, if not better, than the week level mod
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_day.png](images\metrics_1_day.png){width=85%}\
+![metrics_1_day.png](..\..\images\metrics_1_day.png){width=85%}\
 
 
 
@@ -805,7 +805,7 @@ And it turns out that we can do somewhat better still with hour level prediction
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_hour.png](images\metrics_1_hour.png){width=85%}\
+![metrics_1_hour.png](..\..\images\metrics_1_hour.png){width=85%}\
 
 
 
@@ -899,7 +899,7 @@ And counts, mins, maxes, and medians, as well as raw and chng scores across all 
 
 ## Positive Predictive Value (PPV)
 
-![metrics_ppv.png](images\metrics_ppv.png){width=85%}\
+![metrics_ppv.png](..\..\images\metrics_ppv.png){width=85%}\
 
 
 ::: {.notes}
@@ -916,7 +916,7 @@ PPV looks at the percentage of positive predictions from the model that are actu
 
 ## Positive Predictive Value (PPV)
 
-![metrics_lapse_frequency.png](images\metrics_lapse_frequency.png){width=85%}\
+![metrics_lapse_frequency.png](..\..\images\metrics_lapse_frequency.png){width=85%}\
 
 
 ::: {.notes}
@@ -931,7 +931,7 @@ And this is what we see in our data.
 
 ## Positive Predictive Value (PPV)
 
-![metrics_lapse_frequency_PPV.png](images\metrics_lapse_frequency_PPV.png){width=85%}\
+![metrics_lapse_frequency_PPV.png](..\..\images\metrics_lapse_frequency_PPV.png){width=85%}\
 
 
 ::: {.notes}
@@ -976,7 +976,7 @@ fig_hist_day +
 :::
 
 ::: {.column width="50%"}
-![threshold_.5_metrics.png](images\threshold_.5_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+![threshold_.5_metrics.png](..\..\images\threshold_.5_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
 :::
 
 ::::
@@ -1003,7 +1003,7 @@ fig_hist_day +
 :::
 
 ::: {.column width="50%"}
-![threshold_.9_metrics.png](images\threshold_.9_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+![threshold_.9_metrics.png](..\..\images\threshold_.9_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
 :::
 
 ::::
@@ -1021,7 +1021,7 @@ And this is what we will need to do if we want to recommend more costly treatmen
 :::: {.columns}
 
 ::: {.column width="50%"}
-![recall_curves_metrics.png](images\recall_curves_metrics.png){.absolute top="30%" left="1%" width="40%" height="auto"}\ 
+![recall_curves_metrics.png](..\..\images\recall_curves_metrics.png){.absolute top="30%" left="1%" width="40%" height="auto"}\ 
 :::
 
 ::: {.column width="50%"}
