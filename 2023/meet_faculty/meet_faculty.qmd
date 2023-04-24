@@ -4,7 +4,7 @@ author: "John J. Curtin, Ph.D."
 institute: "University of Wisconsin-Madison"
 
 title-slide-attributes:
-  data-background-image: ..\..\images/smartphone_know_you.png
+  data-background-image: https://github.com/jjcurtin/lectures/blob/main/images/smartphone_know_you.png?raw=true
   data-background-size: 35%
   data-background-repeat: no
   data-background-position: left 10% bottom 10%
@@ -305,8 +305,8 @@ And these apps will do this through the use of built-in artificial intelligence 
 
 
 ::: {.column width="40%"}
-![risk1_pis.png](images\risk1_pis.png)\    
-![niaaa_logo.png](images\niaaa_logo.png)\    
+![risk1_pis.png](https://github.com/jjcurtin/lectures/blob/main/images/risk1_pis.png?raw=true)\    
+![niaaa_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/niaaa_logo.png?raw=true)\    
 
 :::
 
@@ -362,7 +362,7 @@ We are in the early stages of model building at this point and I will focus toda
 :::: {.columns}
 
 ::: {.column width="60%"}
-![risk1_ema_questions.png](/images/risk1_ema_questions.png){.absolute width="60%" top="15%" height="auto"}\    
+![risk1_ema_questions.png](https://github.com/jjcurtin/lectures/blob/main/images/risk1_ema_questions.png?raw=true){.absolute width="60%" top="15%" height="auto"}\    
 
 :::
 ::: {.column width="30%"}
@@ -547,7 +547,7 @@ But for now, I will use .5 such that the model will predict “lapse” for all 
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_week.png](..\..\images\metrics_1_week.png){width=85%}\
+![metrics_1_week.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_week.png?raw=true){width=85%}\
 
 ```{r}
 metric_table <- tibble(item = c("AUC", " ", "Sensitivity", "Specificity", "Balanced accuracy"),
@@ -714,7 +714,7 @@ The day level model performed as well as, if not better, than the week level mod
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_day.png](..\..\images\metrics_1_day.png){width=85%}\
+![metrics_1_day.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_day.png?raw=true){width=85%}\
 
 
 
@@ -805,7 +805,7 @@ And it turns out that we can do somewhat better still with hour level prediction
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_hour.png](..\..\images\metrics_1_hour.png){width=85%}\
+![metrics_1_hour.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_hour.png?raw=true){width=85%}\
 
 
 
@@ -840,25 +840,7 @@ shap_grouped_all <- shap_grouped_week %>%
               mutate(window = "day")) %>% 
   bind_rows(shap_grouped_hour %>% 
               mutate(window = "hour")) %>% 
-  mutate(window = factor(window, levels = c("week", "day", "hour"))) %>% 
-  mutate(group = case_when(group == "past use" ~ "past use (EMA item)",
-                           group == "future efficacy" ~ "future efficacy (EMA item)" ,
-                           group == "craving" ~ "craving (EMA item)",
-                           group == "lapse hour" ~ "lapse hour (other)",
-                           group == "past stressful event" ~ "past stressful event (EMA item)",
-                           group == "past risky situation" ~ "past risky situation (EMA item)" ,
-                           group == "arousal" ~ "arousal (EMA item)",
-                           group == "past pleasant event" ~ "past pleasant event (EMA item)",
-                           group == "future risky situation" ~ "future risky situation (EMA item)",
-                           group == "future stressful event" ~ "future stressful event (EMA item)",
-                           group == "valence" ~ "valence (EMA item)",
-                           group == "lapse day" ~ "lapse day (other)",
-                           group == "missing surveys" ~ "missing surveys (other)",
-                           group == "age" ~ "age (demographic)",
-                           group == "sex" ~ "sex (demographic)",
-                           group == "race" ~ "race (demographic)",
-                           group == "marital" ~ "marital (demographic)",
-                           group == "educ" ~ "education (demographic)"))
+  mutate(window = factor(window, levels = c("week", "day", "hour")))
 
 shap_grouped_all %>% 
   mutate(group = reorder(group, mean_value, sum)) %>% 
@@ -899,7 +881,7 @@ And counts, mins, maxes, and medians, as well as raw and chng scores across all 
 
 ## Positive Predictive Value (PPV)
 
-![metrics_ppv.png](..\..\images\metrics_ppv.png){width=85%}\
+![metrics_ppv.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_ppv.png?raw=true){width=85%}\
 
 
 ::: {.notes}
@@ -916,7 +898,7 @@ PPV looks at the percentage of positive predictions from the model that are actu
 
 ## Positive Predictive Value (PPV)
 
-![metrics_lapse_frequency.png](..\..\images\metrics_lapse_frequency.png){width=85%}\
+![metrics_lapse_frequency.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_lapse_frequency.png?raw=true){width=85%}\
 
 
 ::: {.notes}
@@ -931,7 +913,7 @@ And this is what we see in our data.
 
 ## Positive Predictive Value (PPV)
 
-![metrics_lapse_frequency_PPV.png](..\..\images\metrics_lapse_frequency_PPV.png){width=85%}\
+![metrics_lapse_frequency_PPV.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_lapse_frequency_PPV.png?raw=true){width=85%}\
 
 
 ::: {.notes}
@@ -976,7 +958,7 @@ fig_hist_day +
 :::
 
 ::: {.column width="50%"}
-![threshold_.5_metrics.png](..\..\images\threshold_.5_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+![threshold_.5_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/threshold_.5_metrics.png?raw=true){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
 :::
 
 ::::
@@ -1003,7 +985,7 @@ fig_hist_day +
 :::
 
 ::: {.column width="50%"}
-![threshold_.9_metrics.png](..\..\images\threshold_.9_metrics.png){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+![threshold_.9_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/threshold_.9_metrics.png?raw=true){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
 :::
 
 ::::
@@ -1021,7 +1003,7 @@ And this is what we will need to do if we want to recommend more costly treatmen
 :::: {.columns}
 
 ::: {.column width="50%"}
-![recall_curves_metrics.png](..\..\images\recall_curves_metrics.png){.absolute top="30%" left="1%" width="40%" height="auto"}\ 
+![recall_curves_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/recall_curves_metrics.png?raw=true){.absolute top="30%" left="1%" width="40%" height="auto"}\ 
 :::
 
 ::: {.column width="50%"}
@@ -1115,7 +1097,7 @@ Looking at the red dots indicating the places I visit, the app can detect the re
 
 ## ...Imagine my smartphone communications...{.smaller}
 
-![smartphone_uber.png](images\smartphone_uber.png){.absolute top="15%" left="33%" width="33%" height="auto"}\ 
+![smartphone_uber.png](https://github.com/jjcurtin/lectures/blob/main/images/smartphone_uber.png?raw=true){.absolute top="15%" left="33%" width="33%" height="auto"}\ 
 
 ::: {.notes}
 In addition to geolocation, we also collected my smartphone communications logs and even the content of my text messages.
@@ -1135,7 +1117,7 @@ We believe we can improve the predictive strength of these geolocation and commu
 :::
 
 ## Context is Critical
-![smartphone_context.png](images\smartphone_context.png){.absolute top="15%" left="33%" width="33%" height="auto"}\ 
+![smartphone_context.png](https://github.com/jjcurtin/lectures/blob/main/images/smartphone_context.png?raw=true){.absolute top="15%" left="33%" width="33%" height="auto"}\ 
 
 ::: {.notes}
 
@@ -1162,7 +1144,7 @@ In our current projects, we target people and places that we interact with at le
 
 ## Contextualized Geolocation
 
-![context_gps.png](images\context_gps.png){width="75%"}\ 
+![context_gps.png](https://github.com/jjcurtin/lectures/blob/main/images/context_gps.png?raw=true){width="75%"}\ 
 
 ::: {.notes}
 
@@ -1170,7 +1152,7 @@ In our current projects, we target people and places that we interact with at le
 
 ## Contextualized Communications
 
-![context_cell.png](images\context_cell.png){width="75%"}\ 
+![context_cell.png](https://github.com/jjcurtin/lectures/blob/main/images/context_cell.png?raw=true){width="75%"}\ 
 
 ::: {.notes}
 
@@ -1189,7 +1171,7 @@ In our current projects, we target people and places that we interact with at le
 
 :::
 ::: {.column width="50%"}
-![feature_gps.png](images\feature_gps.png)\ 
+![feature_gps.png](https://github.com/jjcurtin/lectures/blob/main/images/feature_gps.png?raw=true)\ 
 :::
 ::::
 
@@ -1258,10 +1240,10 @@ Machine learning models must be trained on diverse samples of patients or their 
 :::: {.columns}
 
 ::: {.column width="60%"}
-![risk2_pis.png](images\risk2_pis.png)\ 
+![risk2_pis.png](https://github.com/jjcurtin/lectures/blob/main/images/risk2_pis.png?raw=true)\ 
 :::
 ::: {.column width="40%"}
-![nida_logo.png](images\nida_logo.png)\ 
+![nida_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/nida_logo.png?raw=true)\ 
 :::
 ::::
 ::: {.notes}
@@ -1299,7 +1281,7 @@ We are also sensitive to the fact that these recommendations from the machine le
 
 ## Relapse Prevention Model
 
-![relapse_prevention_flowchart.png](images\relapse_prevention_flowchart.png){.absolute bottom="0%" left="10%" width="73%" height="auto"}\ 
+![relapse_prevention_flowchart.png](https://github.com/jjcurtin/lectures/blob/main/images/relapse_prevention_flowchart.png?raw=true){.absolute bottom="0%" left="10%" width="73%" height="auto"}\ 
 
 
 ::: {.notes}
@@ -1316,7 +1298,7 @@ We are also sensitive to the fact that these recommendations from the machine le
 - MRT to optimize recommendation message components
 - RCT to evaluate Standard vs. Smart DTx on clinical outcomes
 
-![nida_logo.png](images\niaaa_logo.png){.absolute bottom="10%" right="2%" width="auto" height="auto"}\ 
+![nida_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/niaaa_logo.png?raw=true){.absolute bottom="10%" right="2%" width="auto" height="auto"}\ 
 
 ::: {.notes}
 
@@ -1324,7 +1306,7 @@ We are also sensitive to the fact that these recommendations from the machine le
 
 ## CRediTs
 
-![credits.png](images\credits.png){.absolute bottom="0%" left="5%" width="92%" height="auto"}\ 
+![credits.png](https://github.com/jjcurtin/lectures/blob/main/images/credits_risk1.png?raw=true){.absolute bottom="0%" left="5%" width="92%" height="auto"}\ 
 ::: {.notes}
 
 :::
