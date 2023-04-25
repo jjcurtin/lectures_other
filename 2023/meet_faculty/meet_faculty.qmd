@@ -12,7 +12,7 @@ title-slide-attributes:
 format: 
   revealjs:
     scrollable: true
-    css: arc.css
+    css: https://raw.githubusercontent.com/jjcurtin/lectures/main/arc.css
     
 fig-cap-location: top
 ---
