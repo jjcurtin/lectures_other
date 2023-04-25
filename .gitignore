@@ -1,4 +1,3 @@
-# office temporary files
-~$*.ppt*
-~$*.doc*
-~$*.xls*
+.Rproj.user
+**/*_files/**
+*_files
