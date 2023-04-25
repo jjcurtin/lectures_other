@@ -12,7 +12,8 @@ title-slide-attributes:
 format: 
   revealjs:
     scrollable: true
-    css: https://raw.githubusercontent.com/jjcurtin/lectures/main/arc.css
+    css: arc.css
+  
     
 fig-cap-location: top
 ---
@@ -32,6 +33,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 # library(patchwork)
 # library(ggtext)
 # library(consort)
+library(here)
 library(tidyverse)
 library(tidymodels)
 # library(tidyposterior)
@@ -305,9 +307,10 @@ And these apps will do this through the use of built-in artificial intelligence 
 
 
 ::: {.column width="40%"}
-![risk1_pis.png](https://github.com/jjcurtin/lectures/blob/main/images/risk1_pis.png?raw=true)\    
+![risk1_pis.png](here::here("images/risk1_pis.png"))\    
 ![niaaa_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/niaaa_logo.png?raw=true)\    
 
+https://github.com/jjcurtin/lectures/blob/main/images/risk1_pis.png?raw=true
 :::
 
 
