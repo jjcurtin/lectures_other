@@ -17,7 +17,7 @@ format:
 fig-cap-location: top
 ---
 ## Mental Healthcare Needs are High and Unmet  {.smaller}
-<!--NEED TO MAKE THIS NOT TAKE UP A PAGE-->
+<!--First slide title here before load data to avoid blank page after title page-->
 
 ```{r knitr_settings, include = FALSE}
 # settings
