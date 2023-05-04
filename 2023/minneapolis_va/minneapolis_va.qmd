@@ -19,22 +19,23 @@ fig-cap-location: top
 ## Mental Healthcare Needs are High and Unmet  {.smaller}
 <!--First slide title here before load data to avoid blank page after title page-->
 
-```{r knitr_settings, include = FALSE}
-# settings
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
-```
+```{r setup}
+#| include: false
 
-```{r setup, include = FALSE}
-# library(knitr)
-# library(kableExtra)
-# library(janitor)
-# ibrary(corx)
-# library(patchwork)
-# library(ggtext)
-# library(consort)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+options(knitr.kable.NA = '')
+
+# source
+devtools::source_url("https://github.com/jjcurtin/lab_support/blob/main/fun_ml.R?raw=true")
+
+# handle conflicts
+options(conflicts.policy = "depends.ok")
+tidymodels_conflictRules()
+
 library(tidyverse)
 library(tidymodels)
-# library(tidyposterior)
+library(kableExtra, exclude = "group_rows")
 
 theme_set(theme_classic()) 
 ```
@@ -55,75 +56,117 @@ switch (Sys.info()[['sysname']],
        )
 ```
 
-```{r r-load_id}
-# Table data
-# disposition <- read_csv(file.path(path_data_ema, "disposition.csv"), col_types = "ccDDcccccccccc")
-# screen <- read_csv(file.path(path_data_shared, "screen.csv"), col_types = vroom::cols()) %>% 
-#   filter(subid %in% subset(disposition, analysis == "yes")$subid)
-```
-
 ```{r r-load_preds}
 # Predictions data
-preds_week<- readRDS(file.path(path_models, "resample_preds_best_all_1week_0_v4_kfold.rds"))
-preds_day<- readRDS(file.path(path_models, "resample_preds_best_all_1day_0_v4_kfold.rds"))
-preds_hour<- readRDS(file.path(path_models, "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
-```
-
-```{r r-load_posterior}
-# posterior probabilites
-# pp <- readRDS(file.path(path_models, "posteriors_all_allwindows_0_v4_kfold.rds"))
+preds_week<- readRDS(file.path(path_models, 
+                               "resample_preds_best_all_1week_0_v4_kfold.rds"))
+preds_day<- readRDS(file.path(path_models, 
+                              "resample_preds_best_all_1day_0_v4_kfold.rds"))
+preds_hour<- readRDS(file.path(path_models, 
+                               "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
 ```
 
 ```{r r-load_roc}
 # ROC curves
-roc_week <- preds_week %>% 
-  roc_curve(prob, truth = truth) %>% 
+roc_week <- preds_week |> 
+  roc_curve(prob, truth = truth) |> 
   mutate(model = "1week")
 
-roc_day <- preds_day %>% 
-  roc_curve(prob, truth = truth) %>% 
+roc_day <- preds_day |> 
+  roc_curve(prob, truth = truth) |> 
   mutate(model = "1day")
 
-roc_hour <- preds_hour%>% 
-  roc_curve(prob, truth = truth) %>% 
+roc_hour <- preds_hour|> 
+  roc_curve(prob, truth = truth) |> 
   mutate(model = "1hour")
 
-roc_all <- roc_week %>% 
-  bind_rows(roc_day) %>% 
+roc_all <- roc_week |> 
+  bind_rows(roc_day) |> 
   bind_rows(roc_hour)
 
 # PR curves
-pr_week <- preds_week %>% 
-  pr_curve(prob, truth = truth) %>% 
+pr_week <- preds_week |> 
+  pr_curve(prob, truth = truth) |> 
   mutate(model = "1week")
 
-pr_day <- preds_day %>% 
-  pr_curve(prob, truth = truth) %>% 
+pr_day <- preds_day |> 
+  pr_curve(prob, truth = truth) |> 
   mutate(model = "1day")
 
-pr_hour <- preds_hour%>% 
-  pr_curve(prob, truth = truth) %>% 
+pr_hour <- preds_hour|> 
+  pr_curve(prob, truth = truth) |> 
   mutate(model = "1hour")
 
-pr_all <- pr_week %>% 
-  bind_rows(pr_day) %>% 
+pr_all <- pr_week |> 
+  bind_rows(pr_day) |> 
   bind_rows(pr_hour)
 ```
 
 ```{r global_shaps}
 # Grouped SHAPS
-shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) %>% 
-  group_by(group) %>% 
-  summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
+shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) |> 
+  group_by(group) |> 
+  summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
-shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds")) %>% 
-  group_by(group) %>% 
-  summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
+shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds")) |> 
+  group_by(group) |> 
+  summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
-shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) %>% 
-  group_by(group) %>% 
-  summarize(mean_value = mean(abs(shap)), .groups = "drop") %>% 
+shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) |> 
+  group_by(group) |> 
+  summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
+```
+
+```{r metrics}
+# metrics tables
+
+auc <- tibble(metric = "auc", 
+              week = preds_week |> roc_auc(prob, truth = truth) |>  
+                pull(.estimate), 
+              day = preds_day |> roc_auc(prob, truth = truth) |>  
+                pull(.estimate),
+              hour = preds_hour |> roc_auc(prob, truth = truth) |>  
+                pull(.estimate))
+
+metrics_week <- preds_week |>   
+  conf_mat(truth, estimate) |> 
+  summary() |> 
+  mutate(.estimate = round(.estimate, 3)) |> 
+  rename(week = .estimate,
+         metric = .metric) |> 
+  select(-.estimator)
+
+metrics_day <- preds_day |>   
+  conf_mat(truth, estimate) |> 
+  summary() |> 
+  mutate(.estimate = round(.estimate, 3)) |> 
+  rename(day = .estimate,
+         metric = .metric) |> 
+  select(-.estimator)
+
+metrics_hour <- preds_hour |>   
+  conf_mat(truth, estimate) |> 
+  summary() |> 
+  mutate(.estimate = round(.estimate, 3)) |> 
+  rename(hour = .estimate,
+         metric = .metric) |> 
+  select(-.estimator)
+
+metrics_all <- metrics_week |> 
+  full_join(metrics_day, by = "metric") |> 
+  full_join(metrics_hour, by = "metric") |> 
+  filter(metric %in% c("sens", "spec", "ppv", "bal_accuracy")) |> 
+  bind_rows(auc) |> 
+  bind_rows(tibble(metric = NA, week = NA, day = NA, hour = NA)) |> 
+  bind_rows(tibble(metric = NA, week = NA, day = NA, hour = NA))
+
+metrics_all <- metrics_all[c(5, 6, 1, 2, 4, 7, 3),]
+metrics_all[1,1] <- "AUC"
+metrics_all[3,1] <- "Sensitivity"
+metrics_all[4,1] <- "Specificity"
+metrics_all[5,1] <- "Balanced  Accuracy"
+metrics_all[7,1] <- "PPV"
 ```
 
 
@@ -479,11 +522,11 @@ And, of course, these performance metrics are calculated for new observations an
 #| fig-height: 6
 #| fig-width: 6
 
-fig_hist_week <- preds_week %>% 
+fig_hist_week <- preds_week |> 
   mutate(truth = if_else(truth == "no_lapse", "No lapse", "Lapse"),
          estimate = if_else(estimate == "no_lapse", "No lapse", "Lapse"),
-         model = "week") %>% 
-  ggplot(data = ., aes(x = prob)) + 
+         model = "week") |> 
+  ggplot(data = _, aes(x = prob)) + 
    geom_histogram(bins = 15, fill = "purple", col = "black", alpha = .4) +
    facet_wrap(~truth, nrow = 2, scales = "free_y") +
    xlab("Pr(Lapse)") +
@@ -550,14 +593,21 @@ But for now, I will use .5 such that the model will predict “lapse” for all 
 
 ![metrics_1_week.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_week.png?raw=true){width=85%}\
 
-```{r}
-metric_table <- tibble(item = c("AUC", " ", "Sensitivity", "Specificity", "Balanced accuracy"),
-                       week = c(" ", " ", "0.79", "0.86", "0.82"),
-                       day = c(" "," "," "," "," "),
-                       hour = c(" "," "," "," "," "))
-```
+```{r table_metrics_week}
+# remove some data
+metrics_subset <- metrics_all |> 
+  mutate(day = NA, hour = NA)
+metrics_subset[7,] <- NA
 
-<!--Quarto is currently ignoring kableExtra bootstrap styling, should replace this by a table once fixed-->
+metrics_subset |>
+ kbl(format = "html", col.names = c("", "Week", "Day", "Hour"),
+      digits = 2,
+      align = c("r", "c", "c", "c"),
+     linesep = "") |> 
+  row_spec(row = 0, align = "c") |> 
+  kable_styling(position = "left", bootstrap_options = "striped")
+
+```
 
 ::: {.notes}
 Using this decision threshold, we can now calculate the model’s sensitivity, specificity and balanced accuracy which is just the average of these two.
@@ -604,10 +654,10 @@ Area under the ROC curve (AUC)
 ```{r}
 #| fig-height: 6
 #| fig-width: 6
-roc_all %>% 
+roc_all |> 
   mutate(model = factor(model, levels = c("1week", "1day", "1hour"), 
-                        labels = c("week", "day", "hour"))) %>% 
-  filter(model == "week") %>%
+                        labels = c("week", "day", "hour"))) |> 
+  filter(model == "week") |>
   ggplot(aes(x = 1 - specificity, y = sensitivity, color = model)) +
   geom_path() +
   geom_abline(lty = 3) +
@@ -683,10 +733,10 @@ But we were also eager to see how well we could do if we required a higher level
 #| fig-height: 6
 #| fig-width: 6
 
-roc_all %>% 
+roc_all |> 
   mutate(model = factor(model, levels = c("1week", "1day", "1hour"), 
-                        labels = c("week", "day", "hour"))) %>% 
-  filter(model == "week" | model == "day") %>%
+                        labels = c("week", "day", "hour"))) |> 
+  filter(model == "week" | model == "day") |>
   ggplot(aes(x = 1 - specificity, y = sensitivity, color = model)) +
   geom_path() +
   geom_abline(lty = 3) +
@@ -778,9 +828,9 @@ Given our success with this day level model, we next developed a model with the 
 #| fig-height: 6
 #| fig-width: 6
 
-roc_all %>% 
+roc_all |> 
   mutate(model = factor(model, levels = c("1week", "1day", "1hour"), 
-                        labels = c("week", "day", "hour"))) %>% 
+                        labels = c("week", "day", "hour"))) |> 
   ggplot(aes(x = 1 - specificity, y = sensitivity, color = model)) +
   geom_path() +
   geom_abline(lty = 3) +
@@ -835,16 +885,16 @@ And again, consistent with that AUC, the sensitivity, specificity, and balanced 
 #| fig-width: 6
 
 
-shap_grouped_all <- shap_grouped_week %>% 
-  mutate(window = "week") %>% 
-  bind_rows(shap_grouped_day %>% 
-              mutate(window = "day")) %>% 
-  bind_rows(shap_grouped_hour %>% 
-              mutate(window = "hour")) %>% 
+shap_grouped_all <- shap_grouped_week |> 
+  mutate(window = "week") |> 
+  bind_rows(shap_grouped_day |> 
+              mutate(window = "day")) |> 
+  bind_rows(shap_grouped_hour |> 
+              mutate(window = "hour")) |> 
   mutate(window = factor(window, levels = c("week", "day", "hour")))
 
-shap_grouped_all %>% 
-  mutate(group = reorder(group, mean_value, sum)) %>% 
+shap_grouped_all |> 
+  mutate(group = reorder(group, mean_value, sum)) |> 
   ggplot() +
   geom_bar(aes(x = group, y = mean_value, fill = window), stat = "identity", alpha = .4) +
   ylab("Mean |SHAP| value") +
@@ -852,8 +902,8 @@ shap_grouped_all %>%
   coord_flip() +
   scale_fill_manual(values = c("purple","blue","orange"))
 
-# shap_global %>% 
-#   mutate(group = reorder(group, mean_value, sum)) %>% 
+# shap_global |> 
+#   mutate(group = reorder(group, mean_value, sum)) |> 
 #   ggplot() +
 #   geom_bar(aes(x = group, y = mean_value, fill = window), stat = "identity", alpha = .4) +
 #   ylab("Mean |SHAP| value") +
@@ -942,11 +992,11 @@ And we may need to be careful about how we convey our predictions to patients.  
 #| fig-height: 6
 #| fig-width: 6
 
-fig_hist_day <- preds_day %>% 
+fig_hist_day <- preds_day |> 
   mutate(truth = if_else(truth == "no_lapse", "No lapse", "Lapse"),
          estimate = if_else(estimate == "no_lapse", "No lapse", "Lapse"),
-         model = "week") %>% 
-  ggplot(data = ., aes(x = prob)) + 
+         model = "week") |> 
+  ggplot(data = _, aes(x = prob)) + 
    geom_histogram(bins = 15, fill = "blue", col = "black", alpha = .4) +
    facet_wrap(~truth, nrow = 2, scales = "free_y") +
    xlab("Pr(Lapse)") +
@@ -1013,9 +1063,9 @@ And this is what we will need to do if we want to recommend more costly treatmen
 #| fig-height: 6
 #| fig-width: 6
 
-pr_all %>% 
+pr_all |> 
   mutate(model = factor(model, levels = c("1week", "1day", "1hour"),
-                        labels = c("week", "day", "hour"))) %>%
+                        labels = c("week", "day", "hour"))) |>
   ggplot(aes(x = recall, y = precision, color = model)) +
   geom_path() +
   coord_fixed(xlim = c(0, 1), ylim = c(0, 1)) +
@@ -1308,6 +1358,7 @@ We are also sensitive to the fact that these recommendations from the machine le
 ## CRediTs
 
 ![credits.png](https://github.com/jjcurtin/lectures/blob/main/images/credits_risk1.png?raw=true){.absolute bottom="0%" left="5%" width="92%" height="auto"}\ 
+
 ::: {.notes}
 
 :::
