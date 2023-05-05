@@ -103,7 +103,10 @@ pr_hour <- preds_hour|>
 
 pr_all <- pr_week |> 
   bind_rows(pr_day) |> 
-  bind_rows(pr_hour)
+  bind_rows(pr_hour) |> 
+  mutate(thres_avg = round(.threshold, 3)) |> 
+  group_by(model, thres_avg) |> 
+  reframe(recall = mean(recall), precision =  mean(precision))
 ```
 
 ```{r global_shaps}
@@ -227,17 +230,7 @@ Our failure to treat is even more troubling for vulnerable groups.  Black and La
 And similar mental healthcare disparities exist for people living in rural communities and for those with lower incomes.
 :::
 
-## Mental Healthcare Needs are High and Unmet {.smaller}
-
-- [In 2019, 52 million Americans had an active mental illness]{style="color: grey;"}
-  - [More than half did not receive any treatment]{style="color: grey;"}
-
-- [20 million adults had an active substance use disorder]{style="color: grey;"}
-  - [9 out of 10 did not receive any treatment]{style="color: grey;"}
-
-  
-- [Large treatment disparities exist by race, ethnicity, geography, and income]{style="color: grey;"}
-
+## Mental Healthcare Needs are High and Unmet  {.smaller}
 
 - Failure to treat is not surprising given many treatment barriers:
   - Access
@@ -276,9 +269,11 @@ For those of you that are not yet familiar with this treatment modality, digital
 
 These digital therapeutics can be combined with traditional treatments to reduce barriers because they are
 
--Accessible everywhere
--Available everyday, 24/7
--and highlighly scalable, which may lower costs
+- Accessible everywhere
+
+- Available everyday, 24/7
+
+- and highlighly scalable, which may lower costs
 :::
 
 ## Digital Therapeutics (DTx)
@@ -311,9 +306,13 @@ And these benefits are durable - they have been documented up to 12 months after
 These apps are in use today with patients with SUD and at least two have recently received FDA approval.  However, I think they are still best considered beta versions relative to their full potential. 
 
 Their power comes from easy, 24/7 access to their many supports - the treatments, tools, and services built into these smartphone apps. But this is also their Achilles heel. As the patient using these apps, you now have to tackle difficult questions like:
+
 - When should I use them?
+
 - For how long?
+
 - Which of their many supports are best for me?
+
 - And which are best for me **right now**, at this moment in time?
 :::
 
@@ -397,9 +396,13 @@ As I mentioned, in this project, we collected a variety of active and passive pe
 Participants completed brief (7-10 item) ecological momentary assessments or EMAs, 4 times per day
 
 We also have 
+
 - more temporally coarse, monthly self reports, 
+
 - Moment by moment geolocation,
+
 - Meta data from their cellular communications and the actual content of their text messages, 
+
 - and we had sleep sensors in their beds.
 
 We are in the early stages of model building at this point and I will focus today on results from preliminary models using only EMA.  However, we are actively working with GPS and cellular communications as well and I’ll end with some brief discussion of those preliminary models, as well as early plans on how to implement these models clinically to help patients.
@@ -458,7 +461,7 @@ We formed features by aggregating EMA items over various past time periods rangi
 
 We calculated mins, maxes and medians for the EMA items in these time periods
 
-We also calculated counts of past lapses and counts of past EMAs completed to index compliance
+We also calculated counts of past lapses and counts of past EMAs completed to index engagment with our monitoring system.
 
 And we included these scores both in raw form and as change from baselines for the participant based on all their previous responses since the start of the study.
 :::
@@ -466,7 +469,7 @@ And we included these scores both in raw form and as change from baselines for t
 ## Machine Learning Methods
 
 
-- Predict hour-by-hour probability of future [lapse]{style="color: red;"}
+- Predict hour-by-hour probability of [future lapse]{style="color: red;"}
 
 - Lapse window widths
   - 1 hour
@@ -479,9 +482,9 @@ For our purposes today I wont dive deep into the machine learning methods but le
 
 We used these features I just described to make predictions about the hour-by-hour probability of a future lapse.  We are developing separate models for three future lapse windows – lapses in the next hour, lapses in the next day, and lapses in the next week.  
 
-For example, if I was in recovery from an AUD, I could use these models to generate the probability that I would lapse after this symposium starting at 4pm.  One model would generate the probability of a lapse between 4pm and 5 pm today, the second would predict the probability of a lapse between 4 pm today and 4pm tomorrow and the third would provide the probability of a lapse between 4 pm today and 4pm next Tuesday.  
+For example, if I was in recovery from an AUD, I could use these models to generate the probability that I would lapse after this symposium starting at 10am.  One model would generate the probability of a lapse between 10am and 11 am today, the second would predict the probability of a lapse between 10 am today and 10 am tomorrow and the third would provide the probability of a lapse anytime between 10am today and 10 am next Friday  
 
-And of course, all of the models would only use data collected prior to 4 pm today so that they are “predicting”, in the full sense of the word, into the future and not just demonstrating an association.
+And of course, all of the models would only use data collected prior to 10 am today so that they are “predicting”, in the full sense of the word, into the future and not just demonstrating an association.
 
 :::
 
@@ -532,7 +535,7 @@ fig_hist_week <- preds_week |>
          estimate = if_else(estimate == "no_lapse", "No lapse", "Lapse"),
          model = "week") |> 
   ggplot(data = _, aes(x = prob)) + 
-   geom_histogram(bins = 15, fill = "red", col = "black", alpha = .4) +
+   geom_histogram(bins = 15, fill = "orange", col = "black", alpha = .4) +
    facet_wrap(~truth, nrow = 2, scales = "free_y") +
    xlab("Pr(Lapse)") +
   scale_y_continuous(labels = scales::comma)
@@ -551,7 +554,7 @@ On the right, you are looking at histograms of the lapse probability predictions
 
 I’ve paneled these histograms by whether a lapse did or did not happen in reality for each predicted week.  The top panel is for weeks with lapses and the bottom panel is for weeks with no lapses.
 
-Ideally, you want the predicted probabilities to be very high for weeks where there was a lapse and very low for weeks where there was no lapse.    
+Ideally, you want the predicted probabilities to be very high for weeks when there was a lapse and very low for weeks when there was no lapse.    
 
 And this is exactly what we see for the one week lapse window model
 :::
@@ -581,7 +584,7 @@ And this is exactly what we see for the one week lapse window model
 #| fig-width: 6
 
 fig_hist_week +
-  geom_vline(xintercept = .5, color = "orange", size = 2)
+  geom_vline(xintercept = .5, color = "red", size = 2)
 ```
 :::
 
@@ -603,7 +606,8 @@ But for now, I will use .5 such that the model will predict “lapse” for all 
 # remove some data
 metrics_subset <- metrics_all |> 
   mutate(day = NA, hour = NA)
-metrics_subset[7,] <- NA
+metrics_subset[1, 2] <- NA
+metrics_subset[7, ] <- NA
 
 metrics_subset |>
  kbl(format = "html", col.names = c("", "Week", "Day", "Hour"),
@@ -612,13 +616,14 @@ metrics_subset |>
      linesep = "") |> 
   row_spec(row = 0, align = "c") |> 
   kable_styling(full_width = FALSE) |> 
-  kable_classic("striped")
+  kable_classic("striped") |> 
+  column_spec(2, color  = "red", bold = TRUE)
 ```
 
 ::: {.notes}
 Using this decision threshold, we can now calculate the model’s sensitivity, specificity and balanced accuracy which is just the average of these two.
 
-This one week lapse prediction model correctly predicts “lapse” for 79 percent of the weeks that contain a lapse and it correctly predicts “no-lapse” for 86 percent of the weeks that do not include a lapse.   
+This one week lapse prediction model correctly predicts “lapse” for 79 percent of the weeks that contain a lapse and it correctly predicts “no-lapse” for 85 percent of the weeks that do not include a lapse.   
 
 
 
@@ -677,10 +682,10 @@ roc_all |>
        y = "Sensitivity") +
   scale_x_continuous(breaks = seq(0,1,.25),
     labels = sprintf("%.2f", seq(1,0,-.25)))  +
-  scale_color_manual(values = c("red","green","blue")) +
+  scale_color_manual(values = c("orange","green","blue")) +
   geom_text(x = .80, y = .20, 
             label = str_c("AUC = ", auc_week), 
-            show.legend = FALSE, color = "red")
+            show.legend = FALSE, color = "orange")
 ```
 :::
 
@@ -763,10 +768,10 @@ roc_all |>
        y = "Sensitivity") +
   scale_x_continuous(breaks = seq(0,1,.25), 
                      labels = sprintf("%.2f", seq(1,0,-.25))) +
-  scale_color_manual(values = c("red","green","blue")) +
+  scale_color_manual(values = c("orange","green","blue")) +
   geom_text(x = .80, y = .20, 
             label = str_c("AUC = ", auc_week), 
-            show.legend = FALSE, color = "red") +
+            show.legend = FALSE, color = "orange") +
   geom_text(x = .80, y = .15, 
             label = str_c("AUC = ", auc_day), 
             show.legend = FALSE, color = "green")
@@ -775,7 +780,7 @@ roc_all |>
 ::::
 
 ::: {.notes}
-And here is the ROC curve and the AUC for the day level model in blue, superimposed on the week level model in purple.
+And here is the ROC curve and the AUC for the day level model in green, superimposed on the week level model in orange
 
 The day level model performed as well as, if not better, than the week level model with an AUC of .91
 
@@ -789,7 +794,6 @@ The day level model performed as well as, if not better, than the week level mod
 
 ## Performance Metrics by Lapse Window Width
 
-![metrics_1_day.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_day.png?raw=true){width=85%}\
 
 ```{r table_metrics_day}
 # remove some data
@@ -804,7 +808,8 @@ metrics_subset |>
      linesep = "") |> 
   row_spec(row = 0, align = "c") |> 
   kable_styling(full_width = FALSE) |> 
-  kable_classic("striped")
+  kable_classic("striped") |> 
+  column_spec(3, color  = "red", bold = TRUE)
 ```
 
 ::: {.notes}
@@ -881,10 +886,10 @@ roc_all |>
        y = "Sensitivity") +
   scale_x_continuous(breaks = seq(0,1,.25),
     labels = sprintf("%.2f", seq(1,0,-.25)))  +
-  scale_color_manual(values = c("red","green","blue")) +
+  scale_color_manual(values = c("orange","green","blue")) +
   geom_text(x = .80, y = .20, 
             label = str_c("AUC = ", auc_week), 
-            show.legend = FALSE, color = "red") +
+            show.legend = FALSE, color = "orange") +
   geom_text(x = .80, y = .15, 
             label = str_c("AUC = ", auc_day), 
             show.legend = FALSE, color = "green") +
@@ -897,7 +902,7 @@ roc_all |>
 
 ::: {.notes}
 
-And it turns out that we can do somewhat better still with hour level predictions.  Here the orange curve represents the ROC curve for the hour level model, which had the best AUC yet, .93
+And it turns out that we can do somewhat better still with hour level predictions.  Here the blur curve represents the ROC curve for the hour level model, which had the best AUC yet, .93
 
 [PAUSE]
 
@@ -906,8 +911,6 @@ And it turns out that we can do somewhat better still with hour level prediction
 
 
 ## Performance Metrics by Lapse Window Width
-
-![metrics_1_hour.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_1_hour.png?raw=true){width=85%}\
 
 ```{r table_metrics_hour}
 # remove some data
@@ -921,7 +924,8 @@ metrics_subset |>
      linesep = "") |> 
   row_spec(row = 0, align = "c") |> 
   kable_styling(full_width = FALSE) |> 
-  kable_classic("striped")
+  kable_classic("striped") |> 
+  column_spec(4, color  = "red", bold = TRUE)
 ```
 
 ::: {.notes}
@@ -940,7 +944,6 @@ And again, consistent with that AUC, the sensitivity, specificity, and balanced 
 - All EMA items impact lapse probability (both globally and locally)
 - Demographics not particularly important (but limited race/ethnicity diversity)
 - Lapse day and Lapse hour are useful for day and hour level models as expected
-- Local importance used for recommendation interventions?
 :::
 
 ::: {.column width="50%"}
@@ -963,7 +966,7 @@ shap_grouped_all |>
   ylab("Mean |SHAP| value") +
   xlab("") +
   coord_flip() +
-  scale_fill_manual(values = c("red","green","blue"))
+  scale_fill_manual(values = c("orange","green","blue"))
 ```
 
 :::
@@ -973,18 +976,25 @@ shap_grouped_all |>
 ::: {.notes}
 In the spirit of making this model more transparent and interpretable, lets briefly look under the hood at the feature importance
 
+The plot on the right shows feature names and their associated importance indexed by mean absolute SHAP values over all observations.  From this we see a few important characteristics of the model.   
 
+First, all of EMA items affect predictions about lapse probability globally across observations  And although not displayed here, all of these EMA items show meaningful variation across observations locally such that they each make important contributions to predictions in at least some instances.  
 
-The plot on the right shows feature names and their associated importance.  From this we see a few important characteristics of the model.   
+Second, demographics were not particularly important for prediction lapses, though I'll return later to acknowledged that we had limited race/ethnicity diversity in the sample.
 
-First, only a small number of the approximately 300 features contribute meaningfully to predictions.   You can see that the importance is already skewing toward 0 even among the first 25 important features
-
-Second, 8 of the 10 EMA items are represented among these features. 
-
-And counts, mins, maxes, and medians, as well as raw and chng scores across all time periods all make contributions.
+And third, we can use lapse day and lapse hour to make predictions with the more temporally precise models.  Not surprisingly, people are more likely to lapse on weekends and during evening hours and the associated day and hour level models models can use that information to improve their lapse predictions.  
 :::
 
 ## Positive Predictive Value (PPV)
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+   
+:::
+
+::: {.column width="50%"}
 
 ```{r table_metrics_ppv_1}
 # remove some data
@@ -1001,9 +1011,13 @@ metrics_subset |>
   kable_classic("striped")
 ```
 
+:::
+
+::::
+
 
 ::: {.notes}
-Lets return one more time to the performance of these models because I would be remiss if I didn’t complicate the story a bit before we close.  
+Now, lets return one more time to the performance of these models because I would be remiss if I didn’t complicate the story a bit before we close.  
 
 Clearly, the sensitivity, specificity, and balanced accuracy of all three of these models is encouragingly high
 
@@ -1016,9 +1030,30 @@ PPV looks at the percentage of positive predictions from the model that are actu
 
 ## Positive Predictive Value (PPV)
 
-![metrics_lapse_frequency.png](https://github.com/jjcurtin/lectures/blob/main/images/metrics_lapse_frequency.png?raw=true){width=85%}\
+:::: {.columns}
 
-<!--NEED TO ADD LAPSE RATES  - 25.4, 7.7, .4-->
+::: {.column width="50%"}
+
+```{r table_lapse_2}
+
+lr <- tibble(row_name = "Lapse Rate", Week = "25.4%", Day = "7.7%", Hour = "0.4%")
+
+lr |>
+ kbl(format = "html", col.names = c("", "Week", "Day", "Hour"),
+      digits = 2,
+      align = c("r", "c", "c", "c"),
+     linesep = "") |> 
+  row_spec(row = 0, align = "c") |> 
+  kable_styling(full_width = FALSE) |> 
+  kable_classic("striped") |> 
+  row_spec(1, color  = "red", bold = TRUE)
+```
+
+:::
+
+::: {.column width="50%"}
+
+
 ```{r table_metrics_ppv_2}
 # remove some data
 metrics_subset <- metrics_all
@@ -1034,6 +1069,13 @@ metrics_subset |>
   kable_classic("striped")
 ```
 
+:::
+
+::::
+
+
+
+
 ::: {.notes}
 Now we haven’t talked about the frequency of lapses across the three lapse windows, but it should be intuitively clear that the percent of weeks that contain a lapse will be higher than the percent of days that contain a lapse, and that the percent of hours that contain a lapse will be lower still.  
 
@@ -1046,6 +1088,27 @@ And this is what we see in our data.
 
 ## Positive Predictive Value (PPV)
 
+:::: {.columns}
+
+::: {.column width="50%"}
+
+
+```{r table_lapse_3}
+
+lr |>
+ kbl(format = "html", col.names = c("", "Week", "Day", "Hour"),
+      digits = 2,
+      align = c("r", "c", "c", "c"),
+     linesep = "") |> 
+  row_spec(row = 0, align = "c") |> 
+  kable_styling(full_width = FALSE) |> 
+  kable_classic("striped")
+```
+
+:::
+
+::: {.column width="50%"}
+
 ```{r table_metrics_ppv_3}
 # remove some data
 
@@ -1056,8 +1119,13 @@ metrics_all |>
      linesep = "") |> 
   row_spec(row = 0, align = "c") |> 
   kable_styling(full_width = FALSE) |> 
-  kable_classic("striped")
+  kable_classic("striped") |> 
+  row_spec(7, color  = "red", bold = TRUE)
 ```
+
+:::
+
+::::
 
 ::: {.notes}
 Because of this, we see relatively low PPV for our models – and particularly the day and the hour level models.
@@ -1079,6 +1147,7 @@ And we may need to be careful about how we convey our predictions to patients.  
 :::: {.columns}
 
 ::: {.column width="50%"}
+
 <!--Lapse Probabilities for Day Model-->
 ```{r fig_hist_probabilites_day}
 #| fig-height: 6
@@ -1092,16 +1161,32 @@ fig_hist_day <- preds_day |>
    geom_histogram(bins = 15, fill = "green", col = "black", alpha = .4) +
    facet_wrap(~truth, nrow = 2, scales = "free_y") +
    xlab("Pr(Lapse)") +
-  scale_y_continuous(labels = scales::comma)
+   scale_y_continuous(labels = scales::comma)
 
 fig_hist_day +
-  geom_vline(xintercept = .5, color = "orange", size = 2)
+  geom_vline(xintercept = .5, color = "red", size = 2)
 ```
 
 :::
 
 ::: {.column width="50%"}
-![threshold_.5_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/threshold_.5_metrics.png?raw=true){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+
+```{r}
+thresholds <- tibble(metric = c("Sensitivity", "Specificity", "", "PPV"),
+                     thresh_1 = c("0.81", "0.86", "", "0.32"), 
+                     thresh_2 = c("", "", "", ""))
+
+thresholds |>
+ kbl(format = "html", col.names = c("", "Thres = 0.50", "Thres = 0.90"),
+      digits = 2,
+      align = c("r", "r", "r"),
+     linesep = "") |> 
+  row_spec(row = 0, align = "r") |> 
+  kable_styling(full_width = FALSE) |> 
+  column_spec(2, color  = c("black", "black", "black", "red"), bold = TRUE) 
+```
+
+
 :::
 
 ::::
@@ -1123,12 +1208,26 @@ Here I am showing you the performance of the day level model when we use the def
 #| fig-width: 6
 
 fig_hist_day +
-  geom_vline(xintercept = .9, color = "orange", size = 2)
+  geom_vline(xintercept = .9, color = "red", size = 2)
 ```
 :::
 
 ::: {.column width="50%"}
-![threshold_.9_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/threshold_.9_metrics.png?raw=true){.absolute top="30%" right="1%" width="50%" height="auto"}\ 
+```{r}
+thresholds <- tibble(metric = c("Sensitivity", "Specificity", "", "PPV"),
+                     thresh_1 = c("0.81", "0.86", "", "0.32"), 
+                     thresh_2 = c("0.40", "0.99", "", "0.83"))
+
+thresholds |>
+ kbl(format = "html", col.names = c("", "Thres = 0.50", "Thres = 0.90"),
+      digits = 2,
+      align = c("r", "r", "r"),
+     linesep = "") |> 
+  row_spec(row = 0, align = "r") |> 
+  kable_styling(full_width = FALSE) |> 
+  column_spec(3, color  = c("black", "black", "black", "red"), bold = TRUE)
+```
+
 :::
 
 ::::
@@ -1137,46 +1236,9 @@ fig_hist_day +
 But if we move the threshold up to .9 before we call an observation a lapse, we can increase the PPV from .32 to .83.
 
 And this is what we will need to do if we want to recommend more costly treatments or other actions where false alarms may be problematic.
-
-
 :::
 
-## Precision - Recall Curves
 
-:::: {.columns}
-
-::: {.column width="50%"}
-![recall_curves_metrics.png](https://github.com/jjcurtin/lectures/blob/main/images/recall_curves_metrics.png?raw=true){.absolute top="30%" left="1%" width="40%" height="auto"}\ 
-:::
-
-::: {.column width="50%"}
-<!--Precision-Recall Curves by Models-->
-```{r fig_ppv}
-#| fig-height: 6
-#| fig-width: 6
-
-pr_all |> 
-  mutate(model = factor(model, levels = c("1week", "1day", "1hour"),
-                        labels = c("week", "day", "hour"))) |>
-  ggplot(aes(x = recall, y = precision, color = model)) +
-  geom_path(size = 1.25) +
-  coord_fixed(xlim = c(0, 1), ylim = c(0, 1)) +
-  labs(x = "Sensitivity (Recall)",
-       y = "Positive Predictive Value (Precision)") +
-  scale_color_manual(values = c("red","green","blue"))
-```
-:::
-
-::::
-
-::: {.notes}
-But of course, as we increase the decision threshold for labeling a window as a lapse, we will trade off sensitivity.   We can see this trade off directly in the precision-recall curves.  If we decide we need PPV of at least .75, you can see that we still have reasonable sensitivity for the one week window but we start to miss many lapses in the 1day window and more still in the 1hour window.
-
-I’ll return to this a bit more later when we discuss emerging plans for how best to implement these models within a digital therapeutic.
-
-
-
-:::
 
 ## Key Take Home Messages
 
