@@ -36,6 +36,16 @@ tidymodels_conflictRules()
 library(tidyverse)
 library(tidymodels)
 library(kableExtra, exclude = "group_rows")
+library(yardstick) # for roc_curve
+library(janitor)
+library(corx)
+library(patchwork)
+library(ggtext)
+library(consort)
+library(tidyposterior)
+library(cowplot, mask.ok = c("stamp", "align_plots"))
+
+theme_set(theme_classic()) 
 
 theme_set(theme_classic()) 
 ```
@@ -64,6 +74,15 @@ preds_day<- readRDS(file.path(path_models,
                               "resample_preds_best_all_1day_0_v4_kfold.rds"))
 preds_hour<- readRDS(file.path(path_models, 
                                "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
+
+# Table data
+disposition <- read_csv(file.path(path_data_ema, "disposition.csv"), col_types = "ccDDcccccccccc")
+screen <- read_csv(file.path(path_data_shared, "screen.csv"), col_types = vroom::cols()) %>% 
+  filter(subid %in% subset(disposition, analysis == "yes")$subid)
+
+# posterior probabilites
+pp <- readRDS(file.path(path_models, "posteriors_all_allwindows_0_v4_kfold.rds"))
+
 ```
 
 ```{r r-load_roc}
@@ -1261,9 +1280,10 @@ thresholds_2 |>
 
 :::
   
-  ::: {.column width="50%"}
+::: {.column width="50%"}
 <!--Precision-Recall Curves by Models-->
-  ```{r fig_ppv}
+
+```{r fig_ppv}
 #| fig-height: 6
 #| fig-width: 6
 
@@ -1561,7 +1581,7 @@ We are also sensitive to the fact that these recommendations from the machine le
 - MRT to optimize recommendation message components
 - RCT to evaluate Standard vs. Smart DTx on clinical outcomes
 
-![nida_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/niaaa_logo.png?raw=true){.absolute bottom="10%" right="2%" width="auto" height="auto"}\ 
+![nida_logo.png](https://github.com/jjcurtin/lectures/blob/main/images/niaaa_logo.png?raw=true){.absolute bottom="5%" right="2%" width="auto" height="auto"}\ 
 
 ::: {.notes}
 
@@ -1575,12 +1595,557 @@ We are also sensitive to the fact that these recommendations from the machine le
 
 :::
 
-## Demographics
+## Demographics & Alcohol Use History
+<!-- JOHN looks like the latest version of the paper combined these tables - is that okay? --> 
 
-## Alcohol Use History
+<!-- Demographics table-->
+```{r}
+footnote_table_dem_a <- "N = 151"
+footnote_table_dem_b <- "Two participants reported 100 or more quit attempts. We removed these outliers prior to calculating the mean (M), standard deviation (SD), and range."
+```
+
+```{r table_demo_auh}
+options(knitr.kable.NA = "")
+
+dem <- screen %>% 
+  summarise(mean = as.character(round(mean(dem_1, na.rm = TRUE), 1)),
+            SD = as.character(round(sd(dem_1, na.rm = TRUE), 1)),
+            min = as.character(min(dem_1, na.rm = TRUE)),
+            max = as.character(max(dem_1, na.rm = TRUE))) %>% 
+  mutate(var = "Age",
+         n = as.numeric(""),
+         perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()) %>% 
+  full_join(screen %>% 
+  select(var = dem_2) %>% 
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = dem_3) %>% 
+  mutate(var = fct_relevel(factor(var, 
+                         c("American Indian/Alaska Native", "Asian", "Black/African American",
+                           "White/Caucasian", "Other/Multiracial")))) %>%
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = dem_4) %>% 
+  mutate(var = case_when(var == "No, I am not of Hispanic, Latino, or Spanish origin" ~ "No",
+                         TRUE ~ "Yes"),
+         var = fct_relevel(factor(var, c("Yes", "No")))) %>% 
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = dem_5) %>% 
+  mutate(var = fct_relevel(factor(var, 
+                         c("Less than high school or GED degree", "High school or GED", 
+                           "Some college", "2-Year degree", "College degree", "Advanced degree")))) %>%
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = dem_6, dem_6_1) %>% 
+  mutate(var = case_when(dem_6_1 == "Full-time" ~ "Employed full-time",
+                         dem_6_1 == "Part-time" ~ "Employed part-time",
+                         TRUE ~ var)) %>% 
+  mutate(var = fct_relevel(factor(var, 
+                         c("Employed full-time", "Employed part-time", "Full-time student",
+                           "Homemaker", "Disabled", "Retired", "Unemployed", 
+                           "Temporarily laid off, sick leave, or maternity leave",
+                           "Other, not otherwise specified")))) %>%
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  summarise(mean = format(round(mean(dem_7, na.rm = TRUE), 0), big.mark = ","),
+            SD = format(round(sd(dem_7, na.rm = TRUE), 0), big.mark = ","),
+            min =format(round(min(dem_7, na.rm = TRUE), 0), big.mark = ","),
+            max = format(round(max(dem_7, na.rm = TRUE), 0), scientific = FALSE, big.mark = ",")) %>% 
+  mutate(var = "Personal Income",
+        n = as.numeric(""),
+        perc = as.numeric(""),
+        mean = str_c("$", as.character(mean)),
+        SD = str_c("$", as.character(SD)),
+        min = str_c("$", as.character(min)),
+        max = as.character(max)) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD", "min", "max")) %>% 
+  full_join(screen %>% 
+  select(var = dem_8) %>% 
+  mutate(var = case_when(var == "Never Married" ~ "Never married",
+                         TRUE ~ var)) %>% 
+  mutate(var = fct_relevel(factor(var, 
+                         c("Never married", "Married", "Divorced", "Separated",
+                           "Widowed")))) %>%
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc"))
+
+auh <- screen %>% 
+  summarise(mean = mean(auh_1, na.rm = TRUE),
+            SD = sd(auh_1, na.rm = TRUE),
+            min = min(auh_1, na.rm = TRUE),
+            max = max(auh_1, na.rm = TRUE)) %>% 
+  mutate(var = "Age of first drink",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()) %>% 
+  full_join(screen %>% 
+  summarise(mean = mean(auh_2, na.rm = TRUE),
+            SD = sd(auh_2, na.rm = TRUE),
+            min = min(auh_2, na.rm = TRUE),
+            max = max(auh_2, na.rm = TRUE)) %>% 
+  mutate(var = "Age of regular drinking",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD", 
+                                             "min", "max")) %>% 
+  full_join(screen %>% 
+  summarise(mean = mean(auh_3, na.rm = TRUE),
+            SD = sd(auh_3, na.rm = TRUE),
+            min = min(auh_3, na.rm = TRUE),
+            max = max(auh_3, na.rm = TRUE)) %>% 
+  mutate(var = "Age at which drinking became problematic",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD",
+                                             "min", "max")) %>% 
+  full_join(screen %>% 
+  summarise(mean = mean(auh_4, na.rm = TRUE),
+            SD = sd(auh_4, na.rm = TRUE),
+            min = min(auh_4, na.rm = TRUE),
+            max = max(auh_4, na.rm = TRUE)) %>% 
+  mutate(var = "Age of first quit attempt",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD",
+                                             "min", "max")) %>% 
+  full_join(screen %>% 
+  # filter out 2 people with 100 and 365 reported quit attempts - will make footnote in table
+  filter(auh_5 < 100) %>% 
+  summarise(mean = mean(auh_5, na.rm = TRUE),
+            SD = sd(auh_5, na.rm = TRUE),
+            min = min(auh_5, na.rm = TRUE),
+            max = max(auh_5, na.rm = TRUE)) %>% 
+  mutate(var = "Number of Quit Attempts*",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD",
+                                             "min", "max")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_1) %>%
+  mutate(var = case_when(var == "Long-Term Residential Treatment (more than 6 months)" ~ "Long-term residential (6+ months)",
+                         TRUE ~ var)) %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_2) %>%
+  mutate(var = case_when(var == "Short-Term Residential Treatment (less than 6 months)" ~ "Short-term residential (< 6 months)",
+                         TRUE ~ var)) %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_3) %>%
+  mutate(var = case_when(var == "Outpatient Treatment" ~ "Outpatient",
+                         TRUE ~ var)) %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_4) %>%
+  mutate(var = case_when(var == "Individual Counseling" ~ "Individual counseling",
+                         TRUE ~ var)) %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_5) %>%
+  mutate(var = case_when(var == "Group Counseling" ~ "Group counseling",
+                         TRUE ~ var)) %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_6) %>%
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_6_7) %>%
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = auh_7) %>% 
+  mutate(var = fct_relevel(factor(var, c("Yes", "No")))) %>%
+  group_by(var) %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / sum(n)) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  mutate(across(dsm5_1:dsm5_11, ~ recode(., "No" = 0, "Yes" = 1))) %>% 
+  rowwise() %>% 
+  # calculate dsm5 score by adding up dsm5_1 through dsm5_11
+  mutate(dsm5_total = sum(c(dsm5_1, dsm5_2, dsm5_3, dsm5_4, dsm5_5, dsm5_6, dsm5_7, 
+                            dsm5_8, dsm5_9, dsm5_10, dsm5_11))) %>% 
+  ungroup() %>% 
+  summarise(mean = mean(dsm5_total),
+            SD = sd(dsm5_total),
+            min = min(dsm5_total, na.rm = TRUE),
+            max = max(dsm5_total, na.rm = TRUE)) %>% 
+  mutate(var = "Alcohol Use Disorder DSM-5 Symptom Count",
+        n = as.numeric(""),
+        perc = as.numeric("")) %>% 
+  select(var, n, perc, everything()), by = c("var", "n", "perc", "mean", "SD",
+                                             "min", "max")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_1) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Tobacco products (cigarettes, chewing tobacco, cigars, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_2) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Cannabis (marijuana, pot, grass, hash, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_3) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Cocaine (coke, crack, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_4) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Amphetamine type stimulants (speed, diet pills, ecstasy, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_5) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Inhalants (nitrous, glue, petrol, paint thinner, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_6) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Sedatives or sleeping pills (Valium, Serepax, Rohypnol, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_7) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Hallucinogens (LSD, acid, mushrooms, PCP, Special K, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) %>% 
+  full_join(screen %>% 
+  select(var = assist_2_8) %>%
+  filter(var != "Never" & !is.na(var)) %>% 
+  mutate(var = "Opioids (heroin, morphine, methadone, codeine, etc.)") %>% 
+  group_by(var) %>% 
+  drop_na() %>% 
+  summarise(n = n()) %>% 
+  mutate(perc = (n / 154) * 100), by = c("var", "n", "perc")) 
+```
+
+
+```{r}
+# display and format table
+dem %>% 
+  bind_rows(auh %>% 
+              mutate(across(mean:max, ~round(.x, 1))) %>% 
+              mutate(across(mean:max, ~as.character(.x)))) %>% 
+  mutate(range = str_c(min, "-", max)) %>%
+  select(-c(min, max)) %>% 
+  kbl(longtable = TRUE,
+      booktabs = TRUE,
+      col.names = c("", "N", "%", "M", "SD", "Range"),
+      align = c("l", "c", "c", "c", "c", "c"),
+      digits = 1,
+      caption = "Demographics and Alcohol Use Information") %>%
+  kable_styling(font_size = 20, full_width = FALSE) %>% 
+  kable_classic("striped") |>
+  row_spec(row = 0, align = "c", italic = TRUE) %>% 
+  pack_rows("Sex", 2, 3, bold = FALSE) %>% 
+  pack_rows("Race", 4, 8, bold = FALSE) %>% 
+  pack_rows("Hispanic, Latino, or Spanish Origin", 9, 10, bold = FALSE) %>% 
+  pack_rows("Education", 11, 16, bold = FALSE) %>% 
+  pack_rows("Employment", 17, 25, bold = FALSE) %>% 
+  pack_rows("Marital Status", 27, 31, bold = FALSE) %>% 
+  pack_rows("Alcohol Use Disorder Milestones", 32, 35, bold = FALSE) %>% 
+  pack_rows("Lifetime History of Treatment (Can choose more than 1)", 37, 43, bold = FALSE) %>% 
+  pack_rows("Received Medication for Alcohol Use Disorder", 44, 45, bold = FALSE) %>% 
+  pack_rows("Current (Past 3 Month) Drug Use", 47, 54, bold = FALSE) %>% 
+  footnote(general=footnote_table_dem_a, symbol = c(footnote_table_dem_b), 
+           threeparttable = TRUE)
+```
+
 
 ## Consort Diagram
 
+```{r load_consort_data}
+disposition <- read_csv(file.path(path_data_ema, "disposition.csv"), col_types = "ccDDcccccccccc")
+```
+
+
+```{r load_model_data}
+# AUCs for 10x10 folds data
+auc_folds_week<- readRDS(file.path(path_models, "resample_metrics_best_all_1week_0_v4_kfold.rds"))
+auc_folds_day<- readRDS(file.path(path_models, "resample_metrics_best_all_1day_0_v4_kfold.rds"))
+auc_folds_hour<- readRDS(file.path(path_models, "resample_metrics_best_all_1hour_0_v4_kfold.rds")) 
+
+# posterior probabilites
+pp <- readRDS(file.path(path_models, "posteriors_all_allwindows_0_v4_kfold.rds"))
+
+
+# Predictions data
+preds_week<- readRDS(file.path(path_models, "resample_preds_best_all_1week_0_v4_kfold.rds"))
+preds_day<- readRDS(file.path(path_models, "resample_preds_best_all_1day_0_v4_kfold.rds"))
+preds_hour<- readRDS(file.path(path_models, "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
+
+# roc overall
+roc_week_full <- preds_week %>% 
+  roc_curve(prob, truth = truth)
+
+roc_day_full <- preds_day %>% 
+  roc_curve(prob, truth = truth)
+
+roc_hour_full <- preds_hour%>% 
+  roc_curve(prob, truth = truth)
+
+# rocs per fold
+roc_week <- preds_week %>%
+  nest(.by = split_num, .key = "preds") %>% 
+  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+                                             truth = truth))) %>% 
+  mutate(model = "week")
+
+roc_day <- preds_day %>%
+  nest(.by = split_num, .key = "preds") %>% 
+  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+                                             truth = truth))) %>% 
+  mutate(model = "day")
+
+roc_hour <- preds_hour %>%
+  nest(.by = split_num, .key = "preds") %>% 
+  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+                                             truth = truth))) %>% 
+  mutate(model = "week")
+
+# pr overall
+pr_week_full <- preds_week %>% 
+  pr_curve(prob, truth = truth)
+
+pr_day_full <- preds_day %>% 
+  pr_curve(prob, truth = truth)
+
+pr_hour_full <- preds_hour%>% 
+  pr_curve(prob, truth = truth)
+
+# prs per fold
+pr_week <- preds_week %>% 
+  pr_curve(prob, truth = truth) %>% 
+  mutate(model = "1week")
+
+pr_day <- preds_day %>% 
+  pr_curve(prob, truth = truth) %>% 
+  mutate(model = "1day")
+
+pr_hour <- preds_hour%>% 
+  pr_curve(prob, truth = truth) %>% 
+  mutate(model = "1hour")
+
+pr_all <- pr_week %>% 
+  bind_rows(pr_day) %>% 
+  bind_rows(pr_hour)
+
+#raw SHAPs
+shap_raw_week <- readRDS(file.path(path_models, "imp_shap_raw_all_1week_0_v4.rds")) %>% 
+  group_by(variable) %>% 
+  slice(1) %>%   
+  ungroup() %>% 
+  arrange(mean_value)
+shap_raw_day <- readRDS(file.path(path_models, "imp_shap_raw_all_1day_0_v4.rds")) %>% 
+  group_by(variable) %>% 
+  slice(1) %>%   
+  ungroup() %>% 
+  arrange(mean_value)
+shap_raw_hour <- readRDS(file.path(path_models, "imp_shap_raw_all_1hour_0_v4.rds")) %>% 
+  group_by(variable) %>% 
+  slice(1) %>%   
+  ungroup() %>% 
+  arrange(mean_value)
+
+# Grouped SHAPS
+shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) 
+shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds"))
+shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) 
+
+# lapse labels
+labels_week <- read_csv(file.path(path_data_ema, "labels_1week.csv"), col_types = cols())
+labels_day <- read_csv(file.path(path_data_ema, "labels_1day.csv"), col_types = cols())
+labels_hour <- read_csv(file.path(path_data_ema, "labels_1hour.csv"), col_types = cols())
+```
+
+<!-- Consort Diagram-->
+
+```{r caption_consort}
+fig_caption_consort <- "Consort Diagram"
+```
+
+
+
+```{r fig_consort}
+#| fig.cap: !expr fig_caption_consort
+#| fig.height: 7
+consort_plot(data = disposition,
+             orders = c(eligible = "Eligible Sample",
+                        consented_reason = "Not Consented",
+                        consented = "Consented",
+                        enrolled_reason = "Not Enrolled",
+                        enrolled = "Enrolled",
+                        completed_followup_reason = "Discontinued",
+                        completed_followup = "Completed through Followup 1",
+                        analysis_reason = "Excluded",
+                        analysis = "Final Analysis"),
+             side_box = c("consented_reason", 
+                          "enrolled_reason", 
+                          "completed_followup_reason",
+                          "analysis_reason"),
+             cex = .9,
+             text_width = 45)
+```
+
 ## ROC Posterior Probabilities
 
+<!-- AUC figure by model w/posterior probabilities-->  
+
+```{r fig_roc_pp}
+#| fig.height: 4.5  
+#| fig.width: 7  
+#| fig-align: "center"
+
+
+roc_plot <- roc_all %>% 
+  mutate(model = factor(model, levels = c("1week", "1day", "1hour"), 
+                        labels = c("Week", "Day", "Hour"))) %>% 
+  ggplot(aes(x = 1 - specificity, y = sensitivity, color = model)) +
+  geom_path(show.legend = FALSE) +
+  geom_abline(lty = 3) +
+  coord_fixed(xlim = c(0, 1), ylim = c(0, 1)) +
+  labs(x = "Specificity",
+       y = "Sensitivity") +
+  scale_x_continuous(breaks = seq(0,1,.25),
+    labels = sprintf("%.2f", seq(1,0,-.25))) 
+
+pp_tidy <- pp %>% 
+  tidy(seed = 123)
+
+ci <- pp_tidy %>% 
+  summary() %>% 
+  mutate(model = factor(model, levels = c("week", "day", "hour"),
+                        labels = c("Week", "Day", "Hour")),
+         y = 1000)
+
+pp_plot <- pp_tidy %>% 
+  mutate(model = factor(model, levels = c("week", "day", "hour"),
+                        labels = c("Week", "Day", "Hour"))) %>%
+  ggplot() + 
+  geom_histogram(aes(x = posterior, fill = model), color = "black", alpha = .4, 
+                 bins = 30) +
+  geom_segment(mapping = aes(y = y+100, yend = y-100, x = mean, xend = mean,
+                           color = model),
+               show.legend = FALSE,
+               data = ci) +
+  geom_segment(mapping = aes(y = y, yend = y, x = lower, xend = upper, color = model),
+              show.legend = FALSE,
+               data = ci) +
+  geom_text(data = ci, x = c(.93, .907, .92), y = 1000, 
+            label = str_c(round(ci$mean, 2), " [", round(ci$lower, 2), ", ", round(ci$upper, 2), "]")) +
+  facet_wrap(~model, ncol = 1) +
+  scale_y_continuous("Posterior Probability", breaks = c(0, 500, 1000)) +
+  xlab("Area Under ROC Curve") +
+  theme(strip.background = element_blank(),
+        strip.text.x = element_blank())
+
+roc_plot + pp_plot +
+  plot_layout (guides = "collect") &
+  theme(legend.position = "bottom")
+```
+
 ## Model Comparison Posterior Probabilites
+
+
+
+```{r caption_pp_contrasts}
+fig_caption_pp_contrasts <- "Posterior Probabilities for Model Contrasts for AUC.   Region of Practical Equivalence (ROPE) indicated by dashed yellow lines"
+```
+
+```{r fig_posterior_d}
+#| fig-cap: !expr fig_caption_pp_contrasts
+#| fig.height:  7
+
+ci <- pp %>% 
+  contrast_models(list("hour","hour", "day"), 
+                list("week", "day", "week")) %>% 
+  summary(size = .01) %>% 
+  mutate(contrast = factor(contrast, 
+                           levels = c("hour vs week", "hour vs day", "day vs week"),
+                           labels = c("Hour vs. Week", "Hour vs. Day", "Day vs. Week")),
+         y = 700)
+
+pp %>% 
+  tidy(seed = 123) %>%   
+  group_by(model) %>% 
+  mutate(sample = row_number()) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = model, values_from = posterior) %>% 
+  mutate(hour_vs_week = hour - week,
+         hour_vs_day = hour - day,
+         day_vs_week = day - week) %>% 
+  pivot_longer(cols = hour_vs_week:day_vs_week,
+               names_to = "contrast",
+               values_to = "posterior") %>% 
+  mutate(contrast = factor(contrast, 
+                           levels = c("hour_vs_week", "hour_vs_day", "day_vs_week"),
+                           labels = c("Hour vs. Week", "Hour vs. Day", "Day vs. Week"))) %>% 
+  ggplot() +
+  geom_histogram(aes(x = posterior, fill = contrast), 
+                 color = "black", alpha = .4, bins = 30) +
+  geom_vline(xintercept = -.01, color = "yellow", linetype = "dashed", size = 1) +
+  geom_vline(xintercept = .01, color = "yellow", linetype = "dashed", size = 1) +
+  geom_segment(mapping = aes(y = y+100, yend = y-100, x = mean, xend = mean,
+                             color = contrast), data = ci, show.legend = FALSE) +
+  geom_segment(mapping = aes(y = y, yend = y, x = lower, xend = upper, 
+                             color = contrast), data = ci, show.legend = FALSE) +
+  geom_text(data = ci, x = c(.0255, .035, .015), y = 700, 
+            label = str_c(round(ci$mean, 2), " [", round(ci$lower, 2), ", ", round(ci$upper, 2), "]")) +
+  facet_wrap(~contrast, ncol = 1) +
+  xlab("Posterior")
+  
+```
