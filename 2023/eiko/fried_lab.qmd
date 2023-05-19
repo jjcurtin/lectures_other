@@ -33,19 +33,17 @@ devtools::source_url("https://github.com/jjcurtin/lab_support/blob/main/fun_ml.R
 options(conflicts.policy = "depends.ok")
 tidymodels_conflictRules()
 
-library(tidyverse)
-library(tidymodels)
+#devtools::source_url("https://github.com/jjcurtin/lab_support/blob/main/fun_eda.R?raw=true")
 library(kableExtra, exclude = "group_rows")
-library(yardstick) # for roc_curve
-library(janitor)
-library(corx)
+# library(janitor)
+# library(corx)
 library(patchwork)
 library(ggtext)
 library(consort)
 library(tidyposterior)
-library(cowplot, mask.ok = c("stamp", "align_plots"))
-
-theme_set(theme_classic()) 
+# library(cowplot, mask.ok = c("stamp", "align_plots"))
+library(tidyverse)
+library(tidymodels)
 
 theme_set(theme_classic()) 
 ```
@@ -128,17 +126,21 @@ pr_all <- pr_week |>
   reframe(recall = mean(recall), precision =  mean(precision))
 ```
 
-```{r global_shaps}
+```{r shaps}
 # Grouped SHAPS
-shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) |> 
+shap_local_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) 
+shap_local_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds"))
+shap_local_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) 
+  
+shap_global_week <- shap_local_week |> 
   group_by(group) |> 
   summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
-shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds")) |> 
+shap_global_day <- shap_local_day |> 
   group_by(group) |> 
   summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
-shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) |> 
+shap_global_hour <- shap_local_hour |> 
   group_by(group) |> 
   summarize(mean_value = mean(abs(shap)), .groups = "drop") |> 
   arrange(mean_value)
@@ -954,15 +956,14 @@ And again, consistent with that AUC, the sensitivity, specificity, and balanced 
 
 :::
 
-## Global Variable Importance by Model{.medium}
+## Global Feature Importance by Model{.medium}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
 - All EMA items impact lapse probability (both globally and locally)
-- Demographics not particularly important (but limited race/ethnicity diversity)
-- Lapse day and Lapse hour are useful for day and hour level models as expected
+
 :::
 
 ::: {.column width="50%"}
@@ -970,19 +971,19 @@ And again, consistent with that AUC, the sensitivity, specificity, and balanced 
 #| fig-height: 6
 #| fig-width: 6
 
-shap_grouped_all <- shap_grouped_week |> 
+shap_global_all <- shap_global_week |> 
   mutate(window = "week") |> 
-  bind_rows(shap_grouped_day |> 
+  bind_rows(shap_global_day |> 
               mutate(window = "day")) |> 
-  bind_rows(shap_grouped_hour |> 
+  bind_rows(shap_global_hour |> 
               mutate(window = "hour")) |> 
   mutate(window = factor(window, levels = c("week", "day", "hour")))
 
-shap_grouped_all |> 
+shap_global_all |> 
   mutate(group = reorder(group, mean_value, sum)) |> 
   ggplot() +
   geom_bar(aes(x = group, y = mean_value, fill = window), stat = "identity") +
-  ylab("Mean |SHAP| value") +
+  ylab("Mean |SHAP| value (in Log-Odds)") +
   xlab("") +
   coord_flip() +
   scale_fill_manual(values = c("orange","green","blue"))
@@ -997,11 +998,127 @@ In the spirit of making this model more transparent and interpretable, lets brie
 
 The plot on the right shows feature names and their associated importance indexed by mean absolute SHAP values over all observations.  From this we see a few important characteristics of the model.   
 
-First, all of EMA items affect predictions about lapse probability globally across observations  And although not displayed here, all of these EMA items show meaningful variation across observations locally such that they each make important contributions to predictions in at least some instances.  
+First, all of EMA items affect predictions about lapse probability globally across observations  As you might expect, history of past lapses has a big influence on the probability of a future lapse.  But self reported abstinence efficacy, craving, history of stress events and other features from the EMA all make meaningful contributions to lapse probability across observations.  
 
-Second, demographics were not particularly important for prediction lapses, though I'll return later to acknowledged that we had limited race/ethnicity diversity in the sample.
+To make these values somewhat meaningful for you, let me remind you these Sh
+[logodds of .4 = 1.5 odds;  logodds of .7 = double the odds]
 
-And third, we can use lapse day and lapse hour to make predictions with the more temporally precise models.  Not surprisingly, people are more likely to lapse on weekends and during evening hours and the associated day and hour level models models can use that information to improve their lapse predictions.  
+:::
+
+## Local Importance
+
+```{r fig_local_shaps}
+# get order for items based on global sum importance
+shap_levels <- shap_global_all |> 
+  mutate(group = reorder(group, mean_value, sum)) |> 
+  pull(group) |> 
+  levels()
+
+# downsample to 2% of observations for each plot (COULD INCREASE?)
+ids_week <- shap_local_week |> 
+  pull(ID) |> 
+  unique()
+ids_week <- ids_week |> sample(size = round(length(ids_week)/50))
+ids_day <- shap_local_day |> 
+  pull(ID) |> 
+  unique()
+ids_day <- ids_day |> sample(size = round(length(ids_day)/50))
+ids_hour <- shap_local_hour |> 
+  pull(ID) |> 
+  unique()
+ids_hour <- ids_hour |> sample(size = round(length(ids_hour)/50))
+
+plot_shap_week <- shap_local_week |> 
+  filter(ID %in% ids_week) |> 
+  mutate(group = factor(group, levels = shap_levels)) |> 
+  ggplot(mapping = aes(x = group, y = shap)) +
+  ggforce::geom_sina(method = "counts", maxwidth = 0.7, alpha = 0.4, 
+                     color = "orange") +
+  geom_hline(yintercept = 0) +
+  # geom_text(data = shap_global_all |> filter(window == "week"),
+  #           aes(x = group, y = -1.75, label = round(mean_value, 2)),
+  #           color = "orange") +
+  scale_y_continuous(limits = c(-2, 4.5), breaks = seq(-2, 4)) +
+  ylab("SHAP value (in Log-Odds)") +
+  xlab("") +
+  coord_flip() +
+  ggtitle("Week")
+
+plot_shap_day <- shap_local_day |> 
+  filter(ID %in% ids_day) |> 
+  mutate(group = factor(group, levels = shap_levels)) |> 
+  ggplot(mapping = aes(x = group, y = shap)) +
+  ggforce::geom_sina(method = "counts", maxwidth = 0.7, alpha = 0.4, 
+                     color = "green") +
+  geom_hline(yintercept = 0) +
+  # geom_text(data = shap_global_all |> filter(window == "day"),
+  #           aes(x = group, y = -2, label = round(mean_value, 2)),
+  #           color = "green") +
+  scale_y_continuous(limits = c(-2, 4.5), breaks = seq(-2, 4)) +
+  ylab("SHAP value (in Log-Odds)") +
+  xlab("") +
+  coord_flip() +
+  ggtitle("Day")
+
+plot_shap_hour <- shap_local_hour |> 
+  filter(ID %in% ids_hour) |> 
+  mutate(group = factor(group, levels = shap_levels)) |> 
+  ggplot(mapping = aes(x = group, y = shap)) +
+  ggforce::geom_sina(method = "counts", maxwidth = 0.7, alpha = 0.4, 
+                     color = "blue") +
+  geom_hline(yintercept = 0) +
+  # geom_text(data = shap_global_all |> filter(window == "hour"),
+  #           aes(x = group, y = -1.75, label = round(mean_value, 2)),
+  #           color = "black") +
+  scale_y_continuous(limits = c(-2, 4.5), breaks = seq(-2, 4)) +
+  ylab("SHAP value (in Log-Odds)") +
+  xlab("") +
+  coord_flip() +
+  ggtitle("Hour")
+
+plot_shap_day + plot_shap_hour
+```
+
+
+::: {.notes}
+
+:::
+
+## Global Variable Importance by Model{.medium}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- [All EMA items impact lapse probability (both globally and locally)]{style="color: grey;"}
+- Demographics not particularly important (but limited race/ethnicity diversity)
+- Lapse day and Lapse hour are useful for day and hour level models as expected
+:::
+
+::: {.column width="50%"}
+```{r fig_shap_global_2}
+#| fig-height: 6
+#| fig-width: 6
+
+shap_global_all |> 
+  mutate(group = reorder(group, mean_value, sum)) |> 
+  ggplot() +
+  geom_bar(aes(x = group, y = mean_value, fill = window), stat = "identity") +
+  ylab("Mean |SHAP| value (in Log-Odds)") +
+  xlab("") +
+  coord_flip() +
+  scale_fill_manual(values = c("orange","green","blue"))
+```
+
+:::
+
+
+::::
+::: {.notes}
+Returning back to the global feature importance plot, we also see that demographics were not particularly important for prediction lapses for these models.   However, I'll return later to acknowledged that we had limited race/ethnicity diversity in the sample.  Nonetheless, we had reasonable variable on other participant characteristics like sex, SES, education, and addiction severity.  
+
+And finally, we see that we can use lapse day and lapse hour to make predictions with the more temporally precise models.  Not surprisingly, people are more likely to lapse on weekends and during evening hours and the associated day and hour level models models can use that information to improve their lapse predictions.  These features likely contribute to the superior performance of the hour and to a lesser extent the day model relative to the week interval prediction model.
+
 :::
 
 ## Positive Predictive Value (PPV)
@@ -1264,7 +1381,7 @@ And this is what we will need to do if we want to recommend more costly treatmen
 ::: {.column width="50%"}
 
 ```{r}
-thresholds_2 <- tibble(metric = c("Threshold", "", "Specificity", "PPV"),
+thresholds_2 <- tibble(metric = c("Threshold", "", "Sensitivity", "PPV"),
                        week = c("0.70", "", "0.67", "0.75"), 
                        day = c("0.88", "", "0.43", "0.75"),
                        hour = c("0.97", "", "0.20", "0.75"))
@@ -1915,101 +2032,101 @@ disposition <- read_csv(file.path(path_data_ema, "disposition.csv"), col_types =
 
 ```{r load_model_data}
 # AUCs for 10x10 folds data
-auc_folds_week<- readRDS(file.path(path_models, "resample_metrics_best_all_1week_0_v4_kfold.rds"))
-auc_folds_day<- readRDS(file.path(path_models, "resample_metrics_best_all_1day_0_v4_kfold.rds"))
-auc_folds_hour<- readRDS(file.path(path_models, "resample_metrics_best_all_1hour_0_v4_kfold.rds")) 
+# auc_folds_week<- readRDS(file.path(path_models, "resample_metrics_best_all_1week_0_v4_kfold.rds"))
+# auc_folds_day<- readRDS(file.path(path_models, "resample_metrics_best_all_1day_0_v4_kfold.rds"))
+# auc_folds_hour<- readRDS(file.path(path_models, "resample_metrics_best_all_1hour_0_v4_kfold.rds")) 
+# 
+# # posterior probabilites
+# pp <- readRDS(file.path(path_models, "posteriors_all_allwindows_0_v4_kfold.rds"))
+# 
 
-# posterior probabilites
-pp <- readRDS(file.path(path_models, "posteriors_all_allwindows_0_v4_kfold.rds"))
-
-
-# Predictions data
-preds_week<- readRDS(file.path(path_models, "resample_preds_best_all_1week_0_v4_kfold.rds"))
-preds_day<- readRDS(file.path(path_models, "resample_preds_best_all_1day_0_v4_kfold.rds"))
-preds_hour<- readRDS(file.path(path_models, "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
-
-# roc overall
-roc_week_full <- preds_week %>% 
-  roc_curve(prob, truth = truth)
-
-roc_day_full <- preds_day %>% 
-  roc_curve(prob, truth = truth)
-
-roc_hour_full <- preds_hour%>% 
-  roc_curve(prob, truth = truth)
-
-# rocs per fold
-roc_week <- preds_week %>%
-  nest(.by = split_num, .key = "preds") %>% 
-  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
-                                             truth = truth))) %>% 
-  mutate(model = "week")
-
-roc_day <- preds_day %>%
-  nest(.by = split_num, .key = "preds") %>% 
-  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
-                                             truth = truth))) %>% 
-  mutate(model = "day")
-
-roc_hour <- preds_hour %>%
-  nest(.by = split_num, .key = "preds") %>% 
-  mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
-                                             truth = truth))) %>% 
-  mutate(model = "week")
-
-# pr overall
-pr_week_full <- preds_week %>% 
-  pr_curve(prob, truth = truth)
-
-pr_day_full <- preds_day %>% 
-  pr_curve(prob, truth = truth)
-
-pr_hour_full <- preds_hour%>% 
-  pr_curve(prob, truth = truth)
-
-# prs per fold
-pr_week <- preds_week %>% 
-  pr_curve(prob, truth = truth) %>% 
-  mutate(model = "1week")
-
-pr_day <- preds_day %>% 
-  pr_curve(prob, truth = truth) %>% 
-  mutate(model = "1day")
-
-pr_hour <- preds_hour%>% 
-  pr_curve(prob, truth = truth) %>% 
-  mutate(model = "1hour")
-
-pr_all <- pr_week %>% 
-  bind_rows(pr_day) %>% 
-  bind_rows(pr_hour)
-
-#raw SHAPs
-shap_raw_week <- readRDS(file.path(path_models, "imp_shap_raw_all_1week_0_v4.rds")) %>% 
-  group_by(variable) %>% 
-  slice(1) %>%   
-  ungroup() %>% 
-  arrange(mean_value)
-shap_raw_day <- readRDS(file.path(path_models, "imp_shap_raw_all_1day_0_v4.rds")) %>% 
-  group_by(variable) %>% 
-  slice(1) %>%   
-  ungroup() %>% 
-  arrange(mean_value)
-shap_raw_hour <- readRDS(file.path(path_models, "imp_shap_raw_all_1hour_0_v4.rds")) %>% 
-  group_by(variable) %>% 
-  slice(1) %>%   
-  ungroup() %>% 
-  arrange(mean_value)
-
-# Grouped SHAPS
-shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) 
-shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds"))
-shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) 
-
-# lapse labels
-labels_week <- read_csv(file.path(path_data_ema, "labels_1week.csv"), col_types = cols())
-labels_day <- read_csv(file.path(path_data_ema, "labels_1day.csv"), col_types = cols())
-labels_hour <- read_csv(file.path(path_data_ema, "labels_1hour.csv"), col_types = cols())
+# # Predictions data
+# preds_week<- readRDS(file.path(path_models, "resample_preds_best_all_1week_0_v4_kfold.rds"))
+# preds_day<- readRDS(file.path(path_models, "resample_preds_best_all_1day_0_v4_kfold.rds"))
+# preds_hour<- readRDS(file.path(path_models, "resample_preds_best_all_1hour_0_v4_kfold.rds")) 
+# 
+# # roc overall
+# roc_week_full <- preds_week %>% 
+#   roc_curve(prob, truth = truth)
+# 
+# roc_day_full <- preds_day %>% 
+#   roc_curve(prob, truth = truth)
+# 
+# roc_hour_full <- preds_hour%>% 
+#   roc_curve(prob, truth = truth)
+# 
+# # rocs per fold
+# roc_week <- preds_week %>%
+#   nest(.by = split_num, .key = "preds") %>% 
+#   mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+#                                              truth = truth))) %>% 
+#   mutate(model = "week")
+# 
+# roc_day <- preds_day %>%
+#   nest(.by = split_num, .key = "preds") %>% 
+#   mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+#                                              truth = truth))) %>% 
+#   mutate(model = "day")
+# 
+# roc_hour <- preds_hour %>%
+#   nest(.by = split_num, .key = "preds") %>% 
+#   mutate(roc = map(preds, \(preds) roc_curve(preds, prob, 
+#                                              truth = truth))) %>% 
+#   mutate(model = "week")
+# 
+# # pr overall
+# pr_week_full <- preds_week %>% 
+#   pr_curve(prob, truth = truth)
+# 
+# pr_day_full <- preds_day %>% 
+#   pr_curve(prob, truth = truth)
+# 
+# pr_hour_full <- preds_hour%>% 
+#   pr_curve(prob, truth = truth)
+# 
+# # prs per fold
+# pr_week <- preds_week %>% 
+#   pr_curve(prob, truth = truth) %>% 
+#   mutate(model = "1week")
+# 
+# pr_day <- preds_day %>% 
+#   pr_curve(prob, truth = truth) %>% 
+#   mutate(model = "1day")
+# 
+# pr_hour <- preds_hour%>% 
+#   pr_curve(prob, truth = truth) %>% 
+#   mutate(model = "1hour")
+# 
+# pr_all <- pr_week %>% 
+#   bind_rows(pr_day) %>% 
+#   bind_rows(pr_hour)
+# 
+# #raw SHAPs
+# shap_raw_week <- readRDS(file.path(path_models, "imp_shap_raw_all_1week_0_v4.rds")) %>% 
+#   group_by(variable) %>% 
+#   slice(1) %>%   
+#   ungroup() %>% 
+#   arrange(mean_value)
+# shap_raw_day <- readRDS(file.path(path_models, "imp_shap_raw_all_1day_0_v4.rds")) %>% 
+#   group_by(variable) %>% 
+#   slice(1) %>%   
+#   ungroup() %>% 
+#   arrange(mean_value)
+# shap_raw_hour <- readRDS(file.path(path_models, "imp_shap_raw_all_1hour_0_v4.rds")) %>% 
+#   group_by(variable) %>% 
+#   slice(1) %>%   
+#   ungroup() %>% 
+#   arrange(mean_value)
+# 
+# # Grouped SHAPS
+# shap_grouped_week <- readRDS(file.path(path_models, "imp_shap_grouped_all_1week_0_v4.rds")) 
+# shap_grouped_day <- readRDS(file.path(path_models, "imp_shap_grouped_all_1day_0_v4.rds"))
+# shap_grouped_hour <- readRDS(file.path(path_models, "imp_shap_grouped_all_1hour_0_v4.rds")) 
+# 
+# # lapse labels
+# labels_week <- read_csv(file.path(path_data_ema, "labels_1week.csv"), col_types = cols())
+# labels_day <- read_csv(file.path(path_data_ema, "labels_1day.csv"), col_types = cols())
+# labels_hour <- read_csv(file.path(path_data_ema, "labels_1hour.csv"), col_types = cols())
 ```
 
 <!-- Consort Diagram-->
